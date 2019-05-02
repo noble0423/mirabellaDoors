@@ -1,5 +1,11 @@
+body {
+    font-family: Futura-light;
+}
 
-
+.hero-image-paragraph-font {
+    font-size: 1.5rem;
+    font-family: 'Charm', cursive;
+}
 
 /* Carousel */
 .carousel-indicators li {
