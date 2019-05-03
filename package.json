@@ -1,0 +1,24 @@
+{
+  "name": "mirabelladoors",
+  "version": "1.0.0",
+  "description": "Enabling Custom Bootstrap SCSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run build -- --production",
+    "build": "scss-powertools assets/scss/custom.scss assets/css/bootstrapscss.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noble0423/mirabellaDoors.git"
+  },
+  "author": "Ryan Noble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noble0423/mirabellaDoors/issues"
+  },
+  "homepage": "https://github.com/noble0423/mirabellaDoors#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "scss-powertools": "^1.1.0"
+  }
+}

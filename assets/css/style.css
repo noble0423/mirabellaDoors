@@ -2,9 +2,28 @@ body {
     font-family: Futura-light;
 }
 
+h1 {
+    /* background: -webkit-linear-gradient(#EDD382, #6A5835);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 3px #230903); */
+    text-shadow: 2px 2px #6A5835;
+}
+
 .hero-image-paragraph-font {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-family: 'Charm', cursive;
+    text-shadow: 1px 2px #6A5835;
+}
+
+/* Nav Bar */
+.nav-link {
+    border-right: 1px solid;
+    padding: 0px;
+}
+
+#noBorder {
+    border: 0;
 }
 
 /* Carousel */
@@ -12,4 +31,54 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 100%;
+}
+
+.carousel-caption {
+    bottom: 15% !important;
+}
+
+.darken {
+    background: #000;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
+
+
+
+
+/* Media Queries */
+/* Carousel */
+@media only screen and (max-width: 1206px) {
+    .display-2 {
+        font-size: 4.5rem;
+        margin-bottom: 1.5rem !important;
+    }
+    .carousel-caption {
+        bottom: 10% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .display-2 {
+        font-size: 4rem;
+        margin-bottom: 1rem !important;
+    }
+    .hero-image-paragraph-font {
+        font-size: 1.5rem;
+    }
+    .carousel-caption {
+        bottom: 5% !important;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .display-2 {
+        font-size: 3.5rem;
+    }
+    .hero-image-paragraph-font {
+        font-size: 1.35rem;
+    }
 }

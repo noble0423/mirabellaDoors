@@ -23,6 +23,7 @@
     <!-- Elegant Icons CSS -->
 
     <!-- Bootstrap Sass Override -->
+    <link rel="stylesheet" href="./assets/css/bootstrapscss.css">
 
     <!-- External CSS Style Sheets -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -35,7 +36,7 @@
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent text-uppercase wow fadeInDown">
-        <a class="navbar-brand wow pulse delay-eigthieths" href="#">Mirabella Doors Logo</a>
+        <a class="navbar-brand wow zoomIn delay-.5s" href="#">Mirabella Doors Logo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,29 +44,29 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link ml-3 px-3" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link px-3" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Custom Doors</a>
+                    <a class="nav-link px-3" href="#">Custom Doors</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link px-3" id="noBorder" href="#">Contact Us</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search">
                 <button class="btn btn-outline-secondary btn-sm bg-info text-light my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            </form> -->
         </div>
     </nav>
 
     <!-- Container Fluid for Hero Imgs -->
     <!-- <div class="container-fluid mt-n5 mx-auto" id="hero-img-container"> -->
         <!-- Hero Images - Carousel -->
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade wow fadeIn" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -75,15 +76,16 @@
                 <!-- <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> -->
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/images/mirabellaDoorsImgs/heroImgs/161011_4035WMain-006.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="text-uppercase">Mirabella Doors</h2>
-                        <p class="hero-image-paragraph-font">You only have one chance to make a first impression</p>
+                <div class="carousel-item active darken">
+                    <img src="./assets/images/mirabellaDoorsImgs/heroImgs/161011_4035WMain-006.jpg" class="d-block w-100 opacity" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="display-2 caption-title text-uppercase d-none d-md-block mb-5 wow zoomIn">Mirabella Doors</h1>
+                        <p class="hero-image-paragraph-font wow zoomIn delay-sixtieths">You only have one chance to make a first impression</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/images/mirabellaDoorsImgs/heroImgs/WDB Front Elevation-resized.jpeg" class="d-block w-100" alt="...">
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/images/mirabellaDoorsImgs/heroImgs/Cosmopolitan L Shaped Unit-resized.jpeg" class="d-block w-100" alt="...">
@@ -105,7 +107,6 @@
             </a>
         </div>
     <!-- </div> -->
-    
 
     
     <!-- jQuery Core 3.4 - Uncompressed -->
