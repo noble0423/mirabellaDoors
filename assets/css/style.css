@@ -8,10 +8,6 @@ a.nav-link {
 }
 
 h1 {
-    /* background: -webkit-linear-gradient(#EDD382, #6A5835);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: drop-shadow(2px 3px #230903); */
     text-shadow: 2px 2px #6A5835;
 }
 
@@ -22,22 +18,48 @@ h1 {
 }
 
 #mirabellaDifferenceHeading {
-    /* font-family: 'Charm', cursive; */
     font-family: Futura-light;
     letter-spacing: .2rem;
-    text-shadow: 2px 1px 1px rgb(156, 156, 156);
+    /* color: #6d5b37; */
+    color: rgb(156, 156, 156);
+    /* text-shadow: 2px 2px 2px rgb(169, 162, 162); */
+    text-shadow: 2px 2px 1px #6d5b37;
+    font-weight: bolder;
+    opacity: .9;
 }
 
 .mirabella-difference-paragraph {
     font-size: 1.25rem;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
+    font-family: Futura-light, Sans-Serif;
     /* font-family: 'Charm', cursive; */
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
     /* font-family: 'Ubuntu Condensed', sans-serif; */
     /* font-family: 'Sawarabi Mincho', sans-serif; */
     /* font-family: 'Marmelad', sans-serif; */
     /* font-family: 'Courgette', cursive; */
     /* font-family: 'Fondamento', cursive; */
+}
+
+.card {
+    border-radius: 30px;
+}
+
+#coreValueOne,
+#coreValueTwo,
+#coreValueThree,
+#coreValueFour {
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.15);
+    transition: color 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#coreValueOne:hover,
+#coreValueTwo:hover,
+#coreValueThree:hover,
+#coreValueFour:hover {
+    /* color: red; */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 /* Nav Bar */
@@ -78,6 +100,19 @@ h1 {
 
 .wrapper-shadow {
     filter: drop-shadow(-1px 4px 10px rgba(50, 50, 0, 0.3));
+}
+
+.bg-transparent-gray {
+    background:rgba(255,255,255,0.7);
+}
+
+.bg-gradient-mirabella-radial {
+    /* background: rgb(255,254,231);
+    background: radial-gradient(circle, rgba(255,254,231,1) 10%, rgba(255,236,120,1) 100%); */
+    /* background: rgb(255,254,231);
+    background: radial-gradient(circle, rgba(255,254,231,1) 0%, rgba(255,242,164,1) 93%); */
+    background: rgb(252,252,237);
+    background: radial-gradient(circle, rgba(252,252,237,1) 0%, rgba(255,247,196,1) 93%);
 }
 
 /* Media Queries */
