@@ -22,8 +22,22 @@ h1 {
 }
 
 #mirabellaDifferenceHeading {
-    font-family: 'Charm', cursive;
+    /* font-family: 'Charm', cursive; */
+    font-family: Futura-light;
     letter-spacing: .2rem;
+    text-shadow: 2px 1px 1px rgb(156, 156, 156);
+}
+
+.mirabella-difference-paragraph {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    /* font-family: 'Charm', cursive; */
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+    /* font-family: 'Sawarabi Mincho', sans-serif; */
+    /* font-family: 'Marmelad', sans-serif; */
+    /* font-family: 'Courgette', cursive; */
+    /* font-family: 'Fondamento', cursive; */
 }
 
 /* Nav Bar */
@@ -56,8 +70,15 @@ h1 {
 }
 
 
+/* Mirabella Difference */
+.bg-polygon {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 48% 100%, 0 88%);
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 48% 100%, 0 88%);
+}
 
-
+.wrapper-shadow {
+    filter: drop-shadow(-1px 4px 10px rgba(50, 50, 0, 0.3));
+}
 
 /* Media Queries */
 /* Nav Bar */ 

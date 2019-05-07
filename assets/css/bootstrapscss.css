@@ -6205,6 +6205,10 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
+.bg-mirabella {
+  background-color: #fcdeae !important;
+}
+
 .bg-primary {
   background-color: #007bff !important;
 }
@@ -6315,6 +6319,10 @@ button.bg-dark:focus {
 
 .bg-gradient-dark {
   background: #343a40 linear-gradient(180deg, #52585d, #343a40) repeat-x !important;
+}
+
+.bg-gradient-mirabella {
+  background: #ffc1079c linear-gradient(338deg, #fff8e0, #ffffff) repeat-x !important;
 }
 
 .bg-white {
@@ -7599,6 +7607,11 @@ button.bg-dark:focus {
   margin-bottom: 3rem !important;
 }
 
+.mb-6,
+.my-6 {
+  margin-bottom: 6rem !important;
+}
+
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
@@ -7746,6 +7759,16 @@ button.bg-dark:focus {
 .pl-5,
 .px-5 {
   padding-left: 3rem !important;
+}
+
+.pb-6,
+.py-6 {
+  padding-bottom: 5rem !important;
+}
+
+.pb-7,
+.py-7 {
+  padding-bottom: 6.5rem !important;
 }
 
 .m-n1 {
