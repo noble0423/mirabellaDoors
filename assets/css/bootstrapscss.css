@@ -7381,7 +7381,7 @@ button.bg-dark:focus {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25) !important;
 }
 
 .shadow-lg {
@@ -7607,14 +7607,29 @@ button.bg-dark:focus {
   margin-bottom: 3rem !important;
 }
 
+.ml-5,
+.mx-5 {
+  margin-left: 3rem !important;
+}
+
+.mt-6,
+.my-6 {
+  margin-top: 6rem !important;
+}
+
+.mr-6,
+.mx-6 {
+  margin-right: 6rem !important;
+}
+
 .mb-6,
 .my-6 {
   margin-bottom: 6rem !important;
 }
 
-.ml-5,
-.mx-5 {
-  margin-left: 3rem !important;
+.ml-6,
+.mx-6 {
+  margin-left: 6rem !important;
 }
 
 .p-0 {
@@ -7761,9 +7776,24 @@ button.bg-dark:focus {
   padding-left: 3rem !important;
 }
 
+.pt-6,
+.py-6 {
+  padding-top: 6rem !important;
+}
+
+.pr-6,
+.px-6 {
+  padding-right: 6rem !important;
+}
+
 .pb-6,
 .py-6 {
-  padding-bottom: 5rem !important;
+  padding-bottom: 6rem !important;
+}
+
+.pl-6,
+.px-6 {
+  padding-left: 6rem !important;
 }
 
 .pb-7,
@@ -7889,6 +7919,30 @@ button.bg-dark:focus {
 .ml-n5,
 .mx-n5 {
   margin-left: -3rem !important;
+}
+
+.m-n6 {
+  margin: -6rem !important;
+}
+
+.mt-n6,
+.my-n6 {
+  margin-top: -6rem !important;
+}
+
+.mr-n6,
+.mx-n6 {
+  margin-right: -6rem !important;
+}
+
+.mb-n6,
+.my-n6 {
+  margin-bottom: -6rem !important;
+}
+
+.ml-n6,
+.mx-n6 {
+  margin-left: -6rem !important;
 }
 
 .m-auto {

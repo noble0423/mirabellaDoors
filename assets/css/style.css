@@ -1,13 +1,17 @@
 body {
-    font-family: Futura-light;
+    /* font-family: Futura-light; */
+    font-family: 'Marmelad', sans-serif;
+    /* overflow-x: hidden; */
 }
 
 a.nav-link {
-    font-family: Futura-light, Sans-Serif;
+    /* font-family: Futura-light, Sans-Serif; */
+    font-family: 'Marmelad', sans-serif;
     font-size: .85rem;
 }
 
 h1 {
+    font-family: Futura-light;
     text-shadow: 2px 2px #6A5835;
 }
 
@@ -22,8 +26,9 @@ h1 {
     letter-spacing: .2rem;
     /* color: #6d5b37; */
     color: rgb(156, 156, 156);
+    /* color: rgb(175, 118, 75); */
     /* text-shadow: 2px 2px 2px rgb(169, 162, 162); */
-    text-shadow: 2px 2px 1px #6d5b37;
+    text-shadow: 2px 3px 3.5px #6d5b37;
     font-weight: bolder;
     opacity: .9;
 }
@@ -31,18 +36,19 @@ h1 {
 .mirabella-difference-paragraph {
     font-size: 1.25rem;
     /* letter-spacing: 2px; */
-    font-family: Futura-light, Sans-Serif;
+    /* font-family: Michroma, sans-serif; */
+    /* font-family: Futura-light, Sans-Serif; */
     /* font-family: 'Charm', cursive; */
     /* font-family: 'Lato', sans-serif; */
     /* font-family: 'Ubuntu Condensed', sans-serif; */
     /* font-family: 'Sawarabi Mincho', sans-serif; */
-    /* font-family: 'Marmelad', sans-serif; */
+    font-family: 'Marmelad', sans-serif;
     /* font-family: 'Courgette', cursive; */
     /* font-family: 'Fondamento', cursive; */
 }
 
-.card {
-    border-radius: 30px;
+.core-value-card {
+    border-radius: 15px;
 }
 
 #coreValueOne,
@@ -61,6 +67,15 @@ h1 {
     /* color: red; */
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
+
+/* .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+
 
 /* Nav Bar */
 .nav-link {
@@ -95,7 +110,7 @@ h1 {
 /* Mirabella Difference */
 .bg-polygon {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 48% 100%, 0 88%);
-    clip-path: polygon(0 0, 100% 0, 100% 88%, 48% 100%, 0 88%);
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
 }
 
 .wrapper-shadow {
@@ -112,7 +127,23 @@ h1 {
     /* background: rgb(255,254,231);
     background: radial-gradient(circle, rgba(255,254,231,1) 0%, rgba(255,242,164,1) 93%); */
     background: rgb(252,252,237);
-    background: radial-gradient(circle, rgba(252,252,237,1) 0%, rgba(255,247,196,1) 93%);
+    /* background: radial-gradient(circle, rgba(252,252,237,1) 0%, rgba(255,247,196,1) 93%); */
+    background: radial-gradient(circle, rgb(249, 249, 243) 0%, rgb(255, 252, 218) 80%);
+}
+
+/* Core Values */
+.core-value-card {
+    max-height: 400px;
+}
+
+/* Featured Products */
+.featured-product-card {
+    border: 1px solid #6a5835;
+}
+
+.card-img-size-xl-screen {
+    min-height: 300px;
+    min-width: 200px;
 }
 
 /* Media Queries */
@@ -154,3 +185,13 @@ h1 {
         font-size: 1.35rem;
     }
 }
+
+/* Core Values */
+/* @media only screen and (max-width: 1450px) {
+    .card-deck {
+        margin-left: 0px !important;
+        margin-right: 0px !important; 
+    }
+} */
+
+/* Featured Products */
