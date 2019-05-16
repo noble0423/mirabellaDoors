@@ -68,6 +68,18 @@ h1 {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
+#featuredDoorsHeading {
+    font-family: Futura-light;
+    letter-spacing: .2rem;
+    color: #736735;
+    /* color: rgb(156, 156, 156); */
+    /* color: rgb(175, 118, 75); */
+    text-shadow: 2px 2px 2px rgb(169, 162, 162);
+    /* text-shadow: 2px 3px 3.5px #6d5b37; */
+    font-weight: bolder;
+    opacity: .9;
+}
+
 /* .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
@@ -136,6 +148,14 @@ h1 {
     max-height: 400px;
 }
 
+.core-value-horizontal-border-right {
+    border-right: 1px solid #c5c5c5;
+}
+
+/* .core-value-center {
+    margin-top: 20%;
+} */
+
 /* Featured Products */
 .featured-product-card {
     border: 1px solid #6a5835;
@@ -144,6 +164,12 @@ h1 {
 .card-img-size-xl-screen {
     min-height: 300px;
     min-width: 200px;
+}
+
+.card-img-size-lg-screen {
+    /* max-height: 522px;
+    width: auto; */
+    max-width: 340px;
 }
 
 /* Media Queries */
@@ -186,12 +212,46 @@ h1 {
     }
 }
 
-/* Core Values */
-/* @media only screen and (max-width: 1450px) {
-    .card-deck {
-        margin-left: 0px !important;
-        margin-right: 0px !important; 
+/* Mirabella Difference */
+@media only screen and (max-width: 1199px) {
+    .mirabella-difference-paragraph {
+        font-size: 1.1rem;
     }
-} */
+}
+
+@media only screen and (max-width: 768px) {
+    #mirabellaDifferenceHeading {
+        font-size: 2.5rem;
+    }
+    .mirabella-difference-paragraph,
+    .core-value-paragraph {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #mirabellaDifferenceHeading {
+        font-size: 2rem;
+    }
+    .mirabella-difference-paragraph,
+    .core-value-paragraph {
+        font-size: .9rem;
+    }
+}
+
+/* Core Values */
+@media only screen and (max-width: 767px) {
+    .core-value-paragraph {
+        text-align: left !important;
+    }
+}
 
 /* Featured Products */
+@media only screen and (max-width: 450px) {
+    .card-margin-xs-screen {
+        /* margin-left: 5% !important;
+        margin-right: 5% !important; */
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
