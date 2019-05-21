@@ -189,7 +189,8 @@ h1 {
 }
 
 .transparent {
-    background: rgba(253, 251, 223, 0.8);
+    background: rgba(253, 251, 223, 0.85);
+    /* background: rgba(255, 255, 255, 0.8); */
 }
 
 /* Media Queries */
