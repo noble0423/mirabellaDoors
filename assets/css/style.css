@@ -131,6 +131,7 @@ h1 {
 
 .bg-transparent-gray {
     background:rgba(255,255,255,0.7);
+    /* opacity: .8; */
 }
 
 .bg-gradient-mirabella-radial {
@@ -170,6 +171,25 @@ h1 {
     /* max-height: 522px;
     width: auto; */
     max-width: 340px;
+}
+
+/* Customer Reviews */
+.customer-review-text {
+    z-index: 1000;
+    border: 2px solid #6a5835;
+    border-radius: 10px;
+    /* border-radius: 35% 5%; */
+    /* border-radius: 35% 10% 30% 10%; */
+}
+
+.customer-review-img {
+    z-index: -1000;
+    border: 1px solid #6a5835;
+    border-radius: 50%;
+}
+
+.transparent {
+    background: rgba(253, 251, 223, 0.8);
 }
 
 /* Media Queries */
@@ -255,3 +275,10 @@ h1 {
         margin-right: auto !important;
     }
 }
+
+/* Customer Reviews */
+/* @media only screen and (max-width: 1200px) {
+    .customer-review-text {
+        font-size: .85rem;
+    }
+} */
