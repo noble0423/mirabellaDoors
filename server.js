@@ -20,14 +20,22 @@ app.use(express.json());
 // Make public a static folder
 app.use(express.static("public"));
 
+// Setup Handlebars and Express-Handlebars
+const exphbs = require("express-handlebars");
+
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
+
 // Connect to the Mongo DB
 // mongoose.connect("mongodb://localhost/", { useNewUrlParser: true });
 
 // Routes
-
+app.get("/", function(req, res) {
+    res.render("home");
+})
 
 
 // Start the server
 app.listen(PORT, function() {
-  console.log("App running on port " + PORT + "!");
+  console.log("Server listening on: http://localhost:" + PORT);
 });
