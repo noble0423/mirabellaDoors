@@ -29,10 +29,26 @@ app.set("view engine", "handlebars");
 // Connect to the Mongo DB
 // mongoose.connect("mongodb://localhost/", { useNewUrlParser: true });
 
-// Routes
+// HTML Routes
 app.get("/", function(req, res) {
     res.render("home");
-})
+});
+
+app.get("/mirabelladifference", function(req, res) {
+    res.render("mirabellaDifference");
+});
+
+app.get("/contactus", function(req, res) {
+    res.render("contactUs");
+});
+
+app.get("/cosmopolitandoors", function(req, res) {
+    res.render("cosmopolitanDoors");
+});
+
+app.get("/traditionaldoors", function(req, res) {
+    res.render("traditionalDoors");
+});
 
 
 // Start the server
