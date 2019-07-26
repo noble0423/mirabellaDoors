@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
+    // NavBar
+    //=====================================================================
+    $(".nav-link").on("click", function(){
+        // console.log("clicked");
+        $(".nav .nav-item").find(".active").removeClass("active");
+        $(this).addClass("active");
+     });
+
     // Button Clicks for Page Routing
     //=====================================================================
 
