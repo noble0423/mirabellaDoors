@@ -100,6 +100,9 @@ h1 {
 }
 
 /* Carousel */
+#carouselIndicators {
+    z-index: -1;
+}
 .carousel-indicators li {
     width: 10px;
     height: 10px;

@@ -36,7 +36,7 @@
 <body>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent text-uppercase mx-3 wow fadeInDown">
-        <a class="navbar-brand wow zoomIn delay-.5s" href="#">Mirabella Doors Logo</a>
+        <a class="navbar-brand wow zoomIn delay-.5s" href="/home">Mirabella Doors Logo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,22 +44,36 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link px-3" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link px-3" href="/home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="#">The Mirabella Difference</a>
+                    <a class="nav-link px-3" href="/mirabelladifference">The Mirabella Difference</a>
                 </li>
-                <li class="nav-item">
+                {{!-- <li class="nav-item">
                     <a class="nav-link px-3" href="#">Custom Doors</a>
+                </li> --}}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Custom Doors
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/contemporarydoors">Contemporary</a>
+                        <a class="dropdown-item" href="/traditionaldoors">Traditional</a>
+                        {{!-- <div class="dropdown-divider"></div> --}}
+                        <a class="dropdown-item" href="/doorfinishes">Finishes</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/doordesignlibrary">Door Design Library</a>
+                        
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link pl-3" id="noBorder" href="#">Contact Us</a>
+                    <a class="nav-link px-3" href="/balconiesandrailings">Balconies and Railings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3" id="noBorder" href="/contactus">Contact Us</a>
                 </li>
             </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search">
-                <button class="btn btn-outline-secondary btn-sm bg-info text-light my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
         </div>
     </nav>
 
@@ -93,6 +107,7 @@
             <span><small class="text-light">&copy; Mirabella Doors. All Rights Reserved.</small></span>
         </div>
     </nav>
+
 
     <!-- jQuery Core 3.4 - Uncompressed -->
     <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>

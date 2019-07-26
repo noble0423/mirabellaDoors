@@ -31,24 +31,48 @@ app.set("view engine", "handlebars");
 
 // HTML Routes
 app.get("/", function(req, res) {
-    res.render("home");
+    res.render("index");
+});
+
+app.get("/home", function(req, res) {
+    res.render("index");
 });
 
 app.get("/mirabelladifference", function(req, res) {
     res.render("mirabellaDifference");
 });
 
-app.get("/contactus", function(req, res) {
-    res.render("contactUs");
-});
-
-app.get("/cosmopolitandoors", function(req, res) {
-    res.render("cosmopolitanDoors");
+app.get("/contemporarydoors", function(req, res) {
+    res.render("contemporaryDoors");
 });
 
 app.get("/traditionaldoors", function(req, res) {
     res.render("traditionalDoors");
 });
+
+app.get("/doorfinishes", function(req, res) {
+    res.render("doorFinishes");
+});
+
+app.get("/doordesignlibrary", function(req, res) {
+    res.render("doorDesignLibrary");
+});
+
+app.get("/doorfinishes", function(req, res) {
+    res.render("doorFinishes");
+});
+
+app.get("/balconiesandrailings", function(req, res) {
+    res.render("balconiesAndRailings");
+});
+
+app.get("/contactus", function(req, res) {
+    res.render("contactUs");
+});
+
+app.get("*", function(req, res) {
+    res.render("404");
+})
 
 
 // Start the server
