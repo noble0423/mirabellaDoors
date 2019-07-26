@@ -4,6 +4,7 @@
   "description": "Enabling Custom Bootstrap SCSS",
   "main": "index.html",
   "scripts": {
+    "start": "node server.js",
     "test": "npm run build -- --production",
     "build": "scss-powertools assets/scss/custom.scss assets/css/bootstrapscss.css"
   },
