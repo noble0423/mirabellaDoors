@@ -43,7 +43,13 @@ app.get("/mirabelladifference", function(req, res) {
 });
 
 app.get("/contemporarydoors", function(req, res) {
-    res.render("contemporaryDoors");
+    const hbsObject = {
+        heroComponentRightTitle: "Contemporary Doors Page",
+        // heroComponentRightImage: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",
+        heroComponentRightImage: "/assets/images/mirabellaDoorsImgs/hero-component/WMain-007.jpg",
+        heroComponentRightImageAlt: "Mirabella Doors - Contemporary Doors Banner Image",
+    }
+    res.render("contemporaryDoors", hbsObject);
 });
 
 app.get("/traditionaldoors", function(req, res) {
