@@ -61,12 +61,24 @@ app.get("/mirabelladifference", function(req, res) {
             animation: "wow fadeInRight slow",
         },
         arrowComponentLeft: {
-            title: "",
+            title: "Meet the Owner",
+            wording: {
+                paragraphs: [
+                    "Pam Miller owns and operates Mirabella Doors. She has 15 years in the construction industry, specializing in custom iron entryways for over 10 years.  Pam has always been drawn to the creative aspect of construction and design and works hard to create beautiful, upscale entryways that join the personal taste of the homeowner while staying true to the style of the home.",
+
+                    "Mirabella Doors works very closely with Houston’s finest custom home builders and interior designers.  By consistently providing a high-end, custom product and combining it with exceptional service, Pam Miller, has built a solid reputation in the industry for surpassing customer expectations. ",
+                ],
+                id: "meetTheOwnerText",
+            },
             image: {
-                src: "https://via.placeholder.com/1650x700/5ff6c3/FFFFFF?text=Arrow+Component+(left)+-+About-Pam",
-                alt: "",
-        },
-            animation: "wow fadeInLeft slow",
+                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/pam-mirabella_doors_houston.jpg",
+                alt: "Owner - Mirabella Doors - Custom Doors Houston",
+                id: "meetTheOwnerImg",
+            },
+            animation: {
+                arrow: "wow fadeInLeft slow",
+                image: "wow fadeIn slower"
+            },
         },
     }
     res.render("mirabellaDifference", hbsObject);
