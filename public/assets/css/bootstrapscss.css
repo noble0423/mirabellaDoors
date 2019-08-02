@@ -7664,6 +7664,30 @@ button.bg-dark:focus {
   margin-left: 4rem !important;
 }
 
+.m-575 {
+  margin: 5.75rem !important;
+}
+
+.mt-575,
+.my-575 {
+  margin-top: 5.75rem !important;
+}
+
+.mr-575,
+.mx-575 {
+  margin-right: 5.75rem !important;
+}
+
+.mb-575,
+.my-575 {
+  margin-bottom: 5.75rem !important;
+}
+
+.ml-575,
+.mx-575 {
+  margin-left: 5.75rem !important;
+}
+
 .mt-6,
 .my-6 {
   margin-top: 6rem !important;

@@ -208,15 +208,20 @@ h1 {
 
 /* Arrow Components */
 .arrow-left {
-    /* -webkit-clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
-    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%); */
-    -webkit-clip-path: polygon(0% 0%, 100% 0, 90% 50%, 100% 100%, 0% 100%);
-    clip-path: polygon(0% 0%, 100% 0, 90% 50%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% -1%, 90% 50%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% -1%, 90% 50%, 100% 100%, 0% 100%);
     z-index: 1000;
     /* border: 2px solid #6a5835; */
 }
 
-.arrow-left-img {
+.arrow-right {
+    -webkit-clip-path: polygon(0 -1%, 100% 0, 100% 100%, 0 100%, 10% 50%);
+    clip-path: polygon(0 -1%, 100% 0, 100% 100%, 0 100%, 10% 50%);
+    z-index: 1000;
+}
+
+.arrow-left-img,
+.arrow-right-img {
     z-index: -1000;
     /* border: 2px solid #6a5835; */
 
@@ -233,13 +238,20 @@ h1 {
     font-size: 1.1rem;
 }
 
-#meetTheOwnerImg {
+#meetTheOwnerImg,
+#mirabellaDifferenceImg {
     background-position: center;
     background-size: cover;
 }
 
+#mirabellaDifferenceText {
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
 /* Contact Us */
-#contactUsImg {
+#contactUsImg,
+#contactUsEmailImg {
     background-position: center;
     background-size: cover;
 }

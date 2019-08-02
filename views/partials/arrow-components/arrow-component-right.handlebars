@@ -1,8 +1,25 @@
-<div class="row mb-6">
+<div class="row my-6">
     <div class="col-1"></div>
-    <div class="col-10">
-        <h6 class="text-center">{{ arrowComponentRight.title }}</h6>
-        <img src="{{ arrowComponentRight.image.src }}" class="img-fluid shadow-sm {{ arrowComponentRight.animation }}" alt="{{ arrowComponentRight.image.alt }}">
+    <div class="col-10 mb-4">
+        <div class="row wrapper-shadow">            
+            <div class="col-5 px-0 mr-n575 arrow-right-img {{ arrowComponentRight.animation.image }}" style="background-image: url('{{ arrowComponentRight.image.src }}');" id="{{ arrowComponentRight.image.id }}">
+            </div>
+
+            <div class="col-7 px-0 arrow-right {{ arrowComponentRight.animation.arrow }}" style="background-color: {{ arrowComponentRight.wording.bkgrndColor }}">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-10 mb-5">
+                        <h2 class="text-center mr-6 mt-5 mb-4">{{ arrowComponentRight.title }}</h2>
+                        
+                        <div id="{{ arrowComponentRight.wording.id }}">
+                        {{#each arrowComponentRight.wording.paragraphs}}
+                            <p class="mr-4rem text-justify">{{this}}</p>
+                        {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-1"></div>
+    <div class="col-1 ml-n5"></div>
 </div>

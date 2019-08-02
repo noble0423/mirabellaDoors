@@ -44,7 +44,8 @@ app.get("/mirabelladifference", function(req, res) {
             title: "Mirabella Difference Page",
             animation: "wow fadeIn slow",
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/Cosmo SDFS.jpg",
+                // src: "/assets/images/mirabellaDoorsImgs/hero-component/Cosmo SDFS.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",
                 alt: "The Mirabella Difference - Houston's Premier Custom Doors Banner Image",
             },
         },
@@ -53,12 +54,27 @@ app.get("/mirabelladifference", function(req, res) {
             animation: "wow zoomInDown slow",
         },
         arrowComponentRight: {
-            title: "",
-            image: {
-                src: "https://via.placeholder.com/1650x700/F6C35F/FFFFFF?text=Arrow+Component+(right)+-+The+Mirabella+Difference",
-                alt: "",
+            title: "The Mirabella Difference",
+            wording: {
+                paragraphs: [
+                    "Our mission at Mirabella Doors is to bring high quality, custom wrought iron doors to the market place at a competitive price with superior customer service. Our commitment to excellence begins with design selection and ends when the door is completely installed and the home owner or home builder is satisfied.",
+
+                    "At Mirabella Doors, we understand construction schedules and recognize the importance in delivering the product on time, every time. Our motto is “you only have one chance to make a first impression”. Mirabella Doors keeps this in mind as we work seamlessly with builders, designers and architects. As a company and partner with your builder, Mirabella Doors will impress with the thoughtfulness and attention to detail that befits an elegant home and high quality builder. As a product, Mirabella doors will deliver a lifetime of first impressions with elegant and timeless designs and an enduring product.",
+
+                    '"First impressions" is not only our motto, it is our specialty!',
+                ],
+                bkgrndColor: "#f6fae8",
+                id: "mirabellaDifferenceText",
             },
-            animation: "wow fadeInRight slow",
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/mirabella_difference_piano_room.jpg",
+                alt: "The Mirabella Difference - Mirabella Doors - Custom Doors Houston, TX",
+                id: "mirabellaDifferenceImg",
+            },
+            animation: {
+                arrow: "wow fadeInRight slow",
+                image: "wow fadeInLeft slow",
+            },
         },
         arrowComponentLeft: {
             title: "Meet the Owner",
@@ -66,8 +82,9 @@ app.get("/mirabelladifference", function(req, res) {
                 paragraphs: [
                     "Pam Miller owns and operates Mirabella Doors. She has 15 years in the construction industry, specializing in custom iron entryways for over 10 years.  Pam has always been drawn to the creative aspect of construction and design and works hard to create beautiful, upscale entryways that join the personal taste of the homeowner while staying true to the style of the home.",
 
-                    "Mirabella Doors works very closely with Houston’s finest custom home builders and interior designers.  By consistently providing a high-end, custom product and combining it with exceptional service, Pam Miller, has built a solid reputation in the industry for surpassing customer expectations. ",
+                    "Mirabella Doors works very closely with Houston’s finest custom home builders and interior designers.  By consistently providing a high-end, custom product and combining it with exceptional service, Pam Miller, has built a solid reputation in the industry for surpassing customer expectations.",
                 ],
+                bkgrndColor: "#f6f0ea",
                 id: "meetTheOwnerText",
             },
             image: {
@@ -355,21 +372,39 @@ app.get("/contactus", function(req, res) {
             animation: "wow zoomInDown slow",
         },
         arrowComponentRight: {
-            title: "",
-            image: {
-                src: "https://via.placeholder.com/1650x700/F6C35F/FFFFFF?text=Arrow+Component+(right)+-+Contact+Form+(email)",
-                alt: "",
+            title: "Send Us an Email",
+            wording: {
+                paragraphs: [
+                    "NAME (required): name input field will go here",
+                    "EMAIL ADDRESS (required): email input field will go here",
+                    "SUBJECT: subject input field will go here",
+                    "MESSAGE (required): message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here",
+                ],
+                bkgrndColor: "#e0f7f4",
+                id: "contactUsEmailText",
             },
-            animation: "wow fadeInRight slow",
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/Cosmopolitan DDT.jpg",
+                alt: "Contact Us - Mirabella Doors - Custom Doors Houston, TX",
+                id: "contactUsEmailImg",
+            },
+            animation: {
+                arrow: "wow fadeInRight slow",
+                image: "wow fadeInLeft slow",
+            },
         },
         arrowComponentLeft: {
             title: "Contact Us",
             wording: {
                 paragraphs: [
-                    "Disrupt green juice woke, hashtag hot chicken locavore typewriter meggings. Letterpress pabst lomo lumbersexual selvage glossier. Fixie post-ironic snackwave asymmetrical salvia. Stumptown succulents 3 wolf moon, you probably haven't heard of them tilde poutine ramps. Truffaut palo santo swag lyft sustainable mustache church-key man braid 8-bit roof party master cleanse irony food truck snackwave. Shoreditch raclette ramps, tumeric hoodie food truck asymmetrical +1 vaporware leggings cardigan butcher.",
+                    "Disrupt green juice woke, hashtag hot chicken locavore typewriter meggings. Letterpress pabst lomo lumbersexual selvage glossier. Fixie post-ironic snackwave asymmetrical salvia. Stumptown succulents 3 wolf moon, you probably haven't heard of them tilde poutine ramps.",
 
-                    "Seitan glossier enamel pin listicle vinyl pour-over leggings fixie. Pour-over wayfarers microdosing migas. Tumeric tacos neutra brooklyn, plaid crucifix synth bushwick venmo try-hard marfa copper mug offal scenester. Edison bulb tousled crucifix sustainable kale chips, brunch iPhone roof party retro single-origin coffee.",
+                    "ADDRESS: 1234 Address Ln. Houston, TX 77777",
+                    "PHONE NUMBER: (XXX) XXX - XXXX",
+                    "HRS OF OPERATION: Mon.-Fri 8:00a-5:00p",
+                    "*** We are often on the job site, so while walk-ins are welcome, we cannot guarantee that someone will be here to help. We highly recommend making an appointment.",
                 ],
+                bkgrndColor: "#ebf2e8",
                 id: "contactUsText",
             },
             image: {
