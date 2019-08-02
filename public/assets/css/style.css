@@ -229,11 +229,17 @@ h1 {
 
 /* Why MB Doors */
 #meetTheOwnerText {
-    line-height: 1.6;
-    font-size: 1.085rem;
+    line-height: 1.8;
+    font-size: 1.1rem;
 }
 
 #meetTheOwnerImg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Contact Us */
+#contactUsImg {
     background-position: center;
     background-size: cover;
 }

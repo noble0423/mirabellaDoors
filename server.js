@@ -77,7 +77,7 @@ app.get("/mirabelladifference", function(req, res) {
             },
             animation: {
                 arrow: "wow fadeInLeft slow",
-                image: "wow fadeIn slower"
+                image: "wow fadeInRight slow",
             },
         },
     }
@@ -308,7 +308,7 @@ app.get("/balconiesandrailings", function(req, res) {
             title: "Balconies and Railings Page",
             animation: "wow fadeIn slow",
             image: {
-                src: "https://via.placeholder.com/1650x600?text=Hero+Banner+Component+(banner+-+right)",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/railing_up_close.jpg",
                 alt: "Mirabella Doors - Custom Balconies and Railings Banner Image",
             },
         },
@@ -346,7 +346,7 @@ app.get("/contactus", function(req, res) {
             title: "Contact Us Page",
             animation: "wow fadeIn slow",
             image: {
-                src: "https://via.placeholder.com/1650x600/87ceeb/FFFFFF?text=Hero+Banner+Component+(banner+-+left)",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/contact_us_meeting_image.jpg",
                 alt: "Mirabella Doors - Expertly Crafted Custom Doors - Contact Us Banner Image",
             },
         },
@@ -363,12 +363,24 @@ app.get("/contactus", function(req, res) {
             animation: "wow fadeInRight slow",
         },
         arrowComponentLeft: {
-            title: "",
-            image: {
-                src: "https://via.placeholder.com/1650x700/5ff6c3/FFFFFF?text=Arrow+Component+(left)+-+Contact+Info",
-                alt: "",
+            title: "Contact Us",
+            wording: {
+                paragraphs: [
+                    "Disrupt green juice woke, hashtag hot chicken locavore typewriter meggings. Letterpress pabst lomo lumbersexual selvage glossier. Fixie post-ironic snackwave asymmetrical salvia. Stumptown succulents 3 wolf moon, you probably haven't heard of them tilde poutine ramps. Truffaut palo santo swag lyft sustainable mustache church-key man braid 8-bit roof party master cleanse irony food truck snackwave. Shoreditch raclette ramps, tumeric hoodie food truck asymmetrical +1 vaporware leggings cardigan butcher.",
+
+                    "Seitan glossier enamel pin listicle vinyl pour-over leggings fixie. Pour-over wayfarers microdosing migas. Tumeric tacos neutra brooklyn, plaid crucifix synth bushwick venmo try-hard marfa copper mug offal scenester. Edison bulb tousled crucifix sustainable kale chips, brunch iPhone roof party retro single-origin coffee.",
+                ],
+                id: "contactUsText",
             },
-            animation: "wow fadeInLeft slow",
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/contact_us_front-door_dusk.jpg",
+                alt: "Contact Mirabella Doors - Custom Doors Houston - Contact Info",
+                id: "contactUsImg",
+            },
+            animation: {
+                arrow: "wow fadeInLeft slow",
+                image: "wow fadeInRight slow",
+            },
         },
     }
     res.render("contactUs", hbsObject);
