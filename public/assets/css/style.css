@@ -222,7 +222,7 @@ h1 {
 
 .arrow-left-img,
 .arrow-right-img {
-    z-index: -1000;
+    z-index: -1000; 
     /* border: 2px solid #6a5835; */
 
 }
