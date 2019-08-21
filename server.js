@@ -117,15 +117,18 @@ app.get("/contemporarydoors", function(req, res) {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
+            one: {
+
+            },
             largeImage: {
                 // this will be grabbed from db later
                 src: [
-                    "https://via.placeholder.com/450x700?text=Best+Selling+Door+IMG+1", 
-                    "https://via.placeholder.com/450x700?text=Best+Selling+Door+IMG+2"
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook.jpg", 
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan-Sleek.jpg"
                 ],
                 alt: [
                     "left test1111",
-                    "left test2222",
+                    // "left test2222",
                 ],
                 animation: "wow zoomIn",
             },
@@ -140,12 +143,12 @@ app.get("/contemporarydoors", function(req, res) {
             largeImage: {
                 // this will be grabbed from db later
                 src: [
-                    "https://via.placeholder.com/450x700?text=Best+Selling+Door+IMG+1", 
-                    "https://via.placeholder.com/450x700?text=Best+Selling+Door+IMG+2"
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook_wine.jpg", 
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan Front Entry Doors.jpg"
                 ],
                 alt: [
                     "right test1111",
-                    "right test2222",
+                    // "right test2222",
                 ],
                 animation: "wow zoomIn",
             },
@@ -177,9 +180,11 @@ app.get("/traditionaldoors", function(req, res) {
         imagesComponentLeft: {
             largeImage: {
                 // this will be grabbed from db later
-                src: [
-                    "https://via.placeholder.com/450x700?text=Best+Selling+Door+IMG+1", 
-                    "https://via.placeholder.com/450x700?text=Best+Selling+Door+IMG+2"
+                src: [ 
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Bellagio_DD.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Madison_full_surround.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_stone_topper.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_indoor_rounded.jpg"
                 ],
                 alt: [
                     "left test1111",
@@ -198,8 +203,9 @@ app.get("/traditionaldoors", function(req, res) {
             largeImage: {
                 // this will be grabbed from db later
                 src: [
-                    "https://via.placeholder.com/450x700?text=Best+Selling+Door+IMG+1", 
-                    "https://via.placeholder.com/450x700?text=Best+Selling+Door+IMG+2"
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/tall_curved_traditional.jpg", 
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_rounded_wine.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_outdoor_rounded.jpg"
                 ],
                 alt: [
                     "right test1111",
@@ -279,8 +285,10 @@ app.get("/doordesignlibrary", function(req, res) {
             largeImage: {
                 // this will be grabbed from db later
                 src: [
-                    "https://via.placeholder.com/450x700?text=Non+-+CAD+Design+IMG+1", 
-                    "https://via.placeholder.com/450x700?text=Non+-+CAD+Design+IMG+2"
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_two_doors.jpg",
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/pencil_on_CAD_drawing.jpg",
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/leaves_detail.jpg", 
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_trad.jpg",
                 ],
                 alt: [
                     "left test1111",
@@ -299,8 +307,11 @@ app.get("/doordesignlibrary", function(req, res) {
             largeImage: {
                 // this will be grabbed from db later
                 src: [
-                    "https://via.placeholder.com/450x700?text=Non+-+CAD+Design+IMG+1", 
-                    "https://via.placeholder.com/450x700?text=Non+-+CAD+Design+IMG+2"
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/swatch_on_CAD_drawing.jpg",
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/door_handles_detail.jpg",
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_cont_square.jpg",
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/artist_drawing.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/wine_gate_detail.jpg", 
                 ],
                 alt: [
                     "right test1111",
@@ -337,7 +348,7 @@ app.get("/balconiesandrailings", function(req, res) {
             largeImage: {
                 // this will be grabbed from db later
                 src: [
-                    "https://via.placeholder.com/450x700?text=Large+Railing+IMG+1", 
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Sydney_Gate.jpg", 
                     "https://via.placeholder.com/450x700?text=Large+Railing+IMG+2"
                 ],
                 alt: [
