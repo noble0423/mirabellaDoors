@@ -62,7 +62,10 @@ app.get("/mirabelladifference", function(req, res) {
             animation: "wow zoomInDown slow",
         },
         arrowComponentRight: {
-            title: "The Mirabella Difference",
+            title: {
+                title: "The Mirabella Difference",
+                id: "mirabellaDifferenceTitleId"
+            },
             wording: {
                 paragraphs: [
                     "Our mission at Mirabella Doors is to bring high quality, custom wrought iron doors to the market place at a competitive price with superior customer service. Our commitment to excellence begins with design selection and ends when the door is completely installed and the home owner or home builder is satisfied.",

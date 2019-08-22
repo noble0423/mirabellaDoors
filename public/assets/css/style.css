@@ -314,6 +314,8 @@ h1 {
         border: 0;
     }
 }
+
+/* Home Page */
 /* Carousel */
 @media only screen and (max-width: 1206px) {
     .display-2 {
@@ -398,6 +400,36 @@ h1 {
     }
 } */
 
+/* Mb Difference Pg */
+/* Arrow Component Right */
+/* Text */
+@media only screen and (max-width: 1450px) {
+    #mirabellaDifferenceText {
+        line-height: 1.6;
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width: 1115px) {
+    #mirabellaDifferenceTitleId {
+        font-size: 1.7rem;
+    }
+    #mirabellaDifferenceText {
+        line-height: 1.5;
+        font-size: .825rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #mirabellaDifferenceTitleId {
+        font-size: 1.2rem;
+    }
+    #mirabellaDifferenceText {
+        line-height: 1.4;
+        font-size: .775rem;
+    }
+}
+
 /* 404 Error */
 @media only screen and (max-width: 699px) {
     #error404Container {
@@ -417,8 +449,4 @@ h1 {
     #error404Header {
         font-size: 2em;
     }
-
-    /* #error404Para {
-        font-size: .8em;
-    } */
 }
