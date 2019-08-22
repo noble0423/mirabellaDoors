@@ -379,7 +379,8 @@ app.get("/balconiesandrailings", function(req, res) {
 app.get("/contactus", function(req, res) {
     const hbsObject = {
         googleMapsApi: {
-            width: "90%",
+            width: "100%",
+            height: "600",
             key: gMaps.secret
         },
         heroComponentLeft: {
