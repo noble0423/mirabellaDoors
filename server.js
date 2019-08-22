@@ -1,3 +1,11 @@
+require("dotenv").config();
+
+// Import Keys
+const keys = require("./keys");
+
+// gMaps
+const gMaps = keys.googleMaps;
+
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
@@ -370,6 +378,10 @@ app.get("/balconiesandrailings", function(req, res) {
 
 app.get("/contactus", function(req, res) {
     const hbsObject = {
+        googleMapsApi: {
+            width: "100%",
+            key: gMaps.secret
+        },
         heroComponentLeft: {
             title: "Contact Us Page",
             animation: "wow fadeIn slow",
