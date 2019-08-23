@@ -430,7 +430,10 @@ app.get("/contactus", function(req, res) {
             animation: "wow zoomInDown slow",
         },
         arrowComponentRight: {
-            title: "Send Us an Email",
+            title: {
+                title: "Send Us an Email",
+                id: "sendUsAnEmailTitleId",
+            },
             wording: {
                 paragraphs: [
                     "NAME (required): name input field will go here",
@@ -452,7 +455,10 @@ app.get("/contactus", function(req, res) {
             },
         },
         arrowComponentLeft: {
-            title: "Contact Us",
+            title: {
+                title: "Contact Us",
+                id: "contactUsTtitleId",
+            },
             wording: {
                 paragraphs: [
                     "Disrupt green juice woke, hashtag hot chicken locavore typewriter meggings. Letterpress pabst lomo lumbersexual selvage glossier. Fixie post-ironic snackwave asymmetrical salvia. Stumptown succulents 3 wolf moon, you probably haven't heard of them tilde poutine ramps.",
