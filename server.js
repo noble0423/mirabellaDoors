@@ -108,6 +108,20 @@ app.get("/mirabelladifference", function(req, res) {
                 image: "wow fadeInRight slow",
             },
         },
+        xsArrowTransformRight: {
+            backgroundImage: {
+                darken: "linear-gradient(45deg, rgba(50, 50, 50, 0.5) 0%, rgba(100, 100, 100, .5) 80%)",
+            },
+            textDiv: {
+                id:"mirabellaDifferenceXSDiv",
+            },
+            title: {
+                id: "mirabellaDifferenceXSTitle",
+            },
+            wording: {
+                id: "mirabellaDifferenceXSText",
+            },
+        },
     }
     res.render("mirabellaDifference", hbsObject);
 });

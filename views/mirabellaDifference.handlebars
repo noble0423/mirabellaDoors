@@ -5,7 +5,14 @@
 {{> page-breaker-component/page-breaker-text }}
 
 <!-- Arrow Component (right) -->
-{{> arrow-components/arrow-component-right }}
+<div class="d-none d-sm-block">
+    {{> arrow-components/arrow-component-right }}
+</div>
+
+<!-- XS Arrow Transform -->
+<div class="d-sm-none d-xs-block px-3">
+    {{> xs-arrow-transform/xs-arrow-transform }}
+</div>
 
 <!-- Arrow Component (left) -->
 {{> arrow-components/arrow-component-left }}
