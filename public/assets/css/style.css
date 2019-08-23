@@ -237,6 +237,17 @@ h1 {
     text-shadow: 1px 2px rgb(44, 44, 44);
 }
 
+#meetTheOwnerXSTitle {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+#meetTheOwnerXSText {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
 /* #pamHeadshot {
     max-height: 500px;
 } */
@@ -440,6 +451,35 @@ h1 {
     }
 }
 
+/* Arrow Component Left */
+/* Text */
+@media only screen and (max-width: 1250px) {
+    #meetTheOwnerText {
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #meetTheOwnerTitleId {
+        font-size: 1.7rem;
+    }
+    #meetTheOwnerText {
+        line-height: 1.5;
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #meetTheOwnerTitleId {
+        font-size: 1.4rem;
+    }
+    #meetTheOwnerText {
+        line-height: 1.4;
+        font-size: .775rem;
+    }
+}
+
 /* XS Arrow Transform Right */
 /* Text */
 @media only screen and (max-width: 450px) {
@@ -457,6 +497,33 @@ h1 {
     }
 }
 
+/* XS Arrow Transform Left */
+/* Text */
+@media only screen and (max-width: 500px) {
+    #meetTheOwnerXSText {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #meetTheOwnerXSTitle {
+        margin-top: 0;
+        padding-bottom: 0;
+        font-size: 1.5rem;
+    }
+    #meetTheOwnerXSText {
+        font-size: .9rem;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #meetTheOwnerXSTitle {
+        font-size: 1.375rem;
+    }
+    #meetTheOwnerXSText {
+        font-size: .865rem;
+        line-height: 1.5;
+    }
+}
 
 /* 404 Error */
 @media only screen and (max-width: 699px) {

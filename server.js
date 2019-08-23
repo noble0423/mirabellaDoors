@@ -88,7 +88,10 @@ app.get("/mirabelladifference", function(req, res) {
             },
         },
         arrowComponentLeft: {
-            title: "Meet the Owner",
+            title: {
+                title: "Meet the Owner",
+                id: "meetTheOwnerTitleId"
+            },
             wording: {
                 paragraphs: [
                     "Pam Miller owns and operates Mirabella Doors. She has 15 years in the construction industry, specializing in custom iron entryways for over 10 years.  Pam has always been drawn to the creative aspect of construction and design and works hard to create beautiful, upscale entryways that join the personal taste of the homeowner while staying true to the style of the home.",
@@ -120,6 +123,20 @@ app.get("/mirabelladifference", function(req, res) {
             },
             wording: {
                 id: "mirabellaDifferenceXSText",
+            },
+        },
+        xsArrowTransformLeft: {
+            backgroundImage: {
+                darken: "linear-gradient(45deg, rgba(75, 75, 75, 0.4) 0%, rgba(125, 125, 125, .4) 80%)",
+            },
+            textDiv: {
+                id: "meetTheOwnerXSDiv",
+            },
+            title: {
+                id: "meetTheOwnerXSTitle",
+            },
+            wording: {
+                id: "meetTheOwnerXSText",
             },
         },
     }

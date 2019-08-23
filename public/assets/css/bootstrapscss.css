@@ -8922,6 +8922,29 @@ button.bg-dark:focus {
   .mx-lg-5 {
     margin-left: 3rem !important;
   }
+  .m-lg-575 {
+    margin: 5.75rem !important;
+  }
+  
+  .mt-lg-575,
+  .my-lg-575 {
+    margin-top: 5.75rem !important;
+  }
+  
+  .mr-lg-575,
+  .mx-lg-575 {
+    margin-right: 5.75rem !important;
+  }
+  
+  .mb-lg-575,
+  .my-lg-575 {
+    margin-bottom: 5.75rem !important;
+  }
+  
+  .ml-lg-575,
+  .mx-lg-575 {
+    margin-left: 5.75rem !important;
+  }
   .p-lg-0 {
     padding: 0 !important;
   }
@@ -9130,6 +9153,29 @@ button.bg-dark:focus {
   .ml-lg-n5,
   .mx-lg-n5 {
     margin-left: -3rem !important;
+  }
+  .m-lg-n575 {
+    margin: -5.75rem !important;
+  }
+  
+  .mt-lg-n575,
+  .my-lg-n575 {
+    margin-top: -5.75rem !important;
+  }
+  
+  .mr-lg-n575,
+  .mx-lg-n575 {
+    margin-right: -5.75rem !important;
+  }
+  
+  .mb-lg-n575,
+  .my-lg-n575 {
+    margin-bottom: -5.75rem !important;
+  }
+  
+  .ml-lg-n575,
+  .mx-lg-n575 {
+    margin-left: -5.75rem !important;
   }
   .m-lg-auto {
     margin: auto !important;

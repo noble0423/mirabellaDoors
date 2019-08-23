@@ -1,0 +1,17 @@
+<div class="container-fluid px-0">
+    <div class="row my-6">
+        <div class="col-12 px-3">
+            <div class="arrow-transform-image shadow wow pulse" style="background: {{ xsArrowTransformRight.backgroundImage.darken }}, url('{{ arrowComponentRight.image.src }}'); background-size: cover;" id="{{ arrowComponentRight.image.id }}">
+                <div class="arrow-transform-text-div text-white pb-4 wow fadeIn slow" style="" id="{{ xsArrowTransformRight.textDiv.id }}">
+                    <h4 class="text-center pt-4 mb-3" id="{{ xsArrowTransformRight.title.id }}">{{ arrowComponentRight.title.title }}</h4>
+
+                    <div class="mx-5" id="{{ xsArrowTransformRight.wording.id }}">
+                    {{#each arrowComponentRight.wording.paragraphs}}
+                        <p class="text-justify">{{this}}</p>
+                    {{/each}}
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,25 +1,27 @@
-<div class="row my-6">
-    <div class="col-1"></div>
-    <div class="col-10 mb-4">
-        <div class="row wrapper-shadow">
-            <div class="col-7 px-0 ml-575 arrow-left {{ arrowComponentLeft.animation.arrow }}" style="background-color: {{ arrowComponentLeft.wording.bkgrndColor }}">
-                <div class="row">
-                    <div class="col-10 mb-5">
-                        <h2 class="text-center ml-6 mt-5 mb-4">{{ arrowComponentLeft.title }}</h2>
-                        
-                        <div id="{{ arrowComponentLeft.wording.id }}">
-                        {{#each arrowComponentLeft.wording.paragraphs}}
-                            <p class="ml-4rem text-justify">{{this}}</p>
-                        {{/each}}
+<div class="container-fluid">
+    <div class="row my-6">
+        <div class="d-none d-lg-block col-lg-1"></div>
+        <div class="col-12 col-lg-10 mb-4">
+            <div class="row wrapper-shadow">
+                <div class="col-7 ml-3-2 ml-lg-575 px-0 arrow-left {{ arrowComponentLeft.animation.arrow }}" style="background-color: {{ arrowComponentLeft.wording.bkgrndColor }}">
+                    <div class="row">
+                        <div class="col-10 mb-3 mb-md-5">
+                            <h2 class="text-center ml-4rem mt-4 mt-md-5 mb-4" id="{{ arrowComponentLeft.title.id }}">{{ arrowComponentLeft.title.title }}</h2>
+                            
+                            <div id="{{ arrowComponentLeft.wording.id }}">
+                            {{#each arrowComponentLeft.wording.paragraphs}}
+                                <p class="ml-4rem text-justify">{{this}}</p>
+                            {{/each}}
+                            </div>
                         </div>
+                        <div class="col-2"></div>
                     </div>
-                    <div class="col-2"></div>
+                </div>
+                
+                <div class="col-5 px-0 ml-n575 arrow-left-img {{ arrowComponentLeft.animation.image }}" style="background-image: url('{{ arrowComponentLeft.image.src }}')" id="{{ arrowComponentLeft.image.id }}">
                 </div>
             </div>
-            
-            <div class="col-5 px-0 ml-n575 arrow-left-img {{ arrowComponentLeft.animation.image }}" style="background-image: url('{{ arrowComponentLeft.image.src }}')" id="{{ arrowComponentLeft.image.id }}">
-            </div>
         </div>
+        <div class="d-none d-lg-block col-lg-1"></div>
     </div>
-    <div class="col-1"></div>
 </div>

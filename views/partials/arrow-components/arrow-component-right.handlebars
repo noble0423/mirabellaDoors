@@ -1,25 +1,27 @@
-<div class="row my-6">
-    <div class="d-none d-lg-block col-lg-1"></div>
-    <div class="col-12 col-lg-10 mb-4">
-        <div class="row wrapper-shadow">            
-            <div class="col-5 ml-3-2 ml-lg-0 px-0 mr-n575 arrow-right-img {{ arrowComponentRight.animation.image }}" style="background-image: url('{{ arrowComponentRight.image.src }}');" id="{{ arrowComponentRight.image.id }}">
-            </div>
+<div class="container-fluid">
+    <div class="row my-6">
+        <div class="d-none d-lg-block col-lg-1"></div>
+        <div class="col-12 col-lg-10 mb-4">
+            <div class="row wrapper-shadow">            
+                <div class="col-5 ml-3-2 ml-lg-0 px-0 mr-n575 arrow-right-img {{ arrowComponentRight.animation.image }}" style="background-image: url('{{ arrowComponentRight.image.src }}');" id="{{ arrowComponentRight.image.id }}">
+                </div>
 
-            <div class="col-7 px-0 arrow-right {{ arrowComponentRight.animation.arrow }}" style="background-color: {{ arrowComponentRight.wording.bkgrndColor }}">
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-10 mb-3 mb-md-5">
-                        <h2 class="text-center mr-4rem mt-4 mt-md-5 mb-4 mb-md-4" id="{{ arrowComponentRight.title.id }}">{{ arrowComponentRight.title.title }}</h2>
-                        
-                        <div id="{{ arrowComponentRight.wording.id }}">
-                        {{#each arrowComponentRight.wording.paragraphs}}
-                            <p class="mr-4rem text-justify">{{this}}</p>
-                        {{/each}}
+                <div class="col-7 px-0 arrow-right {{ arrowComponentRight.animation.arrow }}" style="background-color: {{ arrowComponentRight.wording.bkgrndColor }}">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-10 mb-3 mb-md-5">
+                            <h2 class="text-center mr-4rem mt-4 mt-md-5 mb-4" id="{{ arrowComponentRight.title.id }}">{{ arrowComponentRight.title.title }}</h2>
+                            
+                            <div id="{{ arrowComponentRight.wording.id }}">
+                            {{#each arrowComponentRight.wording.paragraphs}}
+                                <p class="mr-4rem text-justify">{{this}}</p>
+                            {{/each}}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="d-none d-lg-block col-lg-1 ml-n5"></div>
     </div>
-    <div class="d-none d-lg-block col-lg-1 ml-n5"></div>
 </div>

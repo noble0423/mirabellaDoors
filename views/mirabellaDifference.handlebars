@@ -9,13 +9,20 @@
     {{> arrow-components/arrow-component-right }}
 </div>
 
-<!-- XS Arrow Transform -->
+<!-- XS Arrow Transform (right)-->
 <div class="d-sm-none d-xs-block px-3">
-    {{> xs-arrow-transform/xs-arrow-transform }}
+    {{> xs-arrow-transform/xs-arrow-transform-right }}
 </div>
 
 <!-- Arrow Component (left) -->
-{{> arrow-components/arrow-component-left }}
+<div class="d-none d-sm-block">
+    {{> arrow-components/arrow-component-left }}
+</div>
+
+<!-- XS Arrow Transform (left) -->
+<div class="d-sm-none d-xs-block px-3">
+    {{> xs-arrow-transform/xs-arrow-transform-left }}
+</div>
 
 <!-- Buttons -->
 <div class="row my-6">
