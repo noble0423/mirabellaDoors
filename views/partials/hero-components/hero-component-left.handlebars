@@ -2,7 +2,12 @@
     <div class="hero-component-left-text-div">
         <h2 class="text-center">{{ heroComponentLeft.title }}</h2>
     </div>
-    <div class="hero-component-left-img-div shadow {{ heroComponentLeft.animation }}">
+    {{!-- <div class="col-12 px-0 hero-component-left-img-div shadow {{ heroComponentLeft.animation }}" style="background-image: url('{{ heroComponentLeft.image.src }}')" title="{{ heroComponentLeft.image.alt }}"> --}}
+    <div class="hero-component-right-img-div shadow {{ heroComponentLeft.animation }}">
         <img src="{{ heroComponentLeft.image.src }}" class="img-fluid" alt="{{ heroComponentLeft.image.alt }}">
+    </div>
+        {{!-- <div class="hero-component-left-text-div" style="height: 600px; border: 1px solid black;">
+            <h2 class="text-center">{{ heroComponentLeft.title }}</h2>
+        </div> --}}
     </div>
 </div>
