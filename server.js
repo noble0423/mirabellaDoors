@@ -436,7 +436,6 @@ app.get("/contactus", function(req, res) {
             },
             wording: {
                 paragraphs: [
-                    "NAME (required): name input field will go here",
                     "EMAIL ADDRESS (required): email input field will go here",
                     "SUBJECT: subject input field will go here",
                     "MESSAGE (required): message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here",

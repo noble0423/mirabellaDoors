@@ -1,0 +1,58 @@
+<div class="container-fluid">
+    <div class="row my-6">
+        <div class="d-none d-lg-block col-lg-1"></div>
+        <div class="col-12 col-lg-10 mb-4">
+            <div class="row wrapper-shadow">            
+                <div class="col-5 ml-3-2 ml-lg-0 px-0 mr-n575 arrow-right-img {{ arrowComponentRight.animation.image }}" style="background-image: url('{{ arrowComponentRight.image.src }}');" id="{{ arrowComponentRight.image.id }}">
+                </div>
+
+                <div class="col-7 px-0 arrow-right {{ arrowComponentRight.animation.arrow }}" style="background-color: {{ arrowComponentRight.wording.bkgrndColor }}">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-10 mb-3 mb-md-5">
+                            <h2 class="text-center mr-4rem mt-4 mt-md-5 mb-4" id="{{ arrowComponentRight.title.id }}">{{ arrowComponentRight.title.title }}</h2>
+
+                            <form class="mt-5" id="contact-us-form">
+                                <div class="form-group">
+                                    <div class="form-row wow fadeIn delay-halfs">
+                                        <div class="col-lg-5 mb-lg-0 mb-4 mr-5 mr-lg-0">
+                                            <input type="text" class="form-control" id="c_firstname" name="c_firstname" placeholder="First Name" required>
+                                        </div>
+                                        <div class="col-lg-1 mb-lg-0"></div>
+                                        <div class="col-lg-5 mb-lg-0 mr-5 mr-lg-0">
+                                            <input type="text" class="form-control" id="c_lastname" name="c_lastname" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="form-row wow fadeIn delay-sixtieths">
+                                        <div class="col-lg-8 mr-5 mr-lg-0">
+                                            <input type="email" class="form-control" id="c_email" name="c_email" placeholder="Email Address" required>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="form-row wow fadeIn delay-eigthieths">
+                                        <div class="col-lg-8 mr-5 mr-lg-0">
+                                            <input type="text" class="form-control" id="c_subject" name="c_subject" placeholder="Email Subject" required>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="form-row wow fadeIn delay-1s">
+                                        <div class="col-lg-11 mr-5 mr-lg-0">
+                                            <textarea name="FormControlTextArea" rows="10" class="form-control" id="c_message" name="c_message" placeholder="Enter Message" required></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="ajax-hidden">
+                                        <button type="button" class="btn btn-secondary text-light btn-lg mt-3 ml-5 px-5 ml-md-0 wow fadeIn delay-1-twentieths" id="contact-send-button"><i class="fas fa-paper-plane mr-3"></i>Send</button>
+                                    </div>
+                                    <div class="email-ajax-response mt-4"></div>
+                                </div>
+                            </form>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-lg-block col-lg-1 ml-n5"></div>
+    </div>
+</div>
