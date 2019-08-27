@@ -277,6 +277,50 @@ h1 {
     background-size: cover;
 }
 
+.form-control {
+    border: 1px solid #3b3527 !important;
+}
+
+.btn-secondary {
+    border-color: #3b3527 !important;
+}
+
+div#contactUsText p.ml-4rem.text-justify:first-child,
+div#contactUsXSText p.text-justify:first-child {
+    margin-bottom: 1.5rem;
+}
+
+div#contactUsText p.ml-4rem.text-justify,
+div#contactUsXSText p.text-justify {
+    margin-bottom: 0;
+}
+
+div#contactUsText p.ml-4rem.text-justify:last-child,
+div#contactUsXSText p.text-justify:last-child {
+    margin-top: 1.5rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+div#contactUsText p.ml-4rem.text-justify:not(:first-child):not(:last-child),
+div#contactUsXSText p.text-justify:not(:first-child):not(:last-child) {
+    text-align: center !important;
+}
+
+div#contactUsText p.ml-4rem.text-justify:nth-child(2),
+div#contactUsXSText p.text-justify:nth-child(2) {
+    font-weight: 900;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+div#contactUsText p.ml-4rem.text-justify:nth-child(5),
+div#contactUsXSText p.text-justify:nth-child(5),
+div#contactUsText p.ml-4rem.text-justify:nth-child(7),
+div#contactUsXSText p.text-justify:nth-child(7) {
+    margin-bottom: 1rem;
+}
+
 /* 404 Page */
 #error404Container {
     background-color: #26292e;

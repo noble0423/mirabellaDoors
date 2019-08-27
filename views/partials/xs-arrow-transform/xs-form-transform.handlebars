@@ -1,0 +1,49 @@
+<div class="container-fluid px-0">
+    <div class="row my-6">
+        <div class="col-12 px-3">
+            <div class="arrow-transform-image shadow wow pulse" style="background: {{ xsArrowTransformRight.backgroundImage.darken }}, url('{{ arrowComponentRight.image.src }}'); background-size: cover;" id="{{ arrowComponentRight.image.id }}">
+                <div class="arrow-transform-text-div text-white pb-4 wow fadeIn slow" style="" id="{{ xsArrowTransformRight.textDiv.id }}">
+                    <h4 class="text-center pt-4 mb-3" id="{{ xsArrowTransformRight.title.id }}">{{ arrowComponentRight.title.title }}</h4>
+
+                    <form class="mx-4 mt-5" id="contact-us-form">
+                        <div class="form-group">
+                            <div class="form-row wow fadeIn delay-halfs">
+                                <div class="col-12 mb-4">
+                                    <input type="text" class="form-control shadow" id="c_firstname" name="c_firstname" placeholder="First Name" required>
+                                </div>
+
+                                <div class="col-12">
+                                    <input type="text" class="form-control shadow" id="c_lastname" name="c_lastname" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-row wow fadeIn delay-sixtieths">
+                                <div class="col-12">
+                                    <input type="email" class="form-control shadow" id="c_email" name="c_email" placeholder="Email Address" required>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-row wow fadeIn delay-eigthieths">
+                                <div class="col-12">
+                                    <input type="text" class="form-control shadow" id="c_subject" name="c_subject" placeholder="Email Subject" required>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-row wow fadeIn delay-1s">
+                                <div class="col-12">
+                                    <textarea name="FormControlTextArea" rows="10" class="form-control shadow" id="c_message" name="c_message" placeholder="Enter Message" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="ajax-hidden">
+                                <button type="button" class="btn btn-secondary text-light shadow btn-lg mt-5 px-5 wow fadeIn delay-1-twentieths" id="contact-send-button"><i class="fas fa-paper-plane mr-3"></i>Send</button>
+                            </div>
+                            <div class="email-ajax-response mt-4"></div>
+                        </div>
+                    </form>    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -435,11 +435,6 @@ app.get("/contactus", function(req, res) {
                 id: "sendUsAnEmailTitleId",
             },
             wording: {
-                paragraphs: [
-                    "EMAIL ADDRESS (required): email input field will go here",
-                    "SUBJECT: subject input field will go here",
-                    "MESSAGE (required): message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here message text area will go here",
-                ],
                 bkgrndColor: "#e0f7f4",
                 id: "contactUsEmailText",
             },
@@ -461,9 +456,12 @@ app.get("/contactus", function(req, res) {
             wording: {
                 paragraphs: [
                     "Disrupt green juice woke, hashtag hot chicken locavore typewriter meggings. Letterpress pabst lomo lumbersexual selvage glossier. Fixie post-ironic snackwave asymmetrical salvia. Stumptown succulents 3 wolf moon, you probably haven't heard of them tilde poutine ramps.",
-
-                    "ADDRESS: 1234 Address Ln. Houston, TX 77777",
-                    "PHONE NUMBER: (XXX) XXX - XXXX",
+                    "Mirabella Doors",
+                    "The Houston Design Center",
+                    "7026 Old Katy Road, Suite 292",
+                    "Houston, Texas 77024",
+                    "PHONE: (713) 252-6508",
+                    "FAX: (713) 513-5935",
                     "HRS OF OPERATION: Mon.-Fri 8:00a-5:00p",
                     "*** We are often on the job site, so while walk-ins are welcome, we cannot guarantee that someone will be here to help. We highly recommend making an appointment.",
                 ],
