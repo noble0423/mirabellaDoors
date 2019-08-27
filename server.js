@@ -457,7 +457,7 @@ app.get("/contactus", function(req, res) {
         arrowComponentLeft: {
             title: {
                 title: "Contact Us",
-                id: "contactUsTtitleId",
+                id: "contactUsTitleId",
             },
             wording: {
                 paragraphs: [
@@ -479,6 +479,34 @@ app.get("/contactus", function(req, res) {
             animation: {
                 arrow: "wow fadeInLeft slow",
                 image: "wow fadeInRight slow",
+            },
+        },
+        xsArrowTransformRight: {
+            backgroundImage: {
+                darken: "linear-gradient(45deg, rgba(50, 50, 50, 0.5) 0%, rgba(100, 100, 100, .5) 80%)",
+            },
+            textDiv: {
+                id:"sendUsAnEmailXSDiv",
+            },
+            title: {
+                id: "sendUsAnEmailXSTitle",
+            },
+            wording: {
+                id: "sendUsAnEmailXSText",
+            },
+        },
+        xsArrowTransformLeft: {
+            backgroundImage: {
+                darken: "linear-gradient(45deg, rgba(75, 75, 75, 0.4) 0%, rgba(125, 125, 125, .4) 80%)",
+            },
+            textDiv: {
+                id: "contactUsXSDiv",
+            },
+            title: {
+                id: "contactUsXSTitle",
+            },
+            wording: {
+                id: "contactUsXSText",
             },
         },
     }

@@ -5,10 +5,25 @@
 {{> page-breaker-component/page-breaker-text }}
 
 <!-- Arrow Component (left) -->
-{{> arrow-components/arrow-component-left }}
+<div class="d-none d-sm-block">
+    {{> arrow-components/arrow-component-left }}
+</div>
+
+<!-- XS Arrow Tranform (left) -->
+<div class="d-sm-none d-xs-block px-3">
+    {{> xs-arrow-transform/xs-arrow-transform-left }}
+</div>
 
 <!-- Arrow Component (right) -->
-{{> arrow-components/arrow-component-right }}
+<div class="d-none d-sm-block">
+    {{> arrow-components/arrow-component-right }}
+</div>
+
+<!-- XS Arrow Transform (right)-->
+<div class="d-sm-none d-xs-block px-3">
+    {{> xs-arrow-transform/xs-arrow-transform-right }}
+</div>
+
 
 <!-- Google Maps -->
 <div class="container-fluid">
