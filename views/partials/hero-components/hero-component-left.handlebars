@@ -1,13 +1,14 @@
 <div class="container-fluid px-0 vw-100">
-    <div class="hero-component-left-text-div">
-        <h2 class="text-center">{{ heroComponentLeft.title }}</h2>
-    </div>
-    {{!-- <div class="col-12 px-0 hero-component-left-img-div shadow {{ heroComponentLeft.animation }}" style="background-image: url('{{ heroComponentLeft.image.src }}')" title="{{ heroComponentLeft.image.alt }}"> --}}
-    <div class="hero-component-right-img-div shadow {{ heroComponentLeft.animation }}">
-        <img src="{{ heroComponentLeft.image.src }}" class="img-fluid" alt="{{ heroComponentLeft.image.alt }}">
-    </div>
-        {{!-- <div class="hero-component-left-text-div" style="height: 600px; border: 1px solid black;">
-            <h2 class="text-center">{{ heroComponentLeft.title }}</h2>
-        </div> --}}
+    <div class="col-12 px-0 hero-component-left-img-div shadow {{ heroComponentLeft.animation }}" style="background-image: url('{{ heroComponentLeft.image.src }}');" title="{{ heroComponentLeft.image.alt }}">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-4">
+                <div class="hero-component-left-text-div mx-4 px-4 shadow">
+                    <h2 class="display-5 text-center my-6">{{ heroComponentLeft.title }}</h2>
+                    <h4 class="text-center text-muted"><em>Write something here like a tagline, selling point, business stat, or something to intro the page.</em></h4>
+                </div>
+            </div>
+            <div class="col-7"></div>
+        </div>
     </div>
 </div>

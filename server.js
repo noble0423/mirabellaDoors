@@ -49,7 +49,7 @@ app.get("/home", function(req, res) {
 app.get("/mirabelladifference", function(req, res) {
     const hbsObject = {
         heroComponentLeft: {
-            title: "Mirabella Difference Page",
+            title: "The Mirabella Difference",
             animation: "wow fadeIn slow",
             image: {
                 // src: "/assets/images/mirabellaDoorsImgs/hero-component/Cosmo SDFS.jpg",
@@ -146,7 +146,7 @@ app.get("/mirabelladifference", function(req, res) {
 app.get("/contemporarydoors", function(req, res) {
     const hbsObject = {
         heroComponentRight: {
-            title: "Contemporary Doors Page",
+            title: "Stunning Contemporary Doors",
             // image: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",
             animation: "wow fadeIn slow",
             image: {
@@ -208,7 +208,7 @@ app.get("/contemporarydoors", function(req, res) {
 app.get("/traditionaldoors", function(req, res) {
     const hbsObject = {
         heroComponentLeft: {
-            title: "Traditional Doors Page",
+            title: "Breathtaking Traditional Doors",
             animation: "wow fadeIn slow",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/trad_door_hero_banner.jpg",
@@ -269,7 +269,7 @@ app.get("/traditionaldoors", function(req, res) {
 app.get("/doorfinishes", function(req, res) {
     const hbsObject = {
         heroComponentRight: {
-            title: "Finishes Page",
+            title: "Beautiful Finishes",
             animation: "wow fadeIn slow",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/door_handles_up_close.jpg",
@@ -310,7 +310,7 @@ app.get("/doorfinishes", function(req, res) {
 app.get("/doordesignlibrary", function(req, res) {
     const hbsObject = {
         heroComponentLeft: {
-            title: "Door Design Library Page",
+            title: "Door Design Library",
             animation: "wow fadeIn slow",
             // image: "https://via.placeholder.com/1650x600/87ceeb?text=Hero+Banner+Component+(banner+-+left)",
             image: {
@@ -375,7 +375,7 @@ app.get("/doordesignlibrary", function(req, res) {
 app.get("/balconiesandrailings", function(req, res) {
     const hbsObject = {
         heroComponentRight: {
-            title: "Balconies and Railings Page",
+            title: "Balconies and Railings",
             animation: "wow fadeIn slow",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/railing_up_close.jpg",
@@ -418,7 +418,7 @@ app.get("/contactus", function(req, res) {
             key: gMaps.secret
         },
         heroComponentLeft: {
-            title: "Contact Us Page",
+            title: "Contact Us Today!",
             animation: "wow fadeIn slow",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/contact_us_meeting_image.jpg",
@@ -450,7 +450,7 @@ app.get("/contactus", function(req, res) {
         },
         arrowComponentLeft: {
             title: {
-                title: "Contact Us",
+                title: "Contact Info",
                 id: "contactUsTitleId",
             },
             wording: {

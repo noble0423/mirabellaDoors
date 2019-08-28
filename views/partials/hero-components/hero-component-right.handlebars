@@ -1,8 +1,14 @@
 <div class="container-fluid px-0 vw-100">
-    <div class="hero-component-right-text-div">
-        <h2 class="text-center">{{ heroComponentRight.title }}</h2>
-    </div>
-    <div class="hero-component-right-img-div shadow {{ heroComponentRight.animation }}">
-        <img src="{{ heroComponentRight.image.src }}" class="img-fluid" alt="{{ heroComponentRight.image.alt }}">
+    <div class="col-12 px-0 hero-component-right-img-div shadow {{ heroComponentRight.animation }}" style="background-image: url('{{ heroComponentRight.image.src }}'); background-size: cover;" title="{{ heroComponentRight.image.alt }}">
+        <div class="row">
+            <div class="col-7"></div>
+            <div class="col-4">
+                <div class="hero-component-right-text-div mx-4 px-4 shadow">
+                    <h2 class="display-5 text-center my-6">{{ heroComponentRight.title }}</h2>
+                    <h4 class="text-center text-muted"><em>Write something here like a tagline, selling point, business stat, or something to intro the page.</em></h4>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
     </div>
 </div>
