@@ -215,13 +215,22 @@ h1 {
 
 .xs-hero-component-title {
     padding-top: 9rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.xs-hero-component-sub-text {
+    padding-bottom: 1rem;
 }
 
 .xs-hero-component-title,
 .xs-hero-component-sub-text {
     text-shadow: 1px 2px rgb(44, 44, 44);
 }
+
+/* .xs-hero-component-right-text-div,
+.xs-hero-component-left-text-div {
+    min-height: 300px;
+} */
 
 /* Arrow Components */
 .arrow-left {

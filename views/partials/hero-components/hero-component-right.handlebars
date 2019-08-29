@@ -1,23 +1,31 @@
-<div class="container-fluid px-0 vw-100">
+<!-- SM Screen Sizes and Larger -->
+<div class="d-none d-sm-block container-fluid px-0 vw-100">
     <div class="col-12 px-0 hero-component-right-img-div shadow {{ heroComponentRight.animation }}" style="background-image: url('{{ heroComponentRight.image.src }}'); background-size: cover;" title="{{ heroComponentRight.image.alt }}">
         <div class="row">
-            <div class="d-none d-sm-block col-sm-7 px-0 px-xl-3"></div>
-            <div class="d-none d-sm-block col-sm-4 px-0 px-xl-3">
+            <div class="col-7 px-0 px-xl-3"></div>
+            <div class="col-4 px-0 px-xl-3">
                 <div class="hero-component-right-text-div mx-0 mx-xl-4 px-0 px-md-4 shadow">
                     <h2 class="display-4 text-center hero-component-title px-2 px-md-0 my-6">{{ heroComponentRight.title }}</h2>
                     <h4 class="text-center text-muted hero-component-sub-text px-4 px-md-0"><em>Write something here like a tagline, selling point, business stat, or something to intro the page.</em></h4>
                 </div>
             </div>
-            <div class="d-none d-sm-block col-sm-1 px-0 px-xl-3"></div>
+            <div class="col-1 px-0 px-xl-3"></div>
+        </div>
+    </div>
+</div>
 
-            <div class="d-block d-sm-none col-1"></div>
-            <div class="d-block d-sm-none col-10">
-                <div class="xs-hero-component-right-text-div text-white text-center" style="min-height: 300px;">
-                    <h3 class="xs-hero-component-title">{{ heroComponentRight.title }}</h3>
+<!-- XS Screen sizes only -->
+<div class="d-block d-sm-none container-fluid px-0 vw-100">
+    <div class="col-12 px-0 hero-component-right-img-div shadow {{ heroComponentRight.animation }}" style="background: linear-gradient(45deg, rgba(50, 50, 50, 0.5) 0%, rgba(100, 100, 100, 0.5) 80%) 0% 0% / cover, url('{{ xsHeroComponentRight.image.src }}'); background-size: cover;" title="{{ heroComponentRight.image.alt }}">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="xs-hero-component-right-text-div text-white text-center">
+                    <h3 class="xs-hero-component-title px-5">{{ heroComponentRight.title }}</h3>
                     <h6 class="xs-hero-component-sub-text"><em>Write something here like a tagline, selling point, business stat, or something to intro the page.</em></h6>                    
                 </div>
             </div>
-            <div class="d-block d-sm-none col-1"></div>
+            <div class="col-1"></div>
         </div>
     </div>
 </div>

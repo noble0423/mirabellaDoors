@@ -57,6 +57,11 @@ app.get("/mirabelladifference", function(req, res) {
                 alt: "The Mirabella Difference - Houston's Premier Custom Doors Banner Image",
             },
         },
+        xsHeroComponentLeft: {
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",
+            },
+        },
         pageBreakerText: { 
             text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
@@ -154,6 +159,11 @@ app.get("/contemporarydoors", function(req, res) {
                 alt: "Mirabella Doors - Contemporary Doors Banner Image - Greater Houston",
             },
         },
+        xsHeroComponentRight: {
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/WMain-007.jpg",
+            },
+        },
         pageBreakerText: {
             text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
@@ -213,6 +223,11 @@ app.get("/traditionaldoors", function(req, res) {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/trad_door_hero_banner.jpg",
                 alt: "Mirabella Doors - Traditional Doors Banner Image",
+            },
+        },
+        xsHeroComponentLeft: {
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/xs_trad_door_hero_banner.jpg",
             },
         },
         pageBreakerText: {
@@ -279,6 +294,11 @@ app.get("/doorfinishes", function(req, res) {
                 alt: "Mirabella Doors - High Quality Custom Door Finishes Banner Image",
             },
         },
+        xsHeroComponentRight: {
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/door_handles_up_close.jpg",
+            },
+        },
         pageBreakerText: {
             text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
@@ -317,6 +337,11 @@ app.get("/doordesignlibrary", function(req, res) {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/architect-back-black-and-white-1496141.jpg",
                 // src: "/assets/images/mirabellaDoorsImgs/hero-component/Lady_laptop.jpg",
                 alt: "Mirabella Doors - Door Design Library Banner Image",
+            },
+        },
+        xsHeroComponentLeft: {
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/xs_architect-back-black-and-white-1496141.jpg",
             },
         },
         pageBreakerText: {
@@ -382,6 +407,11 @@ app.get("/balconiesandrailings", function(req, res) {
                 alt: "Mirabella Doors - Custom Balconies and Railings Banner Image",
             },
         },
+        xsHeroComponentRight: {
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/xs_railing_up_close.jpg",
+            },
+        },
         pageBreakerText: {
             text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
@@ -423,6 +453,11 @@ app.get("/contactus", function(req, res) {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/contact_us_meeting_image.jpg",
                 alt: "Mirabella Doors - Expertly Crafted Custom Doors - Contact Us Banner Image",
+            },
+        },
+        xsHeroComponentLeft: {
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/xs_contact_us_meeting_image.jpg",
             },
         },
         pageBreakerText: {
