@@ -204,13 +204,23 @@ h1 {
 }
 .hero-component-left-text-div,
 .hero-component-right-text-div {
-    height: 600px;
+    /* max-width: 550px; */
     border-top: .1px solid rgba(0, 0, 0, 0); 
     border-right: 1px solid #6a5835;
     border-bottom: .1px solid rgba(0, 0, 0, 0);
     border-left: 1px solid #6a5835;
     background: white; 
     opacity: .9;
+}
+
+.xs-hero-component-title {
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+}
+
+.xs-hero-component-title,
+.xs-hero-component-sub-text {
+    text-shadow: 1px 2px rgb(44, 44, 44);
 }
 
 /* Arrow Components */
@@ -471,6 +481,94 @@ div#contactUsXSText p.text-justify:nth-child(7) {
         font-size: .85rem;
     }
 } */
+
+/* Hero Components - All Pages */
+@media only screen and (min-width: 1600px) {
+    .hero-component-left-text-div,
+    .hero-component-right-text-div {
+        min-height: 750px;
+    }
+    .hero-component-title {
+        margin-top: 9rem !important;
+        margin-bottom: 7rem !important;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .hero-component-left-text-div,
+    .hero-component-right-text-div {
+        min-height: 650px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .hero-component-left-text-div,
+    .hero-component-right-text-div {
+        min-height: 575px;
+    }
+    .hero-component-title {
+        font-size: 2.8rem !important;
+        margin-top: 7rem !important;
+        margin-bottom: 7rem !important;
+    }
+    .hero-component-sub-text {
+        font-size: 1.25rem !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .hero-component-left-text-div,
+    .hero-component-right-text-div {
+        min-height: 500px;
+    }
+    .hero-component-title {
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .hero-component-left-text-div,
+    .hero-component-right-text-div {
+        min-height: 450px;
+    }
+    .hero-component-title {
+        font-size: 2.15rem !important;
+        margin-top: 4rem !important;
+        margin-bottom: 4rem !important;
+    }
+    .hero-component-sub-text {
+        font-size: 1.125rem !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-component-left-text-div,
+    .hero-component-right-text-div {
+        min-height: 400px;
+    }
+    .hero-component-title {
+        font-size: 2rem !important;
+    }
+    .hero-component-sub-text {
+        font-size: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .hero-component-left-text-div,
+    .hero-component-right-text-div {
+        min-height: 350px;
+    }
+    .hero-component-title {
+        font-size: 1.75rem !important;
+        margin-top: 2.75rem !important;
+        margin-bottom: 2.75rem !important;
+    }
+    .hero-component-sub-text {
+        font-size: .85rem !important;
+    }
+}
 
 /* Mb Difference Pg */
 /* Arrow Component Right */
