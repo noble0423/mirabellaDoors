@@ -31,11 +31,16 @@ a.nav-link {
     text-shadow: 2px 2px 3px rgba(195, 195, 195, 0.9)
 }
 
-.hero-component-sub-text {
+.hero-component-sub-text,
+.xs-hero-component-sub-text {
     font-family: 'Mallanna', sans-serif;
     /* font-family: 'Ruluko', sans-serif; */
     /* font-family: 'Cantarell', sans-serif; */
     /* font-family: 'Arima Madurai', cursive; */
+}
+
+.xs-hero-component-title {
+    font-family: 'Nunito', sans-serif;
 }
 
 .page-breaker-text {
@@ -52,6 +57,11 @@ a.nav-link {
     font-weight: 900; 
     text-shadow: 1px 2px 2px rgb(175, 175, 175);
     /* text-decoration: underline;    */
+}
+
+.xs-arrow-component-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900; 
 }
 
 h1 {
