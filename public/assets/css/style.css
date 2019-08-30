@@ -1,28 +1,69 @@
 body {
-    /* font-family: Futura-light; */
-    font-family: 'Marmelad', sans-serif;
-    /* overflow-x: hidden; */
+    /* Like Futura Light */ 
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Livvic', sans-serif;
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Asap', sans-serif; */
+    /* font-family: 'Cantarell', sans-serif; */
+    /* font-family: 'Khula', sans-serif; */
+    /* font-family: 'Mallanna', sans-serif; */
+
+    /* Alternative Fonts */
+    /* font-family: 'Arima Madurai', cursive; */
+    /* font-family: 'Ruluko', sans-serif; */
+}
+
+.navbar,
+.btn {
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Khula', sans-serif;
 }
 
 a.nav-link {
-    /* font-family: Futura-light, Sans-Serif; */
-    font-family: 'Marmelad', sans-serif;
     font-size: .85rem;
 }
 
+.hero-component-title {
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Livvic', sans-serif; */
+    /* font-family: 'Asap', sans-serif; */
+    /* font-weight: 900; */
+    text-shadow: 2px 2px 3px rgba(195, 195, 195, 0.9)
+}
+
+.hero-component-sub-text {
+    font-family: 'Mallanna', sans-serif;
+    /* font-family: 'Ruluko', sans-serif; */
+    /* font-family: 'Cantarell', sans-serif; */
+    /* font-family: 'Arima Madurai', cursive; */
+}
+
+.page-breaker-text {
+    /* font-family: 'Livvic', sans-serif; */
+    font-family: 'Mallanna', sans-serif;
+    /* font-family: 'Ruluko', sans-serif;      */
+    font-size: 1.3rem; 
+    line-height: 1.7;
+}
+
+.arrow-component-title {
+    font-family: 'Nunito', sans-serif;
+    color: rgba(65, 65, 65, 0.9); 
+    font-weight: 900; 
+    text-shadow: 1px 2px 2px rgb(175, 175, 175);
+    /* text-decoration: underline;    */
+}
+
 h1 {
-    font-family: Futura-light;
     text-shadow: 2px 2px #6A5835;
 }
 
 .hero-image-paragraph-font {
     font-size: 1.75rem;
-    font-family: 'Charm', cursive;
     text-shadow: 1px 2px #6A5835;
 }
 
 #mirabellaDifferenceHeading {
-    font-family: Futura-light;
     letter-spacing: .2rem;
     /* color: #6d5b37; */
     color: rgb(156, 156, 156);
@@ -35,16 +76,6 @@ h1 {
 
 .mirabella-difference-paragraph {
     font-size: 1.25rem;
-    /* letter-spacing: 2px; */
-    /* font-family: Michroma, sans-serif; */
-    /* font-family: Futura-light, Sans-Serif; */
-    /* font-family: 'Charm', cursive; */
-    /* font-family: 'Lato', sans-serif; */
-    /* font-family: 'Ubuntu Condensed', sans-serif; */
-    /* font-family: 'Sawarabi Mincho', sans-serif; */
-    font-family: 'Marmelad', sans-serif;
-    /* font-family: 'Courgette', cursive; */
-    /* font-family: 'Fondamento', cursive; */
 }
 
 .core-value-card {
@@ -69,7 +100,6 @@ h1 {
 }
 
 #featuredDoorsHeading {
-    font-family: Futura-light;
     letter-spacing: .2rem;
     color: #736735;
     /* color: rgb(156, 156, 156); */
@@ -129,7 +159,8 @@ h1 {
 }
 
 .wrapper-shadow {
-    filter: drop-shadow(-1px 4px 10px rgba(50, 50, 0, 0.3));
+    /* filter: drop-shadow(-1px 4px 10px rgba(50, 50, 0, 0.3)); */
+    filter: drop-shadow(0 0.25rem 0.5rem rgba(0, 0, 0, 0.125));
 }
 
 .bg-transparent-gray {
