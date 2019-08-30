@@ -23,6 +23,14 @@ a.nav-link {
     font-size: .85rem;
 }
 
+.caption-title {
+    /* font-family: 'Cantarell', sans-serif; */
+    font-family: 'Khula', sans-serif;    
+    /* font-family: 'Nunito', sans-serif; */
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Asap', sans-serif; */
+}
+
 .hero-component-title {
     font-family: 'Nunito', sans-serif;
     /* font-family: 'Livvic', sans-serif; */
@@ -69,6 +77,9 @@ h1 {
 }
 
 .hero-image-paragraph-font {
+    /* font-family: 'Livvic', sans-serif; */
+    /* font-family: 'Mallanna', sans-serif; */
+    font-family: 'Ruluko', sans-serif;     
     font-size: 1.75rem;
     text-shadow: 1px 2px #6A5835;
 }
