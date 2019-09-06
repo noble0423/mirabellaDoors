@@ -80,6 +80,11 @@ app.get("/mirabelladifference", function(req, res) {
                     '"First impressions" is not only our motto, it is our specialty!',
                 ],
                 bkgrndColor: "#f6fae8",
+                // bkgrndColor: "white",
+                // bkgrndColor: "linear-gradient(346deg, rgba(240,255,206,1) 0%, rgba(255,249,222,1) 60%);",
+                // bkgrndColor: "radial-gradient( circle farthest-corner at 10% 20%,  rgba(226,240,254,1) 0%, rgba(255,247,228,1) 90% );",
+                // bkgrndColor: "radial-gradient( circle farthest-corner at 18.7% 37.8%,  rgba(250,250,250,1) 0%, rgba(225,234,238,1) 90% );",
+                // bkgrndColor: "radial-gradient( circle 905px at 4.9% 85.8%,  rgba(255,243,242,1) 0.1%, rgba(255,247,220,1) 57.6% );",
                 id: "mirabellaDifferenceText",
             },
             image: {
