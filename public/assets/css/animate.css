@@ -3593,6 +3593,11 @@
   animation-delay: .30s;
 }
 
+.animated.delay-thirty-fifths {
+  -webkit-animation-delay: .35s;
+  animation-delay: .35s;
+}
+
 .animated.delay-fortieths {
   -webkit-animation-delay: .4s;
   animation-delay: .4s;

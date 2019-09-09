@@ -11,32 +11,18 @@
             </div>
             <div class="col-8">
                 <div class="row mb-4">
-                    <div class="col-3">
-                        <img src="{{ imagesComponentLeft.smallImage.src }}" class="img-fluid shadow-sm {{ imagesComponentLeft.smallImage.animation }}" alt="{{ imagesComponentLeft.smallImage.alt }}">
-                    </div>
-                    <div class="col-3">
-                        <img src="{{ imagesComponentLeft.smallImage.src }}" class="img-fluid shadow-sm {{ imagesComponentLeft.smallImage.animation }}" alt="{{ imagesComponentLeft.smallImage.alt }}">
-                    </div>
-                    <div class="col-3">
-                        <img src="{{ imagesComponentLeft.smallImage.src }}" class="img-fluid shadow-sm {{ imagesComponentLeft.smallImage.animation }}" alt="{{ imagesComponentLeft.smallImage.alt }}">
-                    </div>
-                    <div class="col-3">
-                        <img src="{{ imagesComponentLeft.smallImage.src }}" class="img-fluid shadow-sm {{ imagesComponentLeft.smallImage.animation }}" alt="{{ imagesComponentLeft.smallImage.alt }}">
-                    </div>
+                    {{#each imagesComponentLeft.smallImage.topRow}}
+                        <div class="col-3">
+                            <img src="{{ this.src }}" class="img-fluid shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
+                        </div>
+                    {{/each}}
                 </div>
                 <div class="row">
-                    <div class="col-3">
-                        <img src="{{ imagesComponentLeft.smallImage.src }}" class="img-fluid shadow-sm {{ imagesComponentLeft.smallImage.animation }}" alt="{{ imagesComponentLeft.smallImage.alt }}">
-                    </div>
-                    <div class="col-3">
-                        <img src="{{ imagesComponentLeft.smallImage.src }}" class="img-fluid shadow-sm {{ imagesComponentLeft.smallImage.animation }}" alt="{{ imagesComponentLeft.smallImage.alt }}">
-                    </div>
-                    <div class="col-3">
-                        <img src="{{ imagesComponentLeft.smallImage.src }}" class="img-fluid shadow-sm {{ imagesComponentLeft.smallImage.animation }}" alt="{{ imagesComponentLeft.smallImage.alt }}">
-                    </div>
-                    <div class="col-3">
-                        <img src="{{ imagesComponentLeft.smallImage.src }}" class="img-fluid shadow-sm {{ imagesComponentLeft.smallImage.animation }}" alt="{{ imagesComponentLeft.smallImage.alt }}">
-                    </div>
+                    {{#each imagesComponentLeft.smallImage.bottomRow}}
+                        <div class="col-3">
+                            <img src="{{ this.src }}" class="img-fluid shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
+                        </div>
+                    {{/each}}
                 </div>
             </div>
         </div>

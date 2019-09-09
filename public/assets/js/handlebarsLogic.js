@@ -1,6 +1,72 @@
+// This will end up being an AJAX call that will loop through images and assign them to variables in order to pass them into hbsInfo.
+
+const testImageArray = [
+    {
+        src: "https://via.placeholder.com/200x325/?text=Small+Door+IMG",
+        alt: "small image alt test1",
+        animation: "wow fadeIn slower",
+    },
+    {
+        src: "https://via.placeholder.com/200x325/?text=Small+Door+IMG",
+        alt: "small image alt test2",
+        animation: "wow fadeIn slower delay-tenths",
+    },
+    {
+        src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
+        alt: "small image alt test3",
+        animation: "wow fadeIn slower delay-fifteenths",
+    },
+    {
+        src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
+        alt: "small image alt test4",
+        animation: "wow fadeIn slower delay-twentieths",
+    }, 
+    {
+        src: "https://via.placeholder.com/200x325/?text=Small+Door+IMG",
+        alt: "small image alt test5",
+        animation: "wow fadeIn slower delay-quarters",
+    },
+    {
+        src: "https://via.placeholder.com/200x325/?text=Small+Door+IMG",
+        alt: "small image alt test6",
+        animation: "wow fadeIn slower delay-thirtieths",
+    },
+    {
+        src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
+        alt: "small image alt test7",
+        animation: "wow fadeIn slower delay-thirty-fifths",
+    },
+    {
+        src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
+        alt: "small image alt test8",
+        animation: "wow fadeIn slower delay-fortieths",
+    },
+];
+
+const topRowImgArray = [];
+const bottomRowImgArray = [];
+
+// Loop through images array
+function loop(array) {
+
+    for (let i = 0; i < array.length; i++) {
+        if (i < 4) {
+            topRowImgArray.push(array[i]);
+        }
+        else {
+            bottomRowImgArray.push(array[i]);
+        }
+    };
+}
+
+loop(testImageArray);
+
+// console.log(topRowImgArray);
+// console.log(bottomRowImgArray);
+
 const hbsInfo = {
 
-    // Mirabella Difference Page Handlbars Info
+    // Mirabella Difference Page Handlebars Info
     mbDiffPage: {
 
         hbsTestTry1: "you got it man",
@@ -107,7 +173,7 @@ const hbsInfo = {
         },
     },
 
-    // Contemporary Doors Page Handlbars Info
+    // Contemporary Doors Page Handlebars Info
     contDoorsPage: {
         heroComponentRight: {
             title: "Stunning Contemporary Doors",
@@ -128,9 +194,6 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            one: {
-
-            },
             largeImage: {
                 // this will be grabbed from db later
                 src: [
@@ -144,10 +207,9 @@ const hbsInfo = {
                 animation: "wow zoomIn",
             },
             smallImage: {
-                // change to an array (this will be grabbed from db later)
-                src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
-                alt: "small image alt test",
-                animation: "wow fadeIn slower",
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: topRowImgArray,
+                bottomRow: bottomRowImgArray,
             },
         },
         imagesComponentRight: {
@@ -164,15 +226,14 @@ const hbsInfo = {
                 animation: "wow zoomIn",
             },
             smallImage: {
-                // change to an array (this will be grabbed from db later)
-                src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
-                alt: "small image alt test",
-                animation: "wow fadeIn slower",
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: topRowImgArray,
+                bottomRow: bottomRowImgArray,
             },
         },
     },
 
-    // Traditional Doors Page Handlbars Info
+    // Traditional Doors Page Handlebars Info
     tradDoorsPage: {
         heroComponentLeft: {
             title: "Breathtaking Traditional Doors",
@@ -207,10 +268,9 @@ const hbsInfo = {
                 animation: "wow zoomIn",
             },
             smallImage: {
-                // change to an array (this will be grabbed from db later)
-                src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
-                alt: "small image alt test",
-                animation: "wow fadeIn slower",
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: topRowImgArray,
+                bottomRow: bottomRowImgArray,
             },
         },
         imagesComponentRight: {
@@ -228,15 +288,14 @@ const hbsInfo = {
                 animation: "wow zoomIn",
             },
             smallImage: {
-                // change to an array (this will be grabbed from db later)
-                src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
-                alt: "small image alt test",
-                animation: "wow fadeIn slower",
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: topRowImgArray,
+                bottomRow: bottomRowImgArray,
             },
         },
     },
 
-    // Door Finshes Page Handlbars Info
+    // Door Finishes Page Handlebars Info
     doorFinishesPage: {
         heroComponentRight: {
             title: "Beautiful Finishes",
@@ -272,10 +331,9 @@ const hbsInfo = {
                 animation: "wow zoomIn",
             },
             smallImage: {
-                // change to an array (this will be grabbed from db later)
-                src: "https://via.placeholder.com/200x325?text=Finishes+IMG",
-                alt: "small image alt test",
-                animation: "wow fadeIn slower",
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: topRowImgArray,
+                bottomRow: bottomRowImgArray,
             },
         },
     },
@@ -317,10 +375,9 @@ const hbsInfo = {
                 animation: "wow zoomIn",
             },
             smallImage: {
-                // change to an array (this will be grabbed from db later)
-                src: "https://via.placeholder.com/200x325?text=Small+CAD+IMG",
-                alt: "small image alt test",
-                animation: "wow fadeIn slower",
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: topRowImgArray,
+                bottomRow: bottomRowImgArray,
             },
         },
         imagesComponentRight: {
@@ -340,10 +397,9 @@ const hbsInfo = {
                 animation: "wow zoomIn",
             },
             smallImage: {
-                // change to an array (this will be grabbed from db later)
-                src: "https://via.placeholder.com/200x325?text=Small+CAD+IMG",
-                alt: "small image alt test",
-                animation: "wow fadeIn slower",
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: topRowImgArray,
+                bottomRow: bottomRowImgArray,
             },
         },
     },
@@ -381,10 +437,9 @@ const hbsInfo = {
                 animation: "wow zoomIn",
             },
             smallImage: {
-                // change to an array (this will be grabbed from db later)
-                src: "https://via.placeholder.com/200x325?text=Railing+IMG",
-                alt: "small image alt test",
-                animation: "wow fadeIn slower",
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: topRowImgArray,
+                bottomRow: bottomRowImgArray,
             },
         },
     },
