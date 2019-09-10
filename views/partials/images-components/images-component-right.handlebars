@@ -3,23 +3,23 @@
     <div class="col-10">
         <div class="row">
             <div class="col-8">
-                <div class="row mb-4">
+                <div class="row my-4">
                     {{#each imagesComponentRight.smallImage.topRow}}
                         <div class="col-3">
-                            <img src="{{ this.src }}" class="img-fluid shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
+                                <img src="{{ this.src }}" class="img-fluid small-door-image shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
                         </div>
                     {{/each}}
                 </div>
                 <div class="row">
                     {{#each imagesComponentRight.smallImage.bottomRow}}
                         <div class="col-3">
-                            <img src="{{ this.src }}" class="img-fluid shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
+                            <img src="{{ this.src }}" class="img-fluid small-door-image shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
                         </div>
                     {{/each}}
                 </div>
             </div>
             <div class="col-4">
-                <img src="{{ imagesComponentRight.largeImage.src.[0] }}" class="img-fluid shadow-md {{ imagesComponentRight.largeImage.animation }}" alt="Responsive image {{ imagesComponentRight.largeImage.alt.[0] }}">
+                <img src="{{ imagesComponentRight.largeImage.src.[0] }}" class="img-fluid large-door-image shadow-md {{ imagesComponentRight.largeImage.animation }}" alt="Responsive image {{ imagesComponentRight.largeImage.alt.[0] }}">
             </div>
         </div>
     </div>

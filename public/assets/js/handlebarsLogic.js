@@ -2,42 +2,42 @@
 
 const testImageArray = [
     {
-        src: "https://via.placeholder.com/200x325/?text=Small+Door+IMG",
+        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_0008-Edit.jpeg",
         alt: "small image alt test1",
         animation: "wow fadeIn slower",
     },
     {
-        src: "https://via.placeholder.com/200x325/?text=Small+Door+IMG",
+        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_0017-Edit.jpeg",
         alt: "small image alt test2",
         animation: "wow fadeIn slower delay-tenths",
     },
     {
-        src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
+        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_9774-Edit.jpeg",
         alt: "small image alt test3",
         animation: "wow fadeIn slower delay-fifteenths",
     },
     {
-        src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
+        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_9805-Edit.jpeg",
         alt: "small image alt test4",
         animation: "wow fadeIn slower delay-twentieths",
     }, 
     {
-        src: "https://via.placeholder.com/200x325/?text=Small+Door+IMG",
+        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_9874-Edit.jpeg",
         alt: "small image alt test5",
         animation: "wow fadeIn slower delay-quarters",
     },
     {
-        src: "https://via.placeholder.com/200x325/?text=Small+Door+IMG",
+        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_exterior_detail.jpeg",
         alt: "small image alt test6",
         animation: "wow fadeIn slower delay-thirtieths",
     },
     {
-        src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
+        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_interior_door.jpeg",
         alt: "small image alt test7",
         animation: "wow fadeIn slower delay-thirty-fifths",
     },
     {
-        src: "https://via.placeholder.com/200x325?text=Small+Door+IMG",
+        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/6142WP Front Doors (no transom).jpeg",
         alt: "small image alt test8",
         animation: "wow fadeIn slower delay-fortieths",
     },

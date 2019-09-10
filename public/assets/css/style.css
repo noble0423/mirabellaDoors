@@ -350,6 +350,18 @@ h1 {
     font-size: 1rem;
 }
 
+/* All Images Pages */
+/* Small Imgs */
+.small-door-image-div {
+    /* width: 200px; */
+    /* height: 325px; */
+}
+
+.small-door-image,
+.large-door-image {
+    border: 1px solid #6a5835; 
+}
+
 /* Contact Us Page */
 #contactUsImg,
 #contactUsEmailImg {
@@ -399,6 +411,16 @@ div#contactUsXSText p.text-justify:nth-child(5),
 div#contactUsText p.ml-4rem.text-justify:nth-child(7),
 div#contactUsXSText p.text-justify:nth-child(7) {
     margin-bottom: 1rem;
+}
+
+#googleMapsCol {
+    /* fallback for old browsers */
+    background: #8c9aa7;  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(45deg, #d7d2cc, #8c9aa7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(45deg, #d7d2cc, #8c9aa7); 
+    
 }
 
 /* 404 Page */

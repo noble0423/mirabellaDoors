@@ -7,20 +7,20 @@
                 {{!-- {{ #if test=0 }}
                     <h1>{{ imagesComponentLeft.largeImage.title }}</h1>
                 {{ /if }} --}}
-                <img src="{{ imagesComponentLeft.largeImage.src.[0] }}" class="img-fluid shadow-md {{ imagesComponentLeft.largeImage.animation }}" alt="{{ imagesComponentLeft.largeImage.alt.[0] }}">
+                <img src="{{ imagesComponentLeft.largeImage.src.[0] }}" class="img-fluid large-door-image shadow-md {{ imagesComponentLeft.largeImage.animation }}" alt="{{ imagesComponentLeft.largeImage.alt.[0] }}">
             </div>
             <div class="col-8">
-                <div class="row mb-4">
+                <div class="row my-4">
                     {{#each imagesComponentLeft.smallImage.topRow}}
                         <div class="col-3">
-                            <img src="{{ this.src }}" class="img-fluid shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
+                                <img src="{{ this.src }}" class="img-fluid small-door-image shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
                         </div>
                     {{/each}}
                 </div>
                 <div class="row">
                     {{#each imagesComponentLeft.smallImage.bottomRow}}
                         <div class="col-3">
-                            <img src="{{ this.src }}" class="img-fluid shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
+                            <img src="{{ this.src }}" class="img-fluid small-door-image shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
                         </div>
                     {{/each}}
                 </div>
