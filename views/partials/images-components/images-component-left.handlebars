@@ -13,14 +13,38 @@
                 <div class="row my-4">
                     {{#each imagesComponentLeft.smallImage.topRow}}
                         <div class="col-3">
-                                <img src="{{ this.src }}" class="img-fluid small-door-image shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
+                            <div class="container px-0 shadow-sm {{ this.animation }}">
+                                <div class="content">
+                                    <div class="content-overlay"></div>
+                                    <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h6 class="content-title">DESIGN: {{ this.design }}</h6>
+                                        <p class="content-text">Glass: {{ this.glass }}</p>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            {{!-- <img src="{{ this.src }}" class="img-fluid small-door-image shadow-sm {{ this.animation }}" alt="{{ this.alt }}"> --}}
                         </div>
                     {{/each}}
                 </div>
                 <div class="row">
                     {{#each imagesComponentLeft.smallImage.bottomRow}}
                         <div class="col-3">
-                            <img src="{{ this.src }}" class="img-fluid small-door-image shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
+                            <div class="container px-0 shadow-sm {{ this.animation }}">
+                                <div class="content">
+                                    <div class="content-overlay"></div>
+                                    <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h6 class="content-title">DESIGN: {{ this.design }}</h6>
+                                        <p class="content-text">Glass: {{ this.glass }}</p>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            {{!-- <img src="{{ this.src }}" class="img-fluid small-door-image shadow-sm {{ this.animation }}" alt="{{ this.alt }}"> --}}
                         </div>
                     {{/each}}
                 </div>
