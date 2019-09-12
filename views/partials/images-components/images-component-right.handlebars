@@ -17,12 +17,6 @@
                                     </a>
                                 </div>
                             </div>
-
-                            {{!-- <div class="img-hover-background">
-                                <img src="{{ this.src }}" class="img-fluid small-door-image shadow-sm {{ this.animation }}" alt="{{ this.alt }}">
-                            </div> --}}
-
-                            {{!-- </div> --}}
                         </div>
                     {{/each}}
                 </div>
@@ -40,14 +34,18 @@
                                     </a>
                                 </div>
                             </div>
-
-                            {{!-- <img src="{{ this.src }}" class="img-fluid small-door-image shadow-sm {{ this.animation }}" alt="{{ this.alt }}"> --}}
                         </div>
                     {{/each}}
                 </div>
             </div>
             <div class="col-4">
-                <img src="{{ imagesComponentRight.largeImage.src.[0] }}" class="img-fluid large-door-image shadow-md {{ imagesComponentRight.largeImage.animation }}" alt="Responsive image {{ imagesComponentRight.largeImage.alt.[0] }}">
+                {{#unless partialContextSrc}}
+                    <img src="{{ imagesComponentRight.largeImage.src.[0] }}" class="img-fluid large-door-image shadow-md {{ imagesComponentRight.largeImage.animation }}" alt="Responsive image {{ imagesComponentRight.largeImage.alt.[0] }}">
+                {{/unless}}
+
+                {{#if partialContextSrc}}
+                    <img src="{{ partialContextSrc }}" class="img-fluid large-door-image shadow-md {{ imagesComponentRight.largeImage.animation }}" alt="Responsive image {{ partialContextAlt }}">
+                {{/if}}
             </div>
         </div>
     </div>

@@ -11,10 +11,11 @@
 {{> images-components/images-component-right }}
 
 <!-- Best Selling Image Left -->
-{{> images-components/images-component-left }}
+{{> images-components/images-component-left partialContextSrc=imagesComponentLeft.largeImage.src.[1] partialContextAlt=imagesComponentLeft.largeImage.alt.[1] }}
 
 <!-- Best Selling Image Right -->
-{{> images-components/images-component-right }}
+{{> images-components/images-component-right 
+partialContextSrc=imagesComponentRight.largeImage.src.[1] partialContextAlt=imagesComponentRight.largeImage.alt.[1]}}
 
 <!-- Buttons -->
 <div class="row my-6">

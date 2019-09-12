@@ -214,11 +214,11 @@ const hbsInfo = {
                 // this will be grabbed from db later
                 src: [
                     "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan-Sleek.jpg"
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan-Sleek.jpg",
                 ],
                 alt: [
                     "left test1111",
-                    // "left test2222",
+                    "left test2222",
                 ],
                 animation: "wow zoomIn",
             },
@@ -237,7 +237,7 @@ const hbsInfo = {
                 ],
                 alt: [
                     "right test1111",
-                    // "right test2222",
+                    "right test2222",
                 ],
                 animation: "wow zoomIn",
             },
@@ -273,8 +273,8 @@ const hbsInfo = {
                 // this will be grabbed from db later
                 src: [ 
                     "/assets/images/mirabellaDoorsImgs/imagesComponent/Bellagio_DD.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Madison_full_surround.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_stone_topper.jpg",
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/Madison_full_surround.jpg",
+                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_stone_topper.jpg",
                     "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_indoor_rounded.jpg"
                 ],
                 alt: [
@@ -293,9 +293,9 @@ const hbsInfo = {
             largeImage: {
                 // this will be grabbed from db later
                 src: [
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/tall_curved_traditional.jpg", 
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_outdoor_rounded.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/tall_curved_traditional.jpg", 
                     // "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_rounded_wine.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_outdoor_rounded.jpg"
                 ],
                 alt: [
                     "right test1111",
@@ -379,14 +379,16 @@ const hbsInfo = {
             largeImage: {
                 // this will be grabbed from db later
                 src: [
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_trad.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/pencil_on_CAD_drawing.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/leaves_detail.jpg", 
                     "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_two_doors.jpg",
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/pencil_on_CAD_drawing.jpg",
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/leaves_detail.jpg", 
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_trad.jpg",
                 ],
                 alt: [
                     "left test1111",
                     "left test2222",
+                    "left test3333",
+                    "left test4444",                                       
                 ],
                 animation: "wow zoomIn",
             },
@@ -400,15 +402,18 @@ const hbsInfo = {
             largeImage: {
                 // this will be grabbed from db later
                 src: [
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/swatch_on_CAD_drawing.jpg",
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/door_handles_detail.jpg",
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_cont_square.jpg",
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/artist_drawing.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/wine_gate_detail.jpg", 
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/swatch_on_CAD_drawing.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/door_handles_detail.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_cont_square.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/artist_drawing.jpg", 
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/wine_gate_detail.jpg",
                 ],
                 alt: [
                     "right test1111",
                     "right test2222",
+                    "right test3333",
+                    "right test4444",
+                    "right test5555",
                 ],
                 animation: "wow zoomIn",
             },
