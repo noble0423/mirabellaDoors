@@ -9065,6 +9065,26 @@ button.bg-dark:focus {
   .px-lg-4 {
     padding-left: 1.5rem !important;
   }
+
+  .p-lg-225rem {
+    padding: 2.25rem !important;
+  }
+  .pt-lg-225rem,
+  .py-lg-225rem {
+    padding-top: 2.25rem !important;
+  }
+  .pr-lg-225rem,
+  .px-lg-225rem {
+    padding-right: 2.25rem !important;
+  }
+  .pb-lg-225rem,
+  .py-lg-225rem {
+    padding-bottom: 2.25rem !important;
+  }
+  .pl-lg-225rem,
+  .px-lg-225rem {
+    padding-left: 2.25rem !important;
+  }
   .p-lg-5 {
     padding: 3rem !important;
   }
