@@ -8238,6 +8238,25 @@ button.bg-dark:focus {
   .mx-sm-5 {
     margin-left: 3rem !important;
   }
+  .m-sm-6 {
+    margin: 6rem !important;
+  }
+  .mt-sm-6,
+  .my-sm-6 {
+    margin-top: 6rem !important;
+  }
+  .mr-sm-6,
+  .mx-sm-6 {
+    margin-right: 6rem !important;
+  }
+  .mb-sm-6,
+  .my-sm-6 {
+    margin-bottom: 6rem !important;
+  }
+  .ml-sm-6,
+  .mx-sm-6 {
+    margin-left: 6rem !important;
+  }
   .p-sm-0 {
     padding: 0 !important;
   }

@@ -1,53 +1,102 @@
-<div class="row">
-    <div class="col-1"></div>
-    <div class="col-10">
-        <div class="row">
-            <div class="col-4">
-                {{#unless partialContextSrc}}
-                    <img src="{{ imagesComponentLeft.largeImage.src.[0] }}" class="img-fluid large-door-image shadow-md {{ imagesComponentLeft.largeImage.animation }}" alt="{{ imagesComponentLeft.largeImage.alt.[0] }}">
-                {{/unless}}
-                
-                {{#if partialContextSrc}}
-                    <img src="{{ partialContextSrc }}" class="img-fluid large-door-image shadow-md {{ imagesComponentLeft.largeImage.animation }}" alt="Responsive Image{{ partialContextAlt }}">
-                {{/if}}
-            </div>
-            <div class="col-8">
-                <div class="row my-4">
-                    {{#each imagesComponentLeft.smallImage.topRow}}
-                        <div class="col-3">
-                            <div class="container px-0 shadow-sm {{ this.animation }}">
-                                <div class="content">
-                                    <div class="content-overlay"></div>
-                                    <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
-                                    <div class="content-details fadeIn-bottom">
-                                        <h6 class="content-title">DESIGN: {{ this.design }}</h6>
-                                        <p class="content-text">Glass: {{ this.glass }}</p>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    {{/each}}
+<!-- LG and XL Screens Only -->
+<div class="container-fluid px-0 d-none d-lg-block">
+    <div class="row px-0">
+        <div class="d-none d-lg-block col-lg-1"></div>
+        <div class="col-12 px-4 col-lg-10 px-lg-0">
+            <div class="row px-0">
+                <div class="col-4">
+                    {{#unless partialContextSrc}}
+                        <img src="{{ imagesComponentLeft.largeImage.src.[0] }}" class="img-fluid large-door-image shadow-md {{ imagesComponentLeft.largeImage.animation }}" alt="{{ imagesComponentLeft.largeImage.alt.[0] }}">
+                    {{/unless}}
+                    
+                    {{#if partialContextSrc}}
+                        <img src="{{ partialContextSrc }}" class="img-fluid large-door-image shadow-md {{ imagesComponentLeft.largeImage.animation }}" alt="Responsive Image{{ partialContextAlt }}">
+                    {{/if}}
                 </div>
-                <div class="row">
-                    {{#each imagesComponentLeft.smallImage.bottomRow}}
-                        <div class="col-3">
-                            <div class="container px-0 shadow-sm {{ this.animation }}">
-                                <div class="content">
-                                    <div class="content-overlay"></div>
-                                    <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
-                                    <div class="content-details fadeIn-bottom">
-                                        <h6 class="content-title">DESIGN: {{ this.design }}</h6>
-                                        <p class="content-text">Glass: {{ this.glass }}</p>
+                <div class="col-8">
+                    <div class="row my-4">
+                        {{#each imagesComponentLeft.smallImage.topRow}}
+                            <div class="col-3">
+                                <div class="container px-0 shadow-sm {{ this.animation }}">
+                                    <div class="content">
+                                        <div class="content-overlay"></div>
+                                        <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h6 class="content-title">DESIGN: {{ this.design }}</h6>
+                                            <p class="content-text">Glass: {{ this.glass }}</p>
+                                        </div>
+                                        </a>
                                     </div>
-                                    </a>
                                 </div>
                             </div>
-                        </div>
-                    {{/each}}
+                        {{/each}}
+                    </div>
+                    <div class="row">
+                        {{#each imagesComponentLeft.smallImage.bottomRow}}
+                            <div class="col-3">
+                                <div class="container px-0 shadow-sm {{ this.animation }}">
+                                    <div class="content">
+                                        <div class="content-overlay"></div>
+                                        <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h6 class="content-title">DESIGN: {{ this.design }}</h6>
+                                            <p class="content-text">Glass: {{ this.glass }}</p>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        {{/each}}
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="d-none d-lg-block col-lg-1"></div>
     </div>
-    <div class="col-1"></div>
+</div>
+
+<!-- XS - MD Screens Only -->
+<div class="container-fluid px-0 d-block d-lg-none">
+    <div class="row px-0 mx-0">
+        <div class="col-12">
+            <div class="row">
+                {{#each imagesComponentLeft.smallImage.topRow}}
+                <div class="col-2 d-block d-sm-none"></div>
+                    <div class="col-8 col-sm-3 mb-4">
+                        <div class="container px-0 shadow-sm {{ this.animation }}">
+                            <div class="content">
+                                <div class="content-overlay"></div>
+                                <img src="{{ this.src }}" class="img-fluid small-door-image" alt="img-comp-left {{ this.alt }}">
+                                <div class="content-details fadeIn-bottom">
+                                    <h6 class="content-title">DESIGN: {{ this.design }}</h6>
+                                    <p class="content-text">Glass: {{ this.glass }}</p>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-2 d-block d-sm-none"></div>
+                {{/each}}
+            </div>
+            <div class="row">
+                {{#each imagesComponentLeft.smallImage.bottomRow}}
+                    <div class="col-2 d-block d-sm-none"></div>
+                    <div class="col-8 col-sm-6 col-md-3 mb-4">
+                        <div class="container px-0 shadow-sm {{ this.animation }}">
+                            <div class="content">
+                                <div class="content-overlay"></div>
+                                <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
+                                <div class="content-details fadeIn-bottom">
+                                    <h6 class="content-title">DESIGN: {{ this.design }}</h6>
+                                    <p class="content-text">Glass: {{ this.glass }}</p>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 d-block d-sm-none"></div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
 </div>
