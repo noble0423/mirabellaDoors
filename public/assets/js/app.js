@@ -8,6 +8,13 @@ $(document).ready(function() {
     //     $(this).addClass("active");
     //  });
 
+    // Lightcase
+    //=====================================================================
+    $('a[data-rel^=lightcase]').lightcase({
+        maxWidth: 450,
+        maxHeight: 700,
+    });
+
     // Button Clicks for Page Routing
     //=====================================================================
 

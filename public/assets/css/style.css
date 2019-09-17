@@ -254,7 +254,8 @@ h1 {
 .hero-component-left-img-div,
 .hero-component-right-img-div {
     background-size: cover;
-    border: 1px solid #6a5835;
+    border-top: 1px solid #6a5835;
+    border-bottom: 1px solid #6a5835;
 }
 .hero-component-left-text-div,
 .hero-component-right-text-div {
@@ -430,13 +431,6 @@ h1 {
     background-color: #000;
     display: inline-block;
 } */
-
-
-
-.small-door-image-div {
-    /* width: 200px; */
-    /* height: 325px; */
-}
 
 .small-door-image,
 .large-door-image {

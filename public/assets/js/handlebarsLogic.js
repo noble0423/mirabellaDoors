@@ -51,7 +51,7 @@ const testImageArray = [
         animation: "wow fadeIn slower delay-thirty-fifths",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/6142WP Front Doors (no transom).jpeg",
+        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/6142WP_Front_Doors_(no_transom).jpeg",
         design: "Orleans (full light)",
         glass: "Clear",
         alt: "small image alt test8",
