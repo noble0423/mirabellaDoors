@@ -99,9 +99,14 @@ app.get("/contactus", function(req, res) {
     res.render("contactUs", hbsObject);
 });
 
+app.get("/ilightbox", function(req, res) {
+    // const hbsObject = hbsInfo;
+    res.render("ilightbox");
+});
+
 app.get("*", function(req, res) {
     res.render("404");
-})
+});
 
 
 // Start the server

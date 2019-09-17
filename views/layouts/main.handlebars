@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Asap|Cantarell|Fira+Sans|Khula|Livvic|Mallanna|Nunito|Ruluko&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    {{!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> --}}
 
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -25,6 +25,9 @@
 
     <!-- External CSS Style Sheets -->
     <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- iLightbox -->
+    <link rel="stylesheet" href="/assets/css/jquery.lightbox.css" type="text/css">
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href="/assets/css/animate.css">
@@ -106,13 +109,33 @@
     <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
     
     <!-- Bootstrap JavaScript Links -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    {{!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- External JavaScript Pages -->
+    <script type="text/javascript" src="/assets/js/jquery.lightbox.min.js"></script>
     <script type="text/javascript" src="/assets/js/app.js"></script>
     <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+
+    {{!-- <script>
+        $(document).ready(function(e) {
+            $('a[data-lightbox-gallery]').iLightbox({
+                type: 'image', //'image', 'inline', 'ajax', 'iframe', 'swf' and 'html'
+                loop: true,
+                arrows: true,
+                closeBtn: true,
+                title: null,
+                href: null,
+                content: null,
+                beforeShow: function(a, b){ },
+                onShow: function(a, b){ },
+                beforeClose: function(){ },
+                afterClose: function(){ },
+                onUpdate: function(a){ },
+            });
+        });
+    </script> --}}
 
     <!-- WOW Animations -->
     <script src="/assets/js/wow.min.js"></script>
