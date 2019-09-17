@@ -66,13 +66,13 @@
 }
 
 #iLightbox .iLightbox-media .iLightbox-btnPrev {
-    width: 30%;
+    width: 50%;
     left: 0;
     background: url(../images/ilightbox-icons/prev.png) left 50% no-repeat;
 }
 
 #iLightbox .iLightbox-media .iLightbox-btnNext {
-    width: 70%;
+    width: 50%;
     right: 0;
     background: url(../images/ilightbox-icons/next.png) right 50% no-repeat;
 }

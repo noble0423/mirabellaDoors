@@ -3,7 +3,7 @@ require("dotenv").config();
 // Import hbs Info
 const hbsInfo = require("./public/assets/js/handlebarsLogic");
 
-// console.log(hbsInfo.testString);
+// console.log(hbsInfo);
 
 // Import Keys
 const keys = require("./keys");
@@ -100,8 +100,8 @@ app.get("/contactus", function(req, res) {
 });
 
 app.get("/ilightbox", function(req, res) {
-    // const hbsObject = hbsInfo;
-    res.render("ilightbox");
+    const hbsObject = hbsInfo;
+    res.render("ilightboxExample", hbsObject);
 });
 
 app.get("*", function(req, res) {
