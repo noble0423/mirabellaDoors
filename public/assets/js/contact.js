@@ -38,7 +38,7 @@ $(document).ready(function() {
         else {
             $.ajax({
                 type: "POST",
-                url: "assets/php/contactForm.php",
+                url: "/assets/php/contactForm.php",
                 dataType: "json",
                 data: {
                     userEmail: userEmail,
@@ -50,7 +50,8 @@ $(document).ready(function() {
                     $("#contact-send-button").empty();
                     $("#contact-send-button").append("<i class='fa fa-cog fa-spin'></i> Wait...");
                 },
-                success: function(result) {
+                // success: function(result) {
+                complete: function(result) {
                     if(result.sendstatus === 1) {
                         $("#contact-us-form .ajax-hidden").fadeOut(500);
                         responseMessage.html(result.message).fadeIn(500);
