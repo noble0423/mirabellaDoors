@@ -37,9 +37,9 @@ $(document).ready(function() {
 
         else {
             $.ajax({
-                type: "POST",
-                url: "/assets/php/contactForm.php",
-                dataType: "json",
+                type: 'POST',
+                url: '/assets/php/contactForm.php',
+                dataType: 'json',
                 data: {
                     userEmail: userEmail,
                     userFullName: userFullName,
@@ -47,8 +47,8 @@ $(document).ready(function() {
                     userEmailMessage: userEmailMessage,
                 },
                 beforeSend: function(result) {
-                    $("#contact-send-button").empty();
-                    $("#contact-send-button").append("<i class='fa fa-cog fa-spin'></i> Wait...");
+                    $("#contact-us-form button").empty();
+                    $("#contact-us-form button").append("<i class='fa fa-cog fa-spin'></i> Wait...");
                 },
                 // success: function(result) {
                 complete: function(result) {

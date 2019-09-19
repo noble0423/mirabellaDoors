@@ -10,7 +10,7 @@ $to = "ryan.noble82@gmail.com";
 
 if (isset($_POST["userFullName"]) && isset($_POST["userEmail"]) && isset($_POST["userEmailSubject"]) && isset($_POST["userEmailMessage"])) {
     $name       = $_POST["userFullName"];
-    
+
     $from       = $_POST["userEmail"];
 
     $message    = "
@@ -36,10 +36,12 @@ if (isset($_POST["userFullName"]) && isset($_POST["userEmail"]) && isset($_POST[
     $subject   .= $_POST["userEmailSubject"];
     $subject   .= "'";
 
-    $headers 	= "MIME-Version: 1.0" . "\r\n";
-    $headers   .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers   .= "From: {$name} <webmaster@example.com>" . "\r\n";
-    $headers   .= "Reply-To: {$from}" . "\r\n";
+    // $headers 	= "MIME-Version: 1.0" . "\r\n";
+    // $headers   .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    // $headers   .= "From: {$name} <webmaster@example.com>" . "\r\n";
+    // $headers   .= "Reply-To: {$from}" . "\r\n";
+
+    $headers    = "Test Header";
 
     if (mail($to, $subject, $message, $headers)) {
         $result = array(
@@ -47,6 +49,8 @@ if (isset($_POST["userFullName"]) && isset($_POST["userEmail"]) && isset($_POST[
             "sendstatus" => 1
         );
 
+        header('HTTP/1.1 200 OK');
+        
         echo json_encode($result);
     }
 
