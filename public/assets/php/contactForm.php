@@ -36,12 +36,10 @@ if (isset($_POST["userFullName"]) && isset($_POST["userEmail"]) && isset($_POST[
     $subject   .= $_POST["userEmailSubject"];
     $subject   .= "'";
 
-    // $headers 	= "MIME-Version: 1.0" . "\r\n";
-    // $headers   .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    // $headers   .= "From: {$name} <webmaster@example.com>" . "\r\n";
-    // $headers   .= "Reply-To: {$from}" . "\r\n";
-
-    $headers    = "Test Header";
+    $headers 	= "MIME-Version: 1.0" . "\r\n";
+    $headers   .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $headers   .= "From: {$name} <webmaster@example.com>" . "\r\n";
+    $headers   .= "Reply-To: {$from}" . "\r\n";
 
     if (mail($to, $subject, $message, $headers)) {
         $result = array(
