@@ -44,11 +44,19 @@ app.set("view engine", "handlebars");
 
 // HTML Routes
 app.get("/", function(req, res) {
-    res.render("index");
+    const hbsObject = hbsInfo.homePage;
+
+    console.log(hbsObject);
+
+    res.render("index", hbsObject);
 });
 
 app.get("/home", function(req, res) {
-    res.render("index");
+    const hbsObject = hbsInfo.homePage;
+
+    console.log(hbsObject.coreValueCards[0].animation);
+
+    res.render("index", hbsObject);
 });
 
 app.get("/mirabelladifference", function(req, res) {

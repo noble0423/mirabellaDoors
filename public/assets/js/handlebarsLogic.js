@@ -82,6 +82,40 @@ loop(testImageArray);
 
 const hbsInfo = {
 
+    // Home Page
+    homePage: {
+        pageBreakerText: { 
+            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
+            animation: "wow zoomInDown slow",
+        },
+        coreValueCards: [
+            {
+                animation: "wow bounceIn",
+                icon: "fas fa-handshake fa-3x",
+                title: "Core Value 1",
+                description: "Man braid next level actually vegan yr tofu irony master cleanse vape chia flannel. Literally church-key poke pitchfork VHS austin iceland, leggings XOXO butcher.",
+            },
+            {
+                animation: "wow bounceIn delay-fifteenths",
+                icon: "fas fa-tools fa-3x",
+                title: "Core Value 2",
+                description: "Man braid next level actually vegan yr tofu irony master cleanse vape chia flannel. Literally church-key poke pitchfork VHS austin iceland, leggings XOXO butcher.",
+            },
+            {
+                animation: "wow bounceIn delay-thirtieths",
+                icon: "fas fa-shipping-fast fa-3x",
+                title: "Core Value 3",
+                description: "Man braid next level actually vegan yr tofu irony master cleanse vape chia flannel. Literally church-key poke pitchfork VHS austin iceland, leggings XOXO butcher.",
+            },
+            {
+                animation: "wow bounceIn delay-fortyfifths",
+                icon: "fas fa-money-bill fa-3x",
+                title: "Core Value 4",
+                description: "Man braid next level actually vegan yr tofu irony master cleanse vape chia flannel. Literally church-key poke pitchfork VHS austin iceland, leggings XOXO butcher.",
+            },
+        ]
+    },
+
     // Mirabella Difference Page Handlebars Info
     mbDiffPage: {
 
@@ -117,7 +151,8 @@ const hbsInfo = {
 
                     '"First impressions" is not only our motto, it is our specialty!',
                 ],
-                bkgrndColor: "#f6fae8",
+                bkgrndColor: "rgb(255,251,220)", 
+                // bkgrndColor: "#f6fae8",
                 // bkgrndColor: "white",
                 // bkgrndColor: "linear-gradient(346deg, rgba(240,255,206,1) 0%, rgba(255,249,222,1) 60%);",
                 // bkgrndColor: "radial-gradient( circle farthest-corner at 10% 20%,  rgba(226,240,254,1) 0%, rgba(255,247,228,1) 90% );",
@@ -146,7 +181,8 @@ const hbsInfo = {
 
                     "Mirabella Doors works very closely with Houston’s finest custom home builders and interior designers.  By consistently providing a high-end, custom product and combining it with exceptional service, Pam Miller, has built a solid reputation in the industry for surpassing customer expectations.",
                 ],
-                bkgrndColor: "#f6f0ea",
+                bkgrndColor: "rgb(255,251,220)",
+                // bkgrndColor: "#f6f0ea",
                 id: "meetTheOwnerText",
             },
             image: {
@@ -490,7 +526,8 @@ const hbsInfo = {
                 id: "sendUsAnEmailTitleId",
             },
             wording: {
-                bkgrndColor: "#e0f7f4",
+                bkgrndColor: "rgb(255,251,220)",
+                // bkgrndColor: "#e0f7f4",
                 id: "contactUsEmailText",
             },
             image: {
@@ -520,7 +557,8 @@ const hbsInfo = {
                     "HRS OF OPERATION: Mon.-Fri 8:00a-5:00p",
                     "*** We are often on the job site, so while walk-ins are welcome, we cannot guarantee that someone will be here to help. We highly recommend making an appointment.",
                 ],
-                bkgrndColor: "#ebf2e8",
+                bkgrndColor: "rgb(255,251,220)",
+                // bkgrndColor: "#ebf2e8",
                 id: "contactUsText",
             },
             image: {
