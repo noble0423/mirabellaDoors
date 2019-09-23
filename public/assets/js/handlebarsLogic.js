@@ -113,7 +113,7 @@ const hbsInfo = {
                 title: "Core Value 4",
                 description: "Man braid next level actually vegan yr tofu irony master cleanse vape chia flannel. Literally church-key poke pitchfork VHS austin iceland, leggings XOXO butcher.",
             },
-        ]
+        ],
     },
 
     // Mirabella Difference Page Handlebars Info
@@ -151,8 +151,9 @@ const hbsInfo = {
 
                     '"First impressions" is not only our motto, it is our specialty!',
                 ],
-                bkgrndColor: "rgb(255,251,220)", 
-                // bkgrndColor: "#f6fae8",
+                bkgrndColor: "rgb(255, 254, 247)",
+                // bkgrndColor: "rgb(255,253,240)", 
+                // bkgrndColor: "#f5f5f5",
                 // bkgrndColor: "white",
                 // bkgrndColor: "linear-gradient(346deg, rgba(240,255,206,1) 0%, rgba(255,249,222,1) 60%);",
                 // bkgrndColor: "radial-gradient( circle farthest-corner at 10% 20%,  rgba(226,240,254,1) 0%, rgba(255,247,228,1) 90% );",
@@ -181,7 +182,9 @@ const hbsInfo = {
 
                     "Mirabella Doors works very closely with Houston’s finest custom home builders and interior designers.  By consistently providing a high-end, custom product and combining it with exceptional service, Pam Miller, has built a solid reputation in the industry for surpassing customer expectations.",
                 ],
-                bkgrndColor: "rgb(255,251,220)",
+                bkgrndColor: "rgb(255, 254, 247)",
+                // bkgrndColor: "#f5f5f5",
+                // bkgrndColor: "rgb(255,253,240)",
                 // bkgrndColor: "#f6f0ea",
                 id: "meetTheOwnerText",
             },
@@ -526,7 +529,9 @@ const hbsInfo = {
                 id: "sendUsAnEmailTitleId",
             },
             wording: {
-                bkgrndColor: "rgb(255,251,220)",
+                bkgrndColor: "rgb(255, 254, 247)",
+                // bkgrndColor: "#f5f5f5",
+                // bkgrndColor: "rgb(255,253,240)",
                 // bkgrndColor: "#e0f7f4",
                 id: "contactUsEmailText",
             },
@@ -557,7 +562,9 @@ const hbsInfo = {
                     "HRS OF OPERATION: Mon.-Fri 8:00a-5:00p",
                     "*** We are often on the job site, so while walk-ins are welcome, we cannot guarantee that someone will be here to help. We highly recommend making an appointment.",
                 ],
-                bkgrndColor: "rgb(255,251,220)",
+                bkgrndColor: "rgb(255, 254, 247)",
+                // bkgrndColor: "#f5f5f5",
+                // bkgrndColor: "rgb(255,253,240)",
                 // bkgrndColor: "#ebf2e8",
                 id: "contactUsText",
             },

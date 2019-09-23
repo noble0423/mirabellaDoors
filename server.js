@@ -46,15 +46,11 @@ app.set("view engine", "handlebars");
 app.get("/", function(req, res) {
     const hbsObject = hbsInfo.homePage;
 
-    console.log(hbsObject);
-
     res.render("index", hbsObject);
 });
 
 app.get("/home", function(req, res) {
     const hbsObject = hbsInfo.homePage;
-
-    console.log(hbsObject.coreValueCards[0].animation);
 
     res.render("index", hbsObject);
 });

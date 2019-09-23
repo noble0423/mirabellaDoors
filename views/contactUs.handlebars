@@ -26,10 +26,11 @@
 
 
 <!-- Google Maps -->
-<div class="container-fluid">
-    <div class="row my-6">
+<div class="container-fluid pt-6">
+    {{!-- <div class="row py-6"> --}}
+    <div class="row slant-background py-6">
         <div class="col-1"></div>
-        <div class="col-12 px-0 py-6 shadow-sm wow fadeIn slow" id="googleMapsCol">
+        <div class="col-12 px-0 py-3" id="googleMapsCol">
             <iframe class="wow zoomIn slow" width="{{ googleMapsApi.width }}" height="{{ googleMapsApi.height }}" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Mirabella%20Doors%20at%20The%20Houston%20Design%20Center%207026%20Old%20Katy%20Road%2C%20Suite%20292%20Houston%2C%20Texas%2077024&key={{ googleMapsApi.key }}&zoom=11" allowfullscreen></iframe>
         </div>
         <div class="col-1"></div>
