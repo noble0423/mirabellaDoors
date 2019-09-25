@@ -638,7 +638,7 @@ a.text-decoration-none.text-muted:hover {
 
 /* Media Queries */
 /* Nav Bar */ 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     .nav-link {
         border: 0;
     }
