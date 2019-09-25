@@ -82,7 +82,8 @@ loop(testImageArray);
 
 const hbsInfo = {
 
-    // Home Page
+    // Home Page Handlebars Info
+    //===============================================================================
     homePage: {
         pageBreakerText: { 
             text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
@@ -114,9 +115,13 @@ const hbsInfo = {
                 description: "Man braid next level actually vegan yr tofu irony master cleanse vape chia flannel. Literally church-key poke pitchfork VHS austin iceland, leggings XOXO butcher.",
             },
         ],
+        scrollTopBtn: {
+            href: "#home-scroll",
+        },
     },
 
     // Mirabella Difference Page Handlebars Info
+    //===============================================================================
     mbDiffPage: {
 
         hbsTestTry1: "you got it man",
@@ -226,9 +231,13 @@ const hbsInfo = {
                 id: "meetTheOwnerXSText",
             },
         },
+        scrollTopBtn: {
+            href: "#mirabella-difference-scroll",
+        },
     },
 
     // Contemporary Doors Page Handlebars Info
+    //===============================================================================
     contDoorsPage: {
         heroComponentRight: {
             title: "Stunning Contemporary Doors",
@@ -286,9 +295,13 @@ const hbsInfo = {
                 bottomRow: bottomRowImgArray,
             },
         },
+        scrollTopBtn: {
+            href: "#contemporary-doors-scroll",
+        },
     },
 
     // Traditional Doors Page Handlebars Info
+    //===============================================================================
     tradDoorsPage: {
         heroComponentLeft: {
             title: "Breathtaking Traditional Doors",
@@ -348,9 +361,13 @@ const hbsInfo = {
                 bottomRow: bottomRowImgArray,
             },
         },
+        scrollTopBtn: {
+            href: "#traditional-doors-scroll",
+        },
     },
 
     // Door Finishes Page Handlebars Info
+    //===============================================================================
     doorFinishesPage: {
         heroComponentRight: {
             title: "Beautiful Finishes",
@@ -391,9 +408,13 @@ const hbsInfo = {
                 bottomRow: bottomRowImgArray,
             },
         },
+        scrollTopBtn: {
+            href: "#door-finishes-scroll",
+        },
     },
 
     // Door Design Library Page Handlebars Info
+    //===============================================================================
     doorDesignLibPage: {
         heroComponentLeft: {
             title: "Door Design Library",
@@ -462,9 +483,13 @@ const hbsInfo = {
                 bottomRow: bottomRowImgArray,
             },
         },
+        scrollTopBtn: {
+            href: "#door-design-library-scroll",
+        },
     },
 
     // Balconies and Railing Handlebars Info
+    //===============================================================================
     balcAndRailPage: {
         heroComponentRight: {
             title: "Balconies and Railings",
@@ -502,9 +527,13 @@ const hbsInfo = {
                 bottomRow: bottomRowImgArray,
             },
         },
+        scrollTopBtn: {
+            href: "#balconies-and-railings-scroll",
+        },
     },
 
     // Contact Us Page Handlebars Info
+    //===============================================================================
     contactUsPage: {
         heroComponentLeft: {
             title: "Contact Us Today!",
@@ -605,6 +634,9 @@ const hbsInfo = {
             wording: {
                 id: "contactUsXSText",
             },
+        },
+        scrollTopBtn: {
+            href: "#contact-us-scroll",
         },
     },
 
