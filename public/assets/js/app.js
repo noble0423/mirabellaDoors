@@ -2,11 +2,33 @@ $(document).ready(function() {
 
     // NavBar
     //=====================================================================
-    // $(".nav-link").on("click", function(){
-    //     // console.log("clicked");
-    //     $(".nav .nav-item").find(".active").removeClass("active");
-    //     $(this).addClass("active");
-    //  });
+    $(function(){
+        const current = location.pathname;
+
+        if (current === "/") {
+            $("#start-home-active").addClass("active");
+        }
+
+        else {
+            $("#navbarNav li a").each(function(){
+                const $this = $(this);
+
+                if  (   current === "/contemporarydoors"    || 
+                        current === "/traditionaldoors"     || 
+                        current === "/doorfinishes"         || 
+                        current === "/doordesignlibrary"
+                    ) {
+                        $("a#navbarDropdown").addClass("active");
+                }
+
+                else if ($this.attr("href").indexOf(current) !== -1) {
+
+                    $this.addClass("active");
+                }
+            });
+        }
+    });
+
 
     // Lightcase
     //=====================================================================
@@ -14,6 +36,7 @@ $(document).ready(function() {
         maxWidth: 450,
         maxHeight: 700,
     });
+    
 
     // Button Clicks for Page Routing
     //=====================================================================
@@ -64,5 +87,25 @@ $(document).ready(function() {
             });
         }
     });
+
+    
+    // Reveal Smooth Scroll Btn (component) once Scroll has reached ?px 
+    //=====================================================================
+    $(function() {
+        $(".scroll-up").hide();
+
+        $(window).scroll(function() {
+            const scroll = $(window).scrollTop();
+
+            if (scroll >= 500) {
+                $(".scroll-up").show();
+            }
+
+            else {
+                $(".scroll-up").hide();
+            }
+        });
+    });
+
 });
 

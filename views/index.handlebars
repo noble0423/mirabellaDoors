@@ -75,25 +75,22 @@
                 <div class="container-fluid">
                     <div class="row mx-lg-4 mx-xl-0">
 
-                        <div class="card border-0 d-inline-block mr-3 wow zoomIn">
-                            <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/CM1A9908 - cropped and resized.JPG" class="featured-product-card card-img-top rounded shadow card-img-size-xl-screen" alt="">
-                        </div>
-
-                        <div class="card border-0 d-inline-block mx-3 wow zoomIn delay-fifteenths">
-                            <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/After Picture - cropped and resized.JPG" class="featured-product-card card-img-top rounded shadow card-img-size-xl-screen" alt="">
-                        </div>
-
-                        <div class="card border-0 d-inline-block mx-3 wow zoomIn delay-thirtieths">
-                            <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/Kinley Design - cropped and resized.jpg" class="featured-product-card card-img-top rounded shadow card-img-size-xl-screen" alt="">
-                        </div>
-
-                        <div class="card border-0 d-inline-block mx-3 wow zoomIn delay-fortyfifths">
-                            <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/Cosmopolitan Front Entry Doors - cropped and resized.jpg" class="featured-product-card card-img-top rounded shadow card-img-size-xl-screen" alt="">
-                        </div>
-
-                        <div class="card border-0 d-inline-block ml-3 wow zoomIn delay-sixtieths">
-                            <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/Miramar Design - cropped and resized.JPG" class="featured-product-card card-img-top rounded shadow card-img-size-xl-screen" alt="">
-                        </div>
+                        {{#each featuredDoors }}
+                            <div class="card border-0 d-inline-block mr-3 shadow {{ this.animation }}">
+                                <div class="featured-product-card card-img-top rounded card-img-size-xl-screen">
+                                    <a href="{{ this.src }}" title="DESIGN: {{ this.design }}">
+                                        <div class="content">
+                                            <div class="content-overlay"></div>
+                                            <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                            <div class="content-details fadeIn-bottom">
+                                                <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                                <p class="content-text">Glass: {{ this.glass }}</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        {{/each}}
 
                     </div>
                 </div>

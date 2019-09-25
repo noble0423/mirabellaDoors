@@ -1,5 +1,43 @@
 // This will end up being an AJAX call that will loop through images and assign them to variables in order to pass them into hbsInfo.
 
+const featuredImagesArray = [
+    {
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/CM1A9908-cropped-and-resized.JPG",
+        design: "Featured Door Name",
+        glass: "Glass Type",
+        alt: "featured door image 1",
+        animation: "wow zoomIn",
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/After Picture-cropped-and-resized.JPG",
+        design: "Featured Door Name",
+        glass: "Glass Type",
+        alt: "featured door image 2",
+        animation: "wow zoomIn delay-tenths",
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/Cosmopolitan-Front-Entry-Doors-cropped-and-resized.jpg",
+        design: "Featured Door Name",
+        glass: "Glass Type",
+        alt: "featured door image 3",
+        animation: "wow zoomIn delay-twentieths",
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/Miramar-Design-cropped-and-resized.JPG",
+        design: "Featured Door Name",
+        glass: "Glass Type",
+        alt: "featured door image 4",
+        animation: "wow zoomIn delay-thirtieths",
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/Kinley-Design-cropped-and-resized.jpg",
+        design: "Featured Door Name",
+        glass: "Glass Type",
+        alt: "featured door image 5",
+        animation: "wow zoomIn delay-fortieths",
+    },
+]
+
 const testImageArray = [
     {
         src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_0008-Edit.jpeg",
@@ -115,6 +153,7 @@ const hbsInfo = {
                 description: "Man braid next level actually vegan yr tofu irony master cleanse vape chia flannel. Literally church-key poke pitchfork VHS austin iceland, leggings XOXO butcher.",
             },
         ],
+        featuredDoors: featuredImagesArray,
         scrollTopBtn: {
             href: "#home-scroll",
         },
