@@ -66,8 +66,16 @@
 
 <!-- Featured Products -->
 <div class="container-fluid py-6 w-100">
-    <h2 class="display-6 mb-5 ml-5 ml-sm-1 ml-md-4 ml-xl-5 wow fadeIn" id="featuredDoorsHeading"><em>Featured Doors :</em></h2>
-    <div class="row mx-3">
+    <div class="row px-0">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="module-line"></div>
+            <h5 class="text-center page-breaker-text"><i>See</i> our latest custom door installations assembled throughout the greater Houston area and <i>hear</i> what our customers are saying about their experiences working with the Mirabella Doors team.</h5>
+            <div class="module-line"></div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row mt-5 mx-3">
     
         <!-- Featured Products Images (XL screen sizes only) -->
         <div class="col-xl-12">
@@ -78,7 +86,7 @@
                         {{#each featuredDoors }}
                             <div class="card border-0 d-inline-block mr-3 shadow {{ this.animation }}">
                                 <div class="featured-product-card card-img-top rounded card-img-size-xl-screen">
-                                    <a href="{{ this.src }}" title="DESIGN: {{ this.design }}">
+                                    <a href="{{ this.src }}" data-rel="lightcase:latestCollection" title="DESIGN: {{ this.design }}">
                                         <div class="content">
                                             <div class="content-overlay"></div>
                                             <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
@@ -102,17 +110,22 @@
             <div class="container-fluid">
                 <div class="row mx-lg-4 mx-xl-0">
 
-                    <div class="card border-0 d-inline-block wow zoomIn">
-                        <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/CM1A9908 - cropped and resized.JPG" class="featured-product-card card-img-top rounded shadow" alt="">
-                    </div>
-
-                    <div class="card border-0 d-inline-block wow zoomIn delay-fifteenths">
-                        <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/After Picture - cropped and resized.JPG" class="featured-product-card card-img-top rounded shadow" alt="">
-                    </div>
-
-                    <div class="card border-0 d-inline-block wow zoomIn delay-thirtieths">
-                        <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/Kinley Design - cropped and resized.jpg" class="featured-product-card card-img-top rounded shadow" alt="">
-                    </div>
+                    {{#each featuredDoorsMdAndLgScreens.topRow }}
+                        <div class="card border-0 d-inline-block shadow {{ this.animation }}">
+                            <div class="featured-product-card card-img-top rounded">
+                                <a href="{{ this.src }}" data-rel="lightcase:latestCollectionMdAndLgScreens" title="DESIGN: {{ this.design }}">
+                                    <div class="content">
+                                        <div class="content-overlay"></div>
+                                        <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                            <p class="content-text">Glass: {{ this.glass }}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    {{/each}}
 
                 </div>
             </div>
@@ -125,13 +138,22 @@
                 <div class="container-fluid px-0">
                     <div class="row mx-md-0">
 
-                        <div class="card border-0 d-inline-block ml-lg-n5 ml-md-0 wow zoomIn delay-fortyfifths">
-                            <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/Cosmopolitan Front Entry Doors - cropped and resized.jpg" class="featured-product-card card-img-top rounded shadow card-img-size-lg-screen" alt="">
-                        </div>
-
-                        <div class="card border-0 d-inline-block mr-lg-n5 mr-md-0 wow zoomIn delay-sixtieths">
-                            <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/Miramar Design - cropped and resized.JPG" class="featured-product-card card-img-top rounded shadow card-img-size-lg-screen" alt="">
-                        </div>
+                        {{#each featuredDoorsMdAndLgScreens.bottomRow}}
+                            <div class="card border-0 d-inline-block shadow {{ this.animation }}">
+                                <div class="featured-product-card card-img-top rounded card-img-size-lg-screen">
+                                    <a href="{{ this.src }}" data-rel="lightcase:latestCollectionMdAndLgScreens" title="DESIGN: {{ this.design }}">
+                                        <div class="content">
+                                            <div class="content-overlay"></div>
+                                            <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                            <div class="content-details fadeIn-bottom">
+                                                <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                                <p class="content-text">Glass: {{ this.glass }}</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        {{/each}}
 
                     </div>
                 </div>
@@ -140,34 +162,52 @@
         </div>
         <div class="col-md-2"></div>
 
-        <!-- Featured Products Images (XS and SM screen sizes only) -->
-        <div class="card-deck mx-0 mb-sm-4 d-none d-block d-md-none d-lg-none d-xl-none text-center">
+        <!-- Featured Products Images (SM screen sizes only) -->
+        <div class="card-deck mx-0 mb-sm-4 d-none d-sm-block d-md-none d-lg-none d-xl-none text-center">
             <div class="container-fluid px-0">
                 <div class="row mx-md-0">
 
-                    <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 card-margin-xs-screen wow zoomIn">
-                        <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/CM1A9908 - cropped and resized.JPG" class="featured-product-card card-img-top rounded shadow" alt="">
-                    </div>
-
-                    <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 card-margin-xs-screen wow zoomIn delay-fifteenths">
-                        <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/After Picture - cropped and resized.JPG" class="featured-product-card card-img-top rounded shadow" alt="">
-                    </div>
+                    {{#each featuredDoorsSmScreens.topRow}}
+                        <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 shadow {{ this.animation }}">
+                            <div class="featured-product-card card-img-top rounded card-margin-xs-screen">
+                                <a href="{{ this.src }}" data-rel="lightcase:latestCollectionXsAndSmScreens" title="DESIGN: {{ this.design }}">
+                                    <div class="content">
+                                        <div class="content-overlay"></div>
+                                        <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                            <p class="content-text">Glass: {{ this.glass }}</p>
+                                        </div>
+                                    </div>
+                                </a>                  
+                            </div>
+                        </div>
+                    {{/each}}
 
                 </div>
             </div>
         </div>
 
-        <div class="card-deck mx-0 mb-sm-4 d-none d-block d-md-none d-lg-none d-xl-none text-center">
+        <div class="card-deck mx-0 mb-sm-4 d-none d-sm-block d-md-none d-lg-none d-xl-none text-center">
             <div class="container-fluid px-0">
                 <div class="row mx-md-0">
 
-                    <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 card-margin-xs-screen wow zoomIn delay-thirtieths">
-                        <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/Cosmopolitan Front Entry Doors - cropped and resized.jpg" class="featured-product-card card-img-top rounded shadow" alt="">
-                    </div>
-
-                    <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 card-margin-xs-screen wow zoomIn delay-fortyfifths">
-                        <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/Kinley Design - cropped and resized.jpg" class="featured-product-card card-img-top rounded shadow" alt="">
-                    </div>
+                    {{#each featuredDoorsSmScreens.middleRow}}
+                        <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 shadow {{ this.animation }}">
+                            <div class="featured-product-card card-img-top rounded card-margin-xs-screen">
+                                <a href="{{ this.src }}" data-rel="lightcase:latestCollectionXsAndSmScreens" title="DESIGN: {{ this.design }}">
+                                    <div class="content">
+                                        <div class="content-overlay"></div>
+                                        <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                            <p class="content-text">Glass: {{ this.glass }}</p>
+                                        </div>
+                                    </div>
+                                </a>                  
+                            </div>
+                        </div>
+                    {{/each}}                    
 
                 </div>
             </div>
@@ -176,13 +216,26 @@
         <div class="col-sm-3 d-none d-sm-block"></div>
         <div class="col-sm-6 d-none d-sm-block">
 
-            <div class="card-deck mx-n2 mb-5 d-none d-block d-md-none d-lg-none d-xl-none text-center">
+            <div class="card-deck mx-n2 mb-5 d-none d-sm-block d-md-none d-lg-none d-xl-none text-center">
                 <div class="container-fluid px-0">
                     <div class="row mx-md-0">
 
-                        <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 card-margin-xs-screen wow zoomIn delay-sixtieths">
-                            <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/Miramar Design - cropped and resized.JPG" class="featured-product-card card-img-top rounded shadow" alt="">
+                        {{#each featuredDoorsSmScreens.bottomRow}}
+                        <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 shadow {{ this.animation }}">
+                            <div class="featured-product-card card-img-top rounded card-margin-xs-screen">
+                                <a href="{{ this.src }}" data-rel="lightcase:latestCollectionXsAndSmScreens" title="DESIGN: {{ this.design }}">
+                                    <div class="content">
+                                        <div class="content-overlay"></div>
+                                        <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                            <p class="content-text">Glass: {{ this.glass }}</p>
+                                        </div>
+                                    </div>
+                                </a>  
+                            </div>
                         </div>
+                        {{/each}}
 
                     </div>
                 </div>
@@ -196,9 +249,22 @@
                 <div class="container-fluid px-0">
                     <div class="row mx-md-0">
 
-                        <div class="card border-0 d-inline-block mb-4 mx-5 card-margin-xs-screen wow zoomIn delay-sixtieths">
-                            <img src="./assets/images/mirabellaDoorsImgs/featuredProducts/Miramar Design - cropped and resized.JPG" class="featured-product-card card-img-top rounded shadow" alt="">
-                        </div>
+                        {{#each featuredDoorsXsScreens}}
+                            <div class="card border-0 d-inline-block mb-4 mx-5 shadow {{ this.animation }}">
+                                <div class="featured-product-card card-img-top rounded card-margin-xs-screen">
+                                    <a href="{{ this.src }}" data-rel="lightcase:latestCollectionXsScreens" title="DESIGN: {{ this.design }}">
+                                        <div class="content">
+                                            <div class="content-overlay"></div>
+                                            <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                            <div class="content-details fadeIn-bottom">
+                                                <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                                <p class="content-text">Glass: {{ this.glass }}</p>
+                                            </div>
+                                        </div>
+                                    </a>  
+                                </div>
+                            </div>
+                        {{/each}}
 
                     </div>
                 </div>
@@ -209,12 +275,16 @@
     </div>
 </div>
 
+{{!-- <div class="module-line-short"></div>
+<h5 class="text-center page-breaker-text">See what our Valued Customers are saying</h5>
+<div class="module-line-short"></div> --}}
+
 <!-- Customer Reviews -->
-<div class="container-fluid my-6 py-6">
+<div class="container-fluid my-6 pb-6">
     <div class="row">
         <div class="col-2"></div>
         <div class="col-9">
-            <div class="row mb-6">
+            <div class="row mt-4 mb-6">
                 <div class="col-4 pl-0">
                     <img class="customer-review-img shadow-sm wow fadeIn slow" src="./assets/images/mirabellaDoorsImgs/customerReviews/customer_review_home.jpeg">
                 </div>

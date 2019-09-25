@@ -9,7 +9,7 @@ const featuredImagesArray = [
         animation: "wow zoomIn",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/After Picture-cropped-and-resized.JPG",
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/After-Picture-cropped-and-resized.JPG",
         design: "Featured Door Name",
         glass: "Glass Type",
         alt: "featured door image 2",
@@ -97,26 +97,59 @@ const testImageArray = [
     },
 ];
 
+// Empty Arrays for the Featured Images on the home page (MD screens and up)
+const topRowFeaturedImagesArray = [];
+const bottomRowFeaturedImagesArray = [];
+
+// Empty Arrays for the Featured Images on the home page (XS and SM screens)
+const topRowFeaturedImagesArraySm = [];
+const middleRowFeaturedImagesArraySm = [];
+const bottomRowFeaturedImagesArraySm = [];
+
+// Empty Arrays for the Images Components used on multiple pages
 const topRowImgArray = [];
 const bottomRowImgArray = [];
 
-// Loop through images array
-function loop(array) {
+// Helper Function to loop through image arrays and assign to top and bottom rows arrays
+function imgArrayLoop(array, numPerRow, newTopRowArray, newBottomRowArray) {
 
     for (let i = 0; i < array.length; i++) {
-        if (i < 4) {
-            topRowImgArray.push(array[i]);
+        if (i < numPerRow) {
+            newTopRowArray.push(array[i]);
         }
         else {
-            bottomRowImgArray.push(array[i]);
+            newBottomRowArray.push(array[i]);
         }
     };
 }
 
-loop(testImageArray);
+imgArrayLoop(featuredImagesArray, 3, topRowFeaturedImagesArray, bottomRowFeaturedImagesArray)
+imgArrayLoop(testImageArray, 4, topRowImgArray, bottomRowImgArray);
 
-// console.log(topRowImgArray);
-// console.log(bottomRowImgArray);
+// Helper function to loop through image arrays and assign to top, middle and bottom rows arrays
+function imgArrayLoopOddNumImgs(array, numPerRow, newTopRowArray, newMiddleRowArray, newBottomRowArray) {
+
+    for (let i = 0; i < array.length; i++) {
+        if (i < numPerRow) {
+            newTopRowArray.push(array[i]);
+        }
+        else if (i >= numPerRow && i < (numPerRow * 2)) {
+            newMiddleRowArray.push(array[i]);
+        }
+        else {
+            newBottomRowArray.push(array[i]);
+        }
+    };    
+}
+
+imgArrayLoopOddNumImgs(featuredImagesArray, 2, topRowFeaturedImagesArraySm, middleRowFeaturedImagesArraySm, bottomRowFeaturedImagesArraySm);
+
+// console.log("top");
+// console.log(topRowFeaturedImagesArraySm);
+// console.log("middle");
+// console.log(middleRowFeaturedImagesArraySm);
+// console.log("bottom");
+// console.log(bottomRowFeaturedImagesArraySm);
 
 const hbsInfo = {
 
@@ -154,6 +187,16 @@ const hbsInfo = {
             },
         ],
         featuredDoors: featuredImagesArray,
+        featuredDoorsMdAndLgScreens: {
+            topRow: topRowFeaturedImagesArray,
+            bottomRow: bottomRowFeaturedImagesArray,
+        },
+        featuredDoorsSmScreens: {
+            topRow: topRowFeaturedImagesArraySm,
+            middleRow: middleRowFeaturedImagesArraySm,
+            bottomRow: bottomRowFeaturedImagesArraySm,
+        },
+        featuredDoorsXsScreens: featuredImagesArray,
         scrollTopBtn: {
             href: "#home-scroll",
         },
