@@ -325,7 +325,8 @@ const hbsInfo = {
         },
         xsArrowTransformRight: {
             backgroundImage: {
-                darken: "linear-gradient(45deg, rgba(50, 50, 50, 0.5) 0%, rgba(100, 100, 100, .5) 80%)",
+                // darken: "linear-gradient(45deg, rgba(50, 50, 50, 0.5) 0%, rgba(100, 100, 100, .5) 80%)",
+                darken: "linear-gradient(-45deg, rgba(255, 254, 247, 0.5) 0%, rgba(100, 100, 100, 0.8) 65%)",
             },
             textDiv: {
                 id:"mirabellaDifferenceXSDiv",
@@ -339,7 +340,8 @@ const hbsInfo = {
         },
         xsArrowTransformLeft: {
             backgroundImage: {
-                darken: "linear-gradient(45deg, rgba(75, 75, 75, 0.4) 0%, rgba(125, 125, 125, .4) 80%)",
+                // darken: "linear-gradient(45deg, rgba(75, 75, 75, 0.4) 0%, rgba(125, 125, 125, .4) 80%)",
+                darken: "linear-gradient(-45deg, rgba(255, 254, 247, 0.5) 0%, rgba(100, 100, 100, 0.8) 65%)",
             },
             textDiv: {
                 id: "meetTheOwnerXSDiv",
@@ -729,7 +731,8 @@ const hbsInfo = {
         },
         xsArrowTransformRight: {
             backgroundImage: {
-                darken: "linear-gradient(45deg, rgba(50, 50, 50, 0.5) 0%, rgba(100, 100, 100, .5) 80%)",
+                // darken: "linear-gradient(45deg, rgba(50, 50, 50, 0.5) 0%, rgba(100, 100, 100, .5) 80%)",
+                darken: "linear-gradient(-45deg, rgba(255, 254, 247, 0.5) 0%, rgba(100, 100, 100, 0.8) 65%)",
             },
             textDiv: {
                 id:"sendUsAnEmailXSDiv",
@@ -743,7 +746,8 @@ const hbsInfo = {
         },
         xsArrowTransformLeft: {
             backgroundImage: {
-                darken: "linear-gradient(45deg, rgba(75, 75, 75, 0.4) 0%, rgba(125, 125, 125, .4) 80%)",
+                // darken: "linear-gradient(45deg, rgba(75, 75, 75, 0.4) 0%, rgba(125, 125, 125, .4) 80%)",
+                darken: "linear-gradient(-45deg, rgba(255, 254, 247, 0.5) 0%, rgba(100, 100, 100, 0.8) 65%)",
             },
             textDiv: {
                 id: "contactUsXSDiv",
