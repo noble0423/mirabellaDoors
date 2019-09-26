@@ -354,9 +354,19 @@ h1 {
 }
 
 /* XS Arrow Transform Component */
+.xs-arrow-transparent {
+    padding-top: 1rem;
+    /* background: rgba(253, 251, 223, 0.675); */
+    background: rgba(255, 253, 235, 0.75);
+    border-radius: 10px;
+    /* background: rgba(255, 255, 255, 0.8); */
+}
+
 .arrow-transform-image {
-    border: 1px solid #3b3527;
-    border-radius: 5px;
+    /* border: 1px solid #3b3527;
+    border-radius: 5px; */
+    border: 2px solid #6A5835;
+    border-radius: 10px;
 }
 
 .arrow-transform-text-div {
@@ -364,8 +374,12 @@ h1 {
     text-shadow: 1px 2px 5px rgb(0, 0, 0);
 }
 
+.arrow-transform-text-div-alternate {
+    text-shadow: 2px 2px 4px rgb(206, 206, 206);
+}
+
 #meetTheOwnerXSTitle {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     padding-bottom: 1rem;
     font-size: 1.75rem;
 }
