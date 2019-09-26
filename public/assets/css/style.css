@@ -723,11 +723,71 @@ a.text-decoration-none.text-muted:hover {
 }
 
 /* Customer Reviews */
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1700px) {
+    .customer-review-text-div-left {
+        margin-left: -14rem;
+    }
+    .customer-review-text-div-right {
+        margin-left: 14rem;
+    }
+    .customer-review-img-div-right {
+        margin-left: -14rem;
+    }
+}
+
+@media only screen and (min-width: 1450px) and (max-width: 1699px) {
+    .customer-review-text-div-left {
+        margin-left: -10rem;
+    }
+    .customer-review-text-div-right {
+        margin-left: 10rem;
+    }
+    .customer-review-img-div-right {
+        margin-left: -10rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1449px) {
+    .customer-review-text-div-left {
+        margin-left: -6rem;
+    }
+    .customer-review-text-div-right {
+        margin-left: 6rem;
+    }
+    .customer-review-img-div-right {
+        margin-left: -6rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .customer-review-text-div-left {
+        margin-left: -3rem;
+    }
+    .customer-review-text-div-right {
+        margin-left: 3rem;
+    }
+    .customer-review-img-div-right {
+        margin-left: -3rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
     .customer-review-text {
         font-size: .85rem;
     }
-} */
+}
+
+@media only screen and (max-width: 767px) {
+    .customer-review-text-div-left {
+        margin-left: 0rem;
+    }
+    .customer-review-text-div-right {
+        margin-left: 0rem;
+    }
+    .customer-review-img-div-right {
+        margin-left: 0rem;
+    }
+}
 
 /* Hero Components - All Pages */
 @media only screen and (min-width: 1600px) {
