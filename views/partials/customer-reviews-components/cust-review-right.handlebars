@@ -1,0 +1,18 @@
+<div class="container-fluid my-6">
+    <div class="row mt-4">
+        <div class="col-1"></div>
+        <div class="col-9">
+            <div class="row">
+                <div class="col-8 mt-n5 ml-6 p-4 h-75 customer-review-text transparent shadow {{ customerReviewRight.review.divAnimation }}">
+                    <h5 class="{{ customerReviewRight.review.wording.animation }}">CUSTOMER REVIEW</h5>
+                    <p class="{{ customerReviewRight.review.wording.animation }}">"{{ customerReviewRight.review.wording.text }}"</p>
+                    <p class="text-right mb-0 {{ customerReviewRight.review.customerInfo.animation }}"><span> - {{ customerReviewRight.review.customerInfo.name }}<small><span class="text-right text-muted"> from {{ customerReviewRight.review.customerInfo.area }}</span></small></span></p>
+                </div>
+                <div class="col-4 pr-0 ml-n6 mb-6">
+                    <img class="customer-review-img float-right shadow-sm {{ customerReviewRight.img.animation }}" src="{{ customerReviewRight.img.src }}" alt="{{ customerReviewRight.img.alt }}">
+                </div>
+            </div>
+        </div>
+        <div class="col-2 clear-float"></div>
+    </div>    
+</div>

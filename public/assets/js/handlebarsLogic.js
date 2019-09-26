@@ -200,6 +200,44 @@ const hbsInfo = {
         scrollTopBtn: {
             href: "#home-scroll",
         },
+        customerReviewLeft: {
+            img: {
+                animation: "wow fadeIn slow",
+                src: "/assets/images/mirabellaDoorsImgs/customerReviews/customer_review_home.jpeg",
+                alt: "customer review img 1",
+            },
+            review: {
+                divAnimation: "wow slideInLeft",
+                wording: {
+                    animation: "wow fadeIn slow",
+                    text: "Lomo freegan normcore pok pok listicle health goth taxidermy slow-carb pinterest beard microdosing pour-over. Crucifix fam four dollar toast gluten-free, schlitz pour-over DIY gochujang hell of tousled taxidermy godard snackwave whatever sartorial. Enamel pin palo santo asymmetrical offal ennui. Kickstarter cardigan vexillologist viral, keffiyeh tbh tousled retro kogi man bun.",
+                },
+                customerInfo: {
+                    animation: "wow fadeIn slower",
+                    name: "Ryan N.",
+                    area: "The Museum District",
+                },
+            },
+        },
+        customerReviewRight: {
+            review: {
+                divAnimation: "wow slideInRight",
+                wording: {
+                    animation: "wow fadeIn slow",
+                    text: "Lomo freegan normcore pok pok listicle health goth taxidermy slow-carb pinterest beard microdosing pour-over. Crucifix fam four dollar toast gluten-free, schlitz pour-over DIY gochujang hell of tousled taxidermy godard snackwave whatever sartorial. Enamel pin palo santo asymmetrical offal ennui. Kickstarter cardigan vexillologist viral, keffiyeh tbh tousled retro kogi man bun.",
+                },
+                customerInfo: {
+                    animation: " wow fadeIn slower",
+                    name: "Stephanie N.",
+                    area: "Vintage Park",
+                },
+            },
+            img: {
+                animation: "wow fadeIn slow",
+                src: "/assets/images/mirabellaDoorsImgs/customerReviews/customer_review_img_clearbrook.jpeg",
+                alt: "customer review img 2",
+            },
+        },
     },
 
     // Mirabella Difference Page Handlebars Info

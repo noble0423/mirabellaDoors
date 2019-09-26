@@ -1,0 +1,207 @@
+<div class="container-fluid py-6 w-100">
+    <div class="row px-0">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="module-line"></div>
+            <h5 class="text-center page-breaker-text"><i>See</i> our latest custom door installations assembled throughout the greater Houston area and <i>hear</i> what our customers are saying about their experiences working with the Mirabella Doors team.</h5>
+            <div class="module-line"></div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row mt-5 mx-3">
+    
+        <!-- Featured Products Images (XL screen sizes only) -->
+        <div class="col-xl-12">
+            <div class="card-deck mx-xl-n5 d-none d-xl-block">
+                <div class="container-fluid">
+                    <div class="row mx-lg-4 mx-xl-0">
+
+                        {{#each featuredDoors }}
+                            <div class="card border-0 d-inline-block mr-3 shadow {{ this.animation }}">
+                                <div class="featured-product-card card-img-top rounded card-img-size-xl-screen">
+                                    <a href="{{ this.src }}" data-rel="lightcase:latestCollection" title="DESIGN: {{ this.design }}">
+                                        <div class="content">
+                                            <div class="content-overlay"></div>
+                                            <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                            <div class="content-details fadeIn-bottom">
+                                                <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                                <p class="content-text">Glass: {{ this.glass }}</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        {{/each}}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Featured Products Images (MD and LG screen sizes only) -->
+        <div class="card-deck mx-0 mb-5 d-none d-md-block d-lg-block d-xl-none">
+            <div class="container-fluid">
+                <div class="row mx-lg-4 mx-xl-0">
+
+                    {{#each featuredDoorsMdAndLgScreens.topRow }}
+                        <div class="card border-0 d-inline-block shadow {{ this.animation }}">
+                            <div class="featured-product-card card-img-top rounded">
+                                <a href="{{ this.src }}" data-rel="lightcase:latestCollectionMdAndLgScreens" title="DESIGN: {{ this.design }}">
+                                    <div class="content">
+                                        <div class="content-overlay"></div>
+                                        <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                            <p class="content-text">Glass: {{ this.glass }}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    {{/each}}
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+
+            <div class="card-deck mx-0 mb-6 d-none d-md-block d-lg-block d-xl-none text-center">
+                <div class="container-fluid px-0">
+                    <div class="row mx-md-0">
+
+                        {{#each featuredDoorsMdAndLgScreens.bottomRow}}
+                            <div class="card border-0 d-inline-block shadow {{ this.animation }}">
+                                <div class="featured-product-card card-img-top rounded card-img-size-lg-screen">
+                                    <a href="{{ this.src }}" data-rel="lightcase:latestCollectionMdAndLgScreens" title="DESIGN: {{ this.design }}">
+                                        <div class="content">
+                                            <div class="content-overlay"></div>
+                                            <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                            <div class="content-details fadeIn-bottom">
+                                                <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                                <p class="content-text">Glass: {{ this.glass }}</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        {{/each}}
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-2"></div>
+
+        <!-- Featured Products Images (SM screen sizes only) -->
+        <div class="card-deck mx-0 mb-sm-4 d-none d-sm-block d-md-none d-lg-none d-xl-none text-center">
+            <div class="container-fluid px-0">
+                <div class="row mx-md-0">
+
+                    {{#each featuredDoorsSmScreens.topRow}}
+                        <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 shadow {{ this.animation }}">
+                            <div class="featured-product-card card-img-top rounded card-margin-xs-screen">
+                                <a href="{{ this.src }}" data-rel="lightcase:latestCollectionXsAndSmScreens" title="DESIGN: {{ this.design }}">
+                                    <div class="content">
+                                        <div class="content-overlay"></div>
+                                        <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                            <p class="content-text">Glass: {{ this.glass }}</p>
+                                        </div>
+                                    </div>
+                                </a>                  
+                            </div>
+                        </div>
+                    {{/each}}
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card-deck mx-0 mb-sm-4 d-none d-sm-block d-md-none d-lg-none d-xl-none text-center">
+            <div class="container-fluid px-0">
+                <div class="row mx-md-0">
+
+                    {{#each featuredDoorsSmScreens.middleRow}}
+                        <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 shadow {{ this.animation }}">
+                            <div class="featured-product-card card-img-top rounded card-margin-xs-screen">
+                                <a href="{{ this.src }}" data-rel="lightcase:latestCollectionXsAndSmScreens" title="DESIGN: {{ this.design }}">
+                                    <div class="content">
+                                        <div class="content-overlay"></div>
+                                        <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                            <p class="content-text">Glass: {{ this.glass }}</p>
+                                        </div>
+                                    </div>
+                                </a>                  
+                            </div>
+                        </div>
+                    {{/each}}                    
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 d-none d-sm-block"></div>
+        <div class="col-sm-6 d-none d-sm-block">
+
+            <div class="card-deck mx-n2 mb-5 d-none d-sm-block d-md-none d-lg-none d-xl-none text-center">
+                <div class="container-fluid px-0">
+                    <div class="row mx-md-0">
+
+                        {{#each featuredDoorsSmScreens.bottomRow}}
+                        <div class="card border-0 d-inline-block mb-4 mx-5 mx-sm-2 shadow {{ this.animation }}">
+                            <div class="featured-product-card card-img-top rounded card-margin-xs-screen">
+                                <a href="{{ this.src }}" data-rel="lightcase:latestCollectionXsAndSmScreens" title="DESIGN: {{ this.design }}">
+                                    <div class="content">
+                                        <div class="content-overlay"></div>
+                                        <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                            <p class="content-text">Glass: {{ this.glass }}</p>
+                                        </div>
+                                    </div>
+                                </a>  
+                            </div>
+                        </div>
+                        {{/each}}
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-3 d-none d-sm-block"></div>
+
+        <div class="d-sm-none d-block ">
+            <div class="card-deck mx-0 mb-sm-4 d-none d-block d-md-none d-lg-none d-xl-none text-center">
+                <div class="container-fluid px-0">
+                    <div class="row mx-md-0">
+
+                        {{#each featuredDoorsXsScreens}}
+                            <div class="card border-0 d-inline-block mb-4 mx-5 shadow {{ this.animation }}">
+                                <div class="featured-product-card card-img-top rounded card-margin-xs-screen">
+                                    <a href="{{ this.src }}" data-rel="lightcase:latestCollectionXsScreens" title="DESIGN: {{ this.design }}">
+                                        <div class="content">
+                                            <div class="content-overlay"></div>
+                                            <img src="{{ this.src }}" class="img-fluid" alt="{{ this.alt }}">
+                                            <div class="content-details fadeIn-bottom">
+                                                <h6 class="content-title">DESIGN: {{this.design }}</h6>
+                                                <p class="content-text">Glass: {{ this.glass }}</p>
+                                            </div>
+                                        </div>
+                                    </a>  
+                                </div>
+                            </div>
+                        {{/each}}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
