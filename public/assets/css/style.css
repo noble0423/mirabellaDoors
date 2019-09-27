@@ -179,8 +179,8 @@ h1 {
     z-index: -1;
 }
 .carousel-indicators li {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     border-radius: 100%;
 }
 
