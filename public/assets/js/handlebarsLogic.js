@@ -649,9 +649,9 @@ const hbsInfo = {
                 bottomRow: bottomRowImgArray,
             },
         },
-        // scrollTopBtn: {
-        //     href: "#balconies-and-railings-scroll",
-        // },
+        scrollTopBtn: {
+            href: "#balconies-and-railings-scroll",
+        },
     },
 
     // Contact Us Page Handlebars Info
