@@ -5,7 +5,7 @@
 <div class="container-fluid px-0 px-0" id="hero-img-container">
     <div class="row">
         <div class="col-12">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel" data-slide-to="1"></li>
@@ -17,37 +17,40 @@
                 </ol>
 
                 <div class="carousel-inner">
+
                     <div class="carousel-item active darken" data-interval="10000">
-                        <img src="./assets/images/mirabellaDoorsImgs/heroImgs/161011_4035WMain-006.jpg" class="d-block w-100 opacity" alt="...">
+                        <img src="/assets/images/mirabellaDoorsImgs/heroImgs/161011_4035WMain-006.jpg" class="d-block w-100 opacity carousel-img-min-height" alt="...">
                         <div class="carousel-caption">
                             <h1 class="display-2 caption-title text-uppercase d-none d-md-block mb-5 wow zoomIn">Mirabella Doors</h1>
                             <p class="hero-image-paragraph-font wow zoomIn delay-sixtieths">You only have one chance to make a first impression</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-interval="10000">
-                        <img src="./assets/images/mirabellaDoorsImgs/heroImgs/WDB Front Elevation-resized.jpeg" class="d-block w-100" alt="...">
+                        <img src="/assets/images/mirabellaDoorsImgs/heroImgs/WDB Front Elevation-resized.jpeg" class="d-block w-100 carousel-img-min-height" alt="...">
                     </div>
                     <div class="carousel-item" data-interval="10000">
-                        <img src="./assets/images/mirabellaDoorsImgs/heroImgs/trad_door_wine_door_stairwell.jpg" class="d-block w-100" alt="...">
+                        <img src="/assets/images/mirabellaDoorsImgs/heroImgs/trad_door_wine_door_stairwell.jpg" class="d-block w-100 carousel-img-min-height" alt="...">
                     </div>
                     <div class="carousel-item" data-interval="10000">
-                        <img src="./assets/images/mirabellaDoorsImgs/heroImgs/Cosmopolitan L Shaped Unit-resized.jpeg" class="d-block w-100" alt="...">
+                        <img src="/assets/images/mirabellaDoorsImgs/heroImgs/Cosmopolitan L Shaped Unit-resized.jpeg" class="d-block w-100 carousel-img-min-height" alt="...">
                     </div>
                     <div class="carousel-item" data-interval="10000">
-                        <img src="./assets/images/mirabellaDoorsImgs/heroImgs/Cosmopolitan SDSL and L Shaped Back Wall-resized.jpeg" class="d-block w-100" alt="...">
+                        <img src="/assets/images/mirabellaDoorsImgs/heroImgs/Cosmopolitan SDSL and L Shaped Back Wall-resized.jpeg" class="d-block w-100 carousel-img-min-height" alt="...">
                     </div>
                     <div class="carousel-item" data-interval="10000">
-                        <img src="./assets/images/mirabellaDoorsImgs/heroImgs/pleasant_front_exterior.jpg" class="d-block w-100" alt="...">
+                        <img src="/assets/images/mirabellaDoorsImgs/heroImgs/pleasant_front_exterior.jpg" class="d-block w-100 carousel-img-min-height" alt="...">
                     </div>
                     <div class="carousel-item" data-interval="10000">
-                        <img src="./assets/images/mirabellaDoorsImgs/heroImgs/160706_919 Clearbrook-012-resized.jpeg" class="d-block w-100" alt="...">
+                        <img src="/assets/images/mirabellaDoorsImgs/heroImgs/160706_919 Clearbrook-012-resized.jpeg" class="d-block w-100 carousel-img-min-height" alt="...">
                     </div>
+
                 </div>
-                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+
+                <a class="carousel-control-prev" data-target="#carousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <a class="carousel-control-next" data-target="#carousel" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -55,6 +58,7 @@
         </div>
     </div>
 </div>
+
 
 <!-- Page Breaker Text -->
 {{> page-breaker-component/page-breaker-text}}
@@ -83,3 +87,4 @@
 
 <!-- Scroll Top Btn Component -->
 {{> scroll-top-btn-component/scroll-top-btn }}
+

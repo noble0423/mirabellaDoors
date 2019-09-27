@@ -15,10 +15,6 @@ body {
     /* background: radial-gradient( circle 905px at 4.9% 85.8%,  rgba(255,243,242,1) 0.1%, rgba(255,247,220,1) 57.6% ); */
 }
 
-.body-positioning {
-    padding-top: 56px;
-}
-
 .navbar {
     border: 1px solid #d4d4d4;
 }
@@ -168,7 +164,17 @@ h1 {
     border: 0;
 }
 
+/* Scroll Div Height */
+.smooth-scroll {
+    position: absolute;
+    top: 0;
+}
+
 /* Carousel */
+.carousel-img-min-height{
+    /* min-height: 276px; */
+}
+
 #carouselIndicators {
     z-index: -1;
 }
