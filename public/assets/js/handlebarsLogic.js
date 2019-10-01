@@ -771,7 +771,7 @@ const hbsInfo = {
             width: "100%",
             height: "600",
             // key: gMaps.secret,
-            key: "test",
+            key: "AIzaSyBAxMHHGlDIbXyRQnejuhjwCU5fVidLwLk",
         },
         scrollTopBtn: {
             href: "#contact-us-scroll",
