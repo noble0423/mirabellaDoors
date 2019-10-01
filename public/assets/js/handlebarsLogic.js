@@ -1,3 +1,11 @@
+require("dotenv").config();
+
+// Import Keys
+const keys = require("../../../keys");
+
+// gMaps
+const gMaps = keys.googleMaps;
+
 // This will end up being an AJAX call that will loop through images and assign them to variables in order to pass them into hbsInfo.
 
 const featuredImagesArray = [
@@ -758,6 +766,11 @@ const hbsInfo = {
             wording: {
                 id: "contactUsXSText",
             },
+        },
+        googleMapsApi: {
+            width: "100%",
+            height: "600",
+            key: gMaps.secret,
         },
         scrollTopBtn: {
             href: "#contact-us-scroll",

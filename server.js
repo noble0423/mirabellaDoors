@@ -5,11 +5,11 @@ const hbsInfo = require("./public/assets/js/handlebarsLogic");
 
 // console.log(hbsInfo.testString);
 
-// Import Keys
-const keys = require("./keys");
+// // Import Keys
+// const keys = require("./keys");
 
-// gMaps
-const gMaps = keys.googleMaps;
+// // gMaps
+// const gMaps = keys.googleMaps;
 
 const express = require("express");
 const logger = require("morgan");
@@ -94,11 +94,13 @@ app.get("/balconiesandrailings", function(req, res) {
 app.get("/contactus", function(req, res) {
     const hbsObject = hbsInfo.contactUsPage;
 
-    hbsObject.googleMapsApi = {
-            width: "100%",
-            height: "600",
-            key: gMaps.secret
-    };
+    // hbsObject.googleMapsApi = {
+    //         width: "100%",
+    //         height: "600",
+    //         key: gMaps.secret
+    // };
+
+    console.log(hbsObject);
     
     res.render("contactUs", hbsObject);
 });
