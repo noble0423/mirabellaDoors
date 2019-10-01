@@ -770,7 +770,8 @@ const hbsInfo = {
         googleMapsApi: {
             width: "100%",
             height: "600",
-            key: gMaps.secret,
+            // key: gMaps.secret,
+            key: "test",
         },
         scrollTopBtn: {
             href: "#contact-us-scroll",
