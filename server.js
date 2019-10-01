@@ -100,7 +100,7 @@ app.get("/contactus", function(req, res) {
     //         key: gMaps.secret
     // };
 
-    console.log(hbsObject);
+    // console.log(hbsObject);
     
     res.render("contactUs", hbsObject);
 });
