@@ -6,7 +6,8 @@ const hbsInfo = require("./public/assets/js/handlebarsLogic");
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-const axios = require("axios");
+const compression = require("compression");
+// const axios = require("axios");
 
 // Require all models
 // const db = require("./models");
@@ -22,6 +23,8 @@ app.use(logger("dev"));
 // Parse request body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+// Compression Middleware
+app.use(compression());
 // Make public a static folder
 app.use(express.static("public"));
 

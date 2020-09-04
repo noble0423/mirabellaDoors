@@ -10,35 +10,35 @@ const gMaps = keys.googleMaps;
 
 const featuredImagesArray = [
     {
-        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/CM1A9908-cropped-and-resized.JPG",
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/tinified/CM1A9908-cropped-and-resized.JPG",
         design: "Featured Door Name",
         glass: "Glass Type",
         alt: "featured door image 1",
         animation: "wow zoomIn",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/After-Picture-cropped-and-resized.JPG",
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/tinified/After-Picture-cropped-and-resized.JPG",
         design: "Featured Door Name",
         glass: "Glass Type",
         alt: "featured door image 2",
         animation: "wow zoomIn delay-tenths",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/Cosmopolitan-Front-Entry-Doors-cropped-and-resized.jpg",
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/tinified/Cosmopolitan-Front-Entry-Doors-cropped-and-resized.jpg",
         design: "Featured Door Name",
         glass: "Glass Type",
         alt: "featured door image 3",
         animation: "wow zoomIn delay-twentieths",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/Miramar-Design-cropped-and-resized.JPG",
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/tinified/Miramar-Design-cropped-and-resized.JPG",
         design: "Featured Door Name",
         glass: "Glass Type",
         alt: "featured door image 4",
         animation: "wow zoomIn delay-thirtieths",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/Kinley-Design-cropped-and-resized.jpg",
+        src: "/assets/images/mirabellaDoorsImgs/featuredProducts/tinified/Kinley-Design-cropped-and-resized.jpg",
         design: "Featured Door Name",
         glass: "Glass Type",
         alt: "featured door image 5",
@@ -211,7 +211,7 @@ const hbsInfo = {
         customerReviewLeft: {
             img: {
                 animation: "wow fadeIn slow",
-                src: "/assets/images/mirabellaDoorsImgs/customerReviews/customer_review_home.jpeg",
+                src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/customer_review_home.jpeg",
                 alt: "customer review img 1",
             },
             review: {
@@ -242,7 +242,7 @@ const hbsInfo = {
             },
             img: {
                 animation: "wow fadeIn slow",
-                src: "/assets/images/mirabellaDoorsImgs/customerReviews/customer_review_img_clearbrook.jpeg",
+                src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/customer_review_img_clearbrook.jpeg",
                 alt: "customer review img 2",
             },
         },
@@ -257,14 +257,14 @@ const hbsInfo = {
             title: "The Mirabella Difference",
             animation: "wow fadeIn slow",
             image: {
-                // src: "/assets/images/mirabellaDoorsImgs/hero-component/Cosmo SDFS.jpg",
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",
+                // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Cosmo SDFS.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
                 alt: "The Mirabella Difference - Houston's Premier Custom Doors Banner Image",
             },
         },
         xsHeroComponentLeft: {
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
             },
         },
         pageBreakerText: { 
@@ -295,7 +295,7 @@ const hbsInfo = {
                 id: "mirabellaDifferenceText",
             },
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/mirabella_difference_piano_room.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/tinified/mirabella_difference_piano_room.jpg",
                 alt: "The Mirabella Difference - Mirabella Doors - Custom Doors Houston, TX",
                 id: "mirabellaDifferenceImg",
             },
@@ -322,7 +322,7 @@ const hbsInfo = {
                 id: "meetTheOwnerText",
             },
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/pam-mirabella_doors_houston.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/tinified/pam-mirabella_doors_houston.jpg",
                 alt: "Owner - Mirabella Doors - Custom Doors Houston",
                 id: "meetTheOwnerImg",
             },
@@ -371,16 +371,16 @@ const hbsInfo = {
     contDoorsPage: {
         heroComponentRight: {
             title: "Stunning Contemporary Doors",
-            // image: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",
+            // image: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
             animation: "wow fadeIn slow",
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/WMain-007.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/WMain-007.jpg",
                 alt: "Mirabella Doors - Contemporary Doors Banner Image - Greater Houston",
             },
         },
         xsHeroComponentRight: {
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/WMain-007.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/WMain-007.jpg",
             },
         },
         pageBreakerText: {
@@ -437,13 +437,13 @@ const hbsInfo = {
             title: "Breathtaking Traditional Doors",
             animation: "wow fadeIn slow",
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/trad_door_hero_banner.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/trad_door_hero_banner.jpg",
                 alt: "Mirabella Doors - Traditional Doors Banner Image",
             },
         },
         xsHeroComponentLeft: {
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/xs_trad_door_hero_banner.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_trad_door_hero_banner.jpg",
             },
         },
         pageBreakerText: {
@@ -503,16 +503,16 @@ const hbsInfo = {
             title: "Beautiful Finishes",
             animation: "wow fadeIn slow",
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/door_handles_up_close.jpg",
-                // src: "/assets/images/mirabellaDoorsImgs/hero-component/grape_cluster_up_close.jpg",
-                // src: "/assets/images/mirabellaDoorsImgs/hero-component/leaves_up_close_warmer.jpg",
-                // src: "/assets/images/mirabellaDoorsImgs/hero-component/leaves_up_close.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/door_handles_up_close.jpg",
+                // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/grape_cluster_up_close.jpg",
+                // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/leaves_up_close_warmer.jpg",
+                // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/leaves_up_close.jpg",
                 alt: "Mirabella Doors - High Quality Custom Door Finishes Banner Image",
             },
         },
         xsHeroComponentRight: {
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/door_handles_up_close.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/door_handles_up_close.jpg",
             },
         },
         pageBreakerText: {
@@ -551,14 +551,14 @@ const hbsInfo = {
             animation: "wow fadeIn slow",
             // image: "https://via.placeholder.com/1650x600/87ceeb?text=Hero+Banner+Component+(banner+-+left)",
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/architect-back-black-and-white-1496141.jpg",
-                // src: "/assets/images/mirabellaDoorsImgs/hero-component/Lady_laptop.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/architect-back-black-and-white-1496141.jpg",
+                // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Lady_laptop.jpg",
                 alt: "Mirabella Doors - Door Design Library Banner Image",
             },
         },
         xsHeroComponentLeft: {
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/xs_architect-back-black-and-white-1496141.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_architect-back-black-and-white-1496141.jpg",
             },
         },
         pageBreakerText: {
@@ -625,13 +625,13 @@ const hbsInfo = {
             title: "Balconies and Railings",
             animation: "wow fadeIn slow",
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/railing_up_close.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/railing_up_close.jpg",
                 alt: "Mirabella Doors - Custom Balconies and Railings Banner Image",
             },
         },
         xsHeroComponentRight: {
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/xs_railing_up_close.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_railing_up_close.jpg",
             },
         },
         pageBreakerText: {
@@ -669,13 +669,13 @@ const hbsInfo = {
             title: "Contact Us Today!",
             animation: "wow fadeIn slow",
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/contact_us_meeting_image.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/contact_us_meeting_image.jpg",
                 alt: "Mirabella Doors - Expertly Crafted Custom Doors - Contact Us Banner Image",
             },
         },
         xsHeroComponentLeft: {
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/hero-component/xs_contact_us_meeting_image.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_contact_us_meeting_image.jpg",
             },
         },
         pageBreakerText: {
@@ -695,7 +695,7 @@ const hbsInfo = {
                 id: "contactUsEmailText",
             },
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/Cosmopolitan DDT.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/tinified/Cosmopolitan DDT.jpg",
                 alt: "Contact Us - Mirabella Doors - Custom Doors Houston, TX",
                 id: "contactUsEmailImg",
             },
@@ -728,7 +728,7 @@ const hbsInfo = {
                 id: "contactUsText",
             },
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/contact_us_front-door_dusk.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/tinified/contact_us_front-door_dusk.jpg",
                 alt: "Contact Mirabella Doors - Custom Doors Houston - Contact Info",
                 id: "contactUsImg",
             },
