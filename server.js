@@ -32,7 +32,8 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Connect to the Mongo DB
-// mongoose.connect("mongodb://localhost/", { useNewUrlParser: true });
+//, { useNewUrlParser: true }) URL parser option alternative.
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mirabellaDoors");
 
 // HTML Routes
 app.get("/", function(req, res) {
