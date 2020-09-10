@@ -8,16 +8,6 @@ const gMaps = keys.googleMaps;
 
 // This will end up being an AJAX call that will loop through images and assign them to variables in order to pass them into hbsInfo.
 
-function getAll() {
-    axios({
-        method: 'get',
-        url: '/api/data',
-        responseType: 'stream'
-    }).then(function (response) {
-        console.log(response)
-    })
-}
-getAll()
 const featuredImagesArray = [
     {
         src: "/assets/images/mirabellaDoorsImgs/featuredProducts/CM1A9908-cropped-and-resized.JPG",

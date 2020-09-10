@@ -1,10 +1,12 @@
-const path = require("path");
+//const path = require("path");
 const router = require("express").Router();
-const apiRoutes = require("./api");
+const Image = require("../models/Image")
 
-router.use("/api", apiRoutes);
+router.get('/', function(req, res, next) {
+    Image.find(function(err, content) {
+        console.log(content);
+        res.render('index', {title: 'Images Loadout', contents: content});
+    });
+});
 
-// router.use(function(req, res) {
-//     res.sendFile(path.join(__dirname, "../"))
-// })
 module.exports = router;

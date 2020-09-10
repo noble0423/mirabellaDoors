@@ -8,9 +8,9 @@ mongoose.connect(
 
 const imageSeed = [
     {
-        src: "test1",
-        alt: "test2",
-        imgName: "test3",
+        src: "hoping",
+        alt: "for",
+        imgName: "connection",
         date: new Date(Date.now())
     }
 ];

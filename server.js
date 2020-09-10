@@ -7,8 +7,10 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const axios = require("axios");
+
 //seedDemo
-const seed = require("./seeds/dataSeed");
+// const seed = require("./seeds/dataSeed");
+const routes = require('./routes/index');
 
 // Require all models
 // const db = require("./models");
@@ -34,13 +36,13 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Connect to the Mongo DB
-//, { useNewUrlParser: true }) URL parser option alternative.
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mirabellaDoors");
+// URL parser option alternative.
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mirabellaDoors", { useNewUrlParser: true });
 
+// app.use('/', routes);
 // HTML Routes
 app.get("/", function(req, res) {
     const hbsObject = hbsInfo.homePage;
-
     res.render("index", hbsObject);
 });
 
