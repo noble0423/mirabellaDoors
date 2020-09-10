@@ -7,6 +7,7 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const axios = require("axios");
+const seed = require("./seeds/dataSeed");
 
 // Require all models
 // const db = require("./models");
