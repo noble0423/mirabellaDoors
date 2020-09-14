@@ -1,5 +1,8 @@
 $(document).ready(function() {
-
+   
+    $.get('/api', function(res){
+        console.log(res);
+    })
     // NavBar
     //=====================================================================
     $(function(){

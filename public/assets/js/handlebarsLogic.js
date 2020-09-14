@@ -1,5 +1,11 @@
+// $(document).ready(function(){
+//     $.get('/api', function(res){
+//         console.log(res);
+//     })
+// })
 require("dotenv").config();
 const axios = require("axios");
+
 // Import Keys
 const keys = require("../../../keys");
 
@@ -129,6 +135,20 @@ function imgArrayLoop(array, numPerRow, newTopRowArray, newBottomRowArray) {
             newBottomRowArray.push(array[i]);
         }
     };
+}
+
+//function for api calls add input for different search
+function categorySearch() {
+    // $.get('/api', function(res) {
+    //     console.log(res)
+    // })
+    console.log("here");
+    axios({
+        method: 'get',
+        url:'/api/'
+    }).then(res=>{
+        console.log(res)
+    })
 }
 
 imgArrayLoop(featuredImagesArray, 3, topRowFeaturedImagesArray, bottomRowFeaturedImagesArray)
@@ -369,6 +389,17 @@ const hbsInfo = {
     // Contemporary Doors Page Handlebars Info
     //===============================================================================
     contDoorsPage: {
+        search: function(){
+            console.log("here");
+            // axios({
+            //     method: 'get',
+            //     url:'/api'
+            // }).then(res=>{
+            //     console.log(res)
+            // }).catch(err=>{
+            //     console.log(err)
+            // })
+        },
         heroComponentRight: {
             title: "Stunning Contemporary Doors",
             // image: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",

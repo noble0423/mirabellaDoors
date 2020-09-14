@@ -8,9 +8,10 @@ mongoose.connect(
 
 const imageSeed = [
     {
-        src: "hoping",
+        src: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         alt: "for",
         imgName: "connection",
+        category: "Contemporary",
         date: new Date(Date.now())
     }
 ];
