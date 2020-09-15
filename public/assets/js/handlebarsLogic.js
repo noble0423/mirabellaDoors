@@ -48,7 +48,7 @@ const featuredImagesArray = [
 
 const testImageArray = [
     {
-        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_0008-Edit.jpeg",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
         // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/2_pleasant_wine_room_door.jpg",
         design: "Kendall (full light)",
         glass: "Flemish",
@@ -56,7 +56,7 @@ const testImageArray = [
         animation: "wow fadeIn slow",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_0017-Edit.jpeg",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
         // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Montereal_LMP.jpg",
         design: "Reagan (with lower metal panel)",
         glass: "Flemish",
@@ -64,7 +64,7 @@ const testImageArray = [
         animation: "wow fadeIn slow delay-tenths",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_9774-Edit.jpeg",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
         // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Sophie_w_LMP2.jpg",
         design: "Montreal (full light with leaves)",
         glass: "Clear",
@@ -72,7 +72,7 @@ const testImageArray = [
         animation: "wow fadeIn slow delay-fifteenths",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_9805-Edit.jpeg",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
         // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Bellagio_LMP.jpg",
         design: "Coronado (decorative lower metal panel)",
         glass: "Flemish",
@@ -80,7 +80,7 @@ const testImageArray = [
         animation: "wow fadeIn slow delay-twentieths",
     }, 
     {
-        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_9874-Edit.jpeg",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
         // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Cosmo_Wide_LMP.jpg",
         design: "Bellagio (full light)",
         glass: "Flemish",
@@ -88,7 +88,7 @@ const testImageArray = [
         animation: "wow fadeIn slow delay-quarters",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_exterior_detail.jpeg",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
         // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_exterior_detail.jpeg",
         design: "Reagan (full light)",
         glass: "Clear",
@@ -96,7 +96,7 @@ const testImageArray = [
         animation: "wow fadeIn slow delay-thirtieths",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_interior_door.jpeg",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
         // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_interior_door.jpeg",
         design: "Reagan (full light, interior view)",
         glass: "Clear",
@@ -104,7 +104,7 @@ const testImageArray = [
         animation: "wow fadeIn slow delay-thirty-fifths",
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/6142WP_Front_Doors_(no_transom).jpeg",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
         // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/6142WP_Front_Doors_(no_transom).jpeg",
         design: "Orleans (full light)",
         glass: "Clear",
