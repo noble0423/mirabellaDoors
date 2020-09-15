@@ -37,7 +37,7 @@ app.set("view engine", "handlebars");
 
 // Connect to the Mongo DB
 // URL parser option alternative.
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mirabellaDoors", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://mirabella:mirabelladoors1@ds361998.mlab.com:61998/mirabella", { useNewUrlParser: true });
 
 //Using seperate routes for HTML and API 
 app.use('/', api);

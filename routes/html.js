@@ -1,5 +1,69 @@
 const router = require("express").Router();
 const hbsInfo = require("../public/assets/js/handlebarsLogic");
+const axios = require("axios");
+
+let placeholder = {};
+let hbsCont = {
+    heroComponentRight: {
+        title: "Stunning Contemporary Doors",
+        // image: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",
+        animation: "wow fadeIn slow",
+        image: {
+            src: "/assets/images/mirabellaDoorsImgs/hero-component/WMain-007.jpg",
+            alt: "Mirabella Doors - Contemporary Doors Banner Image - Greater Houston",
+        },
+    },
+    xsHeroComponentRight: {
+        image: {
+            src: "/assets/images/mirabellaDoorsImgs/hero-component/WMain-007.jpg",
+        },
+    },
+    pageBreakerText: {
+        text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
+        animation: "wow zoomInDown slow",
+    },
+    imagesComponentLeft: {
+        largeImage: {
+            // this will be grabbed from db later
+            src: [
+                "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook.jpg", 
+                "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan-Sleek.jpg",
+            ],
+            alt: [
+                "left test1111",
+                "left test2222",
+            ],
+            animation: "wow zoomIn",
+        },
+        smallImage: {
+            // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+            topRow: placeholder,
+            bottomRow: placeholder,
+        },
+    },
+    imagesComponentRight: {
+        largeImage: {
+            // this will be grabbed from db later
+            src: [
+                "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook_wine.jpg", 
+                "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan Front Entry Doors.jpg"
+            ],
+            alt: [
+                "right test1111",
+                "right test2222",
+            ],
+            animation: "wow zoomIn",
+        },
+        smallImage: {
+            // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+            topRow: placeholder,
+            bottomRow: placeholder,
+        },
+    },
+    scrollTopBtn: {
+        href: "#contemporary-doors-scroll",
+    }
+}
 
 router.get("/", function(req, res) {
     const hbsObject = hbsInfo.homePage;
@@ -20,10 +84,28 @@ router.get("/mirabelladifference", function(req, res) {
 });
 
 router.get("/contemporarydoors", function(req, res) {
-    hbsInfo.contDoorsPage.search();
-    const hbsObject = hbsInfo.contDoorsPage;
+    let partition = res;
+    // console.log("here");
+    //use callback function instead of async await, stinky
 
-    res.render("contemporaryDoors", hbsObject);
+    // hbsInfo.contDoorsPage.search(function(data) {
+    //     console.log(hbsInfo.contDoorsPage.imagesComponentLeft.smallImage.topRow)
+    //     const hbsObject = hbsInfo.contDoorsPage;
+    //     res.render("contemporaryDoors", hbsObject);
+    // });
+
+    axios.get('http://localhost:3000/api')
+    .then(function(res) {
+        console.log(res.data);
+        hbsCont.imagesComponentLeft.smallImage.topRow = res.data;
+    }).then(function(res) {
+        console.log(placeholder);
+        console.log(hbsCont);
+        partition.render("contemporaryDoors", hbsCont);
+    }).catch(function(err){
+        res.render("404")
+        console.log(err)
+    })
 });
 
 router.get("/traditionaldoors", function(req, res) {

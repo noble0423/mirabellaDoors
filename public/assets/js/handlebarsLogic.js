@@ -52,7 +52,7 @@ const featuredImagesArray = [
     },
 ]
 
-const testImageArray = [
+let testImageArray = [
     {
         src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/_MG_0008-Edit.jpeg",
         design: "Kendall (full light)",
@@ -121,7 +121,7 @@ const middleRowFeaturedImagesArraySm = [];
 const bottomRowFeaturedImagesArraySm = [];
 
 // Empty Arrays for the Images Components used on multiple pages
-const topRowImgArray = [];
+let topRowImgArray = [];
 const bottomRowImgArray = [];
 
 // Helper Function to loop through image arrays and assign to top and bottom rows arrays
@@ -138,18 +138,18 @@ function imgArrayLoop(array, numPerRow, newTopRowArray, newBottomRowArray) {
 }
 
 //function for api calls add input for different search
-function categorySearch() {
-    // $.get('/api', function(res) {
-    //     console.log(res)
-    // })
-    console.log("here");
-    axios({
-        method: 'get',
-        url:'/api/'
-    }).then(res=>{
-        console.log(res)
-    })
-}
+// function categorySearch() {
+//     // $.get('/api', function(res) {
+//     //     console.log(res)
+//     // })
+//     console.log("here");
+//     axios({
+//         method: 'get',
+//         url:'/api/'
+//     }).then(res=>{
+//         console.log(res)
+//     })
+// }
 
 imgArrayLoop(featuredImagesArray, 3, topRowFeaturedImagesArray, bottomRowFeaturedImagesArray)
 imgArrayLoop(testImageArray, 4, topRowImgArray, bottomRowImgArray);
@@ -389,17 +389,16 @@ const hbsInfo = {
     // Contemporary Doors Page Handlebars Info
     //===============================================================================
     contDoorsPage: {
-        search: function(){
-            console.log("here");
-            // axios({
-            //     method: 'get',
-            //     url:'/api'
-            // }).then(res=>{
-            //     console.log(res)
-            // }).catch(err=>{
-            //     console.log(err)
-            // })
-        },
+        // search: function(cb){
+        //     axios.get('http://localhost:3000/api')
+        //       .then(function(res) {
+        //           console.log(res.data)
+        //           testImageArray = res.data;
+        //           cb(res.data)
+        //       }).catch(function(err){
+        //           console.log(err)
+        //       })
+        // },
         heroComponentRight: {
             title: "Stunning Contemporary Doors",
             // image: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",

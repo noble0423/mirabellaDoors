@@ -3,7 +3,7 @@ const db = require("../models");
 
 mongoose.connect(
     process.env.MONGODB_URI ||
-    "mongodb://localhost/mirabellaDoors"
+    "mongodb://mirabella:mirabelladoors1@ds361998.mlab.com:61998/mirabella"
 );
 
 const imageSeed = [
@@ -11,7 +11,32 @@ const imageSeed = [
         src: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         alt: "for",
         imgName: "connection",
-        category: "Contemporary",
+        category: "contemporary",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        alt: "for",
+        imgName: "connection",
+        category: "contemporary",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        alt: "for",
+        imgName: "connection",
+        category: "contemporary",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        alt: "for",
+        imgName: "connection",
+        category: "contemporary",
+        size: "small",
         date: new Date(Date.now())
     }
 ];
