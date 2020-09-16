@@ -5,13 +5,10 @@ require("dotenv").config();
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-const axios = require("axios");
-//seedDemo
-// const Image = require("../models/Image")
-// const seed = require("./seeds/dataSeed");
+const compression = require("compression");
+// const axios = require("axios");
 const html = require("./routes/html");
 const api = require('./routes/api');
-
 // Require all models
 // const db = require("./models");
 
@@ -26,6 +23,8 @@ app.use(logger("dev"));
 // Parse request body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+// Compression Middleware
+app.use(compression());
 // Make public a static folder
 app.use(express.static("public"));
 
