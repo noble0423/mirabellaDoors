@@ -2,7 +2,6 @@ const router = require("express").Router();
 const hbsInfo = require("../public/assets/js/handlebarsLogic");
 const axios = require("axios");
 
-let placeholder = {};
 let hbsCont = {
     heroComponentRight: {
         title: "Stunning Contemporary Doors",
@@ -37,8 +36,8 @@ let hbsCont = {
         },
         smallImage: {
             // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-            topRow: placeholder,
-            bottomRow: placeholder,
+            topRow: [],
+            bottomRow: [],
         },
     },
     imagesComponentRight: {
@@ -56,8 +55,8 @@ let hbsCont = {
         },
         smallImage: {
             // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-            topRow: placeholder,
-            bottomRow: placeholder,
+            topRow: [],
+            bottomRow: [],
         },
     },
     scrollTopBtn: {
@@ -85,27 +84,20 @@ router.get("/mirabelladifference", function(req, res) {
 
 router.get("/contemporarydoors", function(req, res) {
     let partition = res;
-    // console.log("here");
-    //use callback function instead of async await, stinky
-
-    // hbsInfo.contDoorsPage.search(function(data) {
-    //     console.log(hbsInfo.contDoorsPage.imagesComponentLeft.smallImage.topRow)
-    //     const hbsObject = hbsInfo.contDoorsPage;
-    //     res.render("contemporaryDoors", hbsObject);
-    // });
-
     axios.get('http://localhost:3000/api')
     .then(function(res) {
         console.log(res.data);
         hbsCont.imagesComponentLeft.smallImage.topRow = res.data;
     }).then(function(res) {
-        console.log(placeholder);
-        console.log(hbsCont);
         partition.render("contemporaryDoors", hbsCont);
     }).catch(function(err){
         res.render("404")
         console.log(err)
     })
+    // hbsInfo.contDoorsPage.search();
+
+    // const hbsObject = hbsInfo.contDoorsPage;
+    // res.render("contemporaryDoors", hbsObject);
 });
 
 router.get("/traditionaldoors", function(req, res) {

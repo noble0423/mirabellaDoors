@@ -16,6 +16,22 @@ const imageSeed = [
         date: new Date(Date.now())
     },
     {
+        src: "https://www.guidedogs.org/wp-content/uploads/2019/11/website-donate-mobile.jpg",
+        alt: "for",
+        imgName: "connection",
+        category: "contemporary",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        alt: "for",
+        imgName: "connection",
+        category: "contemporary",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
         src: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         alt: "for",
         imgName: "connection",

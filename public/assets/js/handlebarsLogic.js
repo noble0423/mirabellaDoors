@@ -389,16 +389,15 @@ const hbsInfo = {
     // Contemporary Doors Page Handlebars Info
     //===============================================================================
     contDoorsPage: {
-        // search: function(cb){
-        //     axios.get('http://localhost:3000/api')
-        //       .then(function(res) {
-        //           console.log(res.data)
-        //           testImageArray = res.data;
-        //           cb(res.data)
-        //       }).catch(function(err){
-        //           console.log(err)
-        //       })
-        // },
+        search: function(){
+            axios.get('http://localhost:3000/api')
+              .then(function(res) {
+                  console.log(res.data)
+                  this.imagesComponentLeft.smallImage.topRow = res.data;
+              }).catch(function(err){
+                  console.log(err)
+              })
+        },
         heroComponentRight: {
             title: "Stunning Contemporary Doors",
             // image: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",

@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 const axios = require("axios");
 //seedDemo
 // const Image = require("../models/Image")
-const seed = require("./seeds/dataSeed");
+// const seed = require("./seeds/dataSeed");
 const html = require("./routes/html");
 const api = require('./routes/api');
 
