@@ -84,7 +84,8 @@ router.get("/mirabelladifference", function(req, res) {
 
 router.get("/contemporarydoors", function(req, res) {
     let partition = res;
-    axios.get('http://localhost:3000/api')
+
+    axios.get('http://localhost:3000/api/contemporary')
     .then(function(res) {
         console.log(res.data);
         hbsCont.imagesComponentLeft.smallImage.topRow = res.data;
@@ -94,16 +95,21 @@ router.get("/contemporarydoors", function(req, res) {
         res.render("404")
         console.log(err)
     })
-    // hbsInfo.contDoorsPage.search();
-
-    // const hbsObject = hbsInfo.contDoorsPage;
-    // res.render("contemporaryDoors", hbsObject);
 });
 
 router.get("/traditionaldoors", function(req, res) {
-    const hbsObject = hbsInfo.tradDoorsPage;
+    let partition = res;
 
-    res.render("traditionalDoors", hbsObject);
+    axios.get('http://localhost:3000/api/traditional')
+    .then(function(res) {
+        console.log(res.data);
+        hbsCont.imagesComponentLeft.smallImage.topRow = res.data;
+    }).then(function(res) {
+        partition.render("traditionalDoors", hbsCont);
+    }).catch(function(err){
+        res.render("404")
+        console.log(err)
+    })
 });
 
 router.get("/doorfinishes", function(req, res) {
