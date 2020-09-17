@@ -18,12 +18,12 @@
                         {{#each imagesComponentLeft.smallImage.topRow}}
                             <div class="col-3">
                                 <div class="container px-0 shadow-sm wow zoomIn">
-                                    <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.design }}">
+                                    <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                         <div class="content">
                                             <div class="content-overlay"></div>
                                             <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
                                             <div class="content-details fadeIn-bottom">
-                                                <h6 class="content-title">DESIGN: default</h6>
+                                                <h6 class="content-title">DESIGN: {{this.imgName}}</h6>
                                                 <p class="content-text">Glass: default</p>
                                             </div>
                                         </div>

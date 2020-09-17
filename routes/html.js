@@ -2,8 +2,37 @@ const router = require("express").Router();
 const hbsInfo = require("../public/assets/js/handlebarsLogic");
 const axios = require("axios");
 
+//section 1
+let topRowRight = [];
+let botRowRight = [];
+let topRowLeft = [];
+let botRowLeft = [];
+
+//section 2
+//section 3
+//section 4
+//section 5
+function modulusSort(input) {
+    for (i=0; i<input.length; i++){
+
+        if (i<8){
+            if (i%2 === 0 ){
+                topRowRight.push(input[i])
+            }else {
+                botRowRight.push(input[i])
+            } 
+        } else {
+            if (i%2 === 0 ){
+                topRowLeft.push(input[i])
+            }else {
+                botRowLeft.push(input[i])
+            } 
+        }
+    }
+}
+
 let hbsCont = {
-    heroComponentRight: {
+    heroComponent: {
         title: "Stunning Contemporary Doors",
         // image: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",
         animation: "wow fadeIn slow",
@@ -12,7 +41,7 @@ let hbsCont = {
             alt: "Mirabella Doors - Contemporary Doors Banner Image - Greater Houston",
         },
     },
-    xsHeroComponentRight: {
+    xsHeroComponent: {
         image: {
             src: "/assets/images/mirabellaDoorsImgs/hero-component/WMain-007.jpg",
         },
@@ -88,7 +117,11 @@ router.get("/contemporarydoors", function(req, res) {
     axios.get('http://localhost:3000/api/contemporary')
     .then(function(res) {
         console.log(res.data);
-        hbsCont.imagesComponentLeft.smallImage.topRow = res.data;
+
+        // hbsCont.imagesComponentLeft.smallImage.topRow = topRow;
+        // hbsCont.imagesComponentLeft.smallImage.bottomRow = botRow;
+        // hbsCont.imagesComponentRight.smallImage.topRow = topRow; // change to topRowRight later for non duplicate imagery
+        // hbsCont.imagesComponentRight.smallImage.bottomRow = botRow;
     }).then(function(res) {
         partition.render("contemporaryDoors", hbsCont);
     }).catch(function(err){
@@ -103,8 +136,12 @@ router.get("/traditionaldoors", function(req, res) {
     axios.get('http://localhost:3000/api/traditional')
     .then(function(res) {
         console.log(res.data);
-        hbsCont.imagesComponentLeft.smallImage.topRow = res.data;
+        modulusSort(res.data);
+        hbsCont.imagesComponentLeft.smallImage.topRow = topRowRight;
+        hbsCont.imagesComponentLeft.smallImage.bottomRow = botRowRight;
     }).then(function(res) {
+        topRowRight=[];
+        botRowRight=[];
         partition.render("traditionalDoors", hbsCont);
     }).catch(function(err){
         res.render("404")

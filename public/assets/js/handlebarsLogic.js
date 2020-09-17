@@ -397,15 +397,6 @@ const hbsInfo = {
     // Contemporary Doors Page Handlebars Info
     //===============================================================================
     contDoorsPage: {
-        search: function(){
-            axios.get('http://localhost:3000/api')
-              .then(function(res) {
-                  console.log(res.data)
-                  this.imagesComponentLeft.smallImage.topRow = res.data;
-              }).catch(function(err){
-                  console.log(err)
-              })
-        },
         heroComponentRight: {
             title: "Stunning Contemporary Doors",
             // image: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
@@ -504,8 +495,8 @@ const hbsInfo = {
             },
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-                topRow: topRowImgArray,
-                bottomRow: bottomRowImgArray,
+                topRow: [],
+                bottomRow: [],
             },
         },
         imagesComponentRight: {
@@ -524,8 +515,8 @@ const hbsInfo = {
             },
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-                topRow: topRowImgArray,
-                bottomRow: bottomRowImgArray,
+                topRow: [],
+                bottomRow: [],
             },
         },
         scrollTopBtn: {
