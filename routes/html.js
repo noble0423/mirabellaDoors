@@ -3,10 +3,10 @@ const hbsInfo = require("../public/assets/js/handlebarsLogic");
 const axios = require("axios");
 
 //section 1
-let topRowRight = [];
-let botRowRight = [];
-let topRowLeft = [];
-let botRowLeft = [];
+let topRow = [];
+let botRow = [];
+let topRowAggregate = [];
+let botRowAggregate = [];
 
 //section 2
 //section 3
@@ -14,19 +14,16 @@ let botRowLeft = [];
 //section 5
 function modulusSort(input) {
     for (i=0; i<input.length; i++){
-
-        if (i<8){
-            if (i%2 === 0 ){
-                topRowRight.push(input[i])
-            }else {
-                botRowRight.push(input[i])
-            } 
-        } else {
-            if (i%2 === 0 ){
-                topRowLeft.push(input[i])
-            }else {
-                botRowLeft.push(input[i])
-            } 
+        if (i%2 === 0 ){
+            topRow.push(input[i])
+        }else {
+            botRow.push(input[i])
+        }
+        if (i%8 === 0){
+            topRowAggregate.push(topRow);
+            botRowAggregate.push(botRow);
+            topRow = [];
+            botRow = [];
         }
     }
 }
@@ -137,11 +134,13 @@ router.get("/traditionaldoors", function(req, res) {
     .then(function(res) {
         console.log(res.data);
         modulusSort(res.data);
-        hbsCont.imagesComponentLeft.smallImage.topRow = topRowRight;
-        hbsCont.imagesComponentLeft.smallImage.bottomRow = botRowRight;
+        hbsCont.imagesComponentLeft.smallImage.topRow = topRow;
+        hbsCont.imagesComponentLeft.smallImage.bottomRow = botRow;
+        console.log(topRowAggregate);
+        console.log(botRowAggregate);
     }).then(function(res) {
-        topRowRight=[];
-        botRowRight=[];
+        topRow=[];
+        botRow=[];
         partition.render("traditionalDoors", hbsCont);
     }).catch(function(err){
         res.render("404")
