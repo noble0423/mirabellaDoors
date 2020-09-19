@@ -281,7 +281,7 @@ const hbsInfo = {
     mbDiffPage: {
 
         hbsTestTry1: "you got it man",
-        heroComponentLeft: {
+        heroComponent: {
             title: "The Mirabella Difference",
             animation: "wow fadeIn slow",
             image: {
@@ -290,7 +290,7 @@ const hbsInfo = {
                 alt: "The Mirabella Difference - Houston's Premier Custom Doors Banner Image",
             },
         },
-        xsHeroComponentLeft: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
             },
@@ -397,7 +397,7 @@ const hbsInfo = {
     // Contemporary Doors Page Handlebars Info
     //===============================================================================
     contDoorsPage: {
-        heroComponentRight: {
+        heroComponent: {
             title: "Stunning Contemporary Doors",
             // image: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
             animation: "wow fadeIn slow",
@@ -406,7 +406,7 @@ const hbsInfo = {
                 alt: "Mirabella Doors - Contemporary Doors Banner Image - Greater Houston",
             },
         },
-        xsHeroComponentRight: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/WMain-007.jpg",
             },
@@ -461,7 +461,7 @@ const hbsInfo = {
     // Traditional Doors Page Handlebars Info
     //===============================================================================
     tradDoorsPage: {
-        heroComponentLeft: {
+        heroComponent: {
             title: "Breathtaking Traditional Doors",
             animation: "wow fadeIn slow",
             image: {
@@ -469,7 +469,7 @@ const hbsInfo = {
                 alt: "Mirabella Doors - Traditional Doors Banner Image",
             },
         },
-        xsHeroComponentLeft: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_trad_door_hero_banner.jpg",
             },
@@ -527,7 +527,7 @@ const hbsInfo = {
     // Door Finishes Page Handlebars Info
     //===============================================================================
     doorFinishesPage: {
-        heroComponentRight: {
+        heroComponent: {
             title: "Beautiful Finishes",
             animation: "wow fadeIn slow",
             image: {
@@ -538,7 +538,7 @@ const hbsInfo = {
                 alt: "Mirabella Doors - High Quality Custom Door Finishes Banner Image",
             },
         },
-        xsHeroComponentRight: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/door_handles_up_close.jpg",
             },
@@ -574,17 +574,17 @@ const hbsInfo = {
     // Door Design Library Page Handlebars Info
     //===============================================================================
     doorDesignLibPage: {
-        heroComponentLeft: {
+        heroComponent: {
             title: "Door Design Library",
             animation: "wow fadeIn slow",
-            // image: "https://via.placeholder.com/1650x600/87ceeb?text=Hero+Banner+Component+(banner+-+left)",
+            // image: "https://via.placeholder.com/1650x600/87ceeb?text=Hero+Banner+Component+(banner+-+)",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/architect-back-black-and-white-1496141.jpg",
                 // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Lady_laptop.jpg",
                 alt: "Mirabella Doors - Door Design Library Banner Image",
             },
         },
-        xsHeroComponentLeft: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_architect-back-black-and-white-1496141.jpg",
             },
@@ -649,7 +649,7 @@ const hbsInfo = {
     // Balconies and Railing Handlebars Info
     //===============================================================================
     balcAndRailPage: {
-        heroComponentRight: {
+        heroComponent: {
             title: "Balconies and Railings",
             animation: "wow fadeIn slow",
             image: {
@@ -657,7 +657,7 @@ const hbsInfo = {
                 alt: "Mirabella Doors - Custom Balconies and Railings Banner Image",
             },
         },
-        xsHeroComponentRight: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_railing_up_close.jpg",
             },
@@ -693,7 +693,7 @@ const hbsInfo = {
     // Contact Us Page Handlebars Info
     //===============================================================================
     contactUsPage: {
-        heroComponentLeft: {
+        heroComponent: {
             title: "Contact Us Today!",
             animation: "wow fadeIn slow",
             image: {
@@ -701,7 +701,7 @@ const hbsInfo = {
                 alt: "Mirabella Doors - Expertly Crafted Custom Doors - Contact Us Banner Image",
             },
         },
-        xsHeroComponentLeft: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_contact_us_meeting_image.jpg",
             },

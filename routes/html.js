@@ -19,7 +19,7 @@ function modulusSort(input) {
         }else {
             botRow.push(input[i])
         }
-        if (i%8 === 0){
+        if ((i+1)%8 === 0){
             topRowAggregate.push(topRow);
             botRowAggregate.push(botRow);
             topRow = [];
@@ -29,24 +29,6 @@ function modulusSort(input) {
 }
 
 let hbsCont = {
-    heroComponent: {
-        title: "Stunning Contemporary Doors",
-        // image: "/assets/images/mirabellaDoorsImgs/hero-component/Clearbrook-018.jpg",
-        animation: "wow fadeIn slow",
-        image: {
-            src: "/assets/images/mirabellaDoorsImgs/hero-component/WMain-007.jpg",
-            alt: "Mirabella Doors - Contemporary Doors Banner Image - Greater Houston",
-        },
-    },
-    xsHeroComponent: {
-        image: {
-            src: "/assets/images/mirabellaDoorsImgs/hero-component/WMain-007.jpg",
-        },
-    },
-    pageBreakerText: {
-        text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
-        animation: "wow zoomInDown slow",
-    },
     imagesComponentLeft: {
         largeImage: {
             // this will be grabbed from db later
@@ -84,9 +66,6 @@ let hbsCont = {
             topRow: [],
             bottomRow: [],
         },
-    },
-    scrollTopBtn: {
-        href: "#contemporary-doors-scroll",
     }
 }
 
@@ -113,14 +92,9 @@ router.get("/contemporarydoors", function(req, res) {
 
     axios.get('http://localhost:3000/api/contemporary')
     .then(function(res) {
-        console.log(res.data);
-
-        // hbsCont.imagesComponentLeft.smallImage.topRow = topRow;
-        // hbsCont.imagesComponentLeft.smallImage.bottomRow = botRow;
-        // hbsCont.imagesComponentRight.smallImage.topRow = topRow; // change to topRowRight later for non duplicate imagery
-        // hbsCont.imagesComponentRight.smallImage.bottomRow = botRow;
+        
     }).then(function(res) {
-        partition.render("contemporaryDoors", hbsCont);
+        partition.render("contemporaryDoors", hbsInfo.contDoorsPage);
     }).catch(function(err){
         res.render("404")
         console.log(err)
@@ -132,16 +106,17 @@ router.get("/traditionaldoors", function(req, res) {
 
     axios.get('http://localhost:3000/api/traditional')
     .then(function(res) {
-        console.log(res.data);
+        // console.log(res.data);
         modulusSort(res.data);
-        hbsCont.imagesComponentLeft.smallImage.topRow = topRow;
-        hbsCont.imagesComponentLeft.smallImage.bottomRow = botRow;
-        console.log(topRowAggregate);
-        console.log(botRowAggregate);
+        hbsInfo.tradDoorsPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
+        // console.log(topRow)
+        // hbsCont.imagesComponentLeft.smallImage.bottomRow = botRow;
+        // console.table(topRowAggregate[0]);
+        // console.table(botRowAggregate);
     }).then(function(res) {
         topRow=[];
         botRow=[];
-        partition.render("traditionalDoors", hbsCont);
+        partition.render("traditionalDoors", hbsInfo.tradDoorsPage);
     }).catch(function(err){
         res.render("404")
         console.log(err)
