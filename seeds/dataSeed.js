@@ -1718,6 +1718,89 @@ const imageSeed = [
         size: "small",
         date: new Date(Date.now())
     },
+    // CAD RENDERINGS (image size large)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/swatch_on_CAD_drawing.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Swatch on CAD Image",
+        imgName: "Swatch on CAD Image",
+        category: "cad",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_trad.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Showroom Image (Traditional Door)",
+        imgName: "Showroom",
+        category: "cad",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/door_handles_detail.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Door Handles (Detail)",
+        imgName: "Door Handles (Detail)",
+        category: "cad",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/pencil_on_CAD_drawing.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Pencil on CAD Rendering",
+        imgName: "Pencil on CAD Rendering",
+        category: "cad",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_cont_square.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Showroom Image (Cosmopolitan Door)",
+        imgName: "Showroom Image (Cosmopolitan Door)",
+        category: "cad",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/leaves_detail.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Leaves (Detail)",
+        imgName: "Leaves (Detail)",
+        category: "cad",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/artist_drawing.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Artist Drawing (Image)",
+        imgName: "Artist Drawing (Image)",
+        category: "cad",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_two_doors.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Showroom Image (Two Traditional Doors)",
+        imgName: "Showroom Image (Two Traditional Doors)",
+        category: "cad",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    //8^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/wine_gate_detail.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Wine Gate (Detail)",
+        imgName: "Wine Gate (Detail)",
+        category: "cad",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
 ];
 
 db.Image
