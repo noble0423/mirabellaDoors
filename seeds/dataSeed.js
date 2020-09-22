@@ -1091,8 +1091,633 @@ const imageSeed = [
         size: "small",
         date: new Date(Date.now())
     },
-
     //CONTEMPORARY DOORS (image size large)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/919_Clearbrook_LR_Doors_Open.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Clearbrook",
+        imgName: "Clearbrook",
+        category: "contemporary",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/161011_4035WMain-002.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: West Main",
+        imgName: "West Main",
+        category: "contemporary",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/161011_4035WMain-006.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: West Main",
+        imgName: "West Main",
+        category: "contemporary",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/Cosmopolitan_DDT.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan",
+        imgName: "Cosmopolitan",
+        category: "contemporary",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/DDSTWT_Cosmopolitan_(frosted).JPG",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan (frosted)",
+        imgName: "Cosmopolitan (frosted)",
+        category: "contemporary",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/Hermitage-12938-IMG-03_1.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Hermitage",
+        imgName: "Hermitage",
+        category: "contemporary",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/SDWFS Cosmpolitan.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan",
+        imgName: "Cosmopolitan",
+        category: "contemporary",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/SDWFS_Cosmopolitan_(exterior_shot).jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan (exterior shot)",
+        imgName: "Cosmopolitan",
+        category: "contemporary",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    //8^
+    // CAD RENDERINGS (image size small)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/ASTOR_DDHC_6'x8'2_COLOR.jpg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Astor",
+        imgName: "Astor",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/ASTORIA_DDEB_COLOR.jpg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Astoria",
+        imgName: "Astoria",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/AVALON_DDST_COLOR.jpg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Avalon",
+        imgName: "Avalon",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/AYREON_DDST_6'x8'_COLOR.jpg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Ayreon",
+        imgName: "Ayreon",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/BALBOA_DDST_COLOR.jpg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Balboa",
+        imgName: "Balboa",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/BAVARIA_DDHC_6'x8'2_COLOR.jpg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Bavaria",
+        imgName: "Bavaria",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/BELLAGIO_DDEB_COLOR.jpg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Bellagio",
+        imgName: "Bellagio",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/BELLAIRE_DDSTwMKP_COLOR.jpg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Bellaire",
+        imgName: "Bellaire",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    //8^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/BLAZE_DDST_COLOR.jpg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Blaze",
+        imgName: "Blaze",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/BRISTOL_DDST_COLOR.jpg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Bristol",
+        imgName: "Bristol",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/BROADWAY_DDHC_COLOR.jpeg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Broadway",
+        imgName: "Broadway",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/CARNIVALE_DDST_COLOR.jpeg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Carnivale",
+        imgName: "Carnivale",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/CASTLE_DDHC_COLOR.jpeg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Castle",
+        imgName: "Castle",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/CASTLE_Plain_COLOR_STDDeb.jpeg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Castle (plain)",
+        imgName: "Castle (plain)",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/CASTLE_SDEB_COLOR.jpeg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Castle",
+        imgName: "Castle",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/CASTLE_SDHC_COLOR.jpeg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Castle",
+        imgName: "Castle",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    //16^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/CELESTINE_DDST_6'x8'_COLOR.jpeg",
+        alt: "Custom Front Door for Entryway - Houston, TX - CAD Design: Celestine",
+        imgName: "Celestine",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/CHELSEA_DDEB_COLOR.jpeg",
+        alt: "Custom Iron Entry - Mirabella Doors - Houston - CAD Design: Chelsea",
+        imgName: "Chelsea",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/CHURCH_SERIES_COLOR_Page_1.jpeg",
+        alt: "Custom Iron Entry - Mirabella Doors - Houston - CAD Design: Church Series",
+        imgName: "Church Series",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/CHURCH_SERIES_COLOR_Page_2.jpeg",
+        alt: "Custom Iron Entry - Mirabella Doors - Houston - CAD Design: Church Series",
+        imgName: "Church Series",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/CHURCH_SERIES_COLOR_Page_3.jpeg",
+        alt: "Custom Iron Entry - Mirabella Doors - Houston - CAD Design: Church Series",
+        imgName: "Church Series",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/DDST_for_Ellison_COLOR.jpeg",
+        alt: "Custom Iron Entry - Mirabella Doors - Houston - CAD Design: Ellison",
+        imgName: "Ellison",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/DECLAN_DDST_COLOR.jpeg",
+        alt: "Custom Iron Entry - Mirabella Doors - Houston - CAD Design: Delcan",
+        imgName: "Delcan",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/DOLCE_DDST_COLOR.jpeg",
+        alt: "Custom Iron Entry - Mirabella Doors - Houston - CAD Design: Dolce",
+        imgName: "Dolce",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    //24^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/EDEN_DDST_COLOR.jpeg",
+        alt: "Iron Doors Houston - Mirabella Doors - CAD Design: Eden",
+        imgName: "Eden",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/EMERSON_DDHC_6'x8'_COLOR.jpeg",
+        alt: "Iron Doors Houston - Mirabella Doors - CAD Design: Emerson",
+        imgName: "Emerson",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/EMPIRE_DDEB_6'x8'2_COLOR.jpeg",
+        alt: "Iron Doors Houston - Mirabella Doors - CAD Design: Empire",
+        imgName: "Empire",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/FLORENCE_DDST_COLOR.jpeg",
+        alt: "Iron Doors Houston - Mirabella Doors - CAD Design: Florence",
+        imgName: "Florence",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/FONTAINE_DDST_COLOR.jpeg",
+        alt: "Iron Doors Houston - Mirabella Doors - CAD Design: Fontaine",
+        imgName: "Fontaine",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/FRENCH_QUARTER_DDST_COLOR.jpeg",
+        alt: "Iron Doors Houston - Mirabella Doors - CAD Design: French Quarter",
+        imgName: "French Quarter",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/GENEVA_DDEB_COLOR.jpeg",
+        alt: "Iron Doors Houston - Mirabella Doors - CAD Design: Geneva",
+        imgName: "Geneva",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/GRACIA_DDST_COLOR.jpeg",
+        alt: "Iron Doors Houston - Mirabella Doors - CAD Design: Gracia",
+        imgName: "Gracia",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    //32^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/HAVEN_DDST_(with_glass)_COLOR.jpeg",
+        alt: "Custom Front Door - High Quality Iron Doors - Texas - CAD Design: Haven",
+        imgName: "Haven",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/HAVEN_DDST_COLOR_(solid metal).jpeg",
+        alt: "Custom Front Door - High Quality Iron Doors - Texas - CAD Design: Haven",
+        imgName: "Haven",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/HAYDEN_DDEB_COLOR.jpeg",
+        alt: "Custom Front Door - High Quality Iron Doors - Texas - CAD Design: Hayden",
+        imgName: "Hayden",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/HAYDEN_DDST_COLOR.jpeg",
+        alt: "Custom Front Door - High Quality Iron Doors - Texas - CAD Design: Hayden",
+        imgName: "Hayden",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/IVY_DDST_COLOR.jpeg",
+        alt: "Custom Front Door - High Quality Iron Doors - Texas - CAD Design: Ivy",
+        imgName: "Ivy",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/KENDALL_TRANSOM_6'x8'_COLOR.jpeg",
+        alt: "Custom Front Door - High Quality Iron Doors - Texas - CAD Design: Kendall",
+        imgName: "Kendall",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/KENSINGTON-DDST-COLOR.jpeg",
+        alt: "Custom Front Door - High Quality Iron Doors - Texas - CAD Design: Kensington",
+        imgName: "Kensington",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/LEEDS_DDST_COLOR.jpeg",
+        alt: "Custom Front Door - High Quality Iron Doors - Texas - CAD Design: Leeds",
+        imgName: "Leeds",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    //40
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/LEIS-DDST-COLOR.jpeg",
+        alt: "Luxury Iron Front Door - Houston Design Center - CAD Design: Leis",
+        imgName: "Leis",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/LYON-DDEB-COLOR.jpeg",
+        alt: "Luxury Iron Front Door - Houston Design Center - CAD Design: Lyon",
+        imgName: "Lyon",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/MADISON-DDST-COLOR.jpeg",
+        alt: "Luxury Iron Front Door - Houston Design Center - CAD Design: Madison",
+        imgName: "Madison",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/MANCHESTER-DDST-COLOR.jpeg",
+        alt: "Luxury Iron Front Door - Houston Design Center - CAD Design: Manchester",
+        imgName: "Manchester",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/MARSEILLES-DDST-COLOR.jpeg",
+        alt: "Luxury Iron Front Door - Houston Design Center - CAD Design: Marseilles",
+        imgName: "Marseilles",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/METROPOLITAN-DDST-COLOR.jpeg",
+        alt: "Luxury Iron Front Door - Houston Design Center - CAD Design: Metropolitan",
+        imgName: "Metropolitan",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/MILAN-DDHC-COLOR.jpeg",
+        alt: "Luxury Iron Front Door - Houston Design Center - CAD Design: Milan",
+        imgName: "Milan",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/MIRAMAR-DDEB-6'x8'2-COLOR.jpeg",
+        alt: "Luxury Iron Front Door - Houston Design Center - CAD Design: Miramar",
+        imgName: "Miramar",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    //48^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/MONACO-DDEB-COLOR.jpeg",
+        alt: "Custom Entry - Iron Door - Mirabella Doors -  CAD Design: Monaco",
+        imgName: "Monaco",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/MONACO-DDST-COLOR.jpeg",
+        alt: "Custom Entry - Iron Door - Mirabella Doors - CAD Design: Monaco",
+        imgName: "Monaco",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/MONTREAL-DDEB-COLOR.jpeg",
+        alt: "Custom Entry - Iron Door - Mirabella Doors - CAD Design: Montreal",
+        imgName: "Montreal",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/NOLA-DDHC-COLOR.jpeg",
+        alt: "Custom Entry - Iron Door - Mirabella Doors - CAD Design: Nola",
+        imgName: "Nola",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/NOLA-DDST-COLOR.jpeg",
+        alt: "Custom Entry - Iron Door - Mirabella Doors - CAD Design: Nola",
+        imgName: "Nola",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/PARVANA-DDST-COLOR.jpeg",
+        alt: "Custom Entry - Iron Door - Mirabella Doors - CAD Design: Parvana",
+        imgName: "Parvana",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/PORTOFINO-DDST-COLOR.jpeg",
+        alt: "Custom Entry - Iron Door - Mirabella Doors - CAD Design: Portofino",
+        imgName: "Portofino",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/PRADA-DDST-COLOR.jpeg",
+        alt: "Custom Entry - Iron Door - Mirabella Doors - CAD Design: Prada",
+        imgName: "Prada",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    //56^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/RAVEL-DDEB-6'x8'2-COLOR.jpeg",
+        alt: "Iron Doors Houston - Custom Design and Installation - CAD Design: Ravel",
+        imgName: "Ravel",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/RAVEL-DDEB-6'x8'2-WITH-MEDALLION-COLOR.jpeg",
+        alt: "Iron Doors Houston - Custom Design and Installation - CAD Design: Ravel",
+        imgName: "Ravel",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/REAGAN-DDST-COLOR.jpeg",
+        alt: "Iron Doors Houston - Custom Design and Installation - CAD Design: Reagan",
+        imgName: "Reagan",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/SOLARA_DDST_6'x8'_COLOR.jpeg",
+        alt: "Iron Doors Houston - Custom Design and Installation - CAD Design: Solara",
+        imgName: "Solara",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/SOPHIE-DD-CUSTOM-6'x8'2-(FULL-LIGHT)-COLOR.jpeg",
+        alt: "Iron Doors Houston - Custom Design and Installation - CAD Design: Sophie",
+        imgName: "Sophie",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/SOPHIE-DD-CUSTOM-6'x8'2-COLOR.jpeg",
+        alt: "Iron Doors Houston - Custom Design and Installation - CAD Design: Sophie",
+        imgName: "Sophie",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/SYDNEY-DDHC-COLOR.jpeg",
+        alt: "Iron Doors Houston - Custom Design and Installation - CAD Design: Sydney",
+        imgName: "Sydney",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/TEXAS-HILL-COUNTRY-DDEB-6'x8'-COLOR.jpeg",
+        alt: "Iron Doors Houston - Custom Design and Installation - CAD Design: Texas Hill Country",
+        imgName: "Texas Hill Country",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    //64^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/TEXAS-RANCH-DDST-COLOR.jpeg",
+        alt: "Best Doors in Houston - Custom Iron Doors - Mirabella Doors -  CAD Design: Texas Ranch",
+        imgName: "Texas Ranch",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/TOSCANO-DDEB-COLOR.jpeg",
+        alt: "Best Doors in Houston - Custom Iron Doors - Mirabella Doors -  CAD Design: Toscano",
+        imgName: "Toscano",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/VERANO-DDEB-6'x8'-COLOR.jpeg",
+        alt: "Best Doors in Houston - Custom Iron Doors - Mirabella Doors -  CAD Design: Verano",
+        imgName: "Verano",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/VICTORIA-DDHC-6'x8'2-COLOR.jpeg",
+        alt: "Best Doors in Houston - Custom Iron Doors - Mirabella Doors -  CAD Design: Victoria",
+        imgName: "Victoria",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/WAVES-DDST-COLOR.jpeg",
+        alt: "Best Doors in Houston - Custom Iron Doors - Mirabella Doors -  CAD Design: Waves",
+        imgName: "Waves",
+        category: "cad",
+        size: "small",
+        date: new Date(Date.now())
+    },
 ];
 
 db.Image
