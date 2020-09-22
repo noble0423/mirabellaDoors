@@ -577,10 +577,10 @@ const hbsInfo = {
             largeImage: {
                 // this will be grabbed from db later
                 src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_trad.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/pencil_on_CAD_drawing.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/leaves_detail.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_two_doors.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_trad.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/pencil_on_CAD_drawing.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/leaves_detail.jpg", 
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_two_doors.jpg",
                 ],
                 alt: [
                     "left test1111",
@@ -600,11 +600,11 @@ const hbsInfo = {
             largeImage: {
                 // this will be grabbed from db later
                 src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/swatch_on_CAD_drawing.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/door_handles_detail.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_cont_square.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/artist_drawing.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/wine_gate_detail.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/swatch_on_CAD_drawing.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/door_handles_detail.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_cont_square.jpg",
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/artist_drawing.jpg", 
+                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/wine_gate_detail.jpg",
                 ],
                 alt: [
                     "right test1111",
