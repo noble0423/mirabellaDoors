@@ -6,7 +6,8 @@ const imageSchema = new Schema ({
     alt: {type: String, required: true},
     imgName: {type: String, required: true},
     category: {type: String, required: true},
-    size: {type: String, required: true}
+    size: {type: String, required: true},
+    animation: {type: String}
 })
 
 const Image = mongoose.model("Image", imageSchema);

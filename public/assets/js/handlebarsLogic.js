@@ -416,18 +416,7 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan-Sleek.jpg",
-                ],
-                alt: [
-                    "left test1111",
-                    "left test2222",
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
                 topRow: topRowImgArray,
@@ -435,18 +424,7 @@ const hbsInfo = {
             },
         },
         imagesComponentRight: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook_wine.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan Front Entry Doors.jpg"
-                ],
-                alt: [
-                    "right test1111",
-                    "right test2222",
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
                 topRow: topRowImgArray,
@@ -479,20 +457,7 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [ 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Bellagio_DD.jpg",
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/Madison_full_surround.jpg",
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_stone_topper.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_indoor_rounded.jpg"
-                ],
-                alt: [
-                    "left test1111",
-                    "left test2222",
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
                 topRow: [],
@@ -500,19 +465,7 @@ const hbsInfo = {
             },
         },
         imagesComponentRight: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_outdoor_rounded.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/tall_curved_traditional.jpg", 
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_rounded_wine.jpg",
-                ],
-                alt: [
-                    "right test1111",
-                    "right test2222",
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
                 topRow: [],

@@ -6,16 +6,16 @@
             <div class="row px-0">
                 <div class="col-4">
                     {{#unless partialContextSrc}}
-                        <img src="{{ imagesComponentLeft.largeImage.src.[0] }}" class="img-fluid large-door-image shadow-md {{ imagesComponentLeft.largeImage.animation }}" alt="{{ imagesComponentLeft.largeImage.alt.[0] }}">
+                        <img src="{{ imagesComponentLeft.largeImage.[1].src }}" class="img-fluid large-door-image shadow-md {{ imagesComponentLeft.largeImage.[1].animation }}" alt="Responsive image {{ imagesComponentLeft.largeImage.[1].alt }}">
                     {{/unless}}
-                    
+
                     {{#if partialContextSrc}}
-                        <img src="{{ partialContextSrc }}" class="img-fluid large-door-image shadow-md {{ imagesComponentLeft.largeImage.animation }}" alt="Responsive Image{{ partialContextAlt }}">
+                        <img src="{{ partialContextSrc.src }}" class="img-fluid large-door-image shadow-md {{ partialContextSrc.animation }}" alt="Responsive image {{ partialContextSrc.alt }}">
                     {{/if}}
                 </div>
                 <div class="col-8">
                     <div class="row my-4">
-                        {{#unless imgContextSrcTop }}
+                        {{#unless partialContextTop }}
                         {{#each imagesComponentLeft.smallImage.topRow.[1]}}
                             <div class="col-3">
                                 <div class="container px-0 shadow-sm wow zoomIn">
@@ -25,7 +25,7 @@
                                             <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
                                             <div class="content-details fadeIn-bottom">
                                                 <h6 class="content-title">DESIGN: {{this.imgName}}</h6>
-                                                <p class="content-text">Glass: default</p>
+                                                {{!-- <p class="content-text">Glass: default</p> --}}
                                             </div>
                                         </div>
                                     </a>
@@ -37,12 +37,12 @@
                         {{#each imagesComponentLeft.smallImage.bottomRow.[1]}}
                             <div class="col-3">
                                 <div class="container px-0 shadow-sm {{ this.animation }}">
-                                    <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.design }}">
+                                    <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                         <div class="content">
                                             <div class="content-overlay"></div>
                                             <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
                                             <div class="content-details fadeIn-bottom">
-                                                <h6 class="content-title">DESIGN: {{ this.design }}</h6>
+                                                <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
                                                 {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
                                             </div>
                                         </div>
@@ -52,8 +52,8 @@
                         {{/each}}
                         {{/unless}}
                     {{!-- If there is not a specific location --}}
-                        {{#if imgContextSrcTop }}
-                        {{#each imgContextSrcTop}}
+                        {{#if partialContextTop }}
+                        {{#each partialContextTop}}
                             <div class="col-3">
                                 <div class="container px-0 shadow-sm wow zoomIn">
                                     <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
@@ -62,7 +62,7 @@
                                             <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
                                             <div class="content-details fadeIn-bottom">
                                                 <h6 class="content-title">DESIGN: {{this.imgName}}</h6>
-                                                <p class="content-text">Glass: default</p>
+                                                {{!-- <p class="content-text">Glass: default</p> --}}
                                             </div>
                                         </div>
                                     </a>
@@ -71,15 +71,15 @@
                         {{/each}}
                     </div>
                     <div class="row">
-                        {{#each imgContextSrcBottom}}
+                        {{#each partialContextBottom}}
                             <div class="col-3">
-                                <div class="container px-0 shadow-sm {{ this.animation }}">
-                                    <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.design }}">
+                                <div class="container px-0 shadow-sm wow zoomIn">
+                                    <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                         <div class="content">
                                             <div class="content-overlay"></div>
                                             <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
                                             <div class="content-details fadeIn-bottom">
-                                                <h6 class="content-title">DESIGN: {{ this.design }}</h6>
+                                                <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
                                                 {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
                                             </div>
                                         </div>
@@ -101,36 +101,78 @@
     <div class="row px-0 mx-0">
         <div class="col-12 my-6 my-sm-0 py-5 py-sm-4 py-md-0">
             <div class="row">
-                {{#each imagesComponentLeft.smallImage.topRow}}
-                <div class="col-2 d-block d-sm-none"></div>
-                <div class="col-8 col-sm-3 mb-4 mb-sm-0 my-0 my-sm-4">
-                    <div class="container px-0 shadow-sm {{ this.animation }}">
-                        <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.design }}">
-                            <div class="content">
-                                <div class="content-overlay"></div>
-                                <img src="{{ this.src }}" class="img-fluid small-door-image" alt="img-comp-left {{ this.alt }}">
-                                <div class="content-details fadeIn-bottom">
-                                    <h6 class="content-title">DESIGN: {{ this.design }}</h6>
-                                    {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-2 d-block d-sm-none"></div>
-                {{/each}}
-            </div>
-            <div class="row">
-                {{#each imagesComponentLeft.smallImage.bottomRow}}
+                {{#unless partialContextTop}}
+                {{#each imagesComponentLeft.smallImage.topRow.[1]}}
                     <div class="col-2 d-block d-sm-none"></div>
                     <div class="col-8 col-sm-6 col-md-3 mb-4">
                         <div class="container px-0 shadow-sm {{ this.animation }}">
-                            <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.design }}">
+                            <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
+                                <div class="content">
+                                    <div class="content-overlay"></div>
+                                    <img src="{{ this.src }}" class="img-fluid small-door-image" alt="img-comp-right {{ this.alt }}">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
+                                        {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-2 d-block d-sm-none"></div>
+                {{/each}}                
+            </div>
+            <div class="row">
+                {{#each imagesComponentLeft.smallImage.bottomRow.[1]}}
+                    <div class="col-2 d-block d-sm-none"></div>             
+                    <div class="col-8 col-sm-3 mb-4 mb-sm-0">
+                        <div class="container px-0 shadow-sm {{ this.animation }}">
+                            <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                 <div class="content">
                                     <div class="content-overlay"></div>
                                     <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
                                     <div class="content-details fadeIn-bottom">
-                                        <h6 class="content-title">DESIGN: {{ this.design }}</h6>
+                                        <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
+                                        {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-2 d-block d-sm-none"></div>
+                {{/each}}   
+                {{/unless}}
+
+                {{#if partialContextTop}}
+                {{#each partialContextTop}}
+                    <div class="col-2 d-block d-sm-none"></div>
+                    <div class="col-8 col-sm-6 col-md-3 mb-4">
+                        <div class="container px-0 shadow-sm wow zoomIn">
+                            <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
+                                <div class="content">
+                                    <div class="content-overlay"></div>
+                                    <img src="{{ this.src }}" class="img-fluid small-door-image" alt="img-comp-right {{ this.alt }}">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
+                                        {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-2 d-block d-sm-none"></div>
+                {{/each}}                
+            </div>
+            <div class="row">
+                {{#each partialContextBottom}}
+                    <div class="col-2 d-block d-sm-none"></div>             
+                    <div class="col-8 col-sm-3 mb-4 mb-sm-0">
+                        <div class="container px-0 shadow-sm wow zoomIn">
+                            <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
+                                <div class="content">
+                                    <div class="content-overlay"></div>
+                                    <img src="{{ this.src }}" class="img-fluid small-door-image" alt="{{ this.alt }}">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
                                         {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
                                     </div>
                                 </div>
@@ -139,6 +181,7 @@
                     </div>
                     <div class="col-2 d-block d-sm-none"></div>
                 {{/each}}
+                {{/if}}
             </div>
         </div>
     </div>

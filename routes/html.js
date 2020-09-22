@@ -2,16 +2,13 @@ const router = require("express").Router();
 const hbsInfo = require("../public/assets/js/handlebarsLogic");
 const axios = require("axios");
 
-//section 1
+//Sorting mechanism
 let topRow = [];
 let botRow = [];
 let topRowAggregate = [];
 let botRowAggregate = [];
+let largeImageArr = []
 
-//section 2
-//section 3
-//section 4
-//section 5
 function modulusSort(input) {
     for (i=0; i<input.length; i++){
         if (i%2 === 0 ){
@@ -25,47 +22,9 @@ function modulusSort(input) {
             topRow = [];
             botRow = [];
         }
-    }
-}
-
-let hbsCont = {
-    imagesComponentLeft: {
-        largeImage: {
-            // this will be grabbed from db later
-            src: [
-                "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook.jpg", 
-                "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan-Sleek.jpg",
-            ],
-            alt: [
-                "left test1111",
-                "left test2222",
-            ],
-            animation: "wow zoomIn",
-        },
-        smallImage: {
-            // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-            topRow: [],
-            bottomRow: [],
-        },
-    },
-    imagesComponentRight: {
-        largeImage: {
-            // this will be grabbed from db later
-            src: [
-                "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook_wine.jpg", 
-                "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan Front Entry Doors.jpg"
-            ],
-            alt: [
-                "right test1111",
-                "right test2222",
-            ],
-            animation: "wow zoomIn",
-        },
-        smallImage: {
-            // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-            topRow: [],
-            bottomRow: [],
-        },
+        if(input[i].size === "large"){
+            largeImageArr.push(input[i]);
+        }
     }
 }
 
@@ -92,8 +51,19 @@ router.get("/contemporarydoors", function(req, res) {
 
     axios.get('http://localhost:3000/api/contemporary')
     .then(function(res) {
-        
+        modulusSort(res.data);
+        hbsInfo.contDoorsPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
+        hbsInfo.contDoorsPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
+        hbsInfo.contDoorsPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
+        hbsInfo.contDoorsPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
+        hbsInfo.contDoorsPage.imagesComponentLeft.largeImage = largeImageArr;
+        hbsInfo.contDoorsPage.imagesComponentRight.largeImage = largeImageArr;
     }).then(function(res) {
+        topRow=[];
+        botRow=[];
+        topRowAggregate=[];
+        botRowAggregate=[];
+        largeImageArr=[];
         partition.render("contemporaryDoors", hbsInfo.contDoorsPage);
     }).catch(function(err){
         res.render("404")
@@ -106,16 +76,19 @@ router.get("/traditionaldoors", function(req, res) {
 
     axios.get('http://localhost:3000/api/traditional')
     .then(function(res) {
-        // console.log(res.data);
         modulusSort(res.data);
         hbsInfo.tradDoorsPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
-        // console.log(topRow)
-        // hbsCont.imagesComponentLeft.smallImage.bottomRow = botRow;
-        // console.table(topRowAggregate[0]);
-        // console.table(botRowAggregate);
+        hbsInfo.tradDoorsPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
+        hbsInfo.tradDoorsPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
+        hbsInfo.tradDoorsPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
+        hbsInfo.tradDoorsPage.imagesComponentLeft.largeImage = largeImageArr;
+        hbsInfo.tradDoorsPage.imagesComponentRight.largeImage = largeImageArr;
     }).then(function(res) {
         topRow=[];
         botRow=[];
+        topRowAggregate=[];
+        botRowAggregate=[];
+        largeImageArr=[];
         partition.render("traditionalDoors", hbsInfo.tradDoorsPage);
     }).catch(function(err){
         res.render("404")
