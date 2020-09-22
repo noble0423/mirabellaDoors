@@ -96,6 +96,7 @@ router.get("/traditionaldoors", function(req, res) {
     })
 });
 
+//Awaiting confirmation, if exists.
 router.get("/doorfinishes", function(req, res) {
     const hbsObject = hbsInfo.doorFinishesPage;
 
@@ -103,11 +104,31 @@ router.get("/doorfinishes", function(req, res) {
 });
 
 router.get("/doordesignlibrary", function(req, res) {
-    const hbsObject = hbsInfo.doorDesignLibPage;
+    let partition = res;
 
-    res.render("doorDesignLibrary", hbsObject);
+    axios.get('http://localhost:3000/api/cad')
+    .then(function(res) {
+        modulusSort(res.data);
+        hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
+        hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
+        hbsInfo.doorDesignLibPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
+        hbsInfo.doorDesignLibPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
+        hbsInfo.doorDesignLibPage.imagesComponentLeft.largeImage = largeImageArr;
+        hbsInfo.doorDesignLibPage.imagesComponentRight.largeImage = largeImageArr;
+    }).then(function(res) {
+        topRow=[];
+        botRow=[];
+        topRowAggregate=[];
+        botRowAggregate=[];
+        largeImageArr=[];
+        partition.render("doorDesignLibrary", hbsInfo.doorDesignLibPage);
+    }).catch(function(err){
+        res.render("404")
+        console.log(err)
+    });
 });
 
+//Awaiting confirmation, if exists.
 router.get("/balconiesandrailings", function(req, res) {
     const hbsObject = hbsInfo.balcAndRailPage;
 

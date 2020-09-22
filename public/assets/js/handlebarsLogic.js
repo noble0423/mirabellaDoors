@@ -133,59 +133,39 @@ let topRowImgArray = [];
 const bottomRowImgArray = [];
 
 // Helper Function to loop through image arrays and assign to top and bottom rows arrays
-function imgArrayLoop(array, numPerRow, newTopRowArray, newBottomRowArray) {
+// function imgArrayLoop(array, numPerRow, newTopRowArray, newBottomRowArray) {
 
-    for (let i = 0; i < array.length; i++) {
-        if (i < numPerRow) {
-            newTopRowArray.push(array[i]);
-        }
-        else {
-            newBottomRowArray.push(array[i]);
-        }
-    };
-}
-
-//function for api calls add input for different search
-// function categorySearch() {
-//     // $.get('/api', function(res) {
-//     //     console.log(res)
-//     // })
-//     console.log("here");
-//     axios({
-//         method: 'get',
-//         url:'/api/'
-//     }).then(res=>{
-//         console.log(res)
-//     })
+//     for (let i = 0; i < array.length; i++) {
+//         if (i < numPerRow) {
+//             newTopRowArray.push(array[i]);
+//         }
+//         else {
+//             newBottomRowArray.push(array[i]);
+//         }
+//     };
 // }
 
-imgArrayLoop(featuredImagesArray, 3, topRowFeaturedImagesArray, bottomRowFeaturedImagesArray)
-imgArrayLoop(testImageArray, 4, topRowImgArray, bottomRowImgArray);
+// imgArrayLoop(featuredImagesArray, 3, topRowFeaturedImagesArray, bottomRowFeaturedImagesArray)
+// imgArrayLoop(testImageArray, 4, topRowImgArray, bottomRowImgArray);
 
 // Helper function to loop through image arrays and assign to top, middle and bottom rows arrays
-function imgArrayLoopOddNumImgs(array, numPerRow, newTopRowArray, newMiddleRowArray, newBottomRowArray) {
+// function imgArrayLoopOddNumImgs(array, numPerRow, newTopRowArray, newMiddleRowArray, newBottomRowArray) {
 
-    for (let i = 0; i < array.length; i++) {
-        if (i < numPerRow) {
-            newTopRowArray.push(array[i]);
-        }
-        else if (i >= numPerRow && i < (numPerRow * 2)) {
-            newMiddleRowArray.push(array[i]);
-        }
-        else {
-            newBottomRowArray.push(array[i]);
-        }
-    };    
-}
+//     for (let i = 0; i < array.length; i++) {
+//         if (i < numPerRow) {
+//             newTopRowArray.push(array[i]);
+//         }
+//         else if (i >= numPerRow && i < (numPerRow * 2)) {
+//             newMiddleRowArray.push(array[i]);
+//         }
+//         else {
+//             newBottomRowArray.push(array[i]);
+//         }
+//     };    
+// }
 
-imgArrayLoopOddNumImgs(featuredImagesArray, 2, topRowFeaturedImagesArraySm, middleRowFeaturedImagesArraySm, bottomRowFeaturedImagesArraySm);
+// imgArrayLoopOddNumImgs(featuredImagesArray, 2, topRowFeaturedImagesArraySm, middleRowFeaturedImagesArraySm, bottomRowFeaturedImagesArraySm);
 
-// console.log("top");
-// console.log(topRowFeaturedImagesArraySm);
-// console.log("middle");
-// console.log(middleRowFeaturedImagesArraySm);
-// console.log("bottom");
-// console.log(bottomRowFeaturedImagesArraySm);
 
 const hbsInfo = {
 
@@ -547,51 +527,19 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_trad.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/pencil_on_CAD_drawing.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/leaves_detail.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_two_doors.jpg",
-                ],
-                alt: [
-                    "left test1111",
-                    "left test2222",
-                    "left test3333",
-                    "left test4444",                                       
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-                topRow: topRowImgArray,
-                bottomRow: bottomRowImgArray,
+                topRow: [],
+                bottomRow: [],
             },
         },
         imagesComponentRight: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/swatch_on_CAD_drawing.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/door_handles_detail.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/showroom_cont_square.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/artist_drawing.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/wine_gate_detail.jpg",
-                ],
-                alt: [
-                    "right test1111",
-                    "right test2222",
-                    "right test3333",
-                    "right test4444",
-                    "right test5555",
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-                topRow: topRowImgArray,
-                bottomRow: bottomRowImgArray,
+                topRow: [],
+                bottomRow: [],
             },
         },
         scrollTopBtn: {

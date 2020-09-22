@@ -1707,7 +1707,7 @@ const imageSeed = [
         alt: "Best Doors in Houston - Custom Iron Doors - Mirabella Doors -  CAD Design: Victoria",
         imgName: "Victoria",
         category: "cad",
-        size: "small",
+        size: "large",
         date: new Date(Date.now())
     },
     {
@@ -1715,7 +1715,7 @@ const imageSeed = [
         alt: "Best Doors in Houston - Custom Iron Doors - Mirabella Doors -  CAD Design: Waves",
         imgName: "Waves",
         category: "cad",
-        size: "small",
+        size: "large",
         date: new Date(Date.now())
     },
 ];

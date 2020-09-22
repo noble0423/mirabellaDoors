@@ -17,7 +17,19 @@
    {{> images-components/images-component-right }} 
 </div>
 
+<div class="slant-background py-6">
+    {{> images-components/images-component-left 
+    partialContextTop = imagesComponentLeft.smallImage.topRow.[2] 
+    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[2]
+    partialContextSrc = imagesComponentLeft.largeImage.[2]}}
+</div>
 
+<div class="my-0 my-sm-6">
+    {{> images-components/images-component-right 
+    partialContextTop = imagesComponentRight.smallImage.topRow.[3] 
+    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[3]
+    partialContextSrc = imagesComponentRight.largeImage.[3]}}
+</div>
 
 {{!-- <!-- Best Selling Image Left -->
 <div class="my-0 my-sm-6">
