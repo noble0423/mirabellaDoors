@@ -1,14 +1,14 @@
 require("dotenv").config();
 
 // Import hbs Info
-const hbsInfo = require("./public/assets/js/handlebarsLogic");
 
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 // const axios = require("axios");
-
+const html = require("./routes/html");
+const api = require('./routes/api');
 // Require all models
 // const db = require("./models");
 
@@ -35,67 +35,12 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Connect to the Mongo DB
-// mongoose.connect("mongodb://localhost/", { useNewUrlParser: true });
+// URL parser option alternative.
+mongoose.connect(process.env.MONGODB_URI || "mongodb://mirabella:mirabelladoors1@ds361998.mlab.com:61998/mirabella", { useNewUrlParser: true });
 
-// HTML Routes
-app.get("/", function(req, res) {
-    const hbsObject = hbsInfo.homePage;
-
-    res.render("index", hbsObject);
-});
-
-app.get("/home", function(req, res) {
-    const hbsObject = hbsInfo.homePage;
-
-    res.render("index", hbsObject);
-});
-
-app.get("/mirabelladifference", function(req, res) {
-    const hbsObject = hbsInfo.mbDiffPage;
-
-    res.render("mirabellaDifference", hbsObject);
-});
-
-app.get("/contemporarydoors", function(req, res) {
-    const hbsObject = hbsInfo.contDoorsPage;
-
-    res.render("contemporaryDoors", hbsObject);
-});
-
-app.get("/traditionaldoors", function(req, res) {
-    const hbsObject = hbsInfo.tradDoorsPage;
-
-    res.render("traditionalDoors", hbsObject);
-});
-
-app.get("/doorfinishes", function(req, res) {
-    const hbsObject = hbsInfo.doorFinishesPage;
-
-    res.render("doorFinishes", hbsObject);
-});
-
-app.get("/doordesignlibrary", function(req, res) {
-    const hbsObject = hbsInfo.doorDesignLibPage;
-
-    res.render("doorDesignLibrary", hbsObject);
-});
-
-app.get("/balconiesandrailings", function(req, res) {
-    const hbsObject = hbsInfo.balcAndRailPage;
-
-    res.render("balconiesAndRailings", hbsObject);
-});
-
-app.get("/contactus", function(req, res) {
-    const hbsObject = hbsInfo.contactUsPage;
-    
-    res.render("contactUs", hbsObject);
-});
-
-app.get("*", function(req, res) {
-    res.render("404");
-})
-
+//Using seperate routes for HTML and API 
+app.use('/', api);
+app.use('/', html);
 
 // Start the server
 app.listen(PORT, function() {

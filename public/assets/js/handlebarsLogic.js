@@ -1,4 +1,10 @@
+// $(document).ready(function(){
+//     $.get('/api', function(res){
+//         console.log(res);
+//     })
+// })
 require("dotenv").config();
+const axios = require("axios");
 
 // Import Keys
 const keys = require("../../../keys");
@@ -46,73 +52,6 @@ const featuredImagesArray = [
     },
 ]
 
-const testImageArray = [
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/2_pleasant_wine_room_door.jpg",
-        design: "Kendall (full light)",
-        glass: "Flemish",
-        alt: "small image alt test1",
-        animation: "wow fadeIn slow",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Montereal_LMP.jpg",
-        design: "Reagan (with lower metal panel)",
-        glass: "Flemish",
-        alt: "small image alt test2",
-        animation: "wow fadeIn slow delay-tenths",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Sophie_w_LMP2.jpg",
-        design: "Montreal (full light with leaves)",
-        glass: "Clear",
-        alt: "small image alt test3",
-        animation: "wow fadeIn slow delay-fifteenths",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Bellagio_LMP.jpg",
-        design: "Coronado (decorative lower metal panel)",
-        glass: "Flemish",
-        alt: "small image alt test4",
-        animation: "wow fadeIn slow delay-twentieths",
-    }, 
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Cosmo_Wide_LMP.jpg",
-        design: "Bellagio (full light)",
-        glass: "Flemish",
-        alt: "small image alt test5",
-        animation: "wow fadeIn slow delay-quarters",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_exterior_detail.jpeg",
-        design: "Reagan (full light)",
-        glass: "Clear",
-        alt: "small image alt test6",
-        animation: "wow fadeIn slow delay-thirtieths",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_interior_door.jpeg",
-        design: "Reagan (full light, interior view)",
-        glass: "Clear",
-        alt: "small image alt test7",
-        animation: "wow fadeIn slow delay-thirty-fifths",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/6142WP_Front_Doors_(no_transom).jpeg",
-        design: "Orleans (full light)",
-        glass: "Clear",
-        alt: "small image alt test8",
-        animation: "wow fadeIn slow delay-fortieths",
-    },
-];
-
 // Empty Arrays for the Featured Images on the home page (MD screens and up)
 const topRowFeaturedImagesArray = [];
 const bottomRowFeaturedImagesArray = [];
@@ -123,49 +62,105 @@ const middleRowFeaturedImagesArraySm = [];
 const bottomRowFeaturedImagesArraySm = [];
 
 // Empty Arrays for the Images Components used on multiple pages
-const topRowImgArray = [];
-const bottomRowImgArray = [];
+let topRowImgArray = [[],[{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/2_pleasant_wine_room_door.jpg",
+    design: "Kendall (full light)",
+    glass: "Flemish",
+    alt: "small image alt test1",
+    animation: "wow fadeIn slow",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Montereal_LMP.jpg",
+    design: "Reagan (with lower metal panel)",
+    glass: "Flemish",
+    alt: "small image alt test2",
+    animation: "wow fadeIn slow delay-tenths",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Sophie_w_LMP2.jpg",
+    design: "Montreal (full light with leaves)",
+    glass: "Clear",
+    alt: "small image alt test3",
+    animation: "wow fadeIn slow delay-fifteenths",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Bellagio_LMP.jpg",
+    design: "Coronado (decorative lower metal panel)",
+    glass: "Flemish",
+    alt: "small image alt test4",
+    animation: "wow fadeIn slow delay-twentieths",
+}]];
+const bottomRowImgArray = [[],[{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Cosmo_Wide_LMP.jpg",
+    design: "Bellagio (full light)",
+    glass: "Flemish",
+    alt: "small image alt test5",
+    animation: "wow fadeIn slow delay-quarters",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_exterior_detail.jpeg",
+    design: "Reagan (full light)",
+    glass: "Clear",
+    alt: "small image alt test6",
+    animation: "wow fadeIn slow delay-thirtieths",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_interior_door.jpeg",
+    design: "Reagan (full light, interior view)",
+    glass: "Clear",
+    alt: "small image alt test7",
+    animation: "wow fadeIn slow delay-thirty-fifths",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/6142WP_Front_Doors_(no_transom).jpeg",
+    design: "Orleans (full light)",
+    glass: "Clear",
+    alt: "small image alt test8",
+    animation: "wow fadeIn slow delay-fortieths",
+}]];
 
 // Helper Function to loop through image arrays and assign to top and bottom rows arrays
-function imgArrayLoop(array, numPerRow, newTopRowArray, newBottomRowArray) {
+// function imgArrayLoop(array, numPerRow, newTopRowArray, newBottomRowArray) {
 
-    for (let i = 0; i < array.length; i++) {
-        if (i < numPerRow) {
-            newTopRowArray.push(array[i]);
-        }
-        else {
-            newBottomRowArray.push(array[i]);
-        }
-    };
-}
+//     for (let i = 0; i < array.length; i++) {
+//         if (i < numPerRow) {
+//             newTopRowArray.push(array[i]);
+//         }
+//         else {
+//             newBottomRowArray.push(array[i]);
+//         }
+//     };
+// }
 
-imgArrayLoop(featuredImagesArray, 3, topRowFeaturedImagesArray, bottomRowFeaturedImagesArray)
-imgArrayLoop(testImageArray, 4, topRowImgArray, bottomRowImgArray);
+// imgArrayLoop(featuredImagesArray, 3, topRowFeaturedImagesArray, bottomRowFeaturedImagesArray)
+// imgArrayLoop(testImageArray, 4, topRowImgArray, bottomRowImgArray);
 
 // Helper function to loop through image arrays and assign to top, middle and bottom rows arrays
-function imgArrayLoopOddNumImgs(array, numPerRow, newTopRowArray, newMiddleRowArray, newBottomRowArray) {
+// function imgArrayLoopOddNumImgs(array, numPerRow, newTopRowArray, newMiddleRowArray, newBottomRowArray) {
 
-    for (let i = 0; i < array.length; i++) {
-        if (i < numPerRow) {
-            newTopRowArray.push(array[i]);
-        }
-        else if (i >= numPerRow && i < (numPerRow * 2)) {
-            newMiddleRowArray.push(array[i]);
-        }
-        else {
-            newBottomRowArray.push(array[i]);
-        }
-    };    
-}
+//     for (let i = 0; i < array.length; i++) {
+//         if (i < numPerRow) {
+//             newTopRowArray.push(array[i]);
+//         }
+//         else if (i >= numPerRow && i < (numPerRow * 2)) {
+//             newMiddleRowArray.push(array[i]);
+//         }
+//         else {
+//             newBottomRowArray.push(array[i]);
+//         }
+//     };    
+// }
 
-imgArrayLoopOddNumImgs(featuredImagesArray, 2, topRowFeaturedImagesArraySm, middleRowFeaturedImagesArraySm, bottomRowFeaturedImagesArraySm);
+// imgArrayLoopOddNumImgs(featuredImagesArray, 2, topRowFeaturedImagesArraySm, middleRowFeaturedImagesArraySm, bottomRowFeaturedImagesArraySm);
 
-// console.log("top");
-// console.log(topRowFeaturedImagesArraySm);
-// console.log("middle");
-// console.log(middleRowFeaturedImagesArraySm);
-// console.log("bottom");
-// console.log(bottomRowFeaturedImagesArraySm);
 
 const hbsInfo = {
 
@@ -261,7 +256,7 @@ const hbsInfo = {
     mbDiffPage: {
 
         hbsTestTry1: "you got it man",
-        heroComponentLeft: {
+        heroComponent: {
             title: "The Mirabella Difference",
             animation: "wow fadeIn slow",
             image: {
@@ -270,7 +265,7 @@ const hbsInfo = {
                 alt: "The Mirabella Difference - Houston's Premier Custom Doors Banner Image",
             },
         },
-        xsHeroComponentLeft: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
             },
@@ -377,7 +372,7 @@ const hbsInfo = {
     // Contemporary Doors Page Handlebars Info
     //===============================================================================
     contDoorsPage: {
-        heroComponentRight: {
+        heroComponent: {
             title: "Stunning Contemporary Doors",
             // image: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
             animation: "wow fadeIn slow",
@@ -386,7 +381,7 @@ const hbsInfo = {
                 alt: "Mirabella Doors - Contemporary Doors Banner Image - Greater Houston",
             },
         },
-        xsHeroComponentRight: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/WMain-007.jpg",
             },
@@ -396,18 +391,7 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan-Sleek.jpg",
-                ],
-                alt: [
-                    "left test1111",
-                    "left test2222",
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
                 topRow: topRowImgArray,
@@ -415,18 +399,7 @@ const hbsInfo = {
             },
         },
         imagesComponentRight: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Contemporary_Clearbrook_wine.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan Front Entry Doors.jpg"
-                ],
-                alt: [
-                    "right test1111",
-                    "right test2222",
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
                 topRow: topRowImgArray,
@@ -441,7 +414,7 @@ const hbsInfo = {
     // Traditional Doors Page Handlebars Info
     //===============================================================================
     tradDoorsPage: {
-        heroComponentLeft: {
+        heroComponent: {
             title: "Breathtaking Traditional Doors",
             animation: "wow fadeIn slow",
             image: {
@@ -449,7 +422,7 @@ const hbsInfo = {
                 alt: "Mirabella Doors - Traditional Doors Banner Image",
             },
         },
-        xsHeroComponentLeft: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_trad_door_hero_banner.jpg",
             },
@@ -459,44 +432,19 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [ 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Bellagio_DD.jpg",
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/Madison_full_surround.jpg",
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_stone_topper.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_indoor_rounded.jpg"
-                ],
-                alt: [
-                    "left test1111",
-                    "left test2222",
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-                topRow: topRowImgArray,
-                bottomRow: bottomRowImgArray,
+                topRow: [],
+                bottomRow: [],
             },
         },
         imagesComponentRight: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/trad_outdoor_rounded.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/tall_curved_traditional.jpg", 
-                    // "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_rounded_wine.jpg",
-                ],
-                alt: [
-                    "right test1111",
-                    "right test2222",
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-                topRow: topRowImgArray,
-                bottomRow: bottomRowImgArray,
+                topRow: [],
+                bottomRow: [],
             },
         },
         scrollTopBtn: {
@@ -507,7 +455,7 @@ const hbsInfo = {
     // Door Finishes Page Handlebars Info
     //===============================================================================
     doorFinishesPage: {
-        heroComponentRight: {
+        heroComponent: {
             title: "Beautiful Finishes",
             animation: "wow fadeIn slow",
             image: {
@@ -518,7 +466,7 @@ const hbsInfo = {
                 alt: "Mirabella Doors - High Quality Custom Door Finishes Banner Image",
             },
         },
-        xsHeroComponentRight: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/door_handles_up_close.jpg",
             },
@@ -528,18 +476,15 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: {
+            largeImage: [[], [{
                 // this will be grabbed from db later
-                src: [
-                    "https://via.placeholder.com/450x700?text=Finishes+IMG+1", 
-                    "https://via.placeholder.com/450x700?text=Finishes+IMG+2"
-                ],
+                src: "https://via.placeholder.com/450x700?text=Finishes+IMG+1",
                 alt: [
                     "left test1111",
                     "left test2222",
                 ],
                 animation: "wow zoomIn",
-            },
+            }]],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
                 topRow: topRowImgArray,
@@ -554,17 +499,17 @@ const hbsInfo = {
     // Door Design Library Page Handlebars Info
     //===============================================================================
     doorDesignLibPage: {
-        heroComponentLeft: {
+        heroComponent: {
             title: "Door Design Library",
             animation: "wow fadeIn slow",
-            // image: "https://via.placeholder.com/1650x600/87ceeb?text=Hero+Banner+Component+(banner+-+left)",
+            // image: "https://via.placeholder.com/1650x600/87ceeb?text=Hero+Banner+Component+(banner+-+)",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/architect-back-black-and-white-1496141.jpg",
                 // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Lady_laptop.jpg",
                 alt: "Mirabella Doors - Door Design Library Banner Image",
             },
         },
-        xsHeroComponentLeft: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_architect-back-black-and-white-1496141.jpg",
             },
@@ -574,51 +519,19 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_trad.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/pencil_on_CAD_drawing.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/leaves_detail.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_two_doors.jpg",
-                ],
-                alt: [
-                    "left test1111",
-                    "left test2222",
-                    "left test3333",
-                    "left test4444",                                       
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-                topRow: topRowImgArray,
-                bottomRow: bottomRowImgArray,
+                topRow: [],
+                bottomRow: [],
             },
         },
         imagesComponentRight: {
-            largeImage: {
-                // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/swatch_on_CAD_drawing.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/door_handles_detail.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_cont_square.jpg",
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/artist_drawing.jpg", 
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/wine_gate_detail.jpg",
-                ],
-                alt: [
-                    "right test1111",
-                    "right test2222",
-                    "right test3333",
-                    "right test4444",
-                    "right test5555",
-                ],
-                animation: "wow zoomIn",
-            },
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-                topRow: topRowImgArray,
-                bottomRow: bottomRowImgArray,
+                topRow: [],
+                bottomRow: [],
             },
         },
         scrollTopBtn: {
@@ -629,7 +542,7 @@ const hbsInfo = {
     // Balconies and Railing Handlebars Info
     //===============================================================================
     balcAndRailPage: {
-        heroComponentRight: {
+        heroComponent: {
             title: "Balconies and Railings",
             animation: "wow fadeIn slow",
             image: {
@@ -637,7 +550,7 @@ const hbsInfo = {
                 alt: "Mirabella Doors - Custom Balconies and Railings Banner Image",
             },
         },
-        xsHeroComponentRight: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_railing_up_close.jpg",
             },
@@ -647,18 +560,15 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: {
+            largeImage: [[],[{
                 // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Sydney_Gate.jpg", 
-                    "https://via.placeholder.com/450x700?text=Large+Railing+IMG+2"
-                ],
+                src:"/assets/images/mirabellaDoorsImgs/imagesComponent/Sydney_Gate.jpg",
                 alt: [
                     "left test1111",
                     "left test2222",
                 ],
                 animation: "wow zoomIn",
-            },
+            }]],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
                 topRow: topRowImgArray,
@@ -673,7 +583,7 @@ const hbsInfo = {
     // Contact Us Page Handlebars Info
     //===============================================================================
     contactUsPage: {
-        heroComponentLeft: {
+        heroComponent: {
             title: "Contact Us Today!",
             animation: "wow fadeIn slow",
             image: {
@@ -681,7 +591,7 @@ const hbsInfo = {
                 alt: "Mirabella Doors - Expertly Crafted Custom Doors - Contact Us Banner Image",
             },
         },
-        xsHeroComponentLeft: {
+        xsHeroComponent: {
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/xs_contact_us_meeting_image.jpg",
             },

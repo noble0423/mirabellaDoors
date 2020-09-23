@@ -13,23 +13,79 @@
 </div>
 
 <!-- Best Selling Image Left -->
-{{!-- <div class="slant-background-border"> --}}
-    <div class="slant-background py-6">
-        {{> images-components/images-component-left }}
-    </div>
-{{!-- </div> --}}
+<div class="slant-background py-6">
+    {{> images-components/images-component-left }}
+</div>
 
 <!-- Best Selling Image Right -->
 <div class="my-0 my-sm-6">
-    {{> images-components/images-component-right
-    partialContextSrc=imagesComponentRight.largeImage.src.[1] partialContextAlt=imagesComponentRight.largeImage.alt.[1] }}
+    {{> images-components/images-component-right 
+    partialContextTop = imagesComponentRight.smallImage.topRow.[2] 
+    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[2]
+    partialContextSrc = imagesComponentRight.largeImage.[2]}}
 </div>
 
-<!-- Best Selling Image Left -->
+{{!-- <div class="slant-background-border"> --}}
 <div class="slant-background py-6">
     {{> images-components/images-component-left 
-    partialContextSrc=imagesComponentLeft.largeImage.src.[1] partialContextAlt=imagesComponentLeft.largeImage.alt.[1] }}
+    partialContextTop = imagesComponentLeft.smallImage.topRow.[3] 
+    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[3]
+    partialContextSrc = imagesComponentLeft.largeImage.[3]}}
 </div>
+{{!-- </div> --}}
+
+<div class="my-0 my-sm-6">
+    {{> images-components/images-component-right 
+    partialContextTop = imagesComponentRight.smallImage.topRow.[4] 
+    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[4]
+    partialContextSrc = imagesComponentRight.largeImage.[4]}}
+</div>
+
+<div class="slant-background py-6">
+    {{> images-components/images-component-left 
+    partialContextTop = imagesComponentLeft.smallImage.topRow.[5] 
+    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[5]
+    partialContextSrc = imagesComponentLeft.largeImage.[5]}}
+</div>
+
+<div class="my-0 my-sm-6">
+    {{> images-components/images-component-right 
+    partialContextTop = imagesComponentRight.smallImage.topRow.[6] 
+    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[6]
+    partialContextSrc = imagesComponentRight.largeImage.[6]}}
+</div>
+
+<div class="slant-background py-6">
+    {{> images-components/images-component-left 
+    partialContextTop = imagesComponentLeft.smallImage.topRow.[7] 
+    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[7]
+    partialContextSrc = imagesComponentLeft.largeImage.[7]}}
+</div>
+
+<div class="my-0 my-sm-6">
+    {{> images-components/images-component-right 
+    partialContextTop = imagesComponentRight.smallImage.topRow.[8] 
+    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[8]
+    partialContextSrc = imagesComponentRight.largeImage.[8]}}
+</div>
+
+<div class="slant-background py-6">
+    {{> images-components/images-component-left 
+    partialContextTop = imagesComponentLeft.smallImage.topRow.[9] 
+    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[9]
+    partialContextSrc = imagesComponentLeft.largeImage.[9]}}
+</div>
+<!-- Best Selling Image Right -->
+{{!-- <div class="my-0 my-sm-6">
+    {{> images-components/images-component-right
+    partialContextSrc=imagesComponentRight.largeImage.src.[1] partialContextAlt=imagesComponentRight.largeImage.alt.[1] }}
+</div> --}}
+
+<!-- Best Selling Image Left -->
+{{!-- <div class="slant-background py-6">
+    {{> images-components/images-component-left 
+    partialContextSrc=imagesComponentLeft.largeImage.src.[1] partialContextAlt=imagesComponentLeft.largeImage.alt.[1] }}
+</div> --}}
 
 <!-- Buttons -->
 {{!-- <div class="row my-6">
