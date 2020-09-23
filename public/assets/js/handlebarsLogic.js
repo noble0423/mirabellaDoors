@@ -52,73 +52,6 @@ const featuredImagesArray = [
     },
 ]
 
-let testImageArray = [
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/2_pleasant_wine_room_door.jpg",
-        design: "Kendall (full light)",
-        glass: "Flemish",
-        alt: "small image alt test1",
-        animation: "wow fadeIn slow",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Montereal_LMP.jpg",
-        design: "Reagan (with lower metal panel)",
-        glass: "Flemish",
-        alt: "small image alt test2",
-        animation: "wow fadeIn slow delay-tenths",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Sophie_w_LMP2.jpg",
-        design: "Montreal (full light with leaves)",
-        glass: "Clear",
-        alt: "small image alt test3",
-        animation: "wow fadeIn slow delay-fifteenths",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Bellagio_LMP.jpg",
-        design: "Coronado (decorative lower metal panel)",
-        glass: "Flemish",
-        alt: "small image alt test4",
-        animation: "wow fadeIn slow delay-twentieths",
-    }, 
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Cosmo_Wide_LMP.jpg",
-        design: "Bellagio (full light)",
-        glass: "Flemish",
-        alt: "small image alt test5",
-        animation: "wow fadeIn slow delay-quarters",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_exterior_detail.jpeg",
-        design: "Reagan (full light)",
-        glass: "Clear",
-        alt: "small image alt test6",
-        animation: "wow fadeIn slow delay-thirtieths",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_interior_door.jpeg",
-        design: "Reagan (full light, interior view)",
-        glass: "Clear",
-        alt: "small image alt test7",
-        animation: "wow fadeIn slow delay-thirty-fifths",
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
-        // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/6142WP_Front_Doors_(no_transom).jpeg",
-        design: "Orleans (full light)",
-        glass: "Clear",
-        alt: "small image alt test8",
-        animation: "wow fadeIn slow delay-fortieths",
-    },
-];
-
 // Empty Arrays for the Featured Images on the home page (MD screens and up)
 const topRowFeaturedImagesArray = [];
 const bottomRowFeaturedImagesArray = [];
@@ -129,8 +62,70 @@ const middleRowFeaturedImagesArraySm = [];
 const bottomRowFeaturedImagesArraySm = [];
 
 // Empty Arrays for the Images Components used on multiple pages
-let topRowImgArray = [];
-const bottomRowImgArray = [];
+let topRowImgArray = [[],[{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/2_pleasant_wine_room_door.jpg",
+    design: "Kendall (full light)",
+    glass: "Flemish",
+    alt: "small image alt test1",
+    animation: "wow fadeIn slow",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Montereal_LMP.jpg",
+    design: "Reagan (with lower metal panel)",
+    glass: "Flemish",
+    alt: "small image alt test2",
+    animation: "wow fadeIn slow delay-tenths",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Sophie_w_LMP2.jpg",
+    design: "Montreal (full light with leaves)",
+    glass: "Clear",
+    alt: "small image alt test3",
+    animation: "wow fadeIn slow delay-fifteenths",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Bellagio_LMP.jpg",
+    design: "Coronado (decorative lower metal panel)",
+    glass: "Flemish",
+    alt: "small image alt test4",
+    animation: "wow fadeIn slow delay-twentieths",
+}]];
+const bottomRowImgArray = [[],[{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Cosmo_Wide_LMP.jpg",
+    design: "Bellagio (full light)",
+    glass: "Flemish",
+    alt: "small image alt test5",
+    animation: "wow fadeIn slow delay-quarters",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_exterior_detail.jpeg",
+    design: "Reagan (full light)",
+    glass: "Clear",
+    alt: "small image alt test6",
+    animation: "wow fadeIn slow delay-thirtieths",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_interior_door.jpeg",
+    design: "Reagan (full light, interior view)",
+    glass: "Clear",
+    alt: "small image alt test7",
+    animation: "wow fadeIn slow delay-thirty-fifths",
+},
+{
+    src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
+    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/6142WP_Front_Doors_(no_transom).jpeg",
+    design: "Orleans (full light)",
+    glass: "Clear",
+    alt: "small image alt test8",
+    animation: "wow fadeIn slow delay-fortieths",
+}]];
 
 // Helper Function to loop through image arrays and assign to top and bottom rows arrays
 // function imgArrayLoop(array, numPerRow, newTopRowArray, newBottomRowArray) {
@@ -481,18 +476,15 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: {
+            largeImage: [[], [{
                 // this will be grabbed from db later
-                src: [
-                    "https://via.placeholder.com/450x700?text=Finishes+IMG+1", 
-                    "https://via.placeholder.com/450x700?text=Finishes+IMG+2"
-                ],
+                src: "https://via.placeholder.com/450x700?text=Finishes+IMG+1",
                 alt: [
                     "left test1111",
                     "left test2222",
                 ],
                 animation: "wow zoomIn",
-            },
+            }]],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
                 topRow: topRowImgArray,
@@ -568,18 +560,15 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: {
+            largeImage: [[],[{
                 // this will be grabbed from db later
-                src: [
-                    "/assets/images/mirabellaDoorsImgs/imagesComponent/Sydney_Gate.jpg", 
-                    "https://via.placeholder.com/450x700?text=Large+Railing+IMG+2"
-                ],
+                src:"/assets/images/mirabellaDoorsImgs/imagesComponent/Sydney_Gate.jpg",
                 alt: [
                     "left test1111",
                     "left test2222",
                 ],
                 animation: "wow zoomIn",
-            },
+            }]],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
                 topRow: topRowImgArray,

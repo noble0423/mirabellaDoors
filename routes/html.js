@@ -3,6 +3,7 @@ const hbsInfo = require("../public/assets/js/handlebarsLogic");
 const axios = require("axios");
 
 //Sorting mechanism
+let filterHold= [];
 let topRow = [];
 let botRow = [];
 let topRowAggregate = [];
@@ -21,9 +22,6 @@ function modulusSort(input) {
             botRowAggregate.push(botRow);
             topRow = [];
             botRow = [];
-        }
-        if(input[i].size === "large"){
-            largeImageArr.push(input[i]);
         }
     }
 }
@@ -51,7 +49,9 @@ router.get("/contemporarydoors", function(req, res) {
 
     axios.get('http://localhost:3000/api/contemporary')
     .then(function(res) {
-        modulusSort(res.data);
+        filterHold = res.data.filter(index => index.size == "small");
+        largeImageArr = res.data.filter(index => index.size == "large");
+        modulusSort(filterHold);
         hbsInfo.contDoorsPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
         hbsInfo.contDoorsPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
         hbsInfo.contDoorsPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
@@ -76,7 +76,9 @@ router.get("/traditionaldoors", function(req, res) {
 
     axios.get('http://localhost:3000/api/traditional')
     .then(function(res) {
-        modulusSort(res.data);
+        filterHold = res.data.filter(index => index.size == "small");
+        largeImageArr = res.data.filter(index => index.size == "large");
+        modulusSort(filterHold);
         hbsInfo.tradDoorsPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
         hbsInfo.tradDoorsPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
         hbsInfo.tradDoorsPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
@@ -98,9 +100,30 @@ router.get("/traditionaldoors", function(req, res) {
 
 //Awaiting confirmation, if exists.
 router.get("/doorfinishes", function(req, res) {
-    const hbsObject = hbsInfo.doorFinishesPage;
-
-    res.render("doorFinishes", hbsObject);
+    let partition = res;
+    //uncomment if db has info, otherwise use Handlebars Logic for static images
+    axios.get('http://localhost:3000/api/finishes')
+    .then(function(res) {
+        // filterHold = res.data.filter(index => index.size == "small");
+        // largeImageArr = res.data.filter(index => index.size == "large");
+        // modulusSort(filterHold);
+        // hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
+        // hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
+        // hbsInfo.doorDesignLibPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
+        // hbsInfo.doorDesignLibPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
+        // hbsInfo.doorDesignLibPage.imagesComponentLeft.largeImage = largeImageArr;
+        // hbsInfo.doorDesignLibPage.imagesComponentRight.largeImage = largeImageArr;
+    }).then(function(res) {
+        topRow=[];
+        botRow=[];
+        topRowAggregate=[];
+        botRowAggregate=[];
+        largeImageArr=[];
+        partition.render("doorFinishes", hbsInfo.doorFinishesPage);
+    }).catch(function(err){
+        res.render("404")
+        console.log(err)
+    });
 });
 
 router.get("/doordesignlibrary", function(req, res) {
@@ -108,7 +131,9 @@ router.get("/doordesignlibrary", function(req, res) {
 
     axios.get('http://localhost:3000/api/cad')
     .then(function(res) {
-        modulusSort(res.data);
+        filterHold = res.data.filter(index => index.size == "small");
+        largeImageArr = res.data.filter(index => index.size == "large");
+        modulusSort(filterHold);
         hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
         hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
         hbsInfo.doorDesignLibPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
@@ -130,9 +155,30 @@ router.get("/doordesignlibrary", function(req, res) {
 
 //Awaiting confirmation, if exists.
 router.get("/balconiesandrailings", function(req, res) {
-    const hbsObject = hbsInfo.balcAndRailPage;
-
-    res.render("balconiesAndRailings", hbsObject);
+    let partition = res;
+    //uncomment if db has info, otherwise use Handlebars Logic for static images
+    axios.get('http://localhost:3000/api/balcAndRail')
+    .then(function(res) {
+        // filterHold = res.data.filter(index => index.size == "small");
+        // largeImageArr = res.data.filter(index => index.size == "large");
+        // modulusSort(filterHold);
+        // hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
+        // hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
+        // hbsInfo.doorDesignLibPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
+        // hbsInfo.doorDesignLibPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
+        // hbsInfo.doorDesignLibPage.imagesComponentLeft.largeImage = largeImageArr;
+        // hbsInfo.doorDesignLibPage.imagesComponentRight.largeImage = largeImageArr;
+    }).then(function(res) {
+        topRow=[];
+        botRow=[];
+        topRowAggregate=[];
+        botRowAggregate=[];
+        largeImageArr=[];
+        partition.render("balconiesAndRailings", hbsInfo.balcAndRailPage);
+    }).catch(function(err){
+        res.render("404")
+        console.log(err)
+    });
 });
 
 router.get("/contactus", function(req, res) {
