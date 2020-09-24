@@ -1801,15 +1801,6 @@ const imageSeed = [
         animation: "wow zoomIn",
         date: new Date(Date.now())
     },
-    // {
-    //     src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/wine_gate_detail.jpg",
-    //     alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Wine Gate (Detail)",
-    //     imgName: "Wine Gate (Detail)",
-    //     category: "cad",
-    //     size: "large",
-    //     animation: "wow zoomIn",
-    //     date: new Date(Date.now())
-    // },
 ];
 
 db.Image
