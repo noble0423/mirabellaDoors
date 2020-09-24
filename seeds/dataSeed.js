@@ -3,7 +3,7 @@ const db = require("../models");
 
 mongoose.connect(
     process.env.MONGODB_URI ||
-    "mongodb://mirabella:mirabelladoors1@ds361998.mlab.com:61998/mirabella"
+    "mongodb+srv://mirabella:mirabelladoors1@mirabella.gsovi.gcp.mongodb.net/mirabella?retryWrites=true&w=majority"
 );
 
 const imageSeed = [
