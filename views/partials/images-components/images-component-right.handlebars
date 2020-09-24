@@ -1,5 +1,5 @@
 <!-- LG and XL Screens Only -->
-<div class="container-fluid px-0 d-none d-lg-block">
+<div loading="lazy" class="container-fluid px-0 d-none d-lg-block">
     <div class="row px-0">
         <div class="d-none d-xl-block col-xl-1"></div>
         <div class="col-lg-12 px-lg-225rem col-xl-10 px-xl-0">
@@ -13,7 +13,7 @@
                                     <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                         <div class="content">
                                             <div class="content-overlay"></div>
-                                            <img src="{{ this.src }}" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
+                                            <img src="{{ this.src }}" loading="lazy" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
                                             <div class="content-details fadeIn-bottom">
                                                 <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
                                                 {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
@@ -31,7 +31,7 @@
                                     <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                         <div class="content">
                                             <div class="content-overlay"></div>
-                                            <img src="{{ this.src }}" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
+                                            <img src="{{ this.src }}" loading="lazy" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
                                             <div class="content-details fadeIn-bottom">
                                                 <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
                                                 {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
@@ -50,7 +50,7 @@
                                     <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                         <div class="content">
                                             <div class="content-overlay"></div>
-                                            <img src="{{ this.src }}" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
+                                            <img src="{{ this.src }}" loading="lazy" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
                                             <div class="content-details fadeIn-bottom">
                                                 <h6 class="content-title">DESIGN: {{this.imgName}}</h6>
                                                 {{!-- <p class="content-text">Glass: default</p> --}}
@@ -68,7 +68,7 @@
                                     <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                         <div class="content">
                                             <div class="content-overlay"></div>
-                                            <img src="{{ this.src }}" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
+                                            <img src="{{ this.src }}" loading="lazy" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
                                             <div class="content-details fadeIn-bottom">
                                                 <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
                                                 {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
@@ -83,11 +83,11 @@
                 </div>
                 <div class="col-4">
                     {{#unless partialContextSrc}}
-                        <img src="{{ imagesComponentRight.largeImage.[0].src }}" class="lazy img-fluid large-door-image shadow-md {{ imagesComponentRight.largeImage.[0].animation }}" alt="Responsive image {{ imagesComponentRight.largeImage.[0].alt }}">
+                        <img src="{{ imagesComponentRight.largeImage.[0].src }}" loading="lazy" class="lazy img-fluid large-door-image shadow-md {{ imagesComponentRight.largeImage.[0].animation }}" alt="Responsive image {{ imagesComponentRight.largeImage.[0].alt }}">
                     {{/unless}}
 
                     {{#if partialContextSrc}}
-                        <img src="{{ partialContextSrc.src }}" class="lazy img-fluid large-door-image shadow-md {{ partialContextSrc.animation }}" alt="Responsive image {{ partialContextSrc.alt }}">
+                        <img src="{{ partialContextSrc.src }}" loading="lazy" class="lazy img-fluid large-door-image shadow-md {{ partialContextSrc.animation }}" alt="Responsive image {{ partialContextSrc.alt }}">
                     {{/if}}
                 </div>
             </div>
@@ -110,7 +110,7 @@
                             <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                 <div class="content">
                                     <div class="content-overlay"></div>
-                                    <img src="{{ this.src }}" class="lazy img-fluid small-door-image" alt="img-comp-right {{ this.alt }}">
+                                    <img src="{{ this.src }}" loading="lazy" class="lazy img-fluid small-door-image" alt="img-comp-right {{ this.alt }}">
                                     <div class="content-details fadeIn-bottom">
                                         <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
                                         {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
@@ -130,7 +130,7 @@
                             <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                 <div class="content">
                                     <div class="content-overlay"></div>
-                                    <img src="{{ this.src }}" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
+                                    <img src="{{ this.src }}" loading="lazy" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
                                     <div class="content-details fadeIn-bottom">
                                         <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
                                         {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
@@ -151,7 +151,7 @@
                             <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                 <div class="content">
                                     <div class="content-overlay"></div>
-                                    <img src="{{ this.src }}" class="lazy img-fluid small-door-image" alt="img-comp-right {{ this.alt }}">
+                                    <img src="{{ this.src }}" loading="lazy" class="lazy img-fluid small-door-image" alt="img-comp-right {{ this.alt }}">
                                     <div class="content-details fadeIn-bottom">
                                         <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
                                         {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
@@ -171,7 +171,7 @@
                             <a href="{{ this.src }}" data-rel="lightcase:myCollection" title="DESIGN: {{ this.imgName }}">
                                 <div class="content">
                                     <div class="content-overlay"></div>
-                                    <img src="{{ this.src }}" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
+                                    <img src="{{ this.src }}" loading="lazy" class="lazy img-fluid small-door-image" alt="{{ this.alt }}">
                                     <div class="content-details fadeIn-bottom">
                                         <h6 class="content-title">DESIGN: {{ this.imgName }}</h6>
                                         {{!-- <p class="content-text">Glass: {{ this.glass }}</p> --}}
