@@ -15,6 +15,10 @@ body {
     /* background: radial-gradient( circle 905px at 4.9% 85.8%,  rgba(255,243,242,1) 0.1%, rgba(255,247,220,1) 57.6% ); */
 }
 
+img.lazy {
+    display: block;
+}
+
 .navbar {
     border: 1px solid #d4d4d4;
 }
