@@ -168,7 +168,7 @@ const hbsInfo = {
     //===============================================================================
     homePage: {
         pageBreakerText: { 
-            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
+            text: "Mirabella Doors offers elegant, functional, custom wrought iron front entry doors, wine room gates, and wine room doors. Whether you are building a new home or updating your existing home, Mirabella Doors can help you create a beautiful, upscale entry way that compliments both your personal style and the style of your home.",
             animation: "wow zoomInDown slow",
         },
         coreValueCards: [
@@ -221,11 +221,11 @@ const hbsInfo = {
                 divAnimation: "wow slideInLeft",
                 wording: {
                     animation: "wow fadeIn slow",
-                    text: "Lomo freegan normcore pok pok listicle health goth taxidermy slow-carb pinterest beard microdosing pour-over. Crucifix fam four dollar toast gluten-free, schlitz pour-over DIY gochujang hell of tousled taxidermy godard snackwave whatever sartorial. Enamel pin palo santo asymmetrical offal ennui. Kickstarter cardigan vexillologist viral, keffiyeh tbh tousled retro kogi man bun.",
+                    text: "Mirabella Doors is one of the best custom wrought iron door companies in Houston! Their attention to detail and customer service is outstanding. I am extremely pleased with my door and ALL the doors they have installed on my projects. I highly recommend them.",
                 },
                 customerInfo: {
                     animation: "wow fadeIn slower",
-                    name: "Ryan N.",
+                    name: "Claudia P.",
                     area: "The Museum District",
                 },
             },
@@ -235,11 +235,11 @@ const hbsInfo = {
                 divAnimation: "wow slideInRight",
                 wording: {
                     animation: "wow fadeIn slow",
-                    text: "Lomo freegan normcore pok pok listicle health goth taxidermy slow-carb pinterest beard microdosing pour-over. Crucifix fam four dollar toast gluten-free, schlitz pour-over DIY gochujang hell of tousled taxidermy godard snackwave whatever sartorial. Enamel pin palo santo asymmetrical offal ennui. Kickstarter cardigan vexillologist viral, keffiyeh tbh tousled retro kogi man bun.",
+                    text: "I have used Mirabella Doors for 2 houses that I had built in the last 2 years. The doors were so nice that I had Pam install one on my house this year. Pam is very easy to work with. The doors came out great. My customers were very happy with the custom doors and so was I. I will definitely use Mirabella Doors on my next project.",
                 },
                 customerInfo: {
                     animation: " wow fadeIn slower",
-                    name: "Stephanie N.",
+                    name: "Yagnesh P.",
                     area: "Vintage Park",
                 },
             },
@@ -254,10 +254,9 @@ const hbsInfo = {
     // Mirabella Difference Page Handlebars Info
     //===============================================================================
     mbDiffPage: {
-
-        hbsTestTry1: "you got it man",
         heroComponent: {
             title: "The Mirabella Difference",
+            subText: "Write something here like a tagline, selling point, business stat, or something to intro the page.",
             animation: "wow fadeIn slow",
             image: {
                 // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Cosmo SDFS.jpg",
@@ -271,7 +270,8 @@ const hbsInfo = {
             },
         },
         pageBreakerText: { 
-            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
+            text: `"Mirabella Doors are wonderful to work with. Pam, the owner, is fabulous and VERY helpful. She designed the doors we had in mind and they looked perfect for out home in Spring, TX. When my husband retired and we moved a bit away from the Houston area, we had our home built on family property and requested Mirabella Doors on the new home. We are just as pleased with these doors as we were with the first set. Even the service after is fabulous! HIGHLY RECOMMENDED!!!"`,
+            custName: "- Carol B.",
             animation: "wow zoomInDown slow",
         },
         arrowComponentRight: {
@@ -281,11 +281,9 @@ const hbsInfo = {
             },
             wording: {
                 paragraphs: [
-                    "Our mission at Mirabella Doors is to bring high quality, custom wrought iron doors to the market place at a competitive price with superior customer service. Our commitment to excellence begins with design selection and ends when the door is completely installed and the home owner or home builder is satisfied.",
+                    "Our mission at Mirabella Doors is to bring high traditional, hand forged wrought iron doors as well as contemporary steel doors and windows to the market place at a competitive price with superior customer service. Our commitment to excellence begins with design selection and ends when the door is completely installed and the home owner or home builder is satisfied.",
 
-                    "At Mirabella Doors, we understand construction schedules and recognize the importance in delivering the product on time, every time. Our motto is “you only have one chance to make a first impression”. Mirabella Doors keeps this in mind as we work seamlessly with builders, designers and architects. As a company and partner with your builder, Mirabella Doors will impress with the thoughtfulness and attention to detail that befits an elegant home and high quality builder. As a product, Mirabella doors will deliver a lifetime of first impressions with elegant and timeless designs and an enduring product.",
-
-                    '"First impressions" is not only our motto, it is our specialty!',
+                    "At Mirabella Doors, we understand construction schedules and recognize the importance in delivering the product on time, every time. Our motto is “you only have one chance to make a first impression”. Mirabella Doors keeps this in mind as we work seamlessly with builders, designers and architects. As a company and partner with your builder, Mirabella Doors will impress with the thoughtfulness and attention to detail that befits an elegant home and high quality builder. As a product, Mirabella doors will deliver a lifetime of first impressions with elegant and timeless designs and an enduring product."
                 ],
                 bkgrndColor: "rgb(255, 254, 247)",
                 // bkgrndColor: "rgb(255,253,240)", 
@@ -373,8 +371,8 @@ const hbsInfo = {
     //===============================================================================
     contDoorsPage: {
         heroComponent: {
-            title: "Stunning Contemporary Doors",
-            // image: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
+            title: "Contemporary Doors",
+            subText: "Transitional, on trend, and timeless.  The Cosmopolitan design is stunning.",
             animation: "wow fadeIn slow",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/WMain-007.jpg",
@@ -387,7 +385,8 @@ const hbsInfo = {
             },
         },
         pageBreakerText: {
-            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
+            text: '"We love our new doors!  They are unique, beautiful, and are perfect for our home.  Pam helped us choose the design that went with our home, and the installation was seamless.  We have gotten many compliments on the doors, and I love being able to open the glass and have have the breeze blowing through when the weather is nice."',
+            custName: "- Melinda C.",
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
@@ -415,7 +414,8 @@ const hbsInfo = {
     //===============================================================================
     tradDoorsPage: {
         heroComponent: {
-            title: "Breathtaking Traditional Doors",
+            title: "Traditional Doors",
+            subText: "Elegant, functional, hand-forged by artisans.",
             animation: "wow fadeIn slow",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/trad_door_hero_banner.jpg",
@@ -428,9 +428,29 @@ const hbsInfo = {
             },
         },
         pageBreakerText: {
-            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
+            text: '"Mirabella Doors changed my front door to a BEAUTIFUL wrought iron door a couple of months ago (early 2016).  They helped me fully customize the design and their installation was flawless!  The installers were VERY careful with my entryway and made sure the work was completed to my satisfaction and with minimal disruption.  My only regret is not having had it done sooner!"',
+            custName: "- Candida W.",
             animation: "wow zoomInDown slow",
         },
+        // customerReviewLeft: {
+        //     img: {
+        //         animation: "wow fadeIn slow",
+        //         src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/customer_review_home.jpeg",
+        //         alt: "customer review img 1",
+        //     },
+        //     review: {
+        //         divAnimation: "wow slideInLeft",
+        //         wording: {
+        //             animation: "wow fadeIn slow",
+        //             text: "Lomo freegan normcore pok pok listicle health goth taxidermy slow-carb pinterest beard microdosing pour-over. Crucifix fam four dollar toast gluten-free, schlitz pour-over DIY gochujang hell of tousled taxidermy godard snackwave whatever sartorial. Enamel pin palo santo asymmetrical offal ennui. Kickstarter cardigan vexillologist viral, keffiyeh tbh tousled retro kogi man bun.",
+        //         },
+        //         customerInfo: {
+        //             animation: "wow fadeIn slower",
+        //             name: "Ryan N.",
+        //             area: "The Museum District",
+        //         },
+        //     },
+        // },
         imagesComponentLeft: {
             largeImage: [],
             smallImage: {
@@ -457,6 +477,7 @@ const hbsInfo = {
     doorFinishesPage: {
         heroComponent: {
             title: "Beautiful Finishes",
+            subText: "Write something here like a tagline, selling point, business stat, or something to intro the page.",
             animation: "wow fadeIn slow",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/door_handles_up_close.jpg",
@@ -501,6 +522,7 @@ const hbsInfo = {
     doorDesignLibPage: {
         heroComponent: {
             title: "Door Design Library",
+            subText: "Write something here like a tagline, selling point, business stat, or something to intro the page.",
             animation: "wow fadeIn slow",
             // image: "https://via.placeholder.com/1650x600/87ceeb?text=Hero+Banner+Component+(banner+-+)",
             image: {
@@ -515,7 +537,8 @@ const hbsInfo = {
             },
         },
         pageBreakerText: {
-            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
+            text: '"We are so pleased with our doors and the customer service provided by the company.  Pam was very helpful with the design...the doors are beautiful and we have received many compliments on them."',
+            custName: "- J David R.",
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
@@ -544,6 +567,7 @@ const hbsInfo = {
     balcAndRailPage: {
         heroComponent: {
             title: "Balconies and Railings",
+            subText: "Write something here like a tagline, selling point, business stat, or something to intro the page.",
             animation: "wow fadeIn slow",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/railing_up_close.jpg",
@@ -585,6 +609,7 @@ const hbsInfo = {
     contactUsPage: {
         heroComponent: {
             title: "Contact Us Today!",
+            subText: "Write something here like a tagline, selling point, business stat, or something to intro the page.",
             animation: "wow fadeIn slow",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/contact_us_meeting_image.jpg",
@@ -597,7 +622,8 @@ const hbsInfo = {
             },
         },
         pageBreakerText: {
-            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
+            text: '"We have had the pleasure of working with Mirabella Doors for many years building custom homes and remodels in Houston.  The doors are gorgeous and Pam has always stood behind her product.  We highly recommend Mirabella Doors.',
+            custName: "- Tammy P.",
             animation: "wow zoomInDown slow",
         },
         arrowComponentRight: {
@@ -637,7 +663,7 @@ const hbsInfo = {
                     "PHONE: (713) 252-6508",
                     "FAX: (713) 513-5935",
                     "HRS OF OPERATION: Mon.-Fri 8:00a-5:00p",
-                    "*** We are often on the job site, so while walk-ins are welcome, we cannot guarantee that someone will be here to help. We highly recommend making an appointment.",
+                    "*** Although we gladly welcome walk-ins, we may be on-site assisting customers.  We highly recommend making an appointment.",
                 ],
                 bkgrndColor: "rgb(255, 254, 247)",
                 // bkgrndColor: "#f5f5f5",

@@ -17,6 +17,7 @@
    {{> images-components/images-component-right }} 
 </div>
 
+<!-- Best Selling Image Left -->
 <div class="my-0 my-sm-6">
     {{> images-components/images-component-left 
     partialContextTop = imagesComponentLeft.smallImage.topRow.[2] 
@@ -24,41 +25,13 @@
     partialContextSrc = imagesComponentLeft.largeImage.[2]}}
 </div>
 
+<!-- Best Selling Image Right -->
 <div class="slant-background py-6">
     {{> images-components/images-component-right 
     partialContextTop = imagesComponentRight.smallImage.topRow.[3] 
     partialContextBottom = imagesComponentRight.smallImage.bottomRow.[3]
     partialContextSrc = imagesComponentRight.largeImage.[3]}}
 </div>
-
-{{!-- <!-- Best Selling Image Left -->
-<div class="my-0 my-sm-6">
-    {{> images-components/images-component-left partialContextSrc=imagesComponentLeft.largeImage.src.[1] partialContextAlt=imagesComponentLeft.largeImage.alt.[1] }}
-</div>
-
-<!-- Best Selling Image Right -->
-<div class="slant-background py-6">
-    {{> images-components/images-component-right 
-    partialContextSrc=imagesComponentRight.largeImage.src.[1] partialContextAlt=imagesComponentRight.largeImage.alt.[1]}}
-</div> --}}
-
-<!-- Buttons -->
-{{!-- <div class="row my-6">
-    <div class="col-2"></div>
-    <div class="col-2 mb-6 text-center">
-        <button type="button" class="btn btn-secondary contact-us-btn wow fadeIn slow">CONTACT US</button>
-    </div>
-    <div class="col-2 mb-6 text-center">
-        <button type="button" class="btn btn-secondary traditional-doors-btn wow fadeIn slow">TRAD. DOORS</button>
-    </div>
-    <div class="col-2 mb-6 text-center">
-        <button type="button" class="btn btn-secondary design-library-btn wow fadeIn slow">DESIGN LIBRARY.</button>
-    </div>
-    <div class="col-2 mb-6 text-center">
-        <button type="button" class="btn btn-secondary finishes-btn wow fadeIn slow">FINISHES</button>
-    </div>
-    <div class="col-2"></div>
-</div> --}}
 
 <!-- Scroll Top Btn Component -->
 {{> scroll-top-btn-component/scroll-top-btn }}
