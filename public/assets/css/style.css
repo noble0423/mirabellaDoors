@@ -518,6 +518,10 @@ h1 {
     border: 1px solid #3b3527 !important;
 }
 
+#howDidHear {
+    color:  #6c757d;
+}
+
 .btn-secondary {
     border-color: #3b3527 !important;
 }
