@@ -106,7 +106,6 @@ $(document).ready(function() {
 
     // Contact Us Form (selected color change)
     $("#howDidHear").change(function(){
-        console.log("changed");
         $("#howDidHear").css("color", "#495057");
     })
   

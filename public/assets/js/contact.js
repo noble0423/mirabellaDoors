@@ -20,6 +20,7 @@ $(document).ready(function() {
         const userFullName      = `${userFirstName} ${userLastName}`;
         const userEmail         = $("#email").val().trim();
         const userEmailSubject  = $("#subject").val().trim();
+        const userHowDidHear    = $("#howDidHear").val().trim();
         const userEmailMessage  = $("#message").val().trim();
         const responseMessage   = $("#contact-us-form .email-ajax-response");
 
@@ -28,6 +29,7 @@ $(document).ready(function() {
         console.log(`fullname: ${userFullName}`);
         console.log(`email: ${userEmail}`);
         console.log(`subject: ${userEmailSubject}`);
+        console.log(`how they heard ${userHowDidHear}`);
         console.log(`message: ${userEmailMessage}`);
 
         if (( userFirstName === "" || userLastName === "" || userEmail === "" || userEmailSubject === "" || userEmailMessage === "") || (!isValidEmailAddress(userEmail) )) {
@@ -44,6 +46,7 @@ $(document).ready(function() {
                     userEmail: userEmail,
                     userFullName: userFullName,
                     userEmailSubject: userEmailSubject,
+                    userHowDidHear: userHowDidHear,
                     userEmailMessage: userEmailMessage,
                 },
                 beforeSend: function(result) {
