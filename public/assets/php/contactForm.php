@@ -24,7 +24,7 @@ if (isset($_POST["userFullName"]) && isset($_POST["userEmail"]) && isset($_POST[
                 <body>
                 <h4>The following message was sent from the Contact Form on the Mirabela Doors website:</h4>
                 <br>
-                <p>How did customer hear about Mirabela Doors? {$howDidHear}</p>
+                <p>How did customer hear about Mirabella Doors? {$howDidHear}</p>
                 <p>
                 ";
     $message   .= $_POST["userEmailMessage"];
