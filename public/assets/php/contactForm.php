@@ -6,12 +6,15 @@ $to = "ryan.noble82@gmail.com";
 // userFullName
 // userEmail
 // userEmailSubject
+// userHowDidHear
 // userEmailMessage
 
-if (isset($_POST["userFullName"]) && isset($_POST["userEmail"]) && isset($_POST["userEmailSubject"]) && isset($_POST["userEmailMessage"])) {
+if (isset($_POST["userFullName"]) && isset($_POST["userEmail"]) && isset($_POST["userEmailSubject"]) && isset($_POST["userHowDidHear"]) && isset($_POST["userEmailMessage"])) {
     $name       = $_POST["userFullName"];
 
     $from       = $_POST["userEmail"];
+
+    $howDidHear = $_POST["userHowDidHear"];
 
     $message    = "
                 <html>
@@ -19,7 +22,9 @@ if (isset($_POST["userFullName"]) && isset($_POST["userEmail"]) && isset($_POST[
                 <title>HTML EMAIL</title>
                 </head>
                 <body>
-                <h4>The following message was sent from the Contact Form on your Portfolio Website:</h4>
+                <h4>The following message was sent from the Contact Form on the Mirabela Doors website:</h4>
+                <br>
+                <p>How did customer hear about Mirabela Doors? {$howDidHear}</p>
                 <p>
                 ";
     $message   .= $_POST["userEmailMessage"];

@@ -428,7 +428,7 @@ const hbsInfo = {
             },
         },
         pageBreakerText: {
-            text: '"Mirabella Doors changed my front door to a BEAUTIFUL wrought iron door a couple of months ago (early 2016).  They helped me fully customize the design and their installation was flawless!  The installers were VERY careful with my entryway and made sure the work was completed to my satisfaction and with minimal disruption.  My only regret is not having had it done sooner!"',
+            text: '"Mirabella Doors changed my front door to a BEAUTIFUL wrought iron door.  They helped me fully customize the design and their installation was flawless!  The installers were VERY careful with my entryway and made sure the work was completed to my satisfaction and with minimal disruption.  My only regret is not having had it done sooner!"',
             custName: "- Candida W.",
             animation: "wow zoomInDown slow",
         },
