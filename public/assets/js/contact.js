@@ -29,7 +29,7 @@ $(document).ready(function() {
         console.log(`fullname: ${userFullName}`);
         console.log(`email: ${userEmail}`);
         console.log(`subject: ${userEmailSubject}`);
-        console.log(`how they heard ${userHowDidHear}`);
+        console.log(`how they heard: ${userHowDidHear}`);
         console.log(`message: ${userEmailMessage}`);
 
         if (( userFirstName === "" || userLastName === "" || userEmail === "" || userEmailSubject === "" || userEmailMessage === "") || (!isValidEmailAddress(userEmail) )) {
@@ -41,7 +41,8 @@ $(document).ready(function() {
             $.ajax({
                 type: "POST",
                 // url: "/assets/php/contactForm.php",
-                url: "https://still-sea-30628.herokuapp.com/assets/php/contactForm.php",
+                url: "public/assets/php/contactForm.php",
+                // url: "https://still-sea-30628.herokuapp.com/assets/php/contactForm.php",
                 dataType: "json",
                 data: {
                     userEmail: userEmail,
