@@ -192,10 +192,12 @@ router.get("/contactus", function(req, res) {
     res.render("contactUs", hbsObject);
 });
 
-router.post("/assets/php/contactForm.php", function(req, res) {
-    res.status(200);
-    res.send("route is being hit");
-})
+// router.post("/assets/php/contactForm.php", function(req, res) {
+//     console.log(req.url);
+//     console.log(req.body);
+//     res.status(200);
+//     res.send("route is being hit");
+// })
 
 router.get("*", function(req, res) {
     res.render("404");

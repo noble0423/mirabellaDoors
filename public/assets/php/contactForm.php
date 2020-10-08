@@ -22,7 +22,7 @@ if (isset($_POST["userFullName"]) && isset($_POST["userEmail"]) && isset($_POST[
                 <title>HTML EMAIL</title>
                 </head>
                 <body>
-                <h4>The following message was sent from the Contact Form on the Mirabela Doors website:</h4>
+                <h4>The following message was sent from the Contact Form on the Mirabella Doors website:</h4>
                 <br>
                 <p>How did customer hear about Mirabella Doors? {$howDidHear}</p>
                 <p>
