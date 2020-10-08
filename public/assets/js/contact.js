@@ -40,8 +40,8 @@ $(document).ready(function() {
         else {
             $.ajax({
                 type: "POST",
-                // url: "/assets/php/contactForm.php",
-                url: "public/assets/php/contactForm.php",
+                url: "/assets/php/contactForm.php",
+                // url: "public/assets/php/contactForm.php",
                 // url: "https://still-sea-30628.herokuapp.com/assets/php/contactForm.php",
                 dataType: "json",
                 data: {
