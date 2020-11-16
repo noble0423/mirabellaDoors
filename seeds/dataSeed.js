@@ -1141,14 +1141,6 @@ const imageSeed = [
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/Hermitage-12938-IMG-03_1.jpg",
-        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Hermitage",
-        imgName: "Hermitage",
-        category: "contemporary",
-        size: "large",
-        date: new Date(Date.now())
-    },
-    {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/SDWFS Cosmpolitan.jpg",
         alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan",
         imgName: "Cosmopolitan",
@@ -1164,7 +1156,7 @@ const imageSeed = [
         size: "large",
         date: new Date(Date.now())
     },
-    //8^
+    //7^
     // CAD RENDERINGS (image size small)
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/ASTOR_DDHC_6'x8'2_COLOR.jpg",
@@ -1821,72 +1813,72 @@ const imageSeed = [
     },
     // BALCONIES AND RAILINGS (image size small)
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/Hermitage-12938-IMG-03_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Hermitage",
+        imgName: "Hermitage",
         category: "balcAndRail",
         size: "small",
         animation: "wow zoomIn",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/Hermitage-12938-IMG-03_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Hermitage",
+        imgName: "Hermitage",
         category: "balcAndRail",
         size: "small",
         animation: "wow zoomIn",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/trad_door_wine_door_stairwell.jpeg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Stairwell",
+        imgName: "Stairwell",
         category: "balcAndRail",
         size: "small",
         animation: "wow zoomIn",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/trad_door_wine_door_stairwell.jpeg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Stairwell",
+        imgName: "Stairwell",
         category: "balcAndRail",
         size: "small",
         animation: "wow zoomIn",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/Hermitage-12938-IMG-03_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Hermitage",
+        imgName: "Hermitage",
         category: "balcAndRail",
         size: "small",
         animation: "wow zoomIn",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/Hermitage-12938-IMG-03_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Hermitage",
+        imgName: "Hermitage",
         category: "balcAndRail",
         size: "small",
         animation: "wow zoomIn",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/trad_door_wine_door_stairwell.jpeg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Stairwell",
+        imgName: "Stairwell",
         category: "balcAndRail",
         size: "small",
         animation: "wow zoomIn",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/trad_door_wine_door_stairwell.jpeg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Stairwell",
+        imgName: "Stairwell",
         category: "balcAndRail",
         size: "small",
         animation: "wow zoomIn",
