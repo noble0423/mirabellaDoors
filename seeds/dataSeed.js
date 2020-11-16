@@ -667,6 +667,14 @@ const imageSeed = [
         size: "small",
         date: new Date(Date.now())
     },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/Miramar-Design.jpeg",
+        alt: "Premier Iron Doors in Houston - Quality Craftsmanship - Design Name: Miramar",
+        imgName: "Miramar",
+        category: "traditional",
+        size: "small",
+        date: new Date(Date.now())
+    },
     // TRADITIONAL DOORS (image size large)
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDBT&T_Sophie_LMP.jpg",
