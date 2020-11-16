@@ -53,8 +53,8 @@ $(document).ready(function() {
                     $("#contact-us-form button").empty();
                     $("#contact-us-form button").append("<i class='fa fa-cog fa-spin'></i> Wait...");
                 },
-                // success: function(result) {
-                complete: function(result) {
+                success: function(result) {
+                // complete: function(result) {
                     if(result.sendstatus === 1) {
                         $("#contact-us-form .ajax-hidden").fadeOut(500);
                         responseMessage.html(result.message).fadeIn(500);
