@@ -580,19 +580,11 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: [[],[{
-                // this will be grabbed from db later
-                src:"/assets/images/mirabellaDoorsImgs/imagesComponent/Sydney_Gate.jpg",
-                alt: [
-                    "left test1111",
-                    "left test2222",
-                ],
-                animation: "wow zoomIn",
-            }]],
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-                topRow: topRowImgArray,
-                bottomRow: bottomRowImgArray,
+                topRow: [],
+                bottomRow: [],
             },
         },
         scrollTopBtn: {

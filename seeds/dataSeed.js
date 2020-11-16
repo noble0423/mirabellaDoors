@@ -1809,6 +1809,90 @@ const imageSeed = [
         animation: "wow zoomIn",
         date: new Date(Date.now())
     },
+    // BALCONIES AND RAILINGS (image size large)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "balcAndRail",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    // BALCONIES AND RAILINGS (image size small)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "balcAndRail",
+        size: "small",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "balcAndRail",
+        size: "small",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "balcAndRail",
+        size: "small",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "balcAndRail",
+        size: "small",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "balcAndRail",
+        size: "small",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "balcAndRail",
+        size: "small",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "balcAndRail",
+        size: "small",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "balcAndRail",
+        size: "small",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    //8^
 ];
 
 db.Image

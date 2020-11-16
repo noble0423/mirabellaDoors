@@ -39,28 +39,28 @@ $(document).ready(function() {
         threshold: 0
       }
     
-    let observer = new IntersectionObserver(callback, options);
+    // let observer = new IntersectionObserver(callback, options);
 
-    observer.observe(target)
+    // observer.observe(target)
     
-    var target = document.querySelector("div")
-    if('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver((target, observer) => {
-          target.forEach((item) => {
-            if(item.isIntersecting) {
-              loadImages(item.target);
-              observer.unobserve(item.target);
-            }
-          });
-        });
-        imagesToLoad.forEach((img) => {
-          observer.observe(img);
-        });
-      } else {
-        imagesToLoad.forEach((img) => {
-          loadImages(img);
-        });
-      }
+    // var target = document.querySelector("div")
+    // if('IntersectionObserver' in window) {
+    //     const observer = new IntersectionObserver((target, observer) => {
+    //       target.forEach((item) => {
+    //         if(item.isIntersecting) {
+    //           loadImages(item.target);
+    //           observer.unobserve(item.target);
+    //         }
+    //       });
+    //     });
+    //     imagesToLoad.forEach((img) => {
+    //       observer.observe(img);
+    //     });
+    //   } else {
+    //     imagesToLoad.forEach((img) => {
+    //       loadImages(img);
+    //     });
+    //   }
 
     // Lightcase
     //=====================================================================
