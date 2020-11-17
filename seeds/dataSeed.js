@@ -677,22 +677,6 @@ const imageSeed = [
     },
     // TRADITIONAL DOORS (image size large)
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDBT&T_Sophie_LMP.jpg",
-        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Sophie",
-        imgName: "Sophie",
-        category: "traditional",
-        size: "large",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDEB_Bellaire_(front_elevation).jpg",
-        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Bellaire",
-        imgName: "Bellaire",
-        category: "traditional",
-        size: "large",
-        date: new Date(Date.now())
-    },
-    {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDFA_Kinley.jpg",
         alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Kinley",
         imgName: "Kinley",
@@ -701,66 +685,9 @@ const imageSeed = [
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDFA_Reagan.jpg",
-        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Reagan",
-        imgName: "Reagan",
-        category: "traditional",
-        size: "large",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDFA_Sienna_LMP.jpg",
-        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Sienna",
-        imgName: "Sienna",
-        category: "traditional",
-        size: "large",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_Bellagio_(front_elevation).jpg",
-        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Bellagio",
-        imgName: "Bellagio",
-        category: "traditional",
-        size: "large",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_Bellagio_(inside_view).jpg",
-        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Bellagio (inside view)",
-        imgName: "Bellagio",
-        category: "traditional",
-        size: "large",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_Kendall_(front_elevation).jpg",
-        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Kendall",
-        imgName: "Kendall",
-        category: "traditional",
-        size: "large",
-        date: new Date(Date.now())
-    },
-    //8^
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_Montreal_(with_leaves).jpg",
-        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: Montreal (with leaves)",
-        imgName: "Montreal (with leaves)",
-        category: "traditional",
-        size: "large",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_WDB_Front_Elevation.jpg",
-        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: WDB Front Elevation",
-        imgName: "WBD Front Elevation",
-        category: "traditional",
-        size: "large",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST&T_Phoenician.jpg",
-        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: Phoenician",
-        imgName: "Phoenician",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDBT&T_Sophie_LMP.jpg",
+        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Sophie",
+        imgName: "Sophie",
         category: "traditional",
         size: "large",
         date: new Date(Date.now())
@@ -774,17 +701,33 @@ const imageSeed = [
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDSTWT_Cosompolitan_4_units.jpg",
-        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: Cosmopolitan",
-        imgName: "Cosmopolitan",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_Bellagio_(front_elevation).jpg",
+        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Bellagio",
+        imgName: "Bellagio",
         category: "traditional",
         size: "large",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDSTWT_Waves.JPG",
-        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: Waves",
-        imgName: "Waves",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/SDFA_Blaze2.JPG",
+        alt: "Custom Luxury Iron Doors - Superb Craftsmanship - Texas - Design: Blaze",
+        imgName: "Blaze",
+        category: "traditional",
+        size: "large",
+        date: new Date(Date.now())
+    }, 
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_Montreal_(with_leaves).jpg",
+        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: Montreal (with leaves)",
+        imgName: "Montreal (with leaves)",
+        category: "traditional",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDFA_Sienna_LMP.jpg",
+        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Sienna",
+        imgName: "Sienna",
         category: "traditional",
         size: "large",
         date: new Date(Date.now())
@@ -797,23 +740,23 @@ const imageSeed = [
         size: "large",
         date: new Date(Date.now())
     },
+    //8^
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/HDC_Sign_Out_Front_w-MD.jpg",
-        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Houston Design Center Signage",
-        imgName: "Houston Design Center",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDFA_Reagan.jpg",
+        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Reagan",
+        imgName: "Reagan",
         category: "traditional",
         size: "large",
         date: new Date(Date.now())
     },
-    //16^
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/SDFA_Blaze2.JPG",
-        alt: "Custom Luxury Iron Doors - Superb Craftsmanship - Texas - Design: Blaze",
-        imgName: "Blaze",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_Kendall_(front_elevation).jpg",
+        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Kendall",
+        imgName: "Kendall",
         category: "traditional",
         size: "large",
         date: new Date(Date.now())
-    },    
+    },
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/SDST_Victoria.jpg",
         alt: "Custom Luxury Iron Doors - Superb Craftsmanship - Texas - Design: Victoria",
@@ -822,6 +765,39 @@ const imageSeed = [
         size: "large",
         date: new Date(Date.now())
     },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDEB_Bellaire_(front_elevation).jpg",
+        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Bellaire",
+        imgName: "Bellaire",
+        category: "traditional",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_Bellagio_(inside_view).jpg",
+        alt: "Mirabella Doors - Custom Door Designs - Houston, TX - Traditional Iron Doors - Design: Bellagio (inside view)",
+        imgName: "Bellagio",
+        category: "traditional",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST&T_Phoenician.jpg",
+        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: Phoenician",
+        imgName: "Phoenician",
+        category: "traditional",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDSTWT_Waves.JPG",
+        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: Waves",
+        imgName: "Waves",
+        category: "traditional",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    //15^  
     // CONTEMPORARY DOORS (image size small)
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Dining_&_Wine.jpg",
@@ -1148,7 +1124,23 @@ const imageSeed = [
         size: "large",
         date: new Date(Date.now())
     },
-    //7^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_WDB_Front_Elevation.jpg",
+        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: WDB Front Elevation",
+        imgName: "WBD Front Elevation",
+        category: "contemporary",
+        size: "large",
+        date: new Date(Date.now())
+    },
+    //8^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDSTWT_Cosompolitan_4_units.jpg",
+        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: Cosmopolitan",
+        imgName: "Cosmopolitan",
+        category: "contemporary",
+        size: "large",
+        date: new Date(Date.now())
+    },
     // CAD RENDERINGS (image size small)
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/ASTOR_DDHC_6'x8'2_COLOR.jpg",
@@ -1721,12 +1713,11 @@ const imageSeed = [
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_trad.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Showroom Image (Traditional Door)",
-        imgName: "Showroom",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/HDC_Sign_Out_Front_w-MD.jpg",
+        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Houston Design Center Signage",
+        imgName: "Houston Design Center",
         category: "cad",
         size: "large",
-        animation: "wow zoomIn",
         date: new Date(Date.now())
     },
     {
@@ -1788,6 +1779,15 @@ const imageSeed = [
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/wine_gate_detail.jpg",
         alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Wine Gate (Detail)",
         imgName: "Wine Gate (Detail)",
+        category: "cad",
+        size: "large",
+        animation: "wow zoomIn",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/showroom_trad.jpg",
+        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - CAD Design: Showroom Image (Traditional Door)",
+        imgName: "Showroom",
         category: "cad",
         size: "large",
         animation: "wow zoomIn",
