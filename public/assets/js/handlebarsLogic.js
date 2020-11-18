@@ -1,8 +1,3 @@
-// $(document).ready(function(){
-//     $.get('/api', function(res){
-//         console.log(res);
-//     })
-// })
 require("dotenv").config();
 const axios = require("axios");
 
@@ -40,7 +35,6 @@ const featuredImagesArray = [
         animation: "wow zoomIn delay-thirtieths",
     },
     {
-        // src: "/assets/images/mirabellaDoorsImgs/featuredProducts/tinified/Kinley-Design-cropped-and-resized.jpg",
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
         design: "Kendall",
         alt: "Best Selling Custom Door - Traditional - Mirabella Doors - Design: Kendall",
@@ -60,7 +54,6 @@ const bottomRowFeaturedImagesArraySm = [];
 // Empty Arrays for the Images Components used on multiple pages
 let topRowImgArray = [[],[{
     src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
-    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/2_pleasant_wine_room_door.jpg",
     design: "Kendall (full light)",
     glass: "Flemish",
     alt: "small image alt test1",
@@ -68,7 +61,6 @@ let topRowImgArray = [[],[{
 },
 {
     src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
-    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Montereal_LMP.jpg",
     design: "Reagan (with lower metal panel)",
     glass: "Flemish",
     alt: "small image alt test2",
@@ -76,7 +68,6 @@ let topRowImgArray = [[],[{
 },
 {
     src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
-    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDBT&T_Sophie_w_LMP2.jpg",
     design: "Montreal (full light with leaves)",
     glass: "Clear",
     alt: "small image alt test3",
@@ -84,7 +75,6 @@ let topRowImgArray = [[],[{
 },
 {
     src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
-    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Bellagio_LMP.jpg",
     design: "Coronado (decorative lower metal panel)",
     glass: "Flemish",
     alt: "small image alt test4",
@@ -92,7 +82,6 @@ let topRowImgArray = [[],[{
 }]];
 const bottomRowImgArray = [[],[{
     src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
-    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/Traditional_resized_small/DDEB_Cosmo_Wide_LMP.jpg",
     design: "Bellagio (full light)",
     glass: "Flemish",
     alt: "small image alt test5",
@@ -100,7 +89,6 @@ const bottomRowImgArray = [[],[{
 },
 {
     src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
-    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_exterior_detail.jpeg",
     design: "Reagan (full light)",
     glass: "Clear",
     alt: "small image alt test6",
@@ -108,7 +96,6 @@ const bottomRowImgArray = [[],[{
 },
 {
     src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
-    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/2_pleasant_front_interior_door.jpeg",
     design: "Reagan (full light, interior view)",
     glass: "Clear",
     alt: "small image alt test7",
@@ -116,47 +103,11 @@ const bottomRowImgArray = [[],[{
 },
 {
     src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
-    // src: "/assets/images/mirabellaDoorsImgs/traditionalDoors/6142WP_Front_Doors_(no_transom).jpeg",
     design: "Orleans (full light)",
     glass: "Clear",
     alt: "small image alt test8",
     animation: "wow fadeIn slow delay-fortieths",
 }]];
-
-// Helper Function to loop through image arrays and assign to top and bottom rows arrays
-// function imgArrayLoop(array, numPerRow, newTopRowArray, newBottomRowArray) {
-
-//     for (let i = 0; i < array.length; i++) {
-//         if (i < numPerRow) {
-//             newTopRowArray.push(array[i]);
-//         }
-//         else {
-//             newBottomRowArray.push(array[i]);
-//         }
-//     };
-// }
-
-// imgArrayLoop(featuredImagesArray, 3, topRowFeaturedImagesArray, bottomRowFeaturedImagesArray)
-// imgArrayLoop(testImageArray, 4, topRowImgArray, bottomRowImgArray);
-
-// Helper function to loop through image arrays and assign to top, middle and bottom rows arrays
-// function imgArrayLoopOddNumImgs(array, numPerRow, newTopRowArray, newMiddleRowArray, newBottomRowArray) {
-
-//     for (let i = 0; i < array.length; i++) {
-//         if (i < numPerRow) {
-//             newTopRowArray.push(array[i]);
-//         }
-//         else if (i >= numPerRow && i < (numPerRow * 2)) {
-//             newMiddleRowArray.push(array[i]);
-//         }
-//         else {
-//             newBottomRowArray.push(array[i]);
-//         }
-//     };    
-// }
-
-// imgArrayLoopOddNumImgs(featuredImagesArray, 2, topRowFeaturedImagesArraySm, middleRowFeaturedImagesArraySm, bottomRowFeaturedImagesArraySm);
-
 
 const hbsInfo = {
 
@@ -410,7 +361,7 @@ const hbsInfo = {
     //===============================================================================
     tradDoorsPage: {
         heroComponent: {
-            title: "Traditional Doors",
+            title: "Traditional Iron Doors",
             subText: "Elegant, functional, hand-forged by artisans.",
             animation: "wow fadeIn slow",
             image: {
@@ -428,25 +379,6 @@ const hbsInfo = {
             custName: "- Candida W.",
             animation: "wow zoomInDown slow",
         },
-        // customerReviewLeft: {
-        //     img: {
-        //         animation: "wow fadeIn slow",
-        //         src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/customer_review_home.jpeg",
-        //         alt: "customer review img 1",
-        //     },
-        //     review: {
-        //         divAnimation: "wow slideInLeft",
-        //         wording: {
-        //             animation: "wow fadeIn slow",
-        //             text: "Lomo freegan normcore pok pok listicle health goth taxidermy slow-carb pinterest beard microdosing pour-over. Crucifix fam four dollar toast gluten-free, schlitz pour-over DIY gochujang hell of tousled taxidermy godard snackwave whatever sartorial. Enamel pin palo santo asymmetrical offal ennui. Kickstarter cardigan vexillologist viral, keffiyeh tbh tousled retro kogi man bun.",
-        //         },
-        //         customerInfo: {
-        //             animation: "wow fadeIn slower",
-        //             name: "Ryan N.",
-        //             area: "The Museum District",
-        //         },
-        //     },
-        // },
         imagesComponentLeft: {
             largeImage: [],
             smallImage: {
