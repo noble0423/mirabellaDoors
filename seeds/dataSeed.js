@@ -1913,90 +1913,175 @@ const imageSeed = [
         animation: "wow fadeIn slower",
         date: new Date(Date.now())
     },
-    // BALCONIES AND RAILINGS (image size large)
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
-        category: "balcAndRail",
-        size: "large",
-        animation: "wow zoomIn",
-        date: new Date(Date.now())
-    },
     // BALCONIES AND RAILINGS (image size small)
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/Hermitage-12938-IMG-03_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Hermitage",
+        alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Hermitage",
         imgName: "Hermitage",
         category: "balcAndRail",
         size: "small",
-        animation: "wow zoomIn",
+        animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/Hermitage-12938-IMG-03_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Hermitage",
+        alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Hermitage",
         imgName: "Hermitage",
         category: "balcAndRail",
         size: "small",
-        animation: "wow zoomIn",
+        animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/trad_door_wine_door_stairwell.jpeg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Stairwell",
+        alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Stairwell",
         imgName: "Stairwell",
         category: "balcAndRail",
         size: "small",
-        animation: "wow zoomIn",
+        animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/trad_door_wine_door_stairwell.jpeg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Stairwell",
+        alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Stairwell",
         imgName: "Stairwell",
         category: "balcAndRail",
         size: "small",
-        animation: "wow zoomIn",
+        animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/Hermitage-12938-IMG-03_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Hermitage",
+        alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Hermitage",
         imgName: "Hermitage",
         category: "balcAndRail",
         size: "small",
-        animation: "wow zoomIn",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/Hermitage-12938-IMG-03_1.jpg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Hermitage",
+        alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Hermitage",
         imgName: "Hermitage",
         category: "balcAndRail",
         size: "small",
-        animation: "wow zoomIn",
+        animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/trad_door_wine_door_stairwell.jpeg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Stairwell",
+        alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Stairwell",
         imgName: "Stairwell",
         category: "balcAndRail",
         size: "small",
-        animation: "wow zoomIn",
+        animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/trad_door_wine_door_stairwell.jpeg",
-        alt: "Custom Iron Doors - Mirabella Doors - Houston, TX - Design: Stairwell",
+        alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Stairwell",
         imgName: "Stairwell",
         category: "balcAndRail",
         size: "small",
-        animation: "wow zoomIn",
+        animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //8^
+    // BALCONIES AND RAILINGS (image size large)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_large/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "balcAndRail",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    // DOOR FINISHES (image size small)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-quarters",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-tenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
+        date: new Date(Date.now())
+    },
+    //8^
+    // DOOR FINISHES (image size large)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/leaves_detail.jpg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+
 ];
 
 db.Image

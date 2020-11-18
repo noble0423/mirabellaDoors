@@ -206,7 +206,6 @@ const hbsInfo = {
             subText: "Write something here like a tagline, selling point, business stat, or something to intro the page.",
             animation: "wow fadeIn slow",
             image: {
-                // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Cosmo SDFS.jpg",
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
                 alt: "The Mirabella Difference - Houston's Premier Custom Doors Banner Image",
             },
@@ -233,13 +232,6 @@ const hbsInfo = {
                     "At Mirabella Doors, we understand construction schedules and recognize the importance in delivering the product on time, every time. Our motto is “you only have one chance to make a first impression”. Mirabella Doors keeps this in mind as we work seamlessly with builders, designers and architects. As a company and partner with your builder, Mirabella Doors will impress with the thoughtfulness and attention to detail that befits an elegant home and high quality builder. As a product, Mirabella doors will deliver a lifetime of first impressions with elegant and timeless designs and an enduring product."
                 ],
                 bkgrndColor: "rgb(255, 254, 247)",
-                // bkgrndColor: "rgb(255,253,240)", 
-                // bkgrndColor: "#f5f5f5",
-                // bkgrndColor: "white",
-                // bkgrndColor: "linear-gradient(346deg, rgba(240,255,206,1) 0%, rgba(255,249,222,1) 60%);",
-                // bkgrndColor: "radial-gradient( circle farthest-corner at 10% 20%,  rgba(226,240,254,1) 0%, rgba(255,247,228,1) 90% );",
-                // bkgrndColor: "radial-gradient( circle farthest-corner at 18.7% 37.8%,  rgba(250,250,250,1) 0%, rgba(225,234,238,1) 90% );",
-                // bkgrndColor: "radial-gradient( circle 905px at 4.9% 85.8%,  rgba(255,243,242,1) 0.1%, rgba(255,247,220,1) 57.6% );",
                 id: "mirabellaDifferenceText",
             },
             image: {
@@ -264,9 +256,6 @@ const hbsInfo = {
                     "Mirabella Doors works very closely with Houston’s finest custom home builders and interior designers.  By consistently providing a high-end, custom product and combining it with exceptional service, Pam Miller, has built a solid reputation in the industry for surpassing customer expectations.",
                 ],
                 bkgrndColor: "rgb(255, 254, 247)",
-                // bkgrndColor: "#f5f5f5",
-                // bkgrndColor: "rgb(255,253,240)",
-                // bkgrndColor: "#f6f0ea",
                 id: "meetTheOwnerText",
             },
             image: {
@@ -281,7 +270,6 @@ const hbsInfo = {
         },
         xsArrowTransformRight: {
             backgroundImage: {
-                // darken: "linear-gradient(45deg, rgba(50, 50, 50, 0.5) 0%, rgba(100, 100, 100, .5) 80%)",
                 darken: "linear-gradient(-45deg, rgba(255, 254, 247, 0.5) 0%, rgba(100, 100, 100, 0.8) 65%)",
             },
             textDiv: {
@@ -296,7 +284,6 @@ const hbsInfo = {
         },
         xsArrowTransformLeft: {
             backgroundImage: {
-                // darken: "linear-gradient(45deg, rgba(75, 75, 75, 0.4) 0%, rgba(125, 125, 125, .4) 80%)",
                 darken: "linear-gradient(-45deg, rgba(255, 254, 247, 0.5) 0%, rgba(100, 100, 100, 0.8) 65%)",
             },
             textDiv: {
@@ -409,9 +396,6 @@ const hbsInfo = {
             animation: "wow fadeIn slow",
             image: {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/door_handles_up_close.jpg",
-                // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/grape_cluster_up_close.jpg",
-                // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/leaves_up_close_warmer.jpg",
-                // src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/leaves_up_close.jpg",
                 alt: "Mirabella Doors - High Quality Custom Door Finishes Banner Image",
             },
         },
@@ -425,21 +409,29 @@ const hbsInfo = {
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
-            largeImage: [[], [{
-                // this will be grabbed from db later
-                src: "https://via.placeholder.com/450x700?text=Finishes+IMG+1",
-                alt: [
-                    "left test1111",
-                    "left test2222",
-                ],
-                animation: "wow zoomIn",
-            }]],
+            largeImage: [],
             smallImage: {
                 // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-                topRow: topRowImgArray,
-                bottomRow: bottomRowImgArray,
+                topRow: [],
+                bottomRow: [],
             },
         },
+        // imagesComponentLeft: {
+        //     largeImage: [[], [{
+        //         // this will be grabbed from db later
+        //         src: "https://via.placeholder.com/450x700?text=Finishes+IMG+1",
+        //         alt: [
+        //             "left test1111",
+        //             "left test2222",
+        //         ],
+        //         animation: "wow zoomIn",
+        //     }]],
+        //     smallImage: {
+        //         // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+        //         topRow: topRowImgArray,
+        //         bottomRow: bottomRowImgArray,
+        //     },
+        // },
         scrollTopBtn: {
             href: "#door-finishes-scroll",
         },

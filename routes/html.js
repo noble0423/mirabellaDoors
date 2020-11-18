@@ -107,15 +107,24 @@ router.get("/doorfinishes", function(req, res) {
     axios.get('http://localhost:3000/api/finishes')
     // axios.get("https://still-sea-30628.herokuapp.com/api/finishes")
     .then(function(res) {
-        // filterHold = res.data.filter(index => index.size == "small");
-        // largeImageArr = res.data.filter(index => index.size == "large");
-        // modulusSort(filterHold);
-        // hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
-        // hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
-        // hbsInfo.doorDesignLibPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
-        // hbsInfo.doorDesignLibPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
-        // hbsInfo.doorDesignLibPage.imagesComponentLeft.largeImage = largeImageArr;
-        // hbsInfo.doorDesignLibPage.imagesComponentRight.largeImage = largeImageArr;
+        filterHold = res.data.filter(index => index.size == "small");
+        largeImageArr = res.data.filter(index => index.size == "large");
+
+        if (largeImageArr.length === 1) {
+            largeImageArr.unshift({});
+        }
+        
+        modulusSort(filterHold);
+
+        topRowAggregate.unshift({});
+        botRowAggregate.unshift({});
+
+        hbsInfo.doorFinishesPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
+        hbsInfo.doorFinishesPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
+        // hbsInfo.doorFinishesPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
+        // hbsInfo.doorFinishesPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
+        hbsInfo.doorFinishesPage.imagesComponentLeft.largeImage = largeImageArr;
+        // hbsInfo.doorFinishesPage.imagesComponentRight.largeImage = largeImageArr;
     }).then(function(res) {
         topRow=[];
         botRow=[];
@@ -165,17 +174,14 @@ router.get("/balconiesandrailings", function(req, res) {
     // axios.get("https://still-sea-30628.herokuapp.com/api/balcAndRail")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
-        // console.log("filterhold", filterHold);
         largeImageArr = res.data.filter(index => index.size == "large");
-
-        // console.log(topRowAggregate);
 
         if (largeImageArr.length === 1) {
             largeImageArr.unshift({});
         }
 
-        // console.log("largeImageArray", largeImageArr);
         modulusSort(filterHold);
+
         topRowAggregate.unshift({});
         botRowAggregate.unshift({});
         hbsInfo.balcAndRailPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
