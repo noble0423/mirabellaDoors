@@ -47,8 +47,8 @@ router.get("/mirabelladifference", function(req, res) {
 router.get("/contemporarydoors", function(req, res) {
     let partition = res;
 
-    // axios.get('http://localhost:3000/api/contemporary')
-    axios.get("https://still-sea-30628.herokuapp.com/api/contemporary")
+    axios.get('http://localhost:3000/api/contemporary')
+    // axios.get("https://still-sea-30628.herokuapp.com/api/contemporary")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
@@ -75,8 +75,8 @@ router.get("/contemporarydoors", function(req, res) {
 router.get("/traditionaldoors", function(req, res) {
     let partition = res;
 
-    // axios.get('http://localhost:3000/api/traditional')
-    axios.get("https://still-sea-30628.herokuapp.com/api/traditional")
+    axios.get('http://localhost:3000/api/traditional')
+    // axios.get("https://still-sea-30628.herokuapp.com/api/traditional")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
@@ -104,27 +104,27 @@ router.get("/traditionaldoors", function(req, res) {
 router.get("/doorfinishes", function(req, res) {
     let partition = res;
     //uncomment if db has info, otherwise use Handlebars Logic for static images
-    // axios.get('http://localhost:3000/api/finishes')
-    axios.get("https://still-sea-30628.herokuapp.com/api/finishes")
+    axios.get('http://localhost:3000/api/finishes')
+    // axios.get("https://still-sea-30628.herokuapp.com/api/finishes")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
 
-        if (largeImageArr.length === 1) {
-            largeImageArr.unshift({});
-        }
+        // if (largeImageArr.length === 1) {
+        //     largeImageArr.unshift({});
+        // }
         
         modulusSort(filterHold);
 
-        topRowAggregate.unshift({});
-        botRowAggregate.unshift({});
+        // topRowAggregate.unshift({});
+        // botRowAggregate.unshift({});
 
-        hbsInfo.doorFinishesPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
-        hbsInfo.doorFinishesPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
-        // hbsInfo.doorFinishesPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
-        // hbsInfo.doorFinishesPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
-        hbsInfo.doorFinishesPage.imagesComponentLeft.largeImage = largeImageArr;
-        // hbsInfo.doorFinishesPage.imagesComponentRight.largeImage = largeImageArr;
+        // hbsInfo.doorFinishesPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
+        // hbsInfo.doorFinishesPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
+        hbsInfo.doorFinishesPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
+        hbsInfo.doorFinishesPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
+        // hbsInfo.doorFinishesPage.imagesComponentLeft.largeImage = largeImageArr;
+        hbsInfo.doorFinishesPage.imagesComponentRight.largeImage = largeImageArr;
     }).then(function(res) {
         topRow=[];
         botRow=[];
@@ -141,8 +141,8 @@ router.get("/doorfinishes", function(req, res) {
 router.get("/doordesignlibrary", function(req, res) {
     let partition = res;
 
-    // axios.get('http://localhost:3000/api/cad')
-    axios.get("https://still-sea-30628.herokuapp.com/api/cad")
+    axios.get('http://localhost:3000/api/cad')
+    // axios.get("https://still-sea-30628.herokuapp.com/api/cad")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
@@ -170,8 +170,8 @@ router.get("/doordesignlibrary", function(req, res) {
 router.get("/balconiesandrailings", function(req, res) {
     let partition = res;
     //uncomment if db has info, otherwise use Handlebars Logic for static images
-    // axios.get('http://localhost:3000/api/balcAndRail')
-    axios.get("https://still-sea-30628.herokuapp.com/api/balcAndRail")
+    axios.get('http://localhost:3000/api/balcAndRail')
+    // axios.get("https://still-sea-30628.herokuapp.com/api/balcAndRail")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");

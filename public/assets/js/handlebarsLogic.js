@@ -416,22 +416,14 @@ const hbsInfo = {
                 bottomRow: [],
             },
         },
-        // imagesComponentLeft: {
-        //     largeImage: [[], [{
-        //         // this will be grabbed from db later
-        //         src: "https://via.placeholder.com/450x700?text=Finishes+IMG+1",
-        //         alt: [
-        //             "left test1111",
-        //             "left test2222",
-        //         ],
-        //         animation: "wow zoomIn",
-        //     }]],
-        //     smallImage: {
-        //         // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-        //         topRow: topRowImgArray,
-        //         bottomRow: bottomRowImgArray,
-        //     },
-        // },
+        imagesComponentRight: {
+            largeImage: [],
+            smallImage: {
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: [],
+                bottomRow: [],
+            },
+        },
         scrollTopBtn: {
             href: "#door-finishes-scroll",
         },
