@@ -1,70 +1,77 @@
 <!-- Smooth Scroll Div -->
 <div class="smooth-scroll" id="door-design-library-scroll"></div>
 
-<!-- Hero Component (banner left) -->
-{{> hero-components/hero-component-left }}
+<!-- Hero Component (banner right) -->
+{{> hero-components/hero-component-right }}
 
 <!-- Page Breaker Text -->
 {{> page-breaker-component/page-breaker-text }}
 
-<!-- Non-CAD Design Image Right -->
+<!-- Non-CAD Design Image Left -->
 <div class="my-0 my-sm-6">
+    {{> images-components/images-component-left }}
+</div>
+
+<!-- Non-CAD Design Image Right -->
+<div class="slant-background py-6">
     {{> images-components/images-component-right }}
 </div>
 
 <!-- Non-CAD Design Image Left -->
-<div class="slant-background py-6">
-    {{> images-components/images-component-left }}
-</div>
-
 <div class="my-0 my-sm-6">
-    {{> images-components/images-component-right 
-    partialContextTop = imagesComponentRight.smallImage.topRow.[2] 
-    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[2]
-    partialContextSrc = imagesComponentRight.largeImage.[2]}}
+    {{> images-components/images-component-left 
+    partialContextTop = imagesComponentLeft.smallImage.topRow.[2] 
+    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[2]
+    partialContextSrc = imagesComponentLeft.largeImage.[2]}}
 </div>
 
+<!-- Non-CAD Design Image Right -->
 <div class="slant-background py-6">
-    {{> images-components/images-component-left 
-    partialContextTop = imagesComponentLeft.smallImage.topRow.[3] 
-    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[3]
+    {{> images-components/images-component-right 
+    partialContextTop = imagesComponentRight.smallImage.topRow.[3] 
+    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[3]
     partialContextSrc = imagesComponentRight.largeImage.[3]}}
 </div>
 
+<!-- Non-CAD Design Image Left -->
 <div class="my-0 my-sm-6">
-    {{> images-components/images-component-right 
-    partialContextTop = imagesComponentRight.smallImage.topRow.[4] 
-    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[4]
-    partialContextSrc = imagesComponentRight.largeImage.[4]}}
+    {{> images-components/images-component-left 
+    partialContextTop = imagesComponentLeft.smallImage.topRow.[4] 
+    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[4]
+    partialContextSrc = imagesComponentLeft.largeImage.[4]}}
 </div>
 
+<!-- Non-CAD Design Image Right -->
 <div class="slant-background py-6">
-    {{> images-components/images-component-left 
-    partialContextTop = imagesComponentLeft.smallImage.topRow.[5] 
-    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[5]
+    {{> images-components/images-component-right 
+    partialContextTop = imagesComponentRight.smallImage.topRow.[5] 
+    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[5]
     partialContextSrc = imagesComponentRight.largeImage.[5]}}
 </div>
 
+<!-- Non-CAD Design Image Left -->
 <div class="my-0 my-sm-6">
-    {{> images-components/images-component-right 
-    partialContextTop = imagesComponentRight.smallImage.topRow.[6] 
-    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[6]
-    partialContextSrc = imagesComponentRight.largeImage.[6]}}
+    {{> images-components/images-component-left 
+    partialContextTop = imagesComponentLeft.smallImage.topRow.[6] 
+    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[6]
+    partialContextSrc = imagesComponentLeft.largeImage.[6]}}
 </div>
 
+<!-- Non-CAD Design Image Right -->
 <div class="slant-background py-6">
-    {{> images-components/images-component-left 
-    partialContextTop = imagesComponentLeft.smallImage.topRow.[7] 
-    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[7]
+    {{> images-components/images-component-right 
+    partialContextTop = imagesComponentRight.smallImage.topRow.[7] 
+    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[7]
     partialContextSrc = imagesComponentRight.largeImage.[7]}}
 </div>
 
-<div class="my-0 my-sm-6">
-    {{> images-components/images-component-right 
-    partialContextTop = imagesComponentRight.smallImage.topRow.[8] 
-    partialContextBottom = imagesComponentRight.smallImage.bottomRow.[8]
-    partialContextSrc = imagesComponentRight.largeImage.[8]}}
-</div>
+<!-- Non-CAD Design Image Left -->
+{{!-- <div class="my-0 my-sm-6">
+    {{> images-components/images-component-left 
+    partialContextTop = imagesComponentLeft.smallImage.topRow.[8] 
+    partialContextBottom = imagesComponentLeft.smallImage.bottomRow.[8]
+    partialContextSrc = imagesComponentLeft.largeImage.[8]}}
+</div> --}}
 
 <!-- Scroll Top Btn Component -->
 {{> scroll-top-btn-component/scroll-top-btn }}

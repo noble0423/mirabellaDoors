@@ -1267,6 +1267,7 @@ const imageSeed = [
         imgName: "Astor",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
@@ -1275,6 +1276,7 @@ const imageSeed = [
         imgName: "Astoria",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
@@ -1283,6 +1285,7 @@ const imageSeed = [
         imgName: "Avalon",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
@@ -1291,6 +1294,7 @@ const imageSeed = [
         imgName: "Ayreon",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
@@ -1299,6 +1303,7 @@ const imageSeed = [
         imgName: "Balboa",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
@@ -1307,6 +1312,7 @@ const imageSeed = [
         imgName: "Bavaria",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
@@ -1315,6 +1321,7 @@ const imageSeed = [
         imgName: "Bellagio",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
@@ -1323,6 +1330,7 @@ const imageSeed = [
         imgName: "Bellaire",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //8^
@@ -1332,6 +1340,7 @@ const imageSeed = [
         imgName: "Blaze",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
@@ -1340,6 +1349,7 @@ const imageSeed = [
         imgName: "Bristol",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
@@ -1348,6 +1358,7 @@ const imageSeed = [
         imgName: "Broadway",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
@@ -1356,6 +1367,7 @@ const imageSeed = [
         imgName: "Carnivale",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
@@ -1364,6 +1376,7 @@ const imageSeed = [
         imgName: "Castle",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
@@ -1372,6 +1385,7 @@ const imageSeed = [
         imgName: "Castle (plain)",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
@@ -1380,6 +1394,7 @@ const imageSeed = [
         imgName: "Castle",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
@@ -1388,6 +1403,7 @@ const imageSeed = [
         imgName: "Castle",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //16^
@@ -1397,6 +1413,7 @@ const imageSeed = [
         imgName: "Celestine",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
@@ -1405,6 +1422,7 @@ const imageSeed = [
         imgName: "Chelsea",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
@@ -1413,6 +1431,7 @@ const imageSeed = [
         imgName: "Church Series",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
@@ -1421,6 +1440,7 @@ const imageSeed = [
         imgName: "Church Series",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
@@ -1429,6 +1449,7 @@ const imageSeed = [
         imgName: "Church Series",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
@@ -1437,6 +1458,7 @@ const imageSeed = [
         imgName: "Ellison",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
@@ -1445,6 +1467,7 @@ const imageSeed = [
         imgName: "Delcan",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
@@ -1453,6 +1476,7 @@ const imageSeed = [
         imgName: "Dolce",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //24^
@@ -1462,6 +1486,7 @@ const imageSeed = [
         imgName: "Eden",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
@@ -1470,6 +1495,7 @@ const imageSeed = [
         imgName: "Emerson",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
@@ -1478,6 +1504,7 @@ const imageSeed = [
         imgName: "Empire",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
@@ -1486,6 +1513,7 @@ const imageSeed = [
         imgName: "Florence",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
@@ -1494,6 +1522,7 @@ const imageSeed = [
         imgName: "Fontaine",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
@@ -1502,6 +1531,7 @@ const imageSeed = [
         imgName: "French Quarter",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
@@ -1510,6 +1540,7 @@ const imageSeed = [
         imgName: "Geneva",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
@@ -1518,6 +1549,7 @@ const imageSeed = [
         imgName: "Gracia",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //32^
@@ -1527,6 +1559,7 @@ const imageSeed = [
         imgName: "Haven",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
@@ -1535,6 +1568,7 @@ const imageSeed = [
         imgName: "Haven",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
@@ -1543,6 +1577,7 @@ const imageSeed = [
         imgName: "Hayden",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
@@ -1551,6 +1586,7 @@ const imageSeed = [
         imgName: "Hayden",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
@@ -1559,6 +1595,7 @@ const imageSeed = [
         imgName: "Ivy",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
@@ -1567,6 +1604,7 @@ const imageSeed = [
         imgName: "Kendall",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
@@ -1575,6 +1613,7 @@ const imageSeed = [
         imgName: "Kensington",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
@@ -1583,6 +1622,7 @@ const imageSeed = [
         imgName: "Leeds",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //40
@@ -1592,6 +1632,7 @@ const imageSeed = [
         imgName: "Leis",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
@@ -1600,6 +1641,7 @@ const imageSeed = [
         imgName: "Lyon",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
@@ -1608,6 +1650,7 @@ const imageSeed = [
         imgName: "Madison",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
@@ -1616,6 +1659,7 @@ const imageSeed = [
         imgName: "Manchester",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
@@ -1624,6 +1668,7 @@ const imageSeed = [
         imgName: "Marseilles",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
@@ -1632,6 +1677,7 @@ const imageSeed = [
         imgName: "Metropolitan",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
@@ -1640,6 +1686,7 @@ const imageSeed = [
         imgName: "Milan",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
@@ -1648,6 +1695,7 @@ const imageSeed = [
         imgName: "Miramar",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //48^
@@ -1657,6 +1705,7 @@ const imageSeed = [
         imgName: "Monaco",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
@@ -1665,6 +1714,7 @@ const imageSeed = [
         imgName: "Monaco",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
@@ -1673,6 +1723,7 @@ const imageSeed = [
         imgName: "Montreal",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
@@ -1681,6 +1732,7 @@ const imageSeed = [
         imgName: "Nola",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
@@ -1689,6 +1741,7 @@ const imageSeed = [
         imgName: "Nola",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
@@ -1697,6 +1750,7 @@ const imageSeed = [
         imgName: "Parvana",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
@@ -1705,6 +1759,7 @@ const imageSeed = [
         imgName: "Portofino",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
@@ -1713,6 +1768,7 @@ const imageSeed = [
         imgName: "Prada",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //56^
@@ -1722,6 +1778,7 @@ const imageSeed = [
         imgName: "Ravel",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
@@ -1730,6 +1787,7 @@ const imageSeed = [
         imgName: "Ravel",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
@@ -1738,6 +1796,7 @@ const imageSeed = [
         imgName: "Reagan",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
@@ -1746,6 +1805,7 @@ const imageSeed = [
         imgName: "Solara",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
@@ -1754,6 +1814,7 @@ const imageSeed = [
         imgName: "Sophie",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
@@ -1762,6 +1823,7 @@ const imageSeed = [
         imgName: "Sophie",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
@@ -1770,6 +1832,7 @@ const imageSeed = [
         imgName: "Sydney",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
@@ -1778,6 +1841,7 @@ const imageSeed = [
         imgName: "Texas Hill Country",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //64^
@@ -1787,6 +1851,7 @@ const imageSeed = [
         imgName: "Texas Ranch",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
@@ -1795,6 +1860,7 @@ const imageSeed = [
         imgName: "Toscano",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
@@ -1803,6 +1869,7 @@ const imageSeed = [
         imgName: "Verano",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
@@ -1811,6 +1878,7 @@ const imageSeed = [
         imgName: "Victoria",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
@@ -1819,6 +1887,7 @@ const imageSeed = [
         imgName: "Waves",
         category: "cad",
         size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     // CAD RENDERINGS (image size large)
