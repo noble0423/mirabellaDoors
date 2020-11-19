@@ -2150,7 +2150,174 @@ const imageSeed = [
         animation: "wow fadeIn slower",
         date: new Date(Date.now())
     },
-
+        // DOOR FINISHES (image size small)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-quarters",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-tenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
+        date: new Date(Date.now())
+    },
+    //8^
+    // DOOR FINISHES (image size large)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/leaves_detail.jpg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    // PIVOT DOORS (image size small)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
+        size: "small",
+        animation: "wow fadeIn slow",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
+        size: "small",
+        animation: "wow fadeIn slow delay-quarters",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
+        size: "small",
+        animation: "wow fadeIn slow delay-tenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
+        size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
+        size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
+        size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
+        date: new Date(Date.now())
+    },
+    //8^
+    // DOOR FINISHES (image size large)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/leaves_detail.jpg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
 ];
 
 db.Image

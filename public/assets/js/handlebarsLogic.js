@@ -387,6 +387,44 @@ const hbsInfo = {
         },
     },
 
+    // Pivot Doors Page Handlebars Info
+    //===============================================================================
+    pivotDoorsPage: {
+        heroComponent: {
+            title: "Pivot Doors",
+            subText: "Write something here like a tagline, selling point, business stat, or something to intro the page.",
+            animation: "wow fadeIn slow",
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Cosmo SDFS.jpg",
+                alt: "Mirabella Doors - High Quality Custom Door Finishes Banner Image",
+            },
+        },
+        pageBreakerText: { 
+            text: `"Mirabella Doors are wonderful to work with. Pam, the owner, is fabulous and VERY helpful. She designed the doors we had in mind and they looked perfect for out home in Spring, TX. When my husband retired and we moved a bit away from the Houston area, we had our home built on family property and requested Mirabella Doors on the new home. We are just as pleased with these doors as we were with the first set. Even the service after is fabulous! HIGHLY RECOMMENDED!!!"`,
+            custName: "- Carol B.",
+            animation: "wow zoomInDown slow",
+        },
+        imagesComponentLeft: {
+            largeImage: [],
+            smallImage: {
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: topRowImgArray,
+                bottomRow: bottomRowImgArray,
+            },
+        },
+        imagesComponentRight: {
+            largeImage: [],
+            smallImage: {
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: topRowImgArray,
+                bottomRow: bottomRowImgArray,
+            },
+        },
+        scrollTopBtn: {
+            href: "#pivot-doors-scroll",
+        },
+    },
+
     // Door Finishes Page Handlebars Info
     //===============================================================================
     doorFinishesPage: {
