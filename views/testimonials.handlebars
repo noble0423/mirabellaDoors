@@ -1,0 +1,61 @@
+<!-- Smooth Scroll Div -->
+<div class="smooth-scroll" id="testimonials-scroll"></div>
+
+<!-- Hero Component (banner right) -->
+{{> hero-components/hero-component-right }}
+
+<!-- Page Breaker Text -->
+{{> page-breaker-component/page-breaker-text }}
+
+<!-- Customer Review Left -->
+<div class="py-5">
+    {{> customer-reviews-components/cust-review-left}}
+</div>
+
+<!-- Customer Review Right -->
+<div class="py-5">
+    {{> customer-reviews-components/cust-review-right}}
+</div>
+
+<div class="slant-background py-6">
+    <!-- Customer Review Left -->
+    <div class="py-5">
+        {{> customer-reviews-components/cust-review-left
+        partialContextReview = customerReviewLeft.reviews.[1]}}
+    </div>
+
+    <!-- Customer Review Right -->
+    <div class="py-5">
+        {{> customer-reviews-components/cust-review-right
+        partialContextReview = customerReviewRight.reviews.[1]}}
+    </div>
+</div>
+
+<!-- Customer Review Left -->
+<div class="py-5">
+    {{> customer-reviews-components/cust-review-left
+    partialContextReview = customerReviewLeft.reviews.[2]}}
+</div>
+
+<!-- Customer Review Right -->
+<div class="py-5">
+    {{> customer-reviews-components/cust-review-right
+    partialContextReview = customerReviewRight.reviews.[2]}}
+</div>
+
+<div class="slant-background py-6">
+    <!-- Customer Review Left -->
+    <div class="py-5">
+        {{> customer-reviews-components/cust-review-left
+        partialContextReview = customerReviewLeft.reviews.[3]}}
+    </div>
+
+    <!-- Customer Review Right -->
+    <div class="py-5">
+        {{> customer-reviews-components/cust-review-right
+        partialContextReview = customerReviewRight.reviews.[3]}}
+    </div>
+</div>
+
+<!-- Scroll Top Btn Component -->
+{{> scroll-top-btn-component/scroll-top-btn }}

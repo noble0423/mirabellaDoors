@@ -159,42 +159,34 @@ const hbsInfo = {
             href: "#home-scroll",
         },
         customerReviewLeft: {
-            img: {
-                animation: "wow fadeIn slow",
-                src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/customer_review_home.jpeg",
-                alt: "customer review img 1",
-            },
-            review: {
-                divAnimation: "wow slideInLeft",
-                wording: {
-                    animation: "wow fadeIn slow",
+            imgAnimation: "wow fadeIn slow",
+            divAnimation: "wow slideInLeft",
+            textAnimation: "wow fadeIn slow",
+            customerinfoAnimation: "wow fadeIn slower",
+            reviews: [
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/customer_review_home.jpeg",
+                    alt: "customer review img 1",
                     text: "Mirabella Doors is one of the best custom wrought iron door companies in Houston! Their attention to detail and customer service is outstanding. I am extremely pleased with my door and ALL the doors they have installed on my projects. I highly recommend them.",
-                },
-                customerInfo: {
-                    animation: "wow fadeIn slower",
                     name: "Claudia P.",
                     area: "The Museum District",
                 },
-            },
+            ],
         },
         customerReviewRight: {
-            review: {
-                divAnimation: "wow slideInRight",
-                wording: {
-                    animation: "wow fadeIn slow",
+            imgAnimation: "wow fadeIn slow",
+            divAnimation: "wow slideInLeft",
+            textAnimation: "wow fadeIn slow",
+            customerinfoAnimation: "wow fadeIn slower",
+            reviews: [
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/customer_review_img_clearbrook.jpeg",
+                    alt: "customer review img 2",
                     text: "I have used Mirabella Doors for 2 houses that I had built in the last 2 years. The doors were so nice that I had Pam install one on my house this year. Pam is very easy to work with. The doors came out great. My customers were very happy with the custom doors and so was I. I will definitely use Mirabella Doors on my next project.",
-                },
-                customerInfo: {
-                    animation: " wow fadeIn slower",
                     name: "Yagnesh P.",
                     area: "Vintage Park",
                 },
-            },
-            img: {
-                animation: "wow fadeIn slow",
-                src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/customer_review_img_clearbrook.jpeg",
-                alt: "customer review img 2",
-            },
+            ],
         },
     },
 
@@ -215,9 +207,8 @@ const hbsInfo = {
                 src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/Clearbrook-018.jpg",
             },
         },
-        pageBreakerText: { 
-            text: `"Mirabella Doors are wonderful to work with. Pam, the owner, is fabulous and VERY helpful. She designed the doors we had in mind and they looked perfect for out home in Spring, TX. When my husband retired and we moved a bit away from the Houston area, we had our home built on family property and requested Mirabella Doors on the new home. We are just as pleased with these doors as we were with the first set. Even the service after is fabulous! HIGHLY RECOMMENDED!!!"`,
-            custName: "- Carol B.",
+        pageBreakerText: {
+            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
         },
         arrowComponentRight: {
@@ -319,8 +310,7 @@ const hbsInfo = {
             },
         },
         pageBreakerText: {
-            text: '"We love our new doors!  They are unique, beautiful, and are perfect for our home.  Pam helped us choose the design that went with our home, and the installation was seamless.  We have gotten many compliments on the doors, and I love being able to open the glass and have have the breeze blowing through when the weather is nice."',
-            custName: "- Melinda C.",
+            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
@@ -362,8 +352,7 @@ const hbsInfo = {
             },
         },
         pageBreakerText: {
-            text: '"Mirabella Doors changed my front door to a BEAUTIFUL wrought iron door.  They helped me fully customize the design and their installation was flawless!  The installers were VERY careful with my entryway and made sure the work was completed to my satisfaction and with minimal disruption.  My only regret is not having had it done sooner!"',
-            custName: "- Candida W.",
+            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
@@ -399,9 +388,8 @@ const hbsInfo = {
                 alt: "Mirabella Doors - High Quality Custom Door Finishes Banner Image",
             },
         },
-        pageBreakerText: { 
-            text: `"Mirabella Doors are wonderful to work with. Pam, the owner, is fabulous and VERY helpful. She designed the doors we had in mind and they looked perfect for out home in Spring, TX. When my husband retired and we moved a bit away from the Houston area, we had our home built on family property and requested Mirabella Doors on the new home. We are just as pleased with these doors as we were with the first set. Even the service after is fabulous! HIGHLY RECOMMENDED!!!"`,
-            custName: "- Carol B.",
+        pageBreakerText: {
+            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
@@ -487,8 +475,7 @@ const hbsInfo = {
             },
         },
         pageBreakerText: {
-            text: '"We are so pleased with our doors and the customer service provided by the company.  Pam was very helpful with the design...the doors are beautiful and we have received many compliments on them."',
-            custName: "- J David R.",
+            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
         },
         imagesComponentLeft: {
@@ -541,8 +528,111 @@ const hbsInfo = {
                 bottomRow: [],
             },
         },
+        imagesComponentRight: {
+            largeImage: [],
+            smallImage: {
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: [],
+                bottomRow: [],
+            },
+        },
         scrollTopBtn: {
             href: "#balconies-and-railings-scroll",
+        },
+    },
+
+    // Testimonials Page Handlebars Info
+    //===============================================================================
+    testimonialsPage: {
+        heroComponent: {
+            title: "Testimonials",
+            subText: "Transitional, on trend, and timeless.  The Cosmopolitan design is stunning.",
+            animation: "wow fadeIn slow",
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/talkOnPhone.jpg",
+                alt: "Mirabella Doors - Testimonials and Customer Reviews Banner Image - Greater Houston",
+            },
+        },
+        xsHeroComponent: {
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/WMain-007.jpg",
+            },
+        },
+        pageBreakerText: {
+            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
+            animation: "wow zoomInDown slow",
+        },
+        customerReviewLeft: {
+            imgAnimation: "wow fadeIn slow",
+            divAnimation: "wow slideInLeft",
+            textAnimation: "wow fadeIn slow",
+            customerinfoAnimation: "wow fadeIn slower",
+            reviews: [
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDFA Emerson LMP.jpg",
+                    alt: "customer review img 1",
+                    text: "Mirabella Doors are wonderful to work with. Pam, the owner, is fabulous and VERY helpful. She designed the doors we had in mind and they looked perfect for out home in Spring, TX. When we built our second home, we requested Mirabella Doors. We are just as pleased with these doors as we were with the first set. Even the service after is fabulous! HIGHLY RECOMMENDED!!! - TWICE :)",
+                    name: "Carol B.",
+                    area: "Spring, TX",
+                },
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDFA_Bordeaux2.jpg",
+                    text: "We had wine doors and front doors made.  We gave them only a rough idea of what we wanted and they created the perfect doors!  We get compliments from everyone that sees them.  Great staff and the installation crew was awesome! Couldn't be more happy with Mirabella Doors!",
+                    name: "Tammy M.",
+                    area: "Greater Houston",
+                },
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/brandon_way_1.jpg",
+                    text: "Surpassed everything we expected from start to finish!!! Thank you Pam and team for an amazing job well done!!!",
+                    name: "Karen P.",
+                    area: "Houston",
+                },
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDST_Cosmopolitan_Tipler.jpg",
+                    text: "We are so pleased with our doors and the customer service provided by the company.  Pam was very helpful with the design, the doors are beautiful and we have received many compliments on them.",
+                    name: "J. David Reeves",
+                    area: "Houston",
+                }
+            ],
+        },
+        customerReviewRight: {
+            imgAnimation: "wow fadeIn slow",
+            divAnimation: "wow slideInLeft",
+            textAnimation: "wow fadeIn slow",
+            customerinfoAnimation: "wow fadeIn slower",
+            reviews: [
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/919_Dining_(exterior).jpg",
+                    alt: "customer review img 2",
+                    text: "We have had the pleasure of working with Mirabella Doors for many years building custom homes and remodels in Houston.  The doors are gorgeous and Pam has always stood behind her product.  We highly recommend Mirabella Doors.",
+                    name: "Tammy P.",
+                    area: "Houston, TX",
+                }, 
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDFA Emerson LMP.jpg",
+                    alt: "customer review img 1",
+                    text: "We love our new doors!  They are unique, beautiful, and are perfect for our home.  Pam helped us choose the design that went with our home, and the installation was seamless.  We have gotten many compliments on the doors, and I love being able to open the glass and have have the breeze blowing through when the weather is nice.",
+                    name: "Melinda C.",
+                    area: "Greater Houston",
+                },               
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/SDWFS_Comopolitan_(exterIor_shot).jpg",
+                    alt: "customer review img 3",
+                    text: "Mirabella Doors changed my front door to a BEAUTIFUL wrought iron door a couple of months ago.  They helped me fully customize the design and their installation was flawless!  The installers were VERY careful with my entryway and made sure the work was completed to my satisfaction and with minimal disruption.  My only regret is not having had it done sooner!",
+                    name: "Candida W.",
+                    area: "Greater Houston",
+                },                
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/919_Dining_&_Wine2.jpg",
+                    alt: "customer review img 4",
+                    text: "My fiance and I had the best experience with Mirabella Doors. Aside from the most important fact that the doors look absolutely gorgeous and really complement the front of our stucco home, Pam was a pleasure to work with and it was a smooth process from start to finish. Highly recommend Mirabella Doors.",
+                    name: "Mark L.",
+                    area: "Houston",
+                },
+            ],
+        },
+        scrollTopBtn: {
+            href: "#testimonials-scroll",
         },
     },
 
@@ -564,8 +654,7 @@ const hbsInfo = {
             },
         },
         pageBreakerText: {
-            text: '"We have had the pleasure of working with Mirabella Doors for many years building custom homes and remodels in Houston.  The doors are gorgeous and Pam has always stood behind her product.  We highly recommend Mirabella Doors.',
-            custName: "- Tammy P.",
+            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
         },
         arrowComponentRight: {
@@ -575,9 +664,6 @@ const hbsInfo = {
             },
             wording: {
                 bkgrndColor: "rgb(255, 254, 247)",
-                // bkgrndColor: "#f5f5f5",
-                // bkgrndColor: "rgb(255,253,240)",
-                // bkgrndColor: "#e0f7f4",
                 id: "contactUsEmailText",
             },
             image: {
@@ -608,9 +694,6 @@ const hbsInfo = {
                     "*** Although we gladly welcome walk-ins, we may be on-site assisting customers.  We highly recommend making an appointment.",
                 ],
                 bkgrndColor: "rgb(255, 254, 247)",
-                // bkgrndColor: "#f5f5f5",
-                // bkgrndColor: "rgb(255,253,240)",
-                // bkgrndColor: "#ebf2e8",
                 id: "contactUsText",
             },
             image: {
@@ -625,7 +708,6 @@ const hbsInfo = {
         },
         xsArrowTransformRight: {
             backgroundImage: {
-                // darken: "linear-gradient(45deg, rgba(50, 50, 50, 0.5) 0%, rgba(100, 100, 100, .5) 80%)",
                 darken: "linear-gradient(-45deg, rgba(255, 254, 247, 0.5) 0%, rgba(100, 100, 100, 0.8) 65%)",
             },
             textDiv: {
@@ -640,7 +722,6 @@ const hbsInfo = {
         },
         xsArrowTransformLeft: {
             backgroundImage: {
-                // darken: "linear-gradient(45deg, rgba(75, 75, 75, 0.4) 0%, rgba(125, 125, 125, .4) 80%)",
                 darken: "linear-gradient(-45deg, rgba(255, 254, 247, 0.5) 0%, rgba(100, 100, 100, 0.8) 65%)",
             },
             textDiv: {
