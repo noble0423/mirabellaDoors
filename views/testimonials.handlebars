@@ -57,5 +57,17 @@
     </div>
 </div>
 
+<!-- Customer Review Left -->
+<div class="py-5">
+    {{> customer-reviews-components/cust-review-left
+    partialContextReview = customerReviewLeft.reviews.[4]}}
+</div>
+
+<!-- Customer Review Right -->
+<div class="py-5">
+    {{> customer-reviews-components/cust-review-right
+    partialContextReview = customerReviewRight.reviews.[4]}}
+</div>
+
 <!-- Scroll Top Btn Component -->
 {{> scroll-top-btn-component/scroll-top-btn }}

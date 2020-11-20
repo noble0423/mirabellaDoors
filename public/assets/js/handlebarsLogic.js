@@ -175,7 +175,7 @@ const hbsInfo = {
         },
         customerReviewRight: {
             imgAnimation: "wow fadeIn slow",
-            divAnimation: "wow slideInLeft",
+            divAnimation: "wow slideInRight",
             textAnimation: "wow fadeIn slow",
             customerinfoAnimation: "wow fadeIn slower",
             reviews: [
@@ -577,27 +577,37 @@ const hbsInfo = {
                 },
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDFA_Bordeaux2.jpg",
+                    alt: "customer review img 2",
                     text: "We had wine doors and front doors made.  We gave them only a rough idea of what we wanted and they created the perfect doors!  We get compliments from everyone that sees them.  Great staff and the installation crew was awesome! Couldn't be more happy with Mirabella Doors!",
                     name: "Tammy M.",
                     area: "Greater Houston",
                 },
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/brandon_way_1.jpg",
+                    alt: "customer review img 3",
                     text: "Surpassed everything we expected from start to finish!!! Thank you Pam and team for an amazing job well done!!!",
                     name: "Karen P.",
                     area: "Houston",
                 },
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDST_Cosmopolitan_Tipler.jpg",
+                    alt: "customer review img 4",
                     text: "We are so pleased with our doors and the customer service provided by the company.  Pam was very helpful with the design, the doors are beautiful and we have received many compliments on them.",
                     name: "J. David Reeves",
+                    area: "Houston",
+                },
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDST&T_Ellis_LMP.jpg",
+                    alt: "customer review img 5",
+                    text: "Beautiful work and easy to work with. Had my front door replaced recently and everyone that comes to my house tells me how gorgeous the door looks. Highly recommend Pam!",
+                    name: "Raj",
                     area: "Houston",
                 }
             ],
         },
         customerReviewRight: {
             imgAnimation: "wow fadeIn slow",
-            divAnimation: "wow slideInLeft",
+            divAnimation: "wow slideInRight",
             textAnimation: "wow fadeIn slow",
             customerinfoAnimation: "wow fadeIn slower",
             reviews: [
@@ -629,6 +639,13 @@ const hbsInfo = {
                     name: "Mark L.",
                     area: "Houston",
                 },
+                {
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/close_up_pull_handles2.jpg",
+                    alt: "customer review image 5",
+                    text: "Beautiful doors & amazing customer service.   Needed a service 4 years later and they came out and fixed it the next day under warranty!",
+                    name: "Deema A.",
+                    area:"Galveston, TX",
+                }
             ],
         },
         scrollTopBtn: {
