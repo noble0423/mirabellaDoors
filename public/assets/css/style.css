@@ -277,7 +277,7 @@ h1 {
 }
 
 .white {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.85);
     /* background: rgba(255, 255, 255, 0.8); */
 }
 
@@ -657,14 +657,16 @@ a.text-decoration-none.text-muted:hover {
 
 #mirabella-doors-facebook-icon,
 #mirabella-doors-instagram-icon,
-#mirabella-doors-linkedin-icon {
+#mirabella-doors-linkedin-icon,
+#mirabella-doors-google-icon {
     transition: 0.3s;
     transform: scale(1); 
 }
 
 #mirabella-doors-facebook-icon:hover,
 #mirabella-doors-instagram-icon:hover,
-#mirabella-doors-linkedin-icon:hover {
+#mirabella-doors-linkedin-icon:hover,
+#mirabella-doors-google-icon:hover {
     transition: 0.3s;
     transform: scale(1.5); 
     color: black !important;
