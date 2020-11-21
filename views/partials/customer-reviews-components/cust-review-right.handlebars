@@ -15,7 +15,7 @@
                 {{/unless}}
 
                 {{#if partialContextReview}}
-                    <div class="col-12 col-sm-8 mt-sm-n5 p-4 h-75 customer-review-text customer-review-text-div-right transparent shadow {{ customerReviewRight.divAnimation }}">
+                    <div class="col-12 col-sm-8 mt-sm-n5 p-4 h-75 customer-review-text customer-review-text-div-right shadow {{partialContextReview.bkgrndColorClass}} {{ customerReviewRight.divAnimation }}">
                         <h5 class="{{ customerReviewRight.textAnimation }}">CUSTOMER REVIEW</h5>
                         <p class="{{ customerReviewRight.textAnimation }}">"{{ partialContextReview.text }}"</p>
                         <p class="text-right mb-0 {{ customerReviewRight.customerInfoAnimation}}"><span> - {{ partialContextReview.name }}<small><span class="text-right text-muted"> from {{ partialContextReview.area }}</span></small></span></p>

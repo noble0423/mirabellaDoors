@@ -18,7 +18,7 @@
                     <div class="d-none d-sm-block col-sm-4 pl-0">
                         <img class="customer-review-img shadow-sm {{ customerReviewLeft.img.animation }}" src="{{ partialContextReview.src }}" alt="{{ partialContextReview.alt }}">
                     </div>
-                    <div class="col-12 col-sm-8 mt-sm-n5 p-4 h-75 customer-review-text customer-review-text-div-left transparent shadow {{ customerReviewLeft.divAnimation }}">
+                    <div class="col-12 col-sm-8 mt-sm-n5 p-4 h-75 customer-review-text customer-review-text-div-left shadow {{partialContextReview.bkgrndColorClass}} {{ customerReviewLeft.divAnimation }}">
                         <h5 class="{{ customerReviewLeft.textAnimation }}">CUSTOMER REVIEW</h5>
                         <p class="{{ customerReviewLeft.textAnimation }}">"{{partialContextReview.text }}"</p>
                         <p class="text-right mb-0 {{ customerReviewLeft.reviews.customerinfoAnimation }}"><span> - {{ partialContextReview.name }}<small><span class="text-right text-muted"> from {{ partialContextReview.area }}</span></small></span></p>

@@ -571,6 +571,7 @@ const hbsInfo = {
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDFA Emerson LMP.jpg",
                     alt: "customer review img 1",
+                    bkgrndColorClass: "transparent",
                     text: "Mirabella Doors are wonderful to work with. Pam, the owner, is fabulous and VERY helpful. She designed the doors we had in mind and they looked perfect for out home in Spring, TX. When we built our second home, we requested Mirabella Doors. We are just as pleased with these doors as we were with the first set. Even the service after is fabulous! HIGHLY RECOMMENDED!!! - TWICE :)",
                     name: "Carol B.",
                     area: "Spring, TX",
@@ -578,6 +579,7 @@ const hbsInfo = {
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDFA_Bordeaux2.jpg",
                     alt: "customer review img 2",
+                    bkgrndColorClass: "white",
                     text: "We had wine doors and front doors made.  We gave them only a rough idea of what we wanted and they created the perfect doors!  We get compliments from everyone that sees them.  Great staff and the installation crew was awesome! Couldn't be more happy with Mirabella Doors!",
                     name: "Tammy M.",
                     area: "Greater Houston",
@@ -585,6 +587,7 @@ const hbsInfo = {
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/brandon_way_1.jpg",
                     alt: "customer review img 3",
+                    bkgrndColorClass: "transparent",
                     text: "Surpassed everything we expected from start to finish!!! Thank you Pam and team for an amazing job well done!!!",
                     name: "Karen P.",
                     area: "Houston",
@@ -592,6 +595,7 @@ const hbsInfo = {
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDST_Cosmopolitan_Tipler.jpg",
                     alt: "customer review img 4",
+                    bkgrndColorClass: "white",
                     text: "We are so pleased with our doors and the customer service provided by the company.  Pam was very helpful with the design, the doors are beautiful and we have received many compliments on them.",
                     name: "J. David Reeves",
                     area: "Houston",
@@ -599,6 +603,7 @@ const hbsInfo = {
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDST&T_Ellis_LMP.jpg",
                     alt: "customer review img 5",
+                    bkgrndColorClass: "transparent",
                     text: "Beautiful work and easy to work with. Had my front door replaced recently and everyone that comes to my house tells me how gorgeous the door looks. Highly recommend Pam!",
                     name: "Raj",
                     area: "Houston",
@@ -614,6 +619,7 @@ const hbsInfo = {
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/919_Dining_(exterior).jpg",
                     alt: "customer review img 2",
+                    bkgrndColorClass: "transparent",
                     text: "We have had the pleasure of working with Mirabella Doors for many years building custom homes and remodels in Houston.  The doors are gorgeous and Pam has always stood behind her product.  We highly recommend Mirabella Doors.",
                     name: "Tammy P.",
                     area: "Houston, TX",
@@ -621,6 +627,7 @@ const hbsInfo = {
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDFA Emerson LMP.jpg",
                     alt: "customer review img 1",
+                    bkgrndColorClass: "white",
                     text: "We love our new doors!  They are unique, beautiful, and are perfect for our home.  Pam helped us choose the design that went with our home, and the installation was seamless.  We have gotten many compliments on the doors, and I love being able to open the glass and have have the breeze blowing through when the weather is nice.",
                     name: "Melinda C.",
                     area: "Greater Houston",
@@ -628,6 +635,7 @@ const hbsInfo = {
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/SDWFS_Comopolitan_(exterIor_shot).jpg",
                     alt: "customer review img 3",
+                    bkgrndColorClass: "transparent",
                     text: "Mirabella Doors changed my front door to a BEAUTIFUL wrought iron door a couple of months ago.  They helped me fully customize the design and their installation was flawless!  The installers were VERY careful with my entryway and made sure the work was completed to my satisfaction and with minimal disruption.  My only regret is not having had it done sooner!",
                     name: "Candida W.",
                     area: "Greater Houston",
@@ -635,6 +643,7 @@ const hbsInfo = {
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/919_Dining_&_Wine2.jpg",
                     alt: "customer review img 4",
+                    bkgrndColorClass: "white",
                     text: "My fiance and I had the best experience with Mirabella Doors. Aside from the most important fact that the doors look absolutely gorgeous and really complement the front of our stucco home, Pam was a pleasure to work with and it was a smooth process from start to finish. Highly recommend Mirabella Doors.",
                     name: "Mark L.",
                     area: "Houston",
@@ -642,6 +651,7 @@ const hbsInfo = {
                 {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/close_up_pull_handles2.jpg",
                     alt: "customer review image 5",
+                    bkgrndColorClass: "transparent",
                     text: "Beautiful doors & amazing customer service.   Needed a service 4 years later and they came out and fixed it the next day under warranty!",
                     name: "Deema A.",
                     area:"Galveston, TX",
