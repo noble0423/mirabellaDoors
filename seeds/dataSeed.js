@@ -2283,18 +2283,27 @@ const imageSeed = [
     //1^
     // WINE ROOM DOORS (image size small)
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Chardonnay_wine_room.jpeg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Chardonnay Wine Room",
-        imgName: "Chardonnay Wine Room",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Coppola_wine_room.jpeg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Coppola Wine Room",
+        imgName: "Coppola Wine Room",
         category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Coppola_wine_room.jpeg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Coppola Wine Room",
-        imgName: "Coppola Wine Room",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Jamestown-11302-IMG-39_1_1.jpg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Jamestown Wine Room",
+        imgName: "Jamestown Wine Room",
+        category: "wineRoom",
+        size: "small",
+        animation: "wow fadeIn slow",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/DDFA_Bordeaux.jpg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Bordeaux Wine Room",
+        imgName: "Bordeaux Wine Room",
         category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow",
@@ -2310,9 +2319,9 @@ const imageSeed = [
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/DDFA_Bordeaux.jpg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Bordeaux Wine Room",
-        imgName: "Bordeaux Wine Room",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Chardonnay_wine_room.jpeg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Chardonnay Wine Room",
+        imgName: "Chardonnay Wine Room",
         category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow",
@@ -2337,18 +2346,9 @@ const imageSeed = [
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Jamestown-11302-IMG-39_1_1.jpg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Jamestown Wine Room",
-        imgName: "Jamestown Wine Room",
-        category: "wineRoom",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Jamestown-11302-IMG-39_1_1.jpg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Jamestown Wine Room",
-        imgName: "Jamestown Wine Room",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Coppola_wine_room.jpeg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Coppola Wine Room",
+        imgName: "Coppola Wine Room",
         category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow",

@@ -413,6 +413,48 @@ const hbsInfo = {
         },
     },
 
+    // Wine Room Doors Page Handlebars Info
+    //===============================================================================
+    wineRoomDoorsPage: {
+        heroComponent: {
+            title: "Wine Room Doors",
+            subText: "Write something here like a tagline, selling point, business stat, or something to intro the page.",
+            animation: "wow fadeIn slow",
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/trad_door_wine_door_stairwell.jpg",
+                alt: "Mirabella Doors - Wine Room/Wine Cellar Doors Banner Image",
+            },
+        },
+        xsHeroComponent: {
+            image: {
+                src: "/assets/images/mirabellaDoorsImgs/hero-component/tinified/door_handles_up_close.jpg",
+            },
+        },
+        pageBreakerText: {
+            text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
+            animation: "wow zoomInDown slow",
+        },
+        // imagesComponentLeft: {
+        //     largeImage: [],
+        //     smallImage: {
+        //         // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+        //         topRow: [],
+        //         bottomRow: [],
+        //     },
+        // },
+        imagesComponentRight: {
+            largeImage: [],
+            smallImage: {
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: [],
+                bottomRow: [],
+            },
+        },
+        scrollTopBtn: {
+            href: "#wine-room-doors-scroll",
+        },
+    },
+
     // Door Finishes Page Handlebars Info
     //===============================================================================
     doorFinishesPage: {
