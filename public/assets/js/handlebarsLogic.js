@@ -572,7 +572,7 @@ const hbsInfo = {
                     src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDFA Emerson LMP.jpg",
                     alt: "customer review img 1",
                     bkgrndColorClass: "transparent",
-                    text: "Mirabella Doors are wonderful to work with. Pam, the owner, is fabulous and VERY helpful. She designed the doors we had in mind and they looked perfect for out home in Spring, TX. When we built our second home, we requested Mirabella Doors. We are just as pleased with these doors as we were with the first set. Even the service after is fabulous! HIGHLY RECOMMENDED!!! - TWICE :)",
+                    text: "Mirabella Doors are wonderful to work with. Pam, the owner, is fabulous and VERY helpful. She designed the doors we had in mind and they looked perfect for our home in Spring, TX. When we built our second home, we requested Mirabella Doors. We are just as pleased with these doors as we were with the first set. Even the service after is fabulous! HIGHLY RECOMMENDED!!! - TWICE :)",
                     name: "Carol B.",
                     area: "Spring, TX",
                 },
@@ -625,7 +625,7 @@ const hbsInfo = {
                     area: "Houston, TX",
                 }, 
                 {
-                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/DDFA Emerson LMP.jpg",
+                    src: "/assets/images/mirabellaDoorsImgs/customerReviews/tinified/Mirabella_Doors_110923_13.jpeg",
                     alt: "customer review img 1",
                     bkgrndColorClass: "white",
                     text: "We love our new doors!  They are unique, beautiful, and are perfect for our home.  Pam helped us choose the design that went with our home, and the installation was seamless.  We have gotten many compliments on the doors, and I love being able to open the glass and have have the breeze blowing through when the weather is nice.",
@@ -694,7 +694,8 @@ const hbsInfo = {
                 id: "contactUsEmailText",
             },
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/tinified/Cosmopolitan DDT.jpg",
+                // src: "/assets/images/mirabellaDoorsImgs/arrowComponent/tinified/Mirabella_Doors_111005_30.jpeg",
+                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/tinified/contact_us_front-door_dusk.jpg",
                 alt: "Contact Us - Mirabella Doors - Custom Doors Houston, TX",
                 id: "contactUsEmailImg",
             },
@@ -724,7 +725,7 @@ const hbsInfo = {
                 id: "contactUsText",
             },
             image: {
-                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/tinified/contact_us_front-door_dusk.jpg",
+                src: "/assets/images/mirabellaDoorsImgs/arrowComponent/tinified/Cosmopolitan DDT.jpg",
                 alt: "Contact Mirabella Doors - Custom Doors Houston - Contact Info",
                 id: "contactUsImg",
             },
