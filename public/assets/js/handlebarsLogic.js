@@ -434,14 +434,14 @@ const hbsInfo = {
             text: "Page Breaker Text - Actually jianbing paleo seitan biodiesel poutine subway tile raclette. Stumptown pickled messenger bag, gentrify tumeric glossier sartorial VHS blog tumblr live-edge. Mustache poke twee hoodie mlkshk flannel. Leggings irony shoreditch helvetica copper mug beard jianbing ethical gluten-free. Cliche +1 succulents paleo freegan affogato kickstarter chambray cardigan 8-bit tacos vaporware artisan shaman. Heirloom shaman bushwick cloud bread narwhal mixtape normcore thundercats VHS keytar stumptown vinyl godard. Cold-pressed celiac fixie keytar master cleanse.",
             animation: "wow zoomInDown slow",
         },
-        // imagesComponentLeft: {
-        //     largeImage: [],
-        //     smallImage: {
-        //         // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
-        //         topRow: [],
-        //         bottomRow: [],
-        //     },
-        // },
+        imagesComponentLeft: {
+            largeImage: [],
+            smallImage: {
+                // topRowImgArray and bottomRowImgArray are variables created outside of hbsInfo object (this data will be grabbed from db later)
+                topRow: [],
+                bottomRow: [],
+            },
+        },
         imagesComponentRight: {
             largeImage: [],
             smallImage: {

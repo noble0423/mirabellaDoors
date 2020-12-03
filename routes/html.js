@@ -47,12 +47,14 @@ router.get("/mirabelladifference", function(req, res) {
 router.get("/contemporarydoors", function(req, res) {
     let partition = res;
 
-    axios.get('http://localhost:3000/api/contemporary')
-    // axios.get("https://still-sea-30628.herokuapp.com/api/contemporary")
+    // axios.get('http://localhost:3000/api/contemporary')
+    axios.get("https://still-sea-30628.herokuapp.com/api/contemporary")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
+
         modulusSort(filterHold);
+
         hbsInfo.contDoorsPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
         hbsInfo.contDoorsPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
         hbsInfo.contDoorsPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
@@ -75,12 +77,14 @@ router.get("/contemporarydoors", function(req, res) {
 router.get("/traditionaldoors", function(req, res) {
     let partition = res;
 
-    axios.get('http://localhost:3000/api/traditional')
-    // axios.get("https://still-sea-30628.herokuapp.com/api/traditional")
+    // axios.get('http://localhost:3000/api/traditional')
+    axios.get("https://still-sea-30628.herokuapp.com/api/traditional")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
+
         modulusSort(filterHold);
+
         hbsInfo.tradDoorsPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
         hbsInfo.tradDoorsPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
         hbsInfo.tradDoorsPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
@@ -103,8 +107,8 @@ router.get("/traditionaldoors", function(req, res) {
 router.get("/pivotdoors", function(req, res) {
     let partition = res;
 
-    axios.get('http://localhost:3000/api/pivotdoors')
-    // axios.get("https://still-sea-30628.herokuapp.com/api/pivotdoors")
+    // axios.get('http://localhost:3000/api/pivotdoors')
+    axios.get("https://still-sea-30628.herokuapp.com/api/pivotdoors")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
@@ -140,13 +144,11 @@ router.get("/pivotdoors", function(req, res) {
 router.get("/wineroomdoors", function(req, res) {
     let partition = res;
     //uncomment if db has info, otherwise use Handlebars Logic for static images
-    axios.get('http://localhost:3000/api/wineRoom')
-    // axios.get("https://still-sea-30628.herokuapp.com/api/finishes")
+    // axios.get('http://localhost:3000/api/wineRoom')
+    axios.get("https://still-sea-30628.herokuapp.com/api/finishes")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
-
-        console.log(filterHold.length);
         
         modulusSort(filterHold);
 
@@ -172,20 +174,27 @@ router.get("/wineroomdoors", function(req, res) {
 router.get("/doorfinishes", function(req, res) {
     let partition = res;
     //uncomment if db has info, otherwise use Handlebars Logic for static images
-    axios.get('http://localhost:3000/api/finishes')
-    // axios.get("https://still-sea-30628.herokuapp.com/api/finishes")
+    // axios.get('http://localhost:3000/api/finishes')
+    axios.get("https://still-sea-30628.herokuapp.com/api/finishes")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
+
+        if (largeImageArr.length === 1) {
+            largeImageArr.unshift({});
+        }
         
         modulusSort(filterHold);
 
-        // hbsInfo.doorFinishesPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
-        // hbsInfo.doorFinishesPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
-        hbsInfo.doorFinishesPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
-        hbsInfo.doorFinishesPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
-        // hbsInfo.doorFinishesPage.imagesComponentLeft.largeImage = largeImageArr;
-        hbsInfo.doorFinishesPage.imagesComponentRight.largeImage = largeImageArr;
+        topRowAggregate.unshift({});
+        botRowAggregate.unshift({});
+
+        hbsInfo.doorFinishesPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
+        hbsInfo.doorFinishesPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
+        // hbsInfo.doorFinishesPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
+        // hbsInfo.doorFinishesPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
+        hbsInfo.doorFinishesPage.imagesComponentLeft.largeImage = largeImageArr;
+        // hbsInfo.doorFinishesPage.imagesComponentRight.largeImage = largeImageArr;
     }).then(function(res) {
         topRow=[];
         botRow=[];
@@ -202,11 +211,12 @@ router.get("/doorfinishes", function(req, res) {
 router.get("/doordesignlibrary", function(req, res) {
     let partition = res;
 
-    axios.get('http://localhost:3000/api/cad')
-    // axios.get("https://still-sea-30628.herokuapp.com/api/cad")
+    // axios.get('http://localhost:3000/api/cad')
+    axios.get("https://still-sea-30628.herokuapp.com/api/cad")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
+
         modulusSort(filterHold);
         hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
         hbsInfo.doorDesignLibPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
@@ -231,26 +241,30 @@ router.get("/doordesignlibrary", function(req, res) {
 router.get("/balconiesandrailings", function(req, res) {
     let partition = res;
     //uncomment if db has info, otherwise use Handlebars Logic for static images
-    axios.get('http://localhost:3000/api/balcAndRail')
-    // axios.get("https://still-sea-30628.herokuapp.com/api/balcAndRail")
+    // axios.get('http://localhost:3000/api/balcAndRail')
+    axios.get("https://still-sea-30628.herokuapp.com/api/balcAndRail")
     .then(function(res) {
         filterHold = res.data.filter(index => index.size == "small");
         largeImageArr = res.data.filter(index => index.size == "large");
 
-        // if (largeImageArr.length === 1) {
-        //     largeImageArr.unshift({});
-        // }
+        console.log(filterHold.length);
+        console.log(largeImageArr.length);
+
+        if (largeImageArr.length === 1) {
+            largeImageArr.unshift({});
+        }
 
         modulusSort(filterHold);
 
-        // topRowAggregate.unshift({});
-        // botRowAggregate.unshift({});
-        // hbsInfo.balcAndRailPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
-        // hbsInfo.balcAndRailPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
-        hbsInfo.balcAndRailPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
-        hbsInfo.balcAndRailPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
-        // hbsInfo.balcAndRailPage.imagesComponentLeft.largeImage = largeImageArr;
-        hbsInfo.balcAndRailPage.imagesComponentRight.largeImage = largeImageArr;
+        topRowAggregate.unshift({});
+        botRowAggregate.unshift({});
+
+        hbsInfo.balcAndRailPage.imagesComponentLeft.smallImage.topRow = topRowAggregate;
+        hbsInfo.balcAndRailPage.imagesComponentLeft.smallImage.bottomRow = botRowAggregate;
+        // hbsInfo.balcAndRailPage.imagesComponentRight.smallImage.topRow = topRowAggregate;
+        // hbsInfo.balcAndRailPage.imagesComponentRight.smallImage.bottomRow = botRowAggregate;
+        hbsInfo.balcAndRailPage.imagesComponentLeft.largeImage = largeImageArr;
+        // hbsInfo.balcAndRailPage.imagesComponentRight.largeImage = largeImageArr;
     }).then(function(res) {
         topRow=[];
         botRow=[];

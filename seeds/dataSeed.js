@@ -8,6 +8,408 @@ mongoose.connect(
 
 const imageSeed = [
 
+    // CONTEMPORARY DOORS (image size small)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Dining_&_Wine.jpg",
+        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook, Dining and Wine Rooms)",
+        imgName: "Cosmopolitan (Clearbrook, Dining and Wine Rooms)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Back_Patio2.jpg",
+        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook, Back Patio)",
+        imgName: "Cosmopolitan (Clearbrook, Back Patio)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-quarters",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Covered_Patio.jpg",
+        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook, Covered Patio)",
+        imgName: "Cosmopolitan (Clearbrook, Covered Patio)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-tenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook.jpg",
+        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook)",
+        imgName: "Cosmopolitan (Clearbrook)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Dining_(exterior).jpg",
+        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook, Dining Room, Exterior View)",
+        imgName: "Cosmopolitan (Clearbrook, Dining Room)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Dining_&_Wine2.jpg",
+        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook, Dining and Wine Rooms)",
+        imgName: "Cosmopolitan (Clearbrook, Dining and Wine Rooms)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_LR_Shot.jpg",
+        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook)",
+        imgName: "Cosmopolitan (Clearbrook)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_LR_Shot_(4_doors).jpg",
+        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook)",
+        imgName: "Cosmopolitan (Clearbrook)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
+        date: new Date(Date.now())
+    },
+    //8^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/SDWFS_Cosmopolitan_(Flemish_glass).jpg",
+        alt: "Iron Door Houston - Design: Cosmopolitan",
+        imgName: "Cosmopolitan",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmo_DDwST_Reeded_glass.jpg",
+        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: Cosmo",
+        imgName: "Cosmo",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-quarters",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_DDWT-Copper_Patina_Finish-Clear_Glass.jpeg",
+        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: Cosmopolitan (Copper Patina Finish)",
+        imgName: "Cosmopolitan (Copper Patina Finish)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-tenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmo_DDwFAT_Flemish.jpeg",
+        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: Cosmo",
+        imgName: "Cosmo",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmo_DDwSL_(exterior).JPG",
+        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: Cosmo (exterior)",
+        imgName: "Cosmo",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/SDWFS_Cosmopolitan_(money_shot).jpg",
+        alt: "Iron Door Houston - Design: Cosmopolitan",
+        imgName: "Cosmopolitan",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_(wide)-Copper_Patina_Finish-Clear_Glass.JPG",
+        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: Cosmopolitan (Copper Patina Finish)",
+        imgName: "Cosmopolitan (Copper Patina Finish)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/161011_4035WMain-007.jpg",
+        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: West Main",
+        imgName: "West Main",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
+        date: new Date(Date.now())
+    },
+    //16^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_Front_Entry_Doors.jpg",
+        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (Front Entry Doors)",
+        imgName: "Cosmopolitan (Front Entry Doors)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_L_Shaped_Unit.jpg",
+        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (L-Shaped Unit)",
+        imgName: "Cosmopolitan (L-Shaped Unit)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-quarters",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/DDSTWT_Cosmopolitan_(frosted)2.JPG",
+        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (Frosted)",
+        imgName: "Cosmopolitan (Frosted)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-tenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_SDSL_and_L_Shaped_Back_Wall_2.jpg",
+        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (L-Shaped Back Wall)",
+        imgName: "Cosmopolitan (L-Shaped Back Wall)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/DDST_Cosmopolitan-Tipler.jpg",
+        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (Tipler)",
+        imgName: "Cosmopolitan (Tipler)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan-Black_Finish-Clear_Glass.JPG",
+        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (Black Finish)",
+        imgName: "Cosmopolitan (Black Finish)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_Wide_&_Arched-Pewter_Finish-Flemish_Glass.JPG",
+        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (Arched Pewter Finish)",
+        imgName: "Cosmopolitan (Arched Pewter Finish)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Brandon-Way-11706-IMG-58_1_1.jpg",
+        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
+        date: new Date(Date.now())
+    },
+    //24^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/161011_4035WMain-003.jpg",
+        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: West Main",
+        imgName: "West Main",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/TEH_Conference_Room.jpg",
+        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: TEH Conference Room",
+        imgName: "TEH Conference Room",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-quarters",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Brandon-Way-11706-IMG-06_1_1.jpg",
+        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-tenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_SDSL_and_L_Shaped_Back_Wall.jpg",
+        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (L-Shaped Back Wall)",
+        imgName: "Cosmopolitan (L-Shaped Back Wall)",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirtieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Brandon-Way-11706-IMG-64_1_1.jpg",
+        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-fifteenths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Jamestown-11302-IMG-39_1_1.jpg",
+        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Jamestown",
+        imgName: "Jamestown",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-thirty-fifths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Jamestown-11302-IMG-41_1_1.jpg",
+        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Jamestown",
+        imgName: "",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-twentieths",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Brandon-Way-11706-IMG-21_1_1.jpg",
+        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "contemporary",
+        size: "small",
+        animation: "wow fadeIn slow delay-fortieths",
+        date: new Date(Date.now())
+    },
+    //32^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Brandon-Way-11706-IMG-11_1_1.jpg",
+        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Brandon Way",
+        imgName: "Brandon Way",
+        category: "contemporary",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/DDEB_Cosmo_Wide_LMP.jpg",
+        alt: "Custom Door Designs - Houston, TX - Iron Door Design and Installation - Design Name: Cosmo Wide",
+        imgName: "Cosmo Wide",
+        category: "contemporary",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/DDFA_Cosmopolitan_Wide_LMP.jpeg",
+        alt: "Houston's Finest Luxury Doors - Design Name: Cosmopolitan Wide",
+        imgName: "Cosmopolitan Wide",
+        category: "contemporary",
+        size: "small",
+        date: new Date(Date.now())
+    },
+    //35^
+    //CONTEMPORARY DOORS (image size large)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/DDSTWT_Cosmopolitan_(frosted).JPG",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan (frosted)",
+        imgName: "Cosmopolitan (frosted)",
+        category: "contemporary",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/919_Clearbrook_LR_Doors_Open.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Clearbrook",
+        imgName: "Clearbrook",
+        category: "contemporary",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/161011_4035WMain-006.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: West Main",
+        imgName: "West Main",
+        category: "contemporary",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/SDWFS Cosmpolitan.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan",
+        imgName: "Cosmopolitan",
+        category: "contemporary",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/Cosmopolitan_DDT.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan",
+        imgName: "Cosmopolitan",
+        category: "contemporary",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/161011_4035WMain-002.jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: West Main",
+        imgName: "West Main",
+        category: "contemporary",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/SDWFS_Cosmopolitan_(exterior_shot).jpg",
+        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan (exterior shot)",
+        imgName: "Cosmopolitan",
+        category: "contemporary",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_WDB_Front_Elevation.jpg",
+        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: WDB Front Elevation",
+        imgName: "WBD Front Elevation",
+        category: "contemporary",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    //8^
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDSTWT_Cosompolitan_4_units.jpg",
+        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: Cosmopolitan",
+        imgName: "Cosmopolitan",
+        category: "contemporary",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    //9^
     // TRADITIONAL DOORS (image size small)
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
@@ -887,406 +1289,260 @@ const imageSeed = [
         date: new Date(Date.now())
     },
     //16^  
-    // CONTEMPORARY DOORS (image size small)
+    // PIVOT DOORS (image size small)
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Dining_&_Wine.jpg",
-        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook, Dining and Wine Rooms)",
-        imgName: "Cosmopolitan (Clearbrook, Dining and Wine Rooms)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
         size: "small",
         animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Back_Patio2.jpg",
-        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook, Back Patio)",
-        imgName: "Cosmopolitan (Clearbrook, Back Patio)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
         size: "small",
         animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Covered_Patio.jpg",
-        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook, Covered Patio)",
-        imgName: "Cosmopolitan (Clearbrook, Covered Patio)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
         size: "small",
         animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook.jpg",
-        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook)",
-        imgName: "Cosmopolitan (Clearbrook)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
         size: "small",
         animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Dining_(exterior).jpg",
-        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook, Dining Room, Exterior View)",
-        imgName: "Cosmopolitan (Clearbrook, Dining Room)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
         size: "small",
         animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_Dining_&_Wine2.jpg",
-        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook, Dining and Wine Rooms)",
-        imgName: "Cosmopolitan (Clearbrook, Dining and Wine Rooms)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
         size: "small",
         animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_LR_Shot.jpg",
-        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook)",
-        imgName: "Cosmopolitan (Clearbrook)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
         size: "small",
         animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/919_Clearbrook_LR_Shot_(4_doors).jpg",
-        alt: "Mirabella Doors - Contemporary Doors - Design: Cosmopolitan (Clearbrook)",
-        imgName: "Cosmopolitan (Clearbrook)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
         size: "small",
         animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //8^
+    // PIVOT DOORS (image size large)
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/SDWFS_Cosmopolitan_(Flemish_glass).jpg",
-        alt: "Iron Door Houston - Design: Cosmopolitan",
-        imgName: "Cosmopolitan",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/leaves_detail.jpg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
+        imgName: "Pivot Door Placeholder Image",
+        category: "pivotdoors",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    //1^
+    // WINE ROOM DOORS (image size small)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Coppola_wine_room.jpeg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Coppola Wine Room",
+        imgName: "Coppola Wine Room",
+        category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmo_DDwST_Reeded_glass.jpg",
-        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: Cosmo",
-        imgName: "Cosmo",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Jamestown-11302-IMG-39_1_1.jpg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Jamestown Wine Room",
+        imgName: "Jamestown Wine Room",
+        category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_DDWT-Copper_Patina_Finish-Clear_Glass.jpeg",
-        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: Cosmopolitan (Copper Patina Finish)",
-        imgName: "Cosmopolitan (Copper Patina Finish)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/DDFA_Bordeaux.jpg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Bordeaux Wine Room",
+        imgName: "Bordeaux Wine Room",
+        category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmo_DDwFAT_Flemish.jpeg",
-        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: Cosmo",
-        imgName: "Cosmo",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/2_pleasant_wine_room_door.jpg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Pleasant Wine Room",
+        imgName: "Pleasant Wine Room",
+        category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmo_DDwSL_(exterior).JPG",
-        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: Cosmo (exterior)",
-        imgName: "Cosmo",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Chardonnay_wine_room.jpeg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Chardonnay Wine Room",
+        imgName: "Chardonnay Wine Room",
+        category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/SDWFS_Cosmopolitan_(money_shot).jpg",
-        alt: "Iron Door Houston - Design: Cosmopolitan",
-        imgName: "Cosmopolitan",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/919_Clearbrook_Dining_&_Wine.jpg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Clearbrook Wine Room",
+        imgName: "Clearbrook Wine Room)",
+        category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_(wide)-Copper_Patina_Finish-Clear_Glass.JPG",
-        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: Cosmopolitan (Copper Patina Finish)",
-        imgName: "Cosmopolitan (Copper Patina Finish)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Brandon-Way-11706-IMG-06_1_1.jpg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Brandon Way Wine Room",
+        imgName: "Brandon Way Wine Room",
+        category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/161011_4035WMain-007.jpg",
-        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: West Main",
-        imgName: "West Main",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Coppola_wine_room.jpeg",
+        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Coppola Wine Room",
+        imgName: "Coppola Wine Room",
+        category: "wineRoom",
         size: "small",
         animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
-    //16^
+    // WINE ROOM DOORS (image size large)
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_Front_Entry_Doors.jpg",
-        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (Front Entry Doors)",
-        imgName: "Cosmopolitan (Front Entry Doors)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_large/Mirabella_Doors_Waves_wine_room.jpeg",
+        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Waves Wine Room",
+        imgName: "Waves Wine Room",
+        category: "wineRoom",
+        size: "large",
+        animation: "wow fadeIn slower",
+        date: new Date(Date.now())
+    },
+    //1^    
+    // DOOR FINISHES (image size small)
+    {
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
         size: "small",
         animation: "wow fadeIn slow",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_L_Shaped_Unit.jpg",
-        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (L-Shaped Unit)",
-        imgName: "Cosmopolitan (L-Shaped Unit)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
         size: "small",
         animation: "wow fadeIn slow delay-quarters",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/DDSTWT_Cosmopolitan_(frosted)2.JPG",
-        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (Frosted)",
-        imgName: "Cosmopolitan (Frosted)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
         size: "small",
         animation: "wow fadeIn slow delay-tenths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_SDSL_and_L_Shaped_Back_Wall_2.jpg",
-        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (L-Shaped Back Wall)",
-        imgName: "Cosmopolitan (L-Shaped Back Wall)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
         size: "small",
         animation: "wow fadeIn slow delay-thirtieths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/DDST_Cosmopolitan-Tipler.jpg",
-        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (Tipler)",
-        imgName: "Cosmopolitan (Tipler)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
         size: "small",
         animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan-Black_Finish-Clear_Glass.JPG",
-        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (Black Finish)",
-        imgName: "Cosmopolitan (Black Finish)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
         size: "small",
         animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_Wide_&_Arched-Pewter_Finish-Flemish_Glass.JPG",
-        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (Arched Pewter Finish)",
-        imgName: "Cosmopolitan (Arched Pewter Finish)",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
         size: "small",
         animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Brandon-Way-11706-IMG-58_1_1.jpg",
-        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
         size: "small",
         animation: "wow fadeIn slow delay-fortieths",
-        date: new Date(Date.now())
-    },
-    //24^
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/161011_4035WMain-003.jpg",
-        alt: "Stunning Contemporary Doors - Custom Designed and Installed - Houston, TX - Design: West Main",
-        imgName: "West Main",
-        category: "contemporary",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/TEH_Conference_Room.jpg",
-        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: TEH Conference Room",
-        imgName: "TEH Conference Room",
-        category: "contemporary",
-        size: "small",
-        animation: "wow fadeIn slow delay-quarters",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Brandon-Way-11706-IMG-06_1_1.jpg",
-        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
-        category: "contemporary",
-        size: "small",
-        animation: "wow fadeIn slow delay-tenths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Cosmopolitan_SDSL_and_L_Shaped_Back_Wall.jpg",
-        alt: "Houston Design Center - Mirabella Doors - Custom Door Designs - Design: Cosmopolitan (L-Shaped Back Wall)",
-        imgName: "Cosmopolitan (L-Shaped Back Wall)",
-        category: "contemporary",
-        size: "small",
-        animation: "wow fadeIn slow delay-thirtieths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Brandon-Way-11706-IMG-64_1_1.jpg",
-        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
-        category: "contemporary",
-        size: "small",
-        animation: "wow fadeIn slow delay-fifteenths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Jamestown-11302-IMG-39_1_1.jpg",
-        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Jamestown",
-        imgName: "Jamestown",
-        category: "contemporary",
-        size: "small",
-        animation: "wow fadeIn slow delay-thirty-fifths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Jamestown-11302-IMG-41_1_1.jpg",
-        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Jamestown",
-        imgName: "",
-        category: "contemporary",
-        size: "small",
-        animation: "wow fadeIn slow delay-twentieths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Brandon-Way-11706-IMG-21_1_1.jpg",
-        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
-        category: "contemporary",
-        size: "small",
-        animation: "wow fadeIn slow delay-fortieths",
-        date: new Date(Date.now())
-    },
-    //32^
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/Brandon-Way-11706-IMG-11_1_1.jpg",
-        alt: "Design My Dream Door - Mirabella Doors - Houston, TX - Design: Brandon Way",
-        imgName: "Brandon Way",
-        category: "contemporary",
-        size: "small",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/DDEB_Cosmo_Wide_LMP.jpg",
-        alt: "Custom Door Designs - Houston, TX - Iron Door Design and Installation - Design Name: Cosmo Wide",
-        imgName: "Cosmo Wide",
-        category: "contemporary",
-        size: "small",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_small/DDFA_Cosmopolitan_Wide_LMP.jpeg",
-        alt: "Houston's Finest Luxury Doors - Design Name: Cosmopolitan Wide",
-        imgName: "Cosmopolitan Wide",
-        category: "contemporary",
-        size: "small",
-        date: new Date(Date.now())
-    },
-    //CONTEMPORARY DOORS (image size large)
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/DDSTWT_Cosmopolitan_(frosted).JPG",
-        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan (frosted)",
-        imgName: "Cosmopolitan (frosted)",
-        category: "contemporary",
-        size: "large",
-        animation: "wow fadeIn slower",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/919_Clearbrook_LR_Doors_Open.jpg",
-        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Clearbrook",
-        imgName: "Clearbrook",
-        category: "contemporary",
-        size: "large",
-        animation: "wow fadeIn slower",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/161011_4035WMain-006.jpg",
-        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: West Main",
-        imgName: "West Main",
-        category: "contemporary",
-        size: "large",
-        animation: "wow fadeIn slower",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/SDWFS Cosmpolitan.jpg",
-        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan",
-        imgName: "Cosmopolitan",
-        category: "contemporary",
-        size: "large",
-        animation: "wow fadeIn slower",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/Cosmopolitan_DDT.jpg",
-        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan",
-        imgName: "Cosmopolitan",
-        category: "contemporary",
-        size: "large",
-        animation: "wow fadeIn slower",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/161011_4035WMain-002.jpg",
-        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: West Main",
-        imgName: "West Main",
-        category: "contemporary",
-        size: "large",
-        animation: "wow fadeIn slower",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/Cosmopolitan_resized_large/SDWFS_Cosmopolitan_(exterior_shot).jpg",
-        alt: "Iron Door for Entryway - Home and Office - Houston Design Center - Design: Cosmopolitan (exterior shot)",
-        imgName: "Cosmopolitan",
-        category: "contemporary",
-        size: "large",
-        animation: "wow fadeIn slower",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDST_WDB_Front_Elevation.jpg",
-        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: WDB Front Elevation",
-        imgName: "WBD Front Elevation",
-        category: "contemporary",
-        size: "large",
-        animation: "wow fadeIn slower",
         date: new Date(Date.now())
     },
     //8^
+    // DOOR FINISHES (image size large)
     {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_large/DDSTWT_Cosompolitan_4_units.jpg",
-        alt: "Hand Crafted Custom Iron Doors for Home and Office - Texas - Design: Cosmopolitan",
-        imgName: "Cosmopolitan",
-        category: "contemporary",
+        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/leaves_detail.jpg",
+        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
+        imgName: "Finish Placeholder Image",
+        category: "finishes",
         size: "large",
         animation: "wow fadeIn slower",
         date: new Date(Date.now())
     },
+    //1^
     // CAD RENDERINGS (image size small)
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_small/ASTOR_DDHC_6'x8'2_COLOR.jpg",
@@ -2061,7 +2317,7 @@ const imageSeed = [
         imgName: "Kinley",
         category: "balcAndRail",
         size: "small",
-        animation: "wow fadeIn slower",
+        animation: "wow fadeIn slow delay-fifteenths",
         date: new Date(Date.now())
     },
     {
@@ -2070,7 +2326,7 @@ const imageSeed = [
         imgName: "Waves Balcony",
         category: "balcAndRail",
         size: "small",
-        animation: "wow fadeIn slow delay-twentieths",
+        animation: "wow fadeIn slow delay-thirty-fifths",
         date: new Date(Date.now())
     },
     {
@@ -2079,25 +2335,16 @@ const imageSeed = [
         imgName: "Waves Balcony",
         category: "balcAndRail",
         size: "small",
-        animation: "wow fadeIn slow delay-thirty-fifths",
+        animation: "wow fadeIn slow delay-twentieths",
         date: new Date(Date.now())
     },
-    // {
-    //     src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/trad_door_wine_door_stairwell.jpeg",
-    //     alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Stairwell",
-    //     imgName: "Stairwell",
-    //     category: "balcAndRail",
-    //     size: "small",
-    //     animation: "wow fadeIn slow delay-fortieths",
-    //     date: new Date(Date.now())
-    // },
     {
         src: "/assets/images/mirabellaDoorsImgs/imagesComponent/balcAndRail_resized_small/Hermitage-12938-IMG-03_1.jpg",
         alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Hermitage",
         imgName: "Hermitage",
         category: "balcAndRail",
         size: "small",
-        animation: "wow fadeIn slow delay-fifteenths",
+        animation: "wow fadeIn slow delay-fortieths",
         date: new Date(Date.now())
     },
     //8^
@@ -2107,259 +2354,6 @@ const imageSeed = [
         alt: "Custom Iron Railings and Balconies - Mirabella Doors - Houston, TX - Design: Brandon Way",
         imgName: "Brandon Way",
         category: "balcAndRail",
-        size: "large",
-        animation: "wow fadeIn slower",
-        date: new Date(Date.now())
-    },
-    // DOOR FINISHES (image size small)
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
-        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
-        imgName: "Finish Placeholder Image",
-        category: "finishes",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
-        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
-        imgName: "Finish Placeholder Image",
-        category: "finishes",
-        size: "small",
-        animation: "wow fadeIn slow delay-quarters",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
-        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
-        imgName: "Finish Placeholder Image",
-        category: "finishes",
-        size: "small",
-        animation: "wow fadeIn slow delay-tenths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
-        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
-        imgName: "Finish Placeholder Image",
-        category: "finishes",
-        size: "small",
-        animation: "wow fadeIn slow delay-thirtieths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
-        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
-        imgName: "Finish Placeholder Image",
-        category: "finishes",
-        size: "small",
-        animation: "wow fadeIn slow delay-fifteenths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
-        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
-        imgName: "Finish Placeholder Image",
-        category: "finishes",
-        size: "small",
-        animation: "wow fadeIn slow delay-thirty-fifths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
-        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
-        imgName: "Finish Placeholder Image",
-        category: "finishes",
-        size: "small",
-        animation: "wow fadeIn slow delay-twentieths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
-        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
-        imgName: "Finish Placeholder Image",
-        category: "finishes",
-        size: "small",
-        animation: "wow fadeIn slow delay-fortieths",
-        date: new Date(Date.now())
-    },
-    //8^
-    // DOOR FINISHES (image size large)
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/leaves_detail.jpg",
-        alt: "Custom Wrought Iron Door Finishes - Mirabella Doors - Houston - Design: Finish",
-        imgName: "Finish Placeholder Image",
-        category: "finishes",
-        size: "large",
-        animation: "wow fadeIn slower",
-        date: new Date(Date.now())
-    },
-    //1^
-    // PIVOT DOORS (image size small)
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0008-Edit.jpeg",
-        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
-        imgName: "Pivot Door Placeholder Image",
-        category: "pivotdoors",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9874-Edit.jpeg",
-        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
-        imgName: "Pivot Door Placeholder Image",
-        category: "pivotdoors",
-        size: "small",
-        animation: "wow fadeIn slow delay-quarters",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_0017-Edit.jpeg",
-        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
-        imgName: "Pivot Door Placeholder Image",
-        category: "pivotdoors",
-        size: "small",
-        animation: "wow fadeIn slow delay-tenths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_exterior_detail.jpeg",
-        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
-        imgName: "Pivot Door Placeholder Image",
-        category: "pivotdoors",
-        size: "small",
-        animation: "wow fadeIn slow delay-thirtieths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9774-Edit.jpeg",
-        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
-        imgName: "Pivot Door Placeholder Image",
-        category: "pivotdoors",
-        size: "small",
-        animation: "wow fadeIn slow delay-fifteenths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/2_pleasant_front_interior_door.jpeg",
-        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
-        imgName: "Pivot Door Placeholder Image",
-        category: "pivotdoors",
-        size: "small",
-        animation: "wow fadeIn slow delay-thirty-fifths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/_MG_9805-Edit.jpeg",
-        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
-        imgName: "Pivot Door Placeholder Image",
-        category: "pivotdoors",
-        size: "small",
-        animation: "wow fadeIn slow delay-twentieths",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/traditional_resized_small/6142WP_Front_Doors_(no_transom).jpeg",
-        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
-        imgName: "Pivot Door Placeholder Image",
-        category: "pivotdoors",
-        size: "small",
-        animation: "wow fadeIn slow delay-fortieths",
-        date: new Date(Date.now())
-    },
-    //8^
-    // PIVOT DOORS (image size large)
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/CAD_resized_large/leaves_detail.jpg",
-        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Pivot Door",
-        imgName: "Pivot Door Placeholder Image",
-        category: "pivotdoors",
-        size: "large",
-        animation: "wow fadeIn slower",
-        date: new Date(Date.now())
-    },
-    //1^
-    // WINE ROOM DOORS (image size small)
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Coppola_wine_room.jpeg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Coppola Wine Room",
-        imgName: "Coppola Wine Room",
-        category: "wineRoom",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Jamestown-11302-IMG-39_1_1.jpg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Jamestown Wine Room",
-        imgName: "Jamestown Wine Room",
-        category: "wineRoom",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/DDFA_Bordeaux.jpg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Bordeaux Wine Room",
-        imgName: "Bordeaux Wine Room",
-        category: "wineRoom",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/2_pleasant_wine_room_door.jpg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Pleasant Wine Room",
-        imgName: "Pleasant Wine Room",
-        category: "wineRoom",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Chardonnay_wine_room.jpeg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Chardonnay Wine Room",
-        imgName: "Chardonnay Wine Room",
-        category: "wineRoom",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/919_Clearbrook_Dining_&_Wine.jpg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Clearbrook Wine Room",
-        imgName: "Clearbrook Wine Room)",
-        category: "wineRoom",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Brandon-Way-11706-IMG-06_1_1.jpg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Brandon Way Wine Room",
-        imgName: "Brandon Way Wine Room",
-        category: "wineRoom",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_small/Mirabella_Doors_Coppola_wine_room.jpeg",
-        alt: "Custom, hand-forged Wine Room/Wine Cellar Doors - Mirabella Doors - Houston - Design: Coppola Wine Room",
-        imgName: "Coppola Wine Room",
-        category: "wineRoom",
-        size: "small",
-        animation: "wow fadeIn slow",
-        date: new Date(Date.now())
-    },
-    // WINE ROOM DOORS (image size large)
-    {
-        src: "/assets/images/mirabellaDoorsImgs/imagesComponent/wineDoors_resized_large/Mirabella_Doors_Waves_wine_room.jpeg",
-        alt: "Custom, hand-forged Pivot Doors - Mirabella Doors - Houston - Design: Waves Wine Room",
-        imgName: "Waves Wine Room",
-        category: "wineRoom",
         size: "large",
         animation: "wow fadeIn slower",
         date: new Date(Date.now())
